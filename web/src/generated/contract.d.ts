@@ -68,6 +68,8 @@ export type Query = string | null;
 export type Preview = string;
 export type Url1 = string | null;
 export type RetrievedAt1 = string;
+export type CoversStart = string | null;
+export type CoversEnd = string | null;
 export type Suggestions = Suggestion[];
 
 export interface EvidenceModel {
@@ -157,4 +159,6 @@ export interface Suggestion {
   preview: Preview;
   url: Url1;
   retrieved_at: RetrievedAt1;
+  covers_start: CoversStart;
+  covers_end: CoversEnd;
 }

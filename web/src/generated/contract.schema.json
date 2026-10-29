@@ -444,6 +444,28 @@
         "retrieved_at": {
           "title": "Retrieved At",
           "type": "string"
+        },
+        "covers_start": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Covers Start"
+        },
+        "covers_end": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Covers End"
         }
       },
       "required": [
@@ -454,7 +476,9 @@
         "query",
         "preview",
         "url",
-        "retrieved_at"
+        "retrieved_at",
+        "covers_start",
+        "covers_end"
       ],
       "title": "Suggestion",
       "type": "object"

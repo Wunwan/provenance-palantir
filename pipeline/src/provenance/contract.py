@@ -111,6 +111,8 @@ class Suggestion(Strict):
     preview: str
     url: str | None
     retrieved_at: str
+    covers_start: str | None  # the span this evidence could fill, if it says
+    covers_end: str | None
 
 
 class Decision(Strict):

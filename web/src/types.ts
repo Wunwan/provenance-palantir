@@ -37,3 +37,12 @@ export interface ArtworkState {
 export interface Derived {
   artworks: ArtworkState[] // ranked, most missing risk-window years first
 }
+
+export interface ArtworkViewProps {
+  model: import('./generated/contract').EvidenceModel
+  artworkId: string
+  derived: Derived
+  decisions: Decision[]
+  onDecide: (decision: Omit<Decision, 'id' | 'at'>) => void
+  onBack: () => void
+}
