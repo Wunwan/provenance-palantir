@@ -63,7 +63,7 @@ class PartyAlias(Strict):
     claim: str
 
 
-LinkType = Literal["sale", "gift", "descent", "bequest", "unknown"]
+LinkType = Literal["sale", "gift", "descent", "bequest", "restitution", "unknown"]
 Precision = Literal["exact", "range", "by", "until", "after", "circa", "unknown"]
 Certainty = Literal["confirmed", "approximate", "unknown"]
 
@@ -94,6 +94,36 @@ class Event(Strict):
         return self
 
 
+class Match(Strict):
+    id: str
+    alias: str  # party_alias id: the name as written
+    candidate_party: str
+    reasons: list[str]
+    band: Literal["strong", "possible", "weak"]
+
+
+class Suggestion(Strict):
+    id: str
+    event: str  # the event whose date range is the silence this suggestion could fill
+    origin: Literal["existing", "external"]
+    provider: str  # e.g. "loaded data", "Getty Provenance Index"
+    query: str | None
+    preview: str
+    url: str | None
+    retrieved_at: str
+
+
+class Decision(Strict):
+    """A person's call. Lives in the browser (ADR 0002); the model is here so the types are shared."""
+
+    id: str
+    target: str  # a match id or an event id
+    choice: Literal["accepted", "rejected", "evidence_added"]
+    suggestion: str | None
+    note: str
+    at: str
+
+
 class EvidenceModel(Strict):
     collections: list[Collection]
     source_records: list[SourceRecord]
@@ -102,6 +132,8 @@ class EvidenceModel(Strict):
     parties: list[Party]
     party_aliases: list[PartyAlias]
     events: list[Event]
+    matches: list[Match] = []
+    suggestions: list[Suggestion] = []
 
     @model_validator(mode="after")
     def references_resolve(self) -> EvidenceModel:
@@ -142,6 +174,8 @@ TABLES = {
     "parties": "party.json",
     "party_aliases": "party_alias.json",
     "events": "event.json",
+    "matches": "match.json",
+    "suggestions": "suggestion.json",
 }
 
 
@@ -149,6 +183,7 @@ def load_evidence(directory: Path) -> EvidenceModel:
     tables = {
         name: json.loads((directory / filename).read_text(encoding="utf-8"))
         for name, filename in TABLES.items()
+        if (directory / filename).exists()
     }
     return EvidenceModel.model_validate(tables)
 

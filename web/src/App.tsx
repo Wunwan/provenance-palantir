@@ -12,6 +12,7 @@ const LINK_LABEL: Record<Event['link_type'], string> = {
   gift: 'gift to',
   descent: 'by descent to',
   bequest: 'bequest to',
+  restitution: 'restituted to',
   unknown: 'link not stated, then',
 }
 

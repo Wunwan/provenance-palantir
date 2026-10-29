@@ -47,13 +47,28 @@ export type Id6 = string;
 export type Artwork1 = string;
 export type FromParty = string;
 export type ToParty = string;
-export type LinkType = "sale" | "gift" | "descent" | "bequest" | "unknown";
+export type LinkType = "sale" | "gift" | "descent" | "bequest" | "restitution" | "unknown";
 export type DateStart = string | null;
 export type DateEnd = string | null;
 export type Precision = "exact" | "range" | "by" | "until" | "after" | "circa" | "unknown";
 export type Certainty1 = "confirmed" | "approximate" | "unknown";
 export type Place = string | null;
 export type Events = Event[];
+export type Id7 = string;
+export type Alias = string;
+export type CandidateParty = string;
+export type Reasons = string[];
+export type Band = "strong" | "possible" | "weak";
+export type Matches = Match[];
+export type Id8 = string;
+export type Event1 = string;
+export type Origin = "existing" | "external";
+export type Provider = string;
+export type Query = string | null;
+export type Preview = string;
+export type Url1 = string | null;
+export type RetrievedAt1 = string;
+export type Suggestions = Suggestion[];
 
 export interface EvidenceModel {
   collections: Collections;
@@ -63,6 +78,8 @@ export interface EvidenceModel {
   parties: Parties;
   party_aliases: PartyAliases;
   events: Events;
+  matches?: Matches;
+  suggestions?: Suggestions;
 }
 export interface Collection {
   id: Id;
@@ -123,4 +140,21 @@ export interface Event {
 }
 export interface Cites {
   [k: string]: string[];
+}
+export interface Match {
+  id: Id7;
+  alias: Alias;
+  candidate_party: CandidateParty;
+  reasons: Reasons;
+  band: Band;
+}
+export interface Suggestion {
+  id: Id8;
+  event: Event1;
+  origin: Origin;
+  provider: Provider;
+  query: Query;
+  preview: Preview;
+  url: Url1;
+  retrieved_at: RetrievedAt1;
 }

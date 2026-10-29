@@ -1,0 +1,596 @@
+{
+  "source": "cleveland",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/1999.173",
+  "retrieved_at": "2026-10-29T23:21:27Z",
+  "version": "2026-05-29 08:21:48.853000",
+  "payload": {
+    "id": 160885,
+    "accession_number": "1999.173",
+    "share_license_status": "CC0",
+    "tombstone": "Portrait of Tieleman Roosterman, 1634. Frans Hals (Dutch, c. 1581–1666). Oil on canvas; framed: 139 x 109 x 5.5 cm (54 3/4 x 42 15/16 x 2 3/16 in.); unframed: 117 x 87 cm (46 1/16 x 34 1/4 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 1999.173",
+    "current_location": "213 Dutch Painting",
+    "title": "Portrait of Tieleman Roosterman",
+    "creation_date": "1634",
+    "creation_date_earliest": 1634,
+    "creation_date_latest": 1634,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "Netherlands"
+    ],
+    "technique": "oil on canvas",
+    "support_materials": [],
+    "department": "European Painting and Sculpture",
+    "collection": "P - Netherlandish-Dutch",
+    "type": "Painting",
+    "measurements": "Framed: 139 x 109 x 5.5 cm (54 3/4 x 42 15/16 x 2 3/16 in.); Unframed: 117 x 87 cm (46 1/16 x 34 1/4 in.)",
+    "dimensions": {
+      "framed": {
+        "height": 1.39,
+        "height_inch": 54,
+        "height_inch_fraction": 0.75,
+        "width": 1.09,
+        "width_inch": 42,
+        "width_inch_fraction": 0.9375,
+        "depth": 0.055,
+        "depth_inch": 2,
+        "depth_inch_fraction": 0.1875
+      },
+      "unframed": {
+        "height": 1.17,
+        "height_inch": 46,
+        "height_inch_fraction": 0.0625,
+        "width": 0.87,
+        "width_inch": 34,
+        "width_inch_fraction": 0.25
+      }
+    },
+    "state_of_the_work": null,
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [
+      {
+        "inscription": "inscribed at upper right: ÆTAT SVÆ 36 / AN° 1634\r\n",
+        "inscription_translation": null,
+        "inscription_remark": null,
+        "sortorder": null
+      }
+    ],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 222394,
+          "title": "Masterpieces of European Painting from The Cleveland Museum of Art",
+          "description": "<i>Masterpieces of European Painting from The Cleveland Museum of Art</i>. Frick Collection, New York, NY (organizer) (November 8, 2006-January 28, 2007).",
+          "opening_date": "2006-11-08T00:00:00"
+        },
+        {
+          "id": 179662,
+          "title": "Masterpieces of European Painting from the Cleveland Museum of Art",
+          "description": "<i>Masterpieces of European Painting from the Cleveland Museum of Art</i>. Maltz Museum of Jewish Heritage, Beachwood, OH (March 29-July 8, 2007).",
+          "opening_date": "2007-03-29T00:00:00"
+        },
+        {
+          "id": 360311,
+          "title": "Frans Hals: The Male Portraits",
+          "description": "<i>Frans Hals: The Male Portraits</i>. The Wallace Collection, London, United Kingdom of Great Britain and Northern Ireland (organizer) (September 22, 2021-January 30, 2022) https://www.wallacecollection.org/art/exhibitions-displays/frans-hals-the-male-portrait/.",
+          "opening_date": "2021-09-22T04:00:00"
+        },
+        {
+          "id": 360319,
+          "title": "Frans Hals",
+          "description": "<i>Frans Hals</i>. National Gallery, London, London, United Kingdom of Great Britain and Northern Ireland (organizer) (September 30, 2023-January 21, 2024) https://www.nationalgallery.org.uk/exhibitions/the-credit-suisse-exhibition-frans-hals; Rijksmuseum, Amsterdam, Netherlands (February 15-June 9, 2024); Gemäldegalerie, Staatliche Museen zu Berlin, 14195 Berlin, Germany (July 12-November 3, 2024).",
+          "opening_date": "2023-09-30T04:00:00"
+        }
+      ],
+      "legacy": [
+        {
+          "description": "Kunsthistorisches Museum, Vienna, Austria (from 1947 - 1999).",
+          "opening_date": "1947-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Art Treasures from the Vienna Collections.</em> National Gallery of Art, Washington, D.C.; Metropolitan Museum of Art, New York, NY; Art Institute of Chicago, Chicago, IL; and the M. H. De Young Memorial Museum, San Francisco, CA (1949-1950).",
+          "opening_date": "1949-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Holländer des 17. Jahrhunderts</em>. Kusnthaus, Zurich, Switzerland (November 4 - December 20, 1953).",
+          "opening_date": "1953-11-04T00:00:00"
+        },
+        {
+          "description": "<em>Mostra di Pittura Olandese del Seicento.</em> Palazzo della Esposizione, Rome, Italy (January 4 - February 14, 1954); Palazzo Reale, Milan, Italy (February 25 - April 25, 1954).",
+          "opening_date": "1954-01-04T00:00:00"
+        },
+        {
+          "description": "<em>Frans Hals</em>. Frans Halsmuseum, Haarlem, Netherlands (1962).",
+          "opening_date": "1962-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Restaurierte Gemälde, Die Restaurierwerkstätte der Gemäldegalerie des Kunsthistorischen Museums</em>.",
+          "opening_date": null
+        },
+        {
+          "description": "Kunsthistorisches Museum, Vienna, Austria (October 16, 1996 - February 2, 1997).",
+          "opening_date": "1996-10-16T00:00:00"
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "description": "Friedrich Jacob Gsell (b. 1811 or 1812 in Bischofweiler [Alsace], settled in Vienna circa 1850, died 1871)",
+        "citations": [],
+        "footnotes": null,
+        "date": "probably by 1866",
+        "sortorder": 1
+      },
+      {
+        "description": "([Georg Plach] Künstlerhause, Vienna, Friedrich Jacob Gsell sale, March 14, 1872 (and successive days), lot 40 [\"Ein Bravourstück des genialen Meisters\"; sold for 15,200 fl. to Plach, probably on behalf of Baron Anselm von Rothschild).",
+        "citations": [],
+        "footnotes": null,
+        "date": "1872",
+        "sortorder": 2
+      },
+      {
+        "description": "Baron Anselm Mayer von Rothschild (1803-1874), Vienna (inv. no. AR866)",
+        "citations": [],
+        "footnotes": null,
+        "date": "1872 - 1874",
+        "sortorder": 3
+      },
+      {
+        "description": "Baron Albert von Rothschild (1844-1911), Vienna",
+        "citations": [],
+        "footnotes": null,
+        "date": "1874 - 1911",
+        "sortorder": 4
+      },
+      {
+        "description": "Baron Alphonse von Rothschild (1878-1942), Vienna",
+        "citations": [],
+        "footnotes": null,
+        "date": "1911 - 1938",
+        "sortorder": 5
+      },
+      {
+        "description": "In the possession of the Nazis. Stored initially at Kremsmünster (?); intended for the Tiroler Landesmuseum Ferdinandeum, Innsbruck, Austria",
+        "citations": [],
+        "footnotes": null,
+        "date": "from 1938",
+        "sortorder": 6
+      },
+      {
+        "description": "While in the possession of the Nazis, moved from Kremsmünster to the salt mines at Alt Aussee, where it was stored until released to the Austrian government in May 1946.",
+        "citations": [],
+        "footnotes": null,
+        "date": "c. 1944 - May 1946",
+        "sortorder": 7
+      },
+      {
+        "description": "Recovered by Alphonse von Rothschild's widow, Clarice von Rothschild (1894-1967), and \"donated\" by her for display at the Kunsthistorisches Museum, Vienna (inv. no. 9009)",
+        "citations": [],
+        "footnotes": null,
+        "date": "1947 - 1999",
+        "sortorder": 8
+      },
+      {
+        "description": "Restituted to the Heirs of Barons Alphonse and Louis von Rothschild",
+        "citations": [],
+        "footnotes": null,
+        "date": "1999",
+        "sortorder": 9
+      },
+      {
+        "description": "(Christie's, London, Heirs of the Barons Alphonse and Louis von Rothschild sale, July 8, 1999, no. 219, to the Cleveland Museum of Art.)",
+        "citations": [],
+        "footnotes": null,
+        "date": "1999 -",
+        "sortorder": 10
+      },
+      {
+        "description": "The Cleveland Museum of Art, Cleveland, OH",
+        "citations": [],
+        "footnotes": [],
+        "date": "1999-",
+        "sortorder": 11
+      }
+    ],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [],
+    "did_you_know": "Roosterman may have ordered this portrait--and one of his wife--to commemorate their wedding in 1631.",
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "An extremely wealthy linen and silk merchant in Haarlem, Tieleman Roosterman was 36 years old when Frans Hals painted his portrait. Unlike many Dutch painters of the period, Hals favored strong, visible brushstrokes that convey the vitality of his sitters. Roosterman strikes a confident pose, his costume sober but luxurious: his sleeves are decorated with braid and buttons, and ribbon rosettes encircle the waist of his doublet. The rich black of his suit is offset by the broad linen collar and lace-edged cuffs—fashionable details befitting a successful cloth merchant.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q17861783"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-1999.173-portrait-of-tieleman"
+      ]
+    },
+    "citations": [
+      {
+        "citation": "Waagen, Gustav Friedrich. Die vornehmsten Kunstdenkmäler in Wien. Wien: W. Braumüller, 1866.",
+        "page_number": "Mentioned: vol. 1, p. 318",
+        "url": null
+      },
+      {
+        "citation": "Bode, WIlhelm von. \"Die Galerie Gsell in Wien.\" <em>Zeitschrift für bildenden Künst </em>7 (1872), 181-186.<br><em><br></em>",
+        "page_number": "Mentioned: p. 183",
+        "url": null
+      },
+      {
+        "citation": "Bode, Wilhelm von. <em>Studien zur Geschichte der holländischen Malerei</em>. Braunschweig: F. Vieweg und Sohn, 1883.",
+        "page_number": "Mentioned: p. 89, under no. 126",
+        "url": null
+      },
+      {
+        "citation": "Moes, E. W., and Jean de Boschère. <em>Frans Hals, sa vie et son œuvre</em>. Brussels: G. van Oest &amp; Cie., 1909.",
+        "page_number": "No. 131",
+        "url": null
+      },
+      {
+        "citation": "Hofstede de Groot, C. P. <em>A Catalogue Raisonné of the Works of the Most Eminent Dutch Painters of the Seventeenth Century</em>. 8 vols Translated and edited by Edward G. Hawke. London: Macmillan and Co, 1907-1927.",
+        "page_number": "Mentioned: vol. 3 (1910), p. 104 no. 354",
+        "url": null
+      },
+      {
+        "citation": "Frimmel, Theodor von. <em>Lexikon der Wiener Gemäldesammlungen</em>. Munich: G. Müller, 1913.",
+        "page_number": "Mentioned: vol.1, p. 86",
+        "url": null
+      },
+      {
+        "citation": "\"A Plan for Loot: Blue-Prints for a New 'House of German Art.' How Hitler Intended to Dispose of the 'Purchased' Rothschild Collections.\" <em>The Illustrated London News</em> 207, no. 5542 (July 7, 1945), 24-25.<em><br></em>",
+        "page_number": "Mentioned and reproduced: p. 25",
+        "url": null
+      },
+      {
+        "citation": "Baldass, Ludwig. \"Two Male Portraits by Frans Hals.\" <em>The Burlington Magazine </em>93 (1951), 181-182.",
+        "page_number": "Mentioned: pp. 181-2; reproduced: fig. 3",
+        "url": null
+      },
+      {
+        "citation": "\"Recent Acquisitions by the Kunsthistorischen Museum, Vienna: Three Portraits.\" <em>The Connoisseur</em> 134 (July-December 1954), 34",
+        "page_number": "Mentioned: p. 34",
+        "url": null
+      },
+      {
+        "citation": "<em>Frans Hals: Exhibition on the Occasion of the Centenary of the Municipal Museum at Haarlem, 1862-1962</em>. Introduction by H. P. Baard. Exh. cat. Haarlem: Frans Hals Museum, 1962.",
+        "page_number": "Mentioned: p. 52; Reproduced: fig. 37",
+        "url": null
+      },
+      {
+        "citation": "Heinz, G., and Friderike Klauner. <em>Katalog der Gemäldegalerie II / Vlamen, Holländer, Deutsche, Franzosen</em>. Vienna: Kunsthistorisches Museum, 1963.",
+        "page_number": "Mentioned: n.p., no. 182",
+        "url": null
+      },
+      {
+        "citation": "Slive, Seymour.<em> Frans Hals</em>. 3 vols London: Phaidon, 1970-1973.",
+        "page_number": "Mentioned: vol. 1, pp. 115-116, vol. 3, p. 54 no. 93; Reproduced: vol. 2 pl. 154",
+        "url": null
+      },
+      {
+        "citation": "Grimm, Claus. <em>Frans Hals: Entwicklung, Werkanalyse, Gesamtkatalog</em>. Berlin: Mann, 1972.",
+        "page_number": "Mentioned: p. 202, no.67; REproduced: fig. 91",
+        "url": null
+      },
+      {
+        "citation": "Demus, Klaus. <em>Katalog der Gemäldegalerie: Holländische Meister des 15., 16. und 17. Jahrhunderts</em>. Vienna: Kunsthistorisches Museum, 1972.",
+        "page_number": "Mentioned: p. 37",
+        "url": null
+      },
+      {
+        "citation": "Grimm, Claus, and E. C. Montagni. <em>L'Opera completa di Frans Hals</em>. Milan: Rizzoli, 1974.",
+        "page_number": "Mentioned and reproduced: pp. 96-97 no. 90; Reproduced: pl. XXXIII",
+        "url": null
+      },
+      {
+        "citation": "Grimm, Claus. <em>Frans Hals: das Gesamtwerk</em>. Stuttgart: Belser, 1989.",
+        "page_number": "Mentioned: pp. 189, 281; Reproduced: no. 76",
+        "url": null
+      },
+      {
+        "citation": "Biesboer, Pieter. \"The Burghers of Haarlem and their Portrait Painters.\" In <em>Frans Hals</em>, 23-44. Seymour Slive et al. Exh. cat. London: Royal Academy of Arts in association with Ludion, Brussels, 1989.",
+        "page_number": "Mentioned: p. 33; Reproduced: p. 32, fig. 10",
+        "url": null
+      },
+      {
+        "citation": "Du Mortier, Bianca M. \"Costume in Frans Hals.\" In <em>Frans Hals</em>, 45-60. Seymour Slive et al. Exh. cat. London: Royal Academy of Arts in association with Ludion, Brussels, 1989.",
+        "page_number": "Mentioned: p. 56",
+        "url": null
+      },
+      {
+        "citation": "Groen, Karin, and Ella Hendriks. \"Frans Hals: A Technical Examination.\" In <em>Frans Hals</em>, 109-128. Seymour Slive et al. Exh. cat. London: Royal Academy of Arts in association with Ludion, Brussels, 1989.",
+        "page_number": "Mentioned: pp. 119, 121, 124, 127; Reproduced: p. 126, pl. VIIIy (cross-section)",
+        "url": null
+      },
+      {
+        "citation": "Grimm, Claus. <em>Frans Hals: the complete work</em>. New York: H.N. Abrams, 1990.",
+        "page_number": "Mentioned: pp. 139, 281; Reproduced: no. 76:",
+        "url": null
+      },
+      {
+        "citation": "Brandstätter, C. <em>Die Gemäldegalerie des Kunsthistorischen Museums in Wien: Verzeichnis der Gemälde</em>. Vienna: Kunsthistorisches Museum, 1991.",
+        "page_number": "Mentioned: p. 65, no. 9009; Reproduced: fig. 507",
+        "url": null
+      },
+      {
+        "citation": "Rozenberg, Silvia, and Rivka Weiss-Blok. <em>Myth and Power: Masterpieces from Imperial Vienna, on Loan from the Kunsthistorisches Museum, Wien</em>. Jerusalem: Israel Museum, 1996.",
+        "page_number": "Mentioned and Reproduced: p. 68, fig. 66",
+        "url": null
+      },
+      {
+        "citation": "Kunsthistorisches Museum Wien. <em>Restaurierte Gemälde: die Restaurierwerkstätte der Gemäldegalerie des Kunsthistorischen Museums, 1986-1996 : Kunsthistorisches Museum Wien, 16. Oktober 1996 bis 2. Februar 1997</em>. Wien, Austria: Kunsthistorisches Museum Wien, 1996.",
+        "page_number": "Reproduced: no. 12",
+        "url": null
+      },
+      {
+        "citation": "Dietrich, H. In <em>Restaurierte Gemälde: die Restaurierwerkstätte der Gemäldegalerie des Kunsthistorischen Museums, 1986-1996.</em> Eike Oberthaler et al., eds. Exh. cat. Vienna: Kunsthistorisches Museum, 1996.",
+        "page_number": "Mentioned: pp. 83-84, no. 12",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art, “Cleveland Museum of Art Buys Old Master Painting from Rothschild Collection at Christie’s Auction,” July 9, 1999, Cleveland Museum of Art Archives.",
+        "page_number": null,
+        "url": "https://archive.org/details/cmapr4268"
+      },
+      {
+        "citation": "Cleveland Museum of Art, “Record-Setting Old Master Painting Goes on View at CMA 1:30 Tuesday, July 27,” July 27, 1999, Cleveland Museum of Art Archives.",
+        "page_number": null,
+        "url": "https://archive.org/details/cmapr4271"
+      },
+      {
+        "citation": "\"Calendar.\" <em>The Burlington Magazine </em>CXLI no. 1158 (September 1999), 576-580.<em><br></em>",
+        "page_number": "Mentioned and reproduced: p. 579",
+        "url": null
+      },
+      {
+        "citation": "Eakin, Hugh, Laurie Attias, and Agnes Csonka. “Unfinished Business.” <em>ARTnews</em> 98, no. 8 (September 1999): 56.",
+        "page_number": "Reproduced: p. 56",
+        "url": null
+      },
+      {
+        "citation": "\"A Selection of 1999 Museum Acquisitions.\" <em>Apollo</em> (December 1999), 30<em><br></em>",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "May, Sally Ruth, Jane Takac, and Barbara J. Bradley. <em>Knockouts: A Pocket Guide</em>. Cleveland: Cleveland Museum of Art, 2001.",
+        "page_number": "Mentioned: p. 117; Reproduced: p. 38, no. 34",
+        "url": null
+      },
+      {
+        "citation": "Lillie, Sophie. <em>Was einmal war: Handbuch der enteigneten Kunstsammlungen Wiens</em>. Vienna: Czernin Verlag, 2003.",
+        "page_number": "Mentioned: pp. 1002, 1032 no. 866",
+        "url": null
+      },
+      {
+        "citation": "Iacono, Margaret. <em>Masterpieces of European Painting from the Cleveland Museum of Art</em>. New York: The Frick Collection, 2006.",
+        "page_number": "Mentioned: Cat. no. 9, pp. 48-51",
+        "url": null
+      },
+      {
+        "citation": "Kunth, Felicitas. <em>Die Rothschild'schen Gemäldesammlungen in Wien</em>. Vienna: Böhlau, 2006.",
+        "page_number": "Mentioned: pp. 58, 73, 80, 95, 101, 103, 192-193; reproduced: p. 47, and color pl. 3.",
+        "url": null
+      },
+      {
+        "citation": "\"Old Masters Visit Beachwood\", Cleveland Museum of Art. <em>Cleveland Art: The Cleveland Museum of Art Members Magazine</em>. Vol. 47 no. 03, March 2007",
+        "page_number": "Mentioned & reproduced: p. 3",
+        "url": "https://archive.org/details/CMAMM2007-03/page/2/"
+      },
+      {
+        "citation": "Liedtke, Walter A. <em>Frans Hals: Style and Substance</em>. New York, NY: Metropolitan Museum of Art, 2011.",
+        "page_number": "Reproduced: p. 33, fig. 33",
+        "url": null
+      },
+      {
+        "citation": "<em>Treasures of the Cleveland Museum of Art</em>. London, United Kingdom: Scala Publishers Ltd., 2012.",
+        "page_number": "Mentioned: p. 192-193",
+        "url": null
+      },
+      {
+        "citation": "Biesboer, Pieter. \"De Laughing Cavalier van Frans Hals. Een Mogelijke Identificatie.\" In <em>Face Book: Studies on Dutch and Flemish Portraiture of the 16th-18th Centuries. </em>Rudolf E. O. Ekkart, ed., 133-140. Leiden: Primavera Pers, 2012.",
+        "page_number": "Mentioned and reproduced: p. 135",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>The CMA Companion: A Guide to the Cleveland Museum of Art</em>. Cleveland: Cleveland Museum of Art, 2014.",
+        "page_number": "Mentioned and reproduced: P. 184",
+        "url": ""
+      },
+      {
+        "citation": "Packer, Lelia, and Ashok Roy. <em>Frans Hals: The Male Portrait.</em> London: Philip Wilson Publishers, 2021.",
+        "page_number": "Mentioned and Reproduced: P. 20-22, cat. no. 8",
+        "url": ""
+      },
+      {
+        "citation": "Mazzocca, Fernando, and Sebastian Schütze. Dai Medici ai Rothschild: mecenati, collezionisti, filantropi. Milano : Edizioni Gallerie d'Italia : Skira, 2022.",
+        "page_number": "Reproduced: pp. 276-277",
+        "url": ""
+      },
+      {
+        "citation": "Bart Cornelis, Friso Lammertse, Justine Rinnooy Kan, and Jaap van der Veen. <em>Frans Hals</em>. London : National Gallery Global ; Amsterdam : in association with the Rijksmuseum, 2023.",
+        "page_number": "Mentioned: p. 35; Reproduced: p. 34, fig. 9.",
+        "url": ""
+      },
+      {
+        "citation": "Hals, Frans, Christopher D. M. Atkins, and Gemäldegalerie (Staatliche Museen zu Berlin). Frans Hals : Master of the Fleeting Moment. Edited by Dagmar Hirschfelder, Katja Kleinert, and Erik Eising. Berlin, Berlin: Hatje Cantz Verlag, Hatje Cantz, 2024.",
+        "page_number": "Mentioned: pp. 112-113, Reproduced: p. 110, cat. 15a",
+        "url": ""
+      },
+      {
+        "citation": "Hals, Frans.<em> Frans Hals : Iconography - Technique - Reputation</em>. Edited by Norbert Middelkoop and Rudolf E. O. Ekkart. Amsterdam: Amsterdam University Press, 2024.",
+        "page_number": "Mentioned: pp. 196-198; reproduced: pp. 196, fig. 2 and 210, fig. 7",
+        "url": ""
+      },
+      {
+        "citation": "Loebl, Suzanne, and Abigail Wilentz. <em>Plunder and Survival: Stories of Theft, Loss, Recovery, and Migration of Nazi-Uprooted Art. </em>New York, NY: Bloomsbury Academic, Bloomsbury Publishing Inc, 2025.",
+        "page_number": "Mentioned and reproduced: p. 96-97, fig. 6.3",
+        "url": ""
+      },
+      {
+        "citation": "Seipel, Wilfried. <em>Mein Leben - Ein Abenteuer : Gedanken Und Erinnerungen Eines Museumsdirektors.</em> Weitra: Verlag Bibliothek der Provinz GmbH für Literatur, Kunst, Wissenschaft und Musikalien, 2025.",
+        "page_number": "Reproduced: p. 223",
+        "url": ""
+      }
+    ],
+    "url": "https://clevelandart.org/art/1999.173",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_web.jpg",
+        "width": "664",
+        "height": "893",
+        "filesize": "53872",
+        "filename": "1999.173_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_print.jpg",
+        "width": "2529",
+        "height": "3400",
+        "filesize": "857877",
+        "filename": "1999.173_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_full.tif",
+        "width": "11364",
+        "height": "15277",
+        "filesize": "520848048",
+        "filename": "1999.173_full.tif"
+      }
+    },
+    "alternate_images": [
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt0_web.jpg",
+          "width": "666",
+          "height": "893",
+          "filesize": "97969"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt0_print.jpg",
+          "width": "2534",
+          "height": "3400",
+          "filesize": "1997021"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt0_full.tif",
+          "width": "5838",
+          "height": "7833",
+          "filesize": "137210952"
+        },
+        "date_created": "2013-10-07T14:19:51",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt1_web.jpg",
+          "width": "687",
+          "height": "893",
+          "filesize": "61666"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt1_print.jpg",
+          "width": "2616",
+          "height": "3400",
+          "filesize": "765174"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt1_full.tif",
+          "width": "12000",
+          "height": "15594",
+          "filesize": "561411972"
+        },
+        "date_created": "2013-10-07T14:44:19",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt2_web.jpg",
+          "width": "662",
+          "height": "893",
+          "filesize": "337995"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt2_print.jpg",
+          "width": "2521",
+          "height": "3400",
+          "filesize": "5394762"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt2_full.tif",
+          "width": "4139",
+          "height": "5582",
+          "filesize": "69341828"
+        },
+        "date_created": "2007-07-23T15:48:50",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt3_web.jpg",
+          "width": "656",
+          "height": "893",
+          "filesize": "316167"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt3_print.jpg",
+          "width": "2499",
+          "height": "3400",
+          "filesize": "4670695"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_alt3_full.tif",
+          "width": "4042",
+          "height": "5500",
+          "filesize": "66723788"
+        },
+        "date_created": "2007-02-12T18:47:03",
+        "annotation": ""
+      }
+    ],
+    "creditline": "Leonard C. Hanna Jr. Fund",
+    "image_credit": null,
+    "sketchfab_id": null,
+    "sketchfab_url": null,
+    "gallery_donor_text": "The Harold C. Schott Foundation Gallery",
+    "athena_id": 160885,
+    "creators": [
+      {
+        "id": 2614,
+        "description": "Frans Hals (Dutch, c. 1581–1666)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": "c. 1581/85-1666",
+        "name_in_original_language": null,
+        "birth_year": "1581",
+        "death_year": "1666",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "1999-08-31T00:00:00",
+    "sortable_date": 1634,
+    "date_added_to_oa": null,
+    "date_text": "1634",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": false,
+    "impression": null,
+    "alternate_titles": [
+      "Tieleman Roosterman"
+    ],
+    "is_highlight": true,
+    "updated_at": "2026-05-29 08:21:48.853000"
+  }
+}

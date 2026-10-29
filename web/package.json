@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "generate": "cd ../pipeline && uv run python -m provenance.export fixtures/van-gogh ../web/src/generated && cd ../web && json2ts src/generated/contract.schema.json src/generated/contract.d.ts"
+    "generate": "cd ../pipeline && uv run python -m provenance.export data/evidence ../web/src/generated && cd ../web && json2ts src/generated/contract.schema.json src/generated/contract.d.ts",
+    "test": "vitest run"
   },
   "dependencies": {
     "react": "^19.3.1",
@@ -22,6 +23,7 @@
     "json-schema-to-typescript": "^16.0.0",
     "oxlint": "^1.89.0",
     "typescript": "~7.0.2",
-    "vite": "^8.3.5"
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
   }
 }

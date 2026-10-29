@@ -1,8 +1,8 @@
 {
   "collections": [
     {
-      "id": "cleveland-nazi-era",
-      "name": "Cleveland Museum of Art, Nazi-era provenance",
+      "id": "cleveland-demo",
+      "name": "Cleveland Museum of Art, demo set",
       "source": "cleveland",
       "snapshot_date": "2026-10-29"
     }
@@ -10,402 +10,1882 @@
   "source_records": [
     {
       "id": "sr-1958.32",
-      "collection": "cleveland-nazi-era",
+      "collection": "cleveland-demo",
       "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.32",
-      "retrieved_at": "2026-10-29T23:08:02Z",
-      "version": null,
+      "retrieved_at": "2026-10-29T23:21:26Z",
+      "version": "2026-10-29 22:05:00.474000",
       "raw_path": "data/raw/cleveland/1958.32.json"
+    },
+    {
+      "id": "sr-1958.34",
+      "collection": "cleveland-demo",
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.34",
+      "retrieved_at": "2026-10-29T23:21:26Z",
+      "version": "2026-10-26 13:31:21.158000",
+      "raw_path": "data/raw/cleveland/1958.34.json"
+    },
+    {
+      "id": "sr-1990.7",
+      "collection": "cleveland-demo",
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/1990.7",
+      "retrieved_at": "2026-10-29T23:21:27Z",
+      "version": "2026-10-27 11:15:32.246000",
+      "raw_path": "data/raw/cleveland/1990.7.json"
+    },
+    {
+      "id": "sr-1983.155",
+      "collection": "cleveland-demo",
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/1983.155",
+      "retrieved_at": "2026-10-29T23:21:27Z",
+      "version": "2026-06-20 11:04:22.986000",
+      "raw_path": "data/raw/cleveland/1983.155.json"
+    },
+    {
+      "id": "sr-1999.173",
+      "collection": "cleveland-demo",
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/1999.173",
+      "retrieved_at": "2026-10-29T23:21:27Z",
+      "version": "2026-05-29 08:21:48.853000",
+      "raw_path": "data/raw/cleveland/1999.173.json"
+    },
+    {
+      "id": "sr-1963.502",
+      "collection": "cleveland-demo",
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/1963.502",
+      "retrieved_at": "2026-10-29T23:21:28Z",
+      "version": "2026-08-22 11:53:15.110000",
+      "raw_path": "data/raw/cleveland/1963.502.json"
     }
   ],
   "claims": [
     {
-      "id": "c-01",
+      "id": "c-1958.32-001",
       "source_record": "sr-1958.32",
       "field_path": "provenance[0].description",
       "start": 0,
       "end": 13,
       "text": "Theo van Gogh",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-02",
+      "id": "c-1958.32-002",
       "source_record": "sr-1958.32",
       "field_path": "provenance[1].description",
       "start": 0,
       "end": 23,
       "text": "Johanna van Gogh-Bonger",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-03",
+      "id": "c-1958.32-003",
       "source_record": "sr-1958.32",
       "field_path": "provenance[2].description",
       "start": 0,
       "end": 16,
       "text": "Willem Steenhoff",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-04",
+      "id": "c-1958.32-004",
       "source_record": "sr-1958.32",
       "field_path": "provenance[3].description",
       "start": 0,
       "end": 17,
       "text": "Alfred Flechtheim",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-05",
+      "id": "c-1958.32-005",
       "source_record": "sr-1958.32",
       "field_path": "provenance[4].description",
       "start": 0,
       "end": 10,
       "text": "Max Siller",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-06",
+      "id": "c-1958.32-006",
       "source_record": "sr-1958.32",
       "field_path": "provenance[5].description",
       "start": 0,
       "end": 13,
       "text": "Paul Cassirer",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-07",
+      "id": "c-1958.32-007",
       "source_record": "sr-1958.32",
       "field_path": "provenance[6].description",
       "start": 0,
       "end": 18,
       "text": "Justin Thannhauser",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-08",
+      "id": "c-1958.32-008",
       "source_record": "sr-1958.32",
       "field_path": "provenance[7].description",
       "start": 0,
       "end": 14,
       "text": "Harry Sperling",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-09",
+      "id": "c-1958.32-009",
       "source_record": "sr-1958.32",
       "field_path": "provenance[8].description",
       "start": 0,
       "end": 19,
       "text": "M. Knoedler and Co.",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-10",
+      "id": "c-1958.32-010",
       "source_record": "sr-1958.32",
       "field_path": "provenance[9].description",
       "start": 0,
       "end": 8,
       "text": "Sam Salz",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-11",
+      "id": "c-1958.32-011",
       "source_record": "sr-1958.32",
       "field_path": "provenance[10].description",
       "start": 0,
       "end": 20,
       "text": "Leonard C. Hanna, Jr",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-12",
+      "id": "c-1958.32-012",
       "source_record": "sr-1958.32",
       "field_path": "provenance[11].description",
       "start": 0,
       "end": 21,
       "text": "Leonard C. Hanna, Jr.",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-13",
+      "id": "c-1958.32-013",
       "source_record": "sr-1958.32",
       "field_path": "provenance[12].description",
       "start": 0,
       "end": 27,
       "text": "The Cleveland Museum of Art",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-14",
+      "id": "c-1958.32-014",
       "source_record": "sr-1958.32",
       "field_path": "provenance[0].description",
       "start": 41,
       "end": 51,
       "text": "by descent",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-15",
+      "id": "c-1958.32-015",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[0].date",
+      "start": 0,
+      "end": 9,
+      "text": "1889–1891",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.32-016",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[1].date",
+      "start": 0,
+      "end": 9,
+      "text": "1891–1905",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.32-017",
       "source_record": "sr-1958.32",
       "field_path": "provenance[1].description",
       "start": 70,
       "end": 77,
       "text": "by gift",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-16",
+      "id": "c-1958.32-018",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[1].date",
+      "start": 0,
+      "end": 9,
+      "text": "1891–1905",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.32-019",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[2].date",
+      "start": 0,
+      "end": 9,
+      "text": "1905–1910",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.32-020",
       "source_record": "sr-1958.32",
       "field_path": "provenance[2].description",
       "start": 53,
       "end": 60,
       "text": "sold to",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-17",
-      "source_record": "sr-1958.32",
-      "field_path": "provenance[10].description",
-      "start": 37,
-      "end": 61,
-      "text": "purchased March 12, 1946",
-      "method": "hand",
-      "certainty": "stated"
-    },
-    {
-      "id": "c-18",
-      "source_record": "sr-1958.32",
-      "field_path": "provenance[10].description",
-      "start": 47,
-      "end": 61,
-      "text": "March 12, 1946",
-      "method": "hand",
-      "certainty": "stated"
-    },
-    {
-      "id": "c-19",
-      "source_record": "sr-1958.32",
-      "field_path": "provenance[11].description",
-      "start": 49,
-      "end": 59,
-      "text": "by bequest",
-      "method": "hand",
-      "certainty": "stated"
-    },
-    {
-      "id": "c-20",
-      "source_record": "sr-1958.32",
-      "field_path": "provenance[1].date",
-      "start": 0,
-      "end": 4,
-      "text": "1891",
-      "method": "hand",
-      "certainty": "stated"
-    },
-    {
-      "id": "c-21",
-      "source_record": "sr-1958.32",
-      "field_path": "provenance[0].date",
-      "start": 5,
-      "end": 9,
-      "text": "1891",
-      "method": "hand",
-      "certainty": "stated"
-    },
-    {
-      "id": "c-22",
+      "id": "c-1958.32-021",
       "source_record": "sr-1958.32",
       "field_path": "provenance[2].date",
       "start": 0,
-      "end": 4,
-      "text": "1905",
-      "method": "hand",
-      "certainty": "stated"
-    },
-    {
-      "id": "c-23",
-      "source_record": "sr-1958.32",
-      "field_path": "provenance[1].date",
-      "start": 5,
       "end": 9,
-      "text": "1905",
-      "method": "hand",
+      "text": "1905–1910",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-24",
+      "id": "c-1958.32-022",
       "source_record": "sr-1958.32",
       "field_path": "provenance[3].date",
       "start": 0,
       "end": 4,
       "text": "1910",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-25",
-      "source_record": "sr-1958.32",
-      "field_path": "provenance[2].date",
-      "start": 5,
-      "end": 9,
-      "text": "1910",
-      "method": "hand",
-      "certainty": "stated"
-    },
-    {
-      "id": "c-26",
+      "id": "c-1958.32-023",
       "source_record": "sr-1958.32",
       "field_path": "provenance[3].date",
       "start": 0,
       "end": 4,
       "text": "1910",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-27",
+      "id": "c-1958.32-024",
       "source_record": "sr-1958.32",
       "field_path": "provenance[4].date",
       "start": 0,
       "end": 4,
       "text": "1914",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-28",
+      "id": "c-1958.32-025",
       "source_record": "sr-1958.32",
       "field_path": "provenance[4].date",
       "start": 0,
       "end": 4,
       "text": "1914",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-29",
+      "id": "c-1958.32-026",
       "source_record": "sr-1958.32",
       "field_path": "provenance[5].date",
       "start": 0,
       "end": 4,
       "text": "1914",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-30",
+      "id": "c-1958.32-027",
       "source_record": "sr-1958.32",
       "field_path": "provenance[5].date",
       "start": 0,
       "end": 4,
       "text": "1914",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-31",
+      "id": "c-1958.32-028",
       "source_record": "sr-1958.32",
       "field_path": "provenance[6].date",
       "start": 0,
       "end": 4,
       "text": "1927",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-32",
+      "id": "c-1958.32-029",
       "source_record": "sr-1958.32",
       "field_path": "provenance[6].date",
       "start": 0,
       "end": 4,
       "text": "1927",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-33",
+      "id": "c-1958.32-030",
       "source_record": "sr-1958.32",
       "field_path": "provenance[7].date",
       "start": 0,
       "end": 9,
       "text": "July 1940",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-34",
+      "id": "c-1958.32-031",
       "source_record": "sr-1958.32",
       "field_path": "provenance[7].date",
       "start": 0,
       "end": 9,
       "text": "July 1940",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-35",
+      "id": "c-1958.32-032",
       "source_record": "sr-1958.32",
       "field_path": "provenance[8].date",
       "start": 0,
       "end": 10,
       "text": "March 1946",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-36",
+      "id": "c-1958.32-033",
       "source_record": "sr-1958.32",
       "field_path": "provenance[8].date",
       "start": 0,
       "end": 10,
       "text": "March 1946",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-37",
+      "id": "c-1958.32-034",
       "source_record": "sr-1958.32",
       "field_path": "provenance[9].date",
       "start": 0,
       "end": 10,
       "text": "March 1946",
-      "method": "hand",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-38",
+      "id": "c-1958.32-035",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[10].description",
+      "start": 37,
+      "end": 46,
+      "text": "purchased",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.32-036",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[9].date",
+      "start": 0,
+      "end": 10,
+      "text": "March 1946",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.32-037",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[10].date",
+      "start": 0,
+      "end": 9,
+      "text": "1946–1958",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.32-038",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[11].description",
+      "start": 49,
+      "end": 59,
+      "text": "by bequest",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.32-039",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[11].date",
+      "start": 0,
+      "end": 9,
+      "text": "1946–1958",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.32-040",
       "source_record": "sr-1958.32",
       "field_path": "provenance[12].date",
       "start": 0,
-      "end": 4,
-      "text": "1958",
-      "method": "hand",
+      "end": 5,
+      "text": "1958–",
+      "method": "rule",
       "certainty": "stated"
     },
     {
-      "id": "c-39",
-      "source_record": "sr-1958.32",
-      "field_path": "provenance[11].date",
-      "start": 5,
+      "id": "c-1958.34-001",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[1].description",
+      "start": 1,
+      "end": 7,
+      "text": "Drouot",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-002",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[2].description",
+      "start": 0,
+      "end": 18,
+      "text": "Mrs. Edouard Manet",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-003",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[3].description",
+      "start": 0,
+      "end": 15,
+      "text": "August Pellerin",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-004",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[4].description",
+      "start": 0,
+      "end": 13,
+      "text": "Jules Strauss",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-005",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[5].description",
+      "start": 1,
+      "end": 14,
+      "text": "Georges Petit",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-006",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[6].description",
+      "start": 0,
+      "end": 6,
+      "text": "Turner",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-007",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[7].description",
+      "start": 0,
+      "end": 14,
+      "text": "Jacques Balsan",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-008",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[8].description",
+      "start": 0,
+      "end": 17,
+      "text": "Mrs. Jules Balsan",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-009",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[9].description",
+      "start": 1,
+      "end": 15,
+      "text": "Knoedler & Co.",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-010",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[10].description",
+      "start": 0,
+      "end": 21,
+      "text": "Leonard C. Hanna, Jr.",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-011",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[11].description",
+      "start": 0,
+      "end": 27,
+      "text": "The Cleveland Museum of Art",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-012",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[1].description",
+      "start": 62,
+      "end": 74,
+      "text": "sold back to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-013",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[1].date",
+      "start": 0,
+      "end": 4,
+      "text": "1884",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-014",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[2].date",
+      "start": 0,
       "end": 9,
-      "text": "1958",
-      "method": "hand",
+      "text": "1884-1910",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-015",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[2].date",
+      "start": 0,
+      "end": 9,
+      "text": "1884-1910",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-016",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 4,
+      "text": "1910",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-017",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 4,
+      "text": "1910",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-018",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 4,
+      "text": "1912",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-019",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 4,
+      "text": "1912",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-020",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[5].date",
+      "start": 0,
+      "end": 4,
+      "text": "1932",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-021",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[5].description",
+      "start": 54,
+      "end": 61,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-022",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[5].date",
+      "start": 0,
+      "end": 4,
+      "text": "1932",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-023",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 9,
+      "text": "1932-1935",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-024",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 9,
+      "text": "1932-1935",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-025",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 9,
+      "text": "1935-1947",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-026",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 9,
+      "text": "1935-1947",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-027",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 4,
+      "text": "1935",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-028",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 4,
+      "text": "1935",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-029",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[9].date",
+      "start": 0,
+      "end": 4,
+      "text": "1947",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-030",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[9].description",
+      "start": 46,
+      "end": 53,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-031",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[9].date",
+      "start": 0,
+      "end": 4,
+      "text": "1947",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-032",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[10].date",
+      "start": 0,
+      "end": 9,
+      "text": "1947-1958",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-033",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[10].description",
+      "start": 50,
+      "end": 60,
+      "text": "by bequest",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-034",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[10].date",
+      "start": 0,
+      "end": 9,
+      "text": "1947-1958",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1958.34-035",
+      "source_record": "sr-1958.34",
+      "field_path": "provenance[11].date",
+      "start": 0,
+      "end": 5,
+      "text": "1958-",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-001",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[0].description",
+      "start": 0,
+      "end": 14,
+      "text": "Charles Guasco",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-002",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[1].description",
+      "start": 1,
+      "end": 12,
+      "text": "Guasco sale",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-003",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[2].description",
+      "start": 0,
+      "end": 16,
+      "text": "Louis Schoengrün",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-004",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[3].description",
+      "start": 1,
+      "end": 16,
+      "text": "Schoengrün sale",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-005",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[4].description",
+      "start": 0,
+      "end": 12,
+      "text": "Max Behrendt",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-006",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[5].description",
+      "start": 0,
+      "end": 25,
+      "text": "Possibly Gouin collection",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-007",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[6].description",
+      "start": 0,
+      "end": 12,
+      "text": "Mrs. Carmona",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-008",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[7].description",
+      "start": 1,
+      "end": 18,
+      "text": "Wildenstein & Co.",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-009",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[8].description",
+      "start": 0,
+      "end": 13,
+      "text": "Eleanor Allen",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-010",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[9].description",
+      "start": 0,
+      "end": 23,
+      "text": "Charles Cunningham, Jr.",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-011",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[10].description",
+      "start": 1,
+      "end": 32,
+      "text": "Artemis Fine Arts/David Carritt",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-012",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[11].description",
+      "start": 0,
+      "end": 27,
+      "text": "The Cleveland Museum of Art",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-013",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[0].date",
+      "start": 0,
+      "end": 10,
+      "text": "Until 1900",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-014",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[1].date",
+      "start": 0,
+      "end": 4,
+      "text": "1900",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-015",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[1].description",
+      "start": 68,
+      "end": 75,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-016",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[1].date",
+      "start": 0,
+      "end": 4,
+      "text": "1900",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-017",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[2].date",
+      "start": 0,
+      "end": 9,
+      "text": "1900-1901",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-018",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[2].date",
+      "start": 0,
+      "end": 9,
+      "text": "1900-1901",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-019",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 4,
+      "text": "1901",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-020",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[3].description",
+      "start": 62,
+      "end": 69,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-021",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 4,
+      "text": "1901",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-022",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 18,
+      "text": "1901-at least 1939",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-023",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 18,
+      "text": "1901-at least 1939",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-024",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 10,
+      "text": "Until 1951",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-025",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[6].description",
+      "start": 14,
+      "end": 21,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-026",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 10,
+      "text": "Until 1951",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-027",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 9,
+      "text": "1951-1955",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-028",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[7].description",
+      "start": 30,
+      "end": 37,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-029",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 9,
+      "text": "1951-1955",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-030",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 9,
+      "text": "1955-1961",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-031",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[8].description",
+      "start": 61,
+      "end": 71,
+      "text": "by descent",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-032",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 9,
+      "text": "1955-1961",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-033",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[9].date",
+      "start": 0,
+      "end": 5,
+      "text": "1961-",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-034",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[9].date",
+      "start": 0,
+      "end": 5,
+      "text": "1961-",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-035",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[10].date",
+      "start": 0,
+      "end": 10,
+      "text": "Until 1990",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-036",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[10].description",
+      "start": 48,
+      "end": 55,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-037",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[10].date",
+      "start": 0,
+      "end": 10,
+      "text": "Until 1990",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1990.7-038",
+      "source_record": "sr-1990.7",
+      "field_path": "provenance[11].date",
+      "start": 0,
+      "end": 5,
+      "text": "1990-",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-001",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[0].description",
+      "start": 0,
+      "end": 13,
+      "text": "Herr von Beer",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-002",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[1].description",
+      "start": 1,
+      "end": 20,
+      "text": "Kunsthandlung Arnot",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-003",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[2].description",
+      "start": 0,
+      "end": 18,
+      "text": "Private collection",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-004",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[3].description",
+      "start": 0,
+      "end": 12,
+      "text": "Fritz Nathan",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-005",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[4].description",
+      "start": 0,
+      "end": 10,
+      "text": "Dr. Tobler",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-006",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[5].description",
+      "start": 0,
+      "end": 23,
+      "text": "Baron Robert von Hirsch",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-007",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[6].description",
+      "start": 0,
+      "end": 16,
+      "text": "Dr. Fritz Nathan",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-008",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[7].description",
+      "start": 0,
+      "end": 18,
+      "text": "Private collection",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-009",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[8].description",
+      "start": 1,
+      "end": 15,
+      "text": "Galerie Nathan",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-010",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[9].description",
+      "start": 0,
+      "end": 27,
+      "text": "The Cleveland Museum of Art",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-011",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[0].date",
+      "start": 0,
+      "end": 5,
+      "text": "1865?",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-012",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[2].date",
+      "start": 0,
+      "end": 7,
+      "text": "By 1930",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-013",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[2].date",
+      "start": 0,
+      "end": 7,
+      "text": "By 1930",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-014",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 10,
+      "text": "Until 1937",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-015",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[3].description",
+      "start": 14,
+      "end": 21,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-016",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 10,
+      "text": "Until 1937",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-017",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 5,
+      "text": "1937-",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-018",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 5,
+      "text": "1937-",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-019",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[5].date",
+      "start": 0,
+      "end": 17,
+      "text": "By 1943 - by 1945",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-020",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[5].description",
+      "start": 44,
+      "end": 51,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-021",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[5].date",
+      "start": 0,
+      "end": 17,
+      "text": "By 1943 - by 1945",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-022",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 7,
+      "text": "By 1945",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-023",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[6].description",
+      "start": 30,
+      "end": 37,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-024",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 7,
+      "text": "By 1945",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-025",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 7,
+      "text": "By 1957",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-026",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 7,
+      "text": "By 1957",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-027",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 10,
+      "text": "Until 1983",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-028",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[8].description",
+      "start": 25,
+      "end": 32,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-029",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 10,
+      "text": "Until 1983",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1983.155-030",
+      "source_record": "sr-1983.155",
+      "field_path": "provenance[9].date",
+      "start": 0,
+      "end": 5,
+      "text": "1983-",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-001",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[0].description",
+      "start": 0,
+      "end": 21,
+      "text": "Friedrich Jacob Gsell",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-002",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[2].description",
+      "start": 0,
+      "end": 33,
+      "text": "Baron Anselm Mayer von Rothschild",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-003",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[3].description",
+      "start": 0,
+      "end": 27,
+      "text": "Baron Albert von Rothschild",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-004",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[4].description",
+      "start": 0,
+      "end": 29,
+      "text": "Baron Alphonse von Rothschild",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-005",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[5].description",
+      "start": 21,
+      "end": 30,
+      "text": "the Nazis",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-006",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[7].description",
+      "start": 46,
+      "end": 68,
+      "text": "Clarice von Rothschild",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-007",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[8].description",
+      "start": 14,
+      "end": 67,
+      "text": "the Heirs of Barons Alphonse and Louis von Rothschild",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-008",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[9].description",
+      "start": 1,
+      "end": 11,
+      "text": "Christie's",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-009",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[10].description",
+      "start": 0,
+      "end": 27,
+      "text": "The Cleveland Museum of Art",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-010",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[0].date",
+      "start": 0,
+      "end": 16,
+      "text": "probably by 1866",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-011",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[2].date",
+      "start": 0,
+      "end": 11,
+      "text": "1872 - 1874",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-012",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[2].date",
+      "start": 0,
+      "end": 11,
+      "text": "1872 - 1874",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-013",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 11,
+      "text": "1874 - 1911",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-014",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 11,
+      "text": "1874 - 1911",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-015",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 11,
+      "text": "1911 - 1938",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-016",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 11,
+      "text": "1911 - 1938",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-017",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[5].date",
+      "start": 0,
+      "end": 9,
+      "text": "from 1938",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-018",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[5].date",
+      "start": 0,
+      "end": 9,
+      "text": "from 1938",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-019",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 11,
+      "text": "1947 - 1999",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-020",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[8].description",
+      "start": 0,
+      "end": 13,
+      "text": "Restituted to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-021",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 11,
+      "text": "1947 - 1999",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-022",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 4,
+      "text": "1999",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-023",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 4,
+      "text": "1999",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-024",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[9].date",
+      "start": 0,
+      "end": 6,
+      "text": "1999 -",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-025",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[9].date",
+      "start": 0,
+      "end": 6,
+      "text": "1999 -",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1999.173-026",
+      "source_record": "sr-1999.173",
+      "field_path": "provenance[10].date",
+      "start": 0,
+      "end": 5,
+      "text": "1999-",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-001",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[3].description",
+      "start": 7,
+      "end": 14,
+      "text": "Boussod",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-002",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[4].description",
+      "start": 7,
+      "end": 19,
+      "text": "Hotel Drouot",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-003",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[5].description",
+      "start": 0,
+      "end": 12,
+      "text": "Octave Linet",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-004",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[6].description",
+      "start": 1,
+      "end": 13,
+      "text": "Octave Linet",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-005",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[7].description",
+      "start": 1,
+      "end": 17,
+      "text": "Galerie Cailleux",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-006",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[8].description",
+      "start": 0,
+      "end": 27,
+      "text": "The Cleveland Museum of Art",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-007",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 16,
+      "text": "December 2, 1910",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-008",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 16,
+      "text": "December 2, 1910",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-009",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 14,
+      "text": "March 23, 1963",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-010",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 14,
+      "text": "March 23, 1963",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-011",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 5,
+      "text": "-1963",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-012",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[7].description",
+      "start": 35,
+      "end": 42,
+      "text": "sold to",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-013",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 5,
+      "text": "-1963",
+      "method": "rule",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-1963.502-014",
+      "source_record": "sr-1963.502",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 5,
+      "text": "1963-",
+      "method": "rule",
       "certainty": "stated"
     }
   ],
@@ -417,77 +1897,393 @@
       "created": "1889",
       "accession": "1958.32",
       "image": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_web.jpg"
+    },
+    {
+      "id": "cma-1958.34",
+      "title": "Berthe Morisot with a Muff",
+      "artist": "Édouard Manet",
+      "created": "c. 1871–72",
+      "accession": "1958.34",
+      "image": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_web.jpg"
+    },
+    {
+      "id": "cma-1990.7",
+      "title": "The Lock at Pontoise",
+      "artist": "Camille Pissarro",
+      "created": "1872",
+      "accession": "1990.7",
+      "image": "https://openaccess-cdn.clevelandart.org/1990.7/1990.7_web.jpg"
+    },
+    {
+      "id": "cma-1983.155",
+      "title": "Prater Landscape",
+      "artist": "Ferdinand Georg Waldmüller",
+      "created": "c. 1831",
+      "accession": "1983.155",
+      "image": "https://openaccess-cdn.clevelandart.org/1983.155/1983.155_web.jpg"
+    },
+    {
+      "id": "cma-1999.173",
+      "title": "Portrait of Tieleman Roosterman",
+      "artist": "Frans Hals",
+      "created": "1634",
+      "accession": "1999.173",
+      "image": "https://openaccess-cdn.clevelandart.org/1999.173/1999.173_web.jpg"
+    },
+    {
+      "id": "cma-1963.502",
+      "title": "Sleep",
+      "artist": "Jean Bernard Restout",
+      "created": "c. 1771",
+      "accession": "1963.502",
+      "image": "https://openaccess-cdn.clevelandart.org/1963.502/1963.502_web.jpg"
     }
   ],
   "parties": [
     {
-      "id": "theo",
+      "id": "p-001",
       "preferred_name": "Theo van Gogh",
       "kind": "person",
       "life_dates": "1857-1891"
     },
     {
-      "id": "johanna",
+      "id": "p-002",
       "preferred_name": "Johanna van Gogh-Bonger",
       "kind": "person",
       "life_dates": "1862-1915"
     },
     {
-      "id": "steenhoff",
+      "id": "p-003",
       "preferred_name": "Willem Steenhoff",
       "kind": "person",
       "life_dates": "1863-1932"
     },
     {
-      "id": "flechtheim",
+      "id": "p-004",
       "preferred_name": "Alfred Flechtheim",
       "kind": "person",
       "life_dates": null
     },
     {
-      "id": "siller",
+      "id": "p-005",
       "preferred_name": "Max Siller",
       "kind": "person",
       "life_dates": null
     },
     {
-      "id": "cassirer",
+      "id": "p-006",
       "preferred_name": "Paul Cassirer",
       "kind": "person",
       "life_dates": null
     },
     {
-      "id": "thannhauser",
+      "id": "p-007",
       "preferred_name": "Justin Thannhauser",
       "kind": "person",
       "life_dates": null
     },
     {
-      "id": "sperling",
+      "id": "p-008",
       "preferred_name": "Harry Sperling",
       "kind": "person",
       "life_dates": "1925-1971"
     },
     {
-      "id": "knoedler",
+      "id": "p-009",
       "preferred_name": "M. Knoedler and Co.",
       "kind": "organization",
       "life_dates": null
     },
     {
-      "id": "salz",
+      "id": "p-010",
       "preferred_name": "Sam Salz",
       "kind": "person",
       "life_dates": null
     },
     {
-      "id": "hanna",
-      "preferred_name": "Leonard C. Hanna, Jr.",
+      "id": "p-011",
+      "preferred_name": "Leonard C. Hanna, Jr",
       "kind": "person",
       "life_dates": "1889-1957"
     },
     {
-      "id": "cma",
+      "id": "p-012",
+      "preferred_name": "The Cleveland Museum of Art",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-013",
+      "preferred_name": "Drouot",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-014",
+      "preferred_name": "Mrs. Edouard Manet",
+      "kind": "person",
+      "life_dates": "1829-1906"
+    },
+    {
+      "id": "p-015",
+      "preferred_name": "August Pellerin",
+      "kind": "person",
+      "life_dates": "1853-1929"
+    },
+    {
+      "id": "p-016",
+      "preferred_name": "Jules Strauss",
+      "kind": "person",
+      "life_dates": "1863-1943"
+    },
+    {
+      "id": "p-017",
+      "preferred_name": "Georges Petit",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-018",
+      "preferred_name": "Turner",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-019",
+      "preferred_name": "Jacques Balsan",
+      "kind": "person",
+      "life_dates": "1868-1956"
+    },
+    {
+      "id": "p-020",
+      "preferred_name": "Mrs. Jules Balsan",
+      "kind": "person",
+      "life_dates": "1877-1964"
+    },
+    {
+      "id": "p-021",
+      "preferred_name": "Knoedler & Co.",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-022",
+      "preferred_name": "Leonard C. Hanna, Jr.",
+      "kind": "person",
+      "life_dates": "1898-1957"
+    },
+    {
+      "id": "p-023",
+      "preferred_name": "The Cleveland Museum of Art",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-024",
+      "preferred_name": "Charles Guasco",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-025",
+      "preferred_name": "Guasco sale",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-026",
+      "preferred_name": "Louis Schoengrün",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-027",
+      "preferred_name": "Schoengrün sale",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-028",
+      "preferred_name": "Max Behrendt",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-029",
+      "preferred_name": "Possibly Gouin collection",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-030",
+      "preferred_name": "Mrs. Carmona",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-031",
+      "preferred_name": "Wildenstein & Co.",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-032",
+      "preferred_name": "Eleanor Allen",
+      "kind": "person",
+      "life_dates": "1910-1961"
+    },
+    {
+      "id": "p-033",
+      "preferred_name": "Charles Cunningham, Jr.",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-034",
+      "preferred_name": "Artemis Fine Arts/David Carritt",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-035",
+      "preferred_name": "The Cleveland Museum of Art",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-036",
+      "preferred_name": "Herr von Beer",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-037",
+      "preferred_name": "Kunsthandlung Arnot",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-038",
+      "preferred_name": "Private collection",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-039",
+      "preferred_name": "Fritz Nathan",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-040",
+      "preferred_name": "Dr. Tobler",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-041",
+      "preferred_name": "Baron Robert von Hirsch",
+      "kind": "person",
+      "life_dates": "1883-1977"
+    },
+    {
+      "id": "p-042",
+      "preferred_name": "Dr. Fritz Nathan",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-043",
+      "preferred_name": "Galerie Nathan",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-044",
+      "preferred_name": "The Cleveland Museum of Art",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-045",
+      "preferred_name": "Friedrich Jacob Gsell",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "p-046",
+      "preferred_name": "Baron Anselm Mayer von Rothschild",
+      "kind": "person",
+      "life_dates": "1803-1874"
+    },
+    {
+      "id": "p-047",
+      "preferred_name": "Baron Albert von Rothschild",
+      "kind": "person",
+      "life_dates": "1844-1911"
+    },
+    {
+      "id": "p-048",
+      "preferred_name": "Baron Alphonse von Rothschild",
+      "kind": "person",
+      "life_dates": "1878-1942"
+    },
+    {
+      "id": "p-049",
+      "preferred_name": "the Nazis",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-050",
+      "preferred_name": "Clarice von Rothschild",
+      "kind": "person",
+      "life_dates": "1894-1967"
+    },
+    {
+      "id": "p-051",
+      "preferred_name": "the Heirs of Barons Alphonse and Louis von Rothschild",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-052",
+      "preferred_name": "Christie's",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-053",
+      "preferred_name": "The Cleveland Museum of Art",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-054",
+      "preferred_name": "Boussod",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-055",
+      "preferred_name": "Hotel Drouot",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-056",
+      "preferred_name": "Octave Linet",
+      "kind": "person",
+      "life_dates": "1870-1962"
+    },
+    {
+      "id": "p-057",
+      "preferred_name": "Galerie Cailleux",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "p-058",
       "preferred_name": "The Cleveland Museum of Art",
       "kind": "organization",
       "life_dates": null
@@ -495,90 +2291,366 @@
   ],
   "party_aliases": [
     {
-      "id": "pa-theo",
-      "party": "theo",
+      "id": "pa-001",
+      "party": "p-001",
       "name_as_written": "Theo van Gogh",
-      "claim": "c-01"
+      "claim": "c-1958.32-001"
     },
     {
-      "id": "pa-johanna",
-      "party": "johanna",
+      "id": "pa-002",
+      "party": "p-002",
       "name_as_written": "Johanna van Gogh-Bonger",
-      "claim": "c-02"
+      "claim": "c-1958.32-002"
     },
     {
-      "id": "pa-steenhoff",
-      "party": "steenhoff",
+      "id": "pa-003",
+      "party": "p-003",
       "name_as_written": "Willem Steenhoff",
-      "claim": "c-03"
+      "claim": "c-1958.32-003"
     },
     {
-      "id": "pa-flechtheim",
-      "party": "flechtheim",
+      "id": "pa-004",
+      "party": "p-004",
       "name_as_written": "Alfred Flechtheim",
-      "claim": "c-04"
+      "claim": "c-1958.32-004"
     },
     {
-      "id": "pa-siller",
-      "party": "siller",
+      "id": "pa-005",
+      "party": "p-005",
       "name_as_written": "Max Siller",
-      "claim": "c-05"
+      "claim": "c-1958.32-005"
     },
     {
-      "id": "pa-cassirer",
-      "party": "cassirer",
+      "id": "pa-006",
+      "party": "p-006",
       "name_as_written": "Paul Cassirer",
-      "claim": "c-06"
+      "claim": "c-1958.32-006"
     },
     {
-      "id": "pa-thannhauser",
-      "party": "thannhauser",
+      "id": "pa-007",
+      "party": "p-007",
       "name_as_written": "Justin Thannhauser",
-      "claim": "c-07"
+      "claim": "c-1958.32-007"
     },
     {
-      "id": "pa-sperling",
-      "party": "sperling",
+      "id": "pa-008",
+      "party": "p-008",
       "name_as_written": "Harry Sperling",
-      "claim": "c-08"
+      "claim": "c-1958.32-008"
     },
     {
-      "id": "pa-knoedler",
-      "party": "knoedler",
+      "id": "pa-009",
+      "party": "p-009",
       "name_as_written": "M. Knoedler and Co.",
-      "claim": "c-09"
+      "claim": "c-1958.32-009"
     },
     {
-      "id": "pa-salz",
-      "party": "salz",
+      "id": "pa-010",
+      "party": "p-010",
       "name_as_written": "Sam Salz",
-      "claim": "c-10"
+      "claim": "c-1958.32-010"
     },
     {
-      "id": "pa-hanna10",
-      "party": "hanna",
+      "id": "pa-011",
+      "party": "p-011",
       "name_as_written": "Leonard C. Hanna, Jr",
-      "claim": "c-11"
+      "claim": "c-1958.32-011"
     },
     {
-      "id": "pa-hanna11",
-      "party": "hanna",
+      "id": "pa-012",
+      "party": "p-011",
       "name_as_written": "Leonard C. Hanna, Jr.",
-      "claim": "c-12"
+      "claim": "c-1958.32-012"
     },
     {
-      "id": "pa-cma",
-      "party": "cma",
+      "id": "pa-013",
+      "party": "p-012",
       "name_as_written": "The Cleveland Museum of Art",
-      "claim": "c-13"
+      "claim": "c-1958.32-013"
+    },
+    {
+      "id": "pa-014",
+      "party": "p-013",
+      "name_as_written": "Drouot",
+      "claim": "c-1958.34-001"
+    },
+    {
+      "id": "pa-015",
+      "party": "p-014",
+      "name_as_written": "Mrs. Edouard Manet",
+      "claim": "c-1958.34-002"
+    },
+    {
+      "id": "pa-016",
+      "party": "p-015",
+      "name_as_written": "August Pellerin",
+      "claim": "c-1958.34-003"
+    },
+    {
+      "id": "pa-017",
+      "party": "p-016",
+      "name_as_written": "Jules Strauss",
+      "claim": "c-1958.34-004"
+    },
+    {
+      "id": "pa-018",
+      "party": "p-017",
+      "name_as_written": "Georges Petit",
+      "claim": "c-1958.34-005"
+    },
+    {
+      "id": "pa-019",
+      "party": "p-018",
+      "name_as_written": "Turner",
+      "claim": "c-1958.34-006"
+    },
+    {
+      "id": "pa-020",
+      "party": "p-019",
+      "name_as_written": "Jacques Balsan",
+      "claim": "c-1958.34-007"
+    },
+    {
+      "id": "pa-021",
+      "party": "p-020",
+      "name_as_written": "Mrs. Jules Balsan",
+      "claim": "c-1958.34-008"
+    },
+    {
+      "id": "pa-022",
+      "party": "p-021",
+      "name_as_written": "Knoedler & Co.",
+      "claim": "c-1958.34-009"
+    },
+    {
+      "id": "pa-023",
+      "party": "p-022",
+      "name_as_written": "Leonard C. Hanna, Jr.",
+      "claim": "c-1958.34-010"
+    },
+    {
+      "id": "pa-024",
+      "party": "p-023",
+      "name_as_written": "The Cleveland Museum of Art",
+      "claim": "c-1958.34-011"
+    },
+    {
+      "id": "pa-025",
+      "party": "p-024",
+      "name_as_written": "Charles Guasco",
+      "claim": "c-1990.7-001"
+    },
+    {
+      "id": "pa-026",
+      "party": "p-025",
+      "name_as_written": "Guasco sale",
+      "claim": "c-1990.7-002"
+    },
+    {
+      "id": "pa-027",
+      "party": "p-026",
+      "name_as_written": "Louis Schoengrün",
+      "claim": "c-1990.7-003"
+    },
+    {
+      "id": "pa-028",
+      "party": "p-027",
+      "name_as_written": "Schoengrün sale",
+      "claim": "c-1990.7-004"
+    },
+    {
+      "id": "pa-029",
+      "party": "p-028",
+      "name_as_written": "Max Behrendt",
+      "claim": "c-1990.7-005"
+    },
+    {
+      "id": "pa-030",
+      "party": "p-029",
+      "name_as_written": "Possibly Gouin collection",
+      "claim": "c-1990.7-006"
+    },
+    {
+      "id": "pa-031",
+      "party": "p-030",
+      "name_as_written": "Mrs. Carmona",
+      "claim": "c-1990.7-007"
+    },
+    {
+      "id": "pa-032",
+      "party": "p-031",
+      "name_as_written": "Wildenstein & Co.",
+      "claim": "c-1990.7-008"
+    },
+    {
+      "id": "pa-033",
+      "party": "p-032",
+      "name_as_written": "Eleanor Allen",
+      "claim": "c-1990.7-009"
+    },
+    {
+      "id": "pa-034",
+      "party": "p-033",
+      "name_as_written": "Charles Cunningham, Jr.",
+      "claim": "c-1990.7-010"
+    },
+    {
+      "id": "pa-035",
+      "party": "p-034",
+      "name_as_written": "Artemis Fine Arts/David Carritt",
+      "claim": "c-1990.7-011"
+    },
+    {
+      "id": "pa-036",
+      "party": "p-035",
+      "name_as_written": "The Cleveland Museum of Art",
+      "claim": "c-1990.7-012"
+    },
+    {
+      "id": "pa-037",
+      "party": "p-036",
+      "name_as_written": "Herr von Beer",
+      "claim": "c-1983.155-001"
+    },
+    {
+      "id": "pa-038",
+      "party": "p-037",
+      "name_as_written": "Kunsthandlung Arnot",
+      "claim": "c-1983.155-002"
+    },
+    {
+      "id": "pa-039",
+      "party": "p-038",
+      "name_as_written": "Private collection",
+      "claim": "c-1983.155-003"
+    },
+    {
+      "id": "pa-040",
+      "party": "p-039",
+      "name_as_written": "Fritz Nathan",
+      "claim": "c-1983.155-004"
+    },
+    {
+      "id": "pa-041",
+      "party": "p-040",
+      "name_as_written": "Dr. Tobler",
+      "claim": "c-1983.155-005"
+    },
+    {
+      "id": "pa-042",
+      "party": "p-041",
+      "name_as_written": "Baron Robert von Hirsch",
+      "claim": "c-1983.155-006"
+    },
+    {
+      "id": "pa-043",
+      "party": "p-042",
+      "name_as_written": "Dr. Fritz Nathan",
+      "claim": "c-1983.155-007"
+    },
+    {
+      "id": "pa-044",
+      "party": "p-043",
+      "name_as_written": "Galerie Nathan",
+      "claim": "c-1983.155-009"
+    },
+    {
+      "id": "pa-045",
+      "party": "p-044",
+      "name_as_written": "The Cleveland Museum of Art",
+      "claim": "c-1983.155-010"
+    },
+    {
+      "id": "pa-046",
+      "party": "p-045",
+      "name_as_written": "Friedrich Jacob Gsell",
+      "claim": "c-1999.173-001"
+    },
+    {
+      "id": "pa-047",
+      "party": "p-046",
+      "name_as_written": "Baron Anselm Mayer von Rothschild",
+      "claim": "c-1999.173-002"
+    },
+    {
+      "id": "pa-048",
+      "party": "p-047",
+      "name_as_written": "Baron Albert von Rothschild",
+      "claim": "c-1999.173-003"
+    },
+    {
+      "id": "pa-049",
+      "party": "p-048",
+      "name_as_written": "Baron Alphonse von Rothschild",
+      "claim": "c-1999.173-004"
+    },
+    {
+      "id": "pa-050",
+      "party": "p-049",
+      "name_as_written": "the Nazis",
+      "claim": "c-1999.173-005"
+    },
+    {
+      "id": "pa-051",
+      "party": "p-050",
+      "name_as_written": "Clarice von Rothschild",
+      "claim": "c-1999.173-006"
+    },
+    {
+      "id": "pa-052",
+      "party": "p-051",
+      "name_as_written": "the Heirs of Barons Alphonse and Louis von Rothschild",
+      "claim": "c-1999.173-007"
+    },
+    {
+      "id": "pa-053",
+      "party": "p-052",
+      "name_as_written": "Christie's",
+      "claim": "c-1999.173-008"
+    },
+    {
+      "id": "pa-054",
+      "party": "p-053",
+      "name_as_written": "The Cleveland Museum of Art",
+      "claim": "c-1999.173-009"
+    },
+    {
+      "id": "pa-055",
+      "party": "p-054",
+      "name_as_written": "Boussod",
+      "claim": "c-1963.502-001"
+    },
+    {
+      "id": "pa-056",
+      "party": "p-055",
+      "name_as_written": "Hotel Drouot",
+      "claim": "c-1963.502-002"
+    },
+    {
+      "id": "pa-057",
+      "party": "p-056",
+      "name_as_written": "Octave Linet",
+      "claim": "c-1963.502-003"
+    },
+    {
+      "id": "pa-058",
+      "party": "p-057",
+      "name_as_written": "Galerie Cailleux",
+      "claim": "c-1963.502-005"
+    },
+    {
+      "id": "pa-059",
+      "party": "p-058",
+      "name_as_written": "The Cleveland Museum of Art",
+      "claim": "c-1963.502-006"
     }
   ],
   "events": [
     {
-      "id": "e-01",
+      "id": "e-1958.32-001",
       "artwork": "cma-1958.32",
-      "from_party": "theo",
-      "to_party": "johanna",
+      "from_party": "p-001",
+      "to_party": "p-002",
       "link_type": "descent",
       "date_start": "1891",
       "date_end": "1891",
@@ -587,27 +2659,27 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-01"
+          "c-1958.32-001"
         ],
         "to_party": [
-          "c-02"
+          "c-1958.32-002"
         ],
         "link_type": [
-          "c-14"
+          "c-1958.32-014"
         ],
         "date_start": [
-          "c-20"
+          "c-1958.32-015"
         ],
         "date_end": [
-          "c-21"
+          "c-1958.32-016"
         ]
       }
     },
     {
-      "id": "e-02",
+      "id": "e-1958.32-002",
       "artwork": "cma-1958.32",
-      "from_party": "johanna",
-      "to_party": "steenhoff",
+      "from_party": "p-002",
+      "to_party": "p-003",
       "link_type": "gift",
       "date_start": "1905",
       "date_end": "1905",
@@ -616,27 +2688,27 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-02"
+          "c-1958.32-002"
         ],
         "to_party": [
-          "c-03"
+          "c-1958.32-003"
         ],
         "link_type": [
-          "c-15"
+          "c-1958.32-017"
         ],
         "date_start": [
-          "c-22"
+          "c-1958.32-018"
         ],
         "date_end": [
-          "c-23"
+          "c-1958.32-019"
         ]
       }
     },
     {
-      "id": "e-03",
+      "id": "e-1958.32-003",
       "artwork": "cma-1958.32",
-      "from_party": "steenhoff",
-      "to_party": "flechtheim",
+      "from_party": "p-003",
+      "to_party": "p-004",
       "link_type": "sale",
       "date_start": "1910",
       "date_end": "1910",
@@ -645,27 +2717,27 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-03"
+          "c-1958.32-003"
         ],
         "to_party": [
-          "c-04"
+          "c-1958.32-004"
         ],
         "link_type": [
-          "c-16"
+          "c-1958.32-020"
         ],
         "date_start": [
-          "c-24"
+          "c-1958.32-021"
         ],
         "date_end": [
-          "c-25"
+          "c-1958.32-022"
         ]
       }
     },
     {
-      "id": "e-04",
+      "id": "e-1958.32-004",
       "artwork": "cma-1958.32",
-      "from_party": "flechtheim",
-      "to_party": "siller",
+      "from_party": "p-004",
+      "to_party": "p-005",
       "link_type": "unknown",
       "date_start": "1910",
       "date_end": "1914",
@@ -674,24 +2746,24 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-04"
+          "c-1958.32-004"
         ],
         "to_party": [
-          "c-05"
+          "c-1958.32-005"
         ],
         "date_start": [
-          "c-26"
+          "c-1958.32-023"
         ],
         "date_end": [
-          "c-27"
+          "c-1958.32-024"
         ]
       }
     },
     {
-      "id": "e-05",
+      "id": "e-1958.32-005",
       "artwork": "cma-1958.32",
-      "from_party": "siller",
-      "to_party": "cassirer",
+      "from_party": "p-005",
+      "to_party": "p-006",
       "link_type": "unknown",
       "date_start": "1914",
       "date_end": "1914",
@@ -700,24 +2772,24 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-05"
+          "c-1958.32-005"
         ],
         "to_party": [
-          "c-06"
+          "c-1958.32-006"
         ],
         "date_start": [
-          "c-28"
+          "c-1958.32-025"
         ],
         "date_end": [
-          "c-29"
+          "c-1958.32-026"
         ]
       }
     },
     {
-      "id": "e-06",
+      "id": "e-1958.32-006",
       "artwork": "cma-1958.32",
-      "from_party": "cassirer",
-      "to_party": "thannhauser",
+      "from_party": "p-006",
+      "to_party": "p-007",
       "link_type": "unknown",
       "date_start": "1914",
       "date_end": "1927",
@@ -726,24 +2798,24 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-06"
+          "c-1958.32-006"
         ],
         "to_party": [
-          "c-07"
+          "c-1958.32-007"
         ],
         "date_start": [
-          "c-30"
+          "c-1958.32-027"
         ],
         "date_end": [
-          "c-31"
+          "c-1958.32-028"
         ]
       }
     },
     {
-      "id": "e-07",
+      "id": "e-1958.32-007",
       "artwork": "cma-1958.32",
-      "from_party": "thannhauser",
-      "to_party": "sperling",
+      "from_party": "p-007",
+      "to_party": "p-008",
       "link_type": "unknown",
       "date_start": "1927",
       "date_end": "1940-07",
@@ -752,24 +2824,24 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-07"
+          "c-1958.32-007"
         ],
         "to_party": [
-          "c-08"
+          "c-1958.32-008"
         ],
         "date_start": [
-          "c-32"
+          "c-1958.32-029"
         ],
         "date_end": [
-          "c-33"
+          "c-1958.32-030"
         ]
       }
     },
     {
-      "id": "e-08",
+      "id": "e-1958.32-008",
       "artwork": "cma-1958.32",
-      "from_party": "sperling",
-      "to_party": "knoedler",
+      "from_party": "p-008",
+      "to_party": "p-009",
       "link_type": "unknown",
       "date_start": "1940-07",
       "date_end": "1946-03",
@@ -778,24 +2850,24 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-08"
+          "c-1958.32-008"
         ],
         "to_party": [
-          "c-09"
+          "c-1958.32-009"
         ],
         "date_start": [
-          "c-34"
+          "c-1958.32-031"
         ],
         "date_end": [
-          "c-35"
+          "c-1958.32-032"
         ]
       }
     },
     {
-      "id": "e-09",
+      "id": "e-1958.32-009",
       "artwork": "cma-1958.32",
-      "from_party": "knoedler",
-      "to_party": "salz",
+      "from_party": "p-009",
+      "to_party": "p-010",
       "link_type": "unknown",
       "date_start": "1946-03",
       "date_end": "1946-03",
@@ -804,53 +2876,53 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-09"
+          "c-1958.32-009"
         ],
         "to_party": [
-          "c-10"
+          "c-1958.32-010"
         ],
         "date_start": [
-          "c-36"
+          "c-1958.32-033"
         ],
         "date_end": [
-          "c-37"
+          "c-1958.32-034"
         ]
       }
     },
     {
-      "id": "e-10",
+      "id": "e-1958.32-010",
       "artwork": "cma-1958.32",
-      "from_party": "salz",
-      "to_party": "hanna",
+      "from_party": "p-010",
+      "to_party": "p-011",
       "link_type": "sale",
-      "date_start": "1946-03-12",
-      "date_end": "1946-03-12",
+      "date_start": "1946-03",
+      "date_end": "1946-03",
       "precision": "exact",
-      "certainty": "approximate",
+      "certainty": "confirmed",
       "place": null,
       "cites": {
         "from_party": [
-          "c-10"
+          "c-1958.32-010"
         ],
         "to_party": [
-          "c-11"
+          "c-1958.32-011"
         ],
         "link_type": [
-          "c-17"
+          "c-1958.32-035"
         ],
         "date_start": [
-          "c-18"
+          "c-1958.32-036"
         ],
         "date_end": [
-          "c-18"
+          "c-1958.32-036"
         ]
       }
     },
     {
-      "id": "e-11",
+      "id": "e-1958.32-011",
       "artwork": "cma-1958.32",
-      "from_party": "hanna",
-      "to_party": "cma",
+      "from_party": "p-011",
+      "to_party": "p-012",
       "link_type": "bequest",
       "date_start": "1958",
       "date_end": "1958",
@@ -859,21 +2931,1148 @@
       "place": null,
       "cites": {
         "from_party": [
-          "c-12"
+          "c-1958.32-012"
         ],
         "to_party": [
-          "c-13"
+          "c-1958.32-013"
         ],
         "link_type": [
-          "c-19"
+          "c-1958.32-038"
         ],
         "date_start": [
-          "c-38"
+          "c-1958.32-039"
         ],
         "date_end": [
-          "c-39"
+          "c-1958.32-040"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-012",
+      "artwork": "cma-1958.34",
+      "from_party": "p-013",
+      "to_party": "p-014",
+      "link_type": "sale",
+      "date_start": "1884",
+      "date_end": "1884",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-001"
+        ],
+        "to_party": [
+          "c-1958.34-002"
+        ],
+        "link_type": [
+          "c-1958.34-012"
+        ],
+        "date_start": [
+          "c-1958.34-013"
+        ],
+        "date_end": [
+          "c-1958.34-014"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-013",
+      "artwork": "cma-1958.34",
+      "from_party": "p-014",
+      "to_party": "p-015",
+      "link_type": "unknown",
+      "date_start": "1910",
+      "date_end": "1910",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-002"
+        ],
+        "to_party": [
+          "c-1958.34-003"
+        ],
+        "date_start": [
+          "c-1958.34-015"
+        ],
+        "date_end": [
+          "c-1958.34-016"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-014",
+      "artwork": "cma-1958.34",
+      "from_party": "p-015",
+      "to_party": "p-016",
+      "link_type": "unknown",
+      "date_start": "1910",
+      "date_end": "1912",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-003"
+        ],
+        "to_party": [
+          "c-1958.34-004"
+        ],
+        "date_start": [
+          "c-1958.34-017"
+        ],
+        "date_end": [
+          "c-1958.34-018"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-015",
+      "artwork": "cma-1958.34",
+      "from_party": "p-016",
+      "to_party": "p-017",
+      "link_type": "unknown",
+      "date_start": "1912",
+      "date_end": "1932",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-004"
+        ],
+        "to_party": [
+          "c-1958.34-005"
+        ],
+        "date_start": [
+          "c-1958.34-019"
+        ],
+        "date_end": [
+          "c-1958.34-020"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-016",
+      "artwork": "cma-1958.34",
+      "from_party": "p-017",
+      "to_party": "p-018",
+      "link_type": "sale",
+      "date_start": "1932",
+      "date_end": "1932",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-005"
+        ],
+        "to_party": [
+          "c-1958.34-006"
+        ],
+        "link_type": [
+          "c-1958.34-021"
+        ],
+        "date_start": [
+          "c-1958.34-022"
+        ],
+        "date_end": [
+          "c-1958.34-023"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-017",
+      "artwork": "cma-1958.34",
+      "from_party": "p-018",
+      "to_party": "p-019",
+      "link_type": "unknown",
+      "date_start": "1935",
+      "date_end": "1935",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-006"
+        ],
+        "to_party": [
+          "c-1958.34-007"
+        ],
+        "date_start": [
+          "c-1958.34-024"
+        ],
+        "date_end": [
+          "c-1958.34-025"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-018",
+      "artwork": "cma-1958.34",
+      "from_party": "p-019",
+      "to_party": "p-020",
+      "link_type": "unknown",
+      "date_start": "1935",
+      "date_end": "1935",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-007"
+        ],
+        "to_party": [
+          "c-1958.34-008"
+        ],
+        "date_start": [
+          "c-1958.34-027"
+        ],
+        "date_end": [
+          "c-1958.34-027"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-019",
+      "artwork": "cma-1958.34",
+      "from_party": "p-020",
+      "to_party": "p-021",
+      "link_type": "unknown",
+      "date_start": "1935",
+      "date_end": "1947",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-008"
+        ],
+        "to_party": [
+          "c-1958.34-009"
+        ],
+        "date_start": [
+          "c-1958.34-028"
+        ],
+        "date_end": [
+          "c-1958.34-029"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-020",
+      "artwork": "cma-1958.34",
+      "from_party": "p-021",
+      "to_party": "p-022",
+      "link_type": "sale",
+      "date_start": "1947",
+      "date_end": "1947",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-009"
+        ],
+        "to_party": [
+          "c-1958.34-010"
+        ],
+        "link_type": [
+          "c-1958.34-030"
+        ],
+        "date_start": [
+          "c-1958.34-031"
+        ],
+        "date_end": [
+          "c-1958.34-032"
+        ]
+      }
+    },
+    {
+      "id": "e-1958.34-021",
+      "artwork": "cma-1958.34",
+      "from_party": "p-022",
+      "to_party": "p-023",
+      "link_type": "bequest",
+      "date_start": "1958",
+      "date_end": "1958",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1958.34-010"
+        ],
+        "to_party": [
+          "c-1958.34-011"
+        ],
+        "link_type": [
+          "c-1958.34-033"
+        ],
+        "date_start": [
+          "c-1958.34-034"
+        ],
+        "date_end": [
+          "c-1958.34-035"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-022",
+      "artwork": "cma-1990.7",
+      "from_party": "p-024",
+      "to_party": "p-025",
+      "link_type": "unknown",
+      "date_start": "1900",
+      "date_end": "1900",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-001"
+        ],
+        "to_party": [
+          "c-1990.7-002"
+        ],
+        "date_start": [
+          "c-1990.7-013"
+        ],
+        "date_end": [
+          "c-1990.7-014"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-023",
+      "artwork": "cma-1990.7",
+      "from_party": "p-025",
+      "to_party": "p-026",
+      "link_type": "sale",
+      "date_start": "1900",
+      "date_end": "1900",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-002"
+        ],
+        "to_party": [
+          "c-1990.7-003"
+        ],
+        "link_type": [
+          "c-1990.7-015"
+        ],
+        "date_start": [
+          "c-1990.7-016"
+        ],
+        "date_end": [
+          "c-1990.7-017"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-024",
+      "artwork": "cma-1990.7",
+      "from_party": "p-026",
+      "to_party": "p-027",
+      "link_type": "unknown",
+      "date_start": "1901",
+      "date_end": "1901",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-003"
+        ],
+        "to_party": [
+          "c-1990.7-004"
+        ],
+        "date_start": [
+          "c-1990.7-018"
+        ],
+        "date_end": [
+          "c-1990.7-019"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-025",
+      "artwork": "cma-1990.7",
+      "from_party": "p-027",
+      "to_party": "p-028",
+      "link_type": "sale",
+      "date_start": "1901",
+      "date_end": "1901",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-004"
+        ],
+        "to_party": [
+          "c-1990.7-005"
+        ],
+        "link_type": [
+          "c-1990.7-020"
+        ],
+        "date_start": [
+          "c-1990.7-021"
+        ],
+        "date_end": [
+          "c-1990.7-022"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-026",
+      "artwork": "cma-1990.7",
+      "from_party": "p-028",
+      "to_party": "p-029",
+      "link_type": "unknown",
+      "date_start": "1939",
+      "date_end": null,
+      "precision": "after",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-005"
+        ],
+        "to_party": [
+          "c-1990.7-006"
+        ],
+        "date_start": [
+          "c-1990.7-023"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-027",
+      "artwork": "cma-1990.7",
+      "from_party": "p-029",
+      "to_party": "p-030",
+      "link_type": "unknown",
+      "date_start": null,
+      "date_end": "1951",
+      "precision": "until",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-006"
+        ],
+        "to_party": [
+          "c-1990.7-007"
+        ],
+        "date_end": [
+          "c-1990.7-024"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-028",
+      "artwork": "cma-1990.7",
+      "from_party": "p-030",
+      "to_party": "p-031",
+      "link_type": "sale",
+      "date_start": "1951",
+      "date_end": "1951",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-007"
+        ],
+        "to_party": [
+          "c-1990.7-008"
+        ],
+        "link_type": [
+          "c-1990.7-025"
+        ],
+        "date_start": [
+          "c-1990.7-026"
+        ],
+        "date_end": [
+          "c-1990.7-027"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-029",
+      "artwork": "cma-1990.7",
+      "from_party": "p-031",
+      "to_party": "p-032",
+      "link_type": "sale",
+      "date_start": "1955",
+      "date_end": "1955",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-008"
+        ],
+        "to_party": [
+          "c-1990.7-009"
+        ],
+        "link_type": [
+          "c-1990.7-028"
+        ],
+        "date_start": [
+          "c-1990.7-029"
+        ],
+        "date_end": [
+          "c-1990.7-030"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-030",
+      "artwork": "cma-1990.7",
+      "from_party": "p-032",
+      "to_party": "p-033",
+      "link_type": "descent",
+      "date_start": "1961",
+      "date_end": "1961",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-009"
+        ],
+        "to_party": [
+          "c-1990.7-010"
+        ],
+        "link_type": [
+          "c-1990.7-031"
+        ],
+        "date_start": [
+          "c-1990.7-032"
+        ],
+        "date_end": [
+          "c-1990.7-033"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-031",
+      "artwork": "cma-1990.7",
+      "from_party": "p-033",
+      "to_party": "p-034",
+      "link_type": "unknown",
+      "date_start": "1961",
+      "date_end": "1990",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-010"
+        ],
+        "to_party": [
+          "c-1990.7-011"
+        ],
+        "date_start": [
+          "c-1990.7-034"
+        ],
+        "date_end": [
+          "c-1990.7-035"
+        ]
+      }
+    },
+    {
+      "id": "e-1990.7-032",
+      "artwork": "cma-1990.7",
+      "from_party": "p-034",
+      "to_party": "p-035",
+      "link_type": "sale",
+      "date_start": "1990",
+      "date_end": "1990",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1990.7-011"
+        ],
+        "to_party": [
+          "c-1990.7-012"
+        ],
+        "link_type": [
+          "c-1990.7-036"
+        ],
+        "date_start": [
+          "c-1990.7-037"
+        ],
+        "date_end": [
+          "c-1990.7-038"
+        ]
+      }
+    },
+    {
+      "id": "e-1983.155-033",
+      "artwork": "cma-1983.155",
+      "from_party": "p-036",
+      "to_party": "p-037",
+      "link_type": "unknown",
+      "date_start": "1865",
+      "date_end": null,
+      "precision": "after",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1983.155-001"
+        ],
+        "to_party": [
+          "c-1983.155-002"
+        ],
+        "date_start": [
+          "c-1983.155-011"
+        ]
+      }
+    },
+    {
+      "id": "e-1983.155-034",
+      "artwork": "cma-1983.155",
+      "from_party": "p-037",
+      "to_party": "p-038",
+      "link_type": "unknown",
+      "date_start": null,
+      "date_end": "1930",
+      "precision": "until",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1983.155-002"
+        ],
+        "to_party": [
+          "c-1983.155-003"
+        ],
+        "date_end": [
+          "c-1983.155-012"
+        ]
+      }
+    },
+    {
+      "id": "e-1983.155-035",
+      "artwork": "cma-1983.155",
+      "from_party": "p-038",
+      "to_party": "p-039",
+      "link_type": "unknown",
+      "date_start": "1930",
+      "date_end": "1937",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1983.155-003"
+        ],
+        "to_party": [
+          "c-1983.155-004"
+        ],
+        "date_start": [
+          "c-1983.155-013"
+        ],
+        "date_end": [
+          "c-1983.155-014"
+        ]
+      }
+    },
+    {
+      "id": "e-1983.155-036",
+      "artwork": "cma-1983.155",
+      "from_party": "p-039",
+      "to_party": "p-040",
+      "link_type": "sale",
+      "date_start": "1937",
+      "date_end": "1937",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1983.155-004"
+        ],
+        "to_party": [
+          "c-1983.155-005"
+        ],
+        "link_type": [
+          "c-1983.155-015"
+        ],
+        "date_start": [
+          "c-1983.155-016"
+        ],
+        "date_end": [
+          "c-1983.155-017"
+        ]
+      }
+    },
+    {
+      "id": "e-1983.155-037",
+      "artwork": "cma-1983.155",
+      "from_party": "p-040",
+      "to_party": "p-041",
+      "link_type": "unknown",
+      "date_start": "1937",
+      "date_end": "1943",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1983.155-005"
+        ],
+        "to_party": [
+          "c-1983.155-006"
+        ],
+        "date_start": [
+          "c-1983.155-018"
+        ],
+        "date_end": [
+          "c-1983.155-019"
+        ]
+      }
+    },
+    {
+      "id": "e-1983.155-038",
+      "artwork": "cma-1983.155",
+      "from_party": "p-041",
+      "to_party": "p-042",
+      "link_type": "sale",
+      "date_start": "1945",
+      "date_end": "1945",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1983.155-006"
+        ],
+        "to_party": [
+          "c-1983.155-007"
+        ],
+        "link_type": [
+          "c-1983.155-020"
+        ],
+        "date_start": [
+          "c-1983.155-021"
+        ],
+        "date_end": [
+          "c-1983.155-022"
+        ]
+      }
+    },
+    {
+      "id": "e-1983.155-039",
+      "artwork": "cma-1983.155",
+      "from_party": "p-042",
+      "to_party": "p-038",
+      "link_type": "sale",
+      "date_start": "1945",
+      "date_end": "1957",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1983.155-007"
+        ],
+        "to_party": [
+          "c-1983.155-008"
+        ],
+        "link_type": [
+          "c-1983.155-023"
+        ],
+        "date_start": [
+          "c-1983.155-024"
+        ],
+        "date_end": [
+          "c-1983.155-025"
+        ]
+      }
+    },
+    {
+      "id": "e-1983.155-040",
+      "artwork": "cma-1983.155",
+      "from_party": "p-038",
+      "to_party": "p-043",
+      "link_type": "unknown",
+      "date_start": "1957",
+      "date_end": "1983",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1983.155-008"
+        ],
+        "to_party": [
+          "c-1983.155-009"
+        ],
+        "date_start": [
+          "c-1983.155-026"
+        ],
+        "date_end": [
+          "c-1983.155-027"
+        ]
+      }
+    },
+    {
+      "id": "e-1983.155-041",
+      "artwork": "cma-1983.155",
+      "from_party": "p-043",
+      "to_party": "p-044",
+      "link_type": "sale",
+      "date_start": "1983",
+      "date_end": "1983",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1983.155-009"
+        ],
+        "to_party": [
+          "c-1983.155-010"
+        ],
+        "link_type": [
+          "c-1983.155-028"
+        ],
+        "date_start": [
+          "c-1983.155-029"
+        ],
+        "date_end": [
+          "c-1983.155-030"
+        ]
+      }
+    },
+    {
+      "id": "e-1999.173-042",
+      "artwork": "cma-1999.173",
+      "from_party": "p-045",
+      "to_party": "p-046",
+      "link_type": "unknown",
+      "date_start": "1866",
+      "date_end": "1872",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1999.173-001"
+        ],
+        "to_party": [
+          "c-1999.173-002"
+        ],
+        "date_start": [
+          "c-1999.173-010"
+        ],
+        "date_end": [
+          "c-1999.173-011"
+        ]
+      }
+    },
+    {
+      "id": "e-1999.173-043",
+      "artwork": "cma-1999.173",
+      "from_party": "p-046",
+      "to_party": "p-047",
+      "link_type": "unknown",
+      "date_start": "1874",
+      "date_end": "1874",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1999.173-002"
+        ],
+        "to_party": [
+          "c-1999.173-003"
+        ],
+        "date_start": [
+          "c-1999.173-012"
+        ],
+        "date_end": [
+          "c-1999.173-013"
+        ]
+      }
+    },
+    {
+      "id": "e-1999.173-044",
+      "artwork": "cma-1999.173",
+      "from_party": "p-047",
+      "to_party": "p-048",
+      "link_type": "unknown",
+      "date_start": "1911",
+      "date_end": "1911",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1999.173-003"
+        ],
+        "to_party": [
+          "c-1999.173-004"
+        ],
+        "date_start": [
+          "c-1999.173-014"
+        ],
+        "date_end": [
+          "c-1999.173-015"
+        ]
+      }
+    },
+    {
+      "id": "e-1999.173-045",
+      "artwork": "cma-1999.173",
+      "from_party": "p-048",
+      "to_party": "p-049",
+      "link_type": "unknown",
+      "date_start": "1938",
+      "date_end": "1938",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1999.173-004"
+        ],
+        "to_party": [
+          "c-1999.173-005"
+        ],
+        "date_start": [
+          "c-1999.173-016"
+        ],
+        "date_end": [
+          "c-1999.173-017"
+        ]
+      }
+    },
+    {
+      "id": "e-1999.173-046",
+      "artwork": "cma-1999.173",
+      "from_party": "p-049",
+      "to_party": "p-050",
+      "link_type": "unknown",
+      "date_start": "1938",
+      "date_end": "1947",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1999.173-005"
+        ],
+        "to_party": [
+          "c-1999.173-006"
+        ],
+        "date_start": [
+          "c-1999.173-018"
+        ],
+        "date_end": [
+          "c-1999.173-019"
+        ]
+      }
+    },
+    {
+      "id": "e-1999.173-047",
+      "artwork": "cma-1999.173",
+      "from_party": "p-050",
+      "to_party": "p-051",
+      "link_type": "restitution",
+      "date_start": "1999",
+      "date_end": "1999",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1999.173-006"
+        ],
+        "to_party": [
+          "c-1999.173-007"
+        ],
+        "link_type": [
+          "c-1999.173-020"
+        ],
+        "date_start": [
+          "c-1999.173-021"
+        ],
+        "date_end": [
+          "c-1999.173-022"
+        ]
+      }
+    },
+    {
+      "id": "e-1999.173-048",
+      "artwork": "cma-1999.173",
+      "from_party": "p-051",
+      "to_party": "p-052",
+      "link_type": "unknown",
+      "date_start": "1999",
+      "date_end": "1999",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1999.173-007"
+        ],
+        "to_party": [
+          "c-1999.173-008"
+        ],
+        "date_start": [
+          "c-1999.173-023"
+        ],
+        "date_end": [
+          "c-1999.173-024"
+        ]
+      }
+    },
+    {
+      "id": "e-1999.173-049",
+      "artwork": "cma-1999.173",
+      "from_party": "p-052",
+      "to_party": "p-053",
+      "link_type": "unknown",
+      "date_start": "1999",
+      "date_end": "1999",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1999.173-008"
+        ],
+        "to_party": [
+          "c-1999.173-009"
+        ],
+        "date_start": [
+          "c-1999.173-025"
+        ],
+        "date_end": [
+          "c-1999.173-026"
+        ]
+      }
+    },
+    {
+      "id": "e-1963.502-050",
+      "artwork": "cma-1963.502",
+      "from_party": "p-054",
+      "to_party": "p-055",
+      "link_type": "unknown",
+      "date_start": null,
+      "date_end": "1910-12-02",
+      "precision": "until",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1963.502-001"
+        ],
+        "to_party": [
+          "c-1963.502-002"
+        ],
+        "date_end": [
+          "c-1963.502-007"
+        ]
+      }
+    },
+    {
+      "id": "e-1963.502-051",
+      "artwork": "cma-1963.502",
+      "from_party": "p-055",
+      "to_party": "p-056",
+      "link_type": "unknown",
+      "date_start": "1910-12-02",
+      "date_end": "1963-03-23",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1963.502-002"
+        ],
+        "to_party": [
+          "c-1963.502-003"
+        ],
+        "date_start": [
+          "c-1963.502-008"
+        ],
+        "date_end": [
+          "c-1963.502-009"
+        ]
+      }
+    },
+    {
+      "id": "e-1963.502-052",
+      "artwork": "cma-1963.502",
+      "from_party": "p-056",
+      "to_party": "p-057",
+      "link_type": "unknown",
+      "date_start": "1963-03-23",
+      "date_end": "1963-03-23",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1963.502-004"
+        ],
+        "to_party": [
+          "c-1963.502-005"
+        ],
+        "date_start": [
+          "c-1963.502-010"
+        ],
+        "date_end": [
+          "c-1963.502-010"
+        ]
+      }
+    },
+    {
+      "id": "e-1963.502-053",
+      "artwork": "cma-1963.502",
+      "from_party": "p-057",
+      "to_party": "p-058",
+      "link_type": "sale",
+      "date_start": "1963",
+      "date_end": "1963",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-1963.502-005"
+        ],
+        "to_party": [
+          "c-1963.502-006"
+        ],
+        "link_type": [
+          "c-1963.502-012"
+        ],
+        "date_start": [
+          "c-1963.502-013"
+        ],
+        "date_end": [
+          "c-1963.502-014"
         ]
       }
     }
-  ]
+  ],
+  "matches": [],
+  "suggestions": []
 }

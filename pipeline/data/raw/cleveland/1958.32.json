@@ -1,8 +1,8 @@
 {
   "source": "cleveland",
   "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.32",
-  "retrieved_at": "2026-10-29T23:08:02Z",
-  "version": null,
+  "retrieved_at": "2026-10-29T23:21:26Z",
+  "version": "2026-10-29 22:05:00.474000",
   "payload": {
     "id": 135310,
     "accession_number": "1958.32",

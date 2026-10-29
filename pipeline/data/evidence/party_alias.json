@@ -1,0 +1,356 @@
+[
+  {
+    "id": "pa-001",
+    "party": "p-001",
+    "name_as_written": "Theo van Gogh",
+    "claim": "c-1958.32-001"
+  },
+  {
+    "id": "pa-002",
+    "party": "p-002",
+    "name_as_written": "Johanna van Gogh-Bonger",
+    "claim": "c-1958.32-002"
+  },
+  {
+    "id": "pa-003",
+    "party": "p-003",
+    "name_as_written": "Willem Steenhoff",
+    "claim": "c-1958.32-003"
+  },
+  {
+    "id": "pa-004",
+    "party": "p-004",
+    "name_as_written": "Alfred Flechtheim",
+    "claim": "c-1958.32-004"
+  },
+  {
+    "id": "pa-005",
+    "party": "p-005",
+    "name_as_written": "Max Siller",
+    "claim": "c-1958.32-005"
+  },
+  {
+    "id": "pa-006",
+    "party": "p-006",
+    "name_as_written": "Paul Cassirer",
+    "claim": "c-1958.32-006"
+  },
+  {
+    "id": "pa-007",
+    "party": "p-007",
+    "name_as_written": "Justin Thannhauser",
+    "claim": "c-1958.32-007"
+  },
+  {
+    "id": "pa-008",
+    "party": "p-008",
+    "name_as_written": "Harry Sperling",
+    "claim": "c-1958.32-008"
+  },
+  {
+    "id": "pa-009",
+    "party": "p-009",
+    "name_as_written": "M. Knoedler and Co.",
+    "claim": "c-1958.32-009"
+  },
+  {
+    "id": "pa-010",
+    "party": "p-010",
+    "name_as_written": "Sam Salz",
+    "claim": "c-1958.32-010"
+  },
+  {
+    "id": "pa-011",
+    "party": "p-011",
+    "name_as_written": "Leonard C. Hanna, Jr",
+    "claim": "c-1958.32-011"
+  },
+  {
+    "id": "pa-012",
+    "party": "p-011",
+    "name_as_written": "Leonard C. Hanna, Jr.",
+    "claim": "c-1958.32-012"
+  },
+  {
+    "id": "pa-013",
+    "party": "p-012",
+    "name_as_written": "The Cleveland Museum of Art",
+    "claim": "c-1958.32-013"
+  },
+  {
+    "id": "pa-014",
+    "party": "p-013",
+    "name_as_written": "Drouot",
+    "claim": "c-1958.34-001"
+  },
+  {
+    "id": "pa-015",
+    "party": "p-014",
+    "name_as_written": "Mrs. Edouard Manet",
+    "claim": "c-1958.34-002"
+  },
+  {
+    "id": "pa-016",
+    "party": "p-015",
+    "name_as_written": "August Pellerin",
+    "claim": "c-1958.34-003"
+  },
+  {
+    "id": "pa-017",
+    "party": "p-016",
+    "name_as_written": "Jules Strauss",
+    "claim": "c-1958.34-004"
+  },
+  {
+    "id": "pa-018",
+    "party": "p-017",
+    "name_as_written": "Georges Petit",
+    "claim": "c-1958.34-005"
+  },
+  {
+    "id": "pa-019",
+    "party": "p-018",
+    "name_as_written": "Turner",
+    "claim": "c-1958.34-006"
+  },
+  {
+    "id": "pa-020",
+    "party": "p-019",
+    "name_as_written": "Jacques Balsan",
+    "claim": "c-1958.34-007"
+  },
+  {
+    "id": "pa-021",
+    "party": "p-020",
+    "name_as_written": "Mrs. Jules Balsan",
+    "claim": "c-1958.34-008"
+  },
+  {
+    "id": "pa-022",
+    "party": "p-021",
+    "name_as_written": "Knoedler & Co.",
+    "claim": "c-1958.34-009"
+  },
+  {
+    "id": "pa-023",
+    "party": "p-022",
+    "name_as_written": "Leonard C. Hanna, Jr.",
+    "claim": "c-1958.34-010"
+  },
+  {
+    "id": "pa-024",
+    "party": "p-023",
+    "name_as_written": "The Cleveland Museum of Art",
+    "claim": "c-1958.34-011"
+  },
+  {
+    "id": "pa-025",
+    "party": "p-024",
+    "name_as_written": "Charles Guasco",
+    "claim": "c-1990.7-001"
+  },
+  {
+    "id": "pa-026",
+    "party": "p-025",
+    "name_as_written": "Guasco sale",
+    "claim": "c-1990.7-002"
+  },
+  {
+    "id": "pa-027",
+    "party": "p-026",
+    "name_as_written": "Louis Schoengrün",
+    "claim": "c-1990.7-003"
+  },
+  {
+    "id": "pa-028",
+    "party": "p-027",
+    "name_as_written": "Schoengrün sale",
+    "claim": "c-1990.7-004"
+  },
+  {
+    "id": "pa-029",
+    "party": "p-028",
+    "name_as_written": "Max Behrendt",
+    "claim": "c-1990.7-005"
+  },
+  {
+    "id": "pa-030",
+    "party": "p-029",
+    "name_as_written": "Possibly Gouin collection",
+    "claim": "c-1990.7-006"
+  },
+  {
+    "id": "pa-031",
+    "party": "p-030",
+    "name_as_written": "Mrs. Carmona",
+    "claim": "c-1990.7-007"
+  },
+  {
+    "id": "pa-032",
+    "party": "p-031",
+    "name_as_written": "Wildenstein & Co.",
+    "claim": "c-1990.7-008"
+  },
+  {
+    "id": "pa-033",
+    "party": "p-032",
+    "name_as_written": "Eleanor Allen",
+    "claim": "c-1990.7-009"
+  },
+  {
+    "id": "pa-034",
+    "party": "p-033",
+    "name_as_written": "Charles Cunningham, Jr.",
+    "claim": "c-1990.7-010"
+  },
+  {
+    "id": "pa-035",
+    "party": "p-034",
+    "name_as_written": "Artemis Fine Arts/David Carritt",
+    "claim": "c-1990.7-011"
+  },
+  {
+    "id": "pa-036",
+    "party": "p-035",
+    "name_as_written": "The Cleveland Museum of Art",
+    "claim": "c-1990.7-012"
+  },
+  {
+    "id": "pa-037",
+    "party": "p-036",
+    "name_as_written": "Herr von Beer",
+    "claim": "c-1983.155-001"
+  },
+  {
+    "id": "pa-038",
+    "party": "p-037",
+    "name_as_written": "Kunsthandlung Arnot",
+    "claim": "c-1983.155-002"
+  },
+  {
+    "id": "pa-039",
+    "party": "p-038",
+    "name_as_written": "Private collection",
+    "claim": "c-1983.155-003"
+  },
+  {
+    "id": "pa-040",
+    "party": "p-039",
+    "name_as_written": "Fritz Nathan",
+    "claim": "c-1983.155-004"
+  },
+  {
+    "id": "pa-041",
+    "party": "p-040",
+    "name_as_written": "Dr. Tobler",
+    "claim": "c-1983.155-005"
+  },
+  {
+    "id": "pa-042",
+    "party": "p-041",
+    "name_as_written": "Baron Robert von Hirsch",
+    "claim": "c-1983.155-006"
+  },
+  {
+    "id": "pa-043",
+    "party": "p-042",
+    "name_as_written": "Dr. Fritz Nathan",
+    "claim": "c-1983.155-007"
+  },
+  {
+    "id": "pa-044",
+    "party": "p-043",
+    "name_as_written": "Galerie Nathan",
+    "claim": "c-1983.155-009"
+  },
+  {
+    "id": "pa-045",
+    "party": "p-044",
+    "name_as_written": "The Cleveland Museum of Art",
+    "claim": "c-1983.155-010"
+  },
+  {
+    "id": "pa-046",
+    "party": "p-045",
+    "name_as_written": "Friedrich Jacob Gsell",
+    "claim": "c-1999.173-001"
+  },
+  {
+    "id": "pa-047",
+    "party": "p-046",
+    "name_as_written": "Baron Anselm Mayer von Rothschild",
+    "claim": "c-1999.173-002"
+  },
+  {
+    "id": "pa-048",
+    "party": "p-047",
+    "name_as_written": "Baron Albert von Rothschild",
+    "claim": "c-1999.173-003"
+  },
+  {
+    "id": "pa-049",
+    "party": "p-048",
+    "name_as_written": "Baron Alphonse von Rothschild",
+    "claim": "c-1999.173-004"
+  },
+  {
+    "id": "pa-050",
+    "party": "p-049",
+    "name_as_written": "the Nazis",
+    "claim": "c-1999.173-005"
+  },
+  {
+    "id": "pa-051",
+    "party": "p-050",
+    "name_as_written": "Clarice von Rothschild",
+    "claim": "c-1999.173-006"
+  },
+  {
+    "id": "pa-052",
+    "party": "p-051",
+    "name_as_written": "the Heirs of Barons Alphonse and Louis von Rothschild",
+    "claim": "c-1999.173-007"
+  },
+  {
+    "id": "pa-053",
+    "party": "p-052",
+    "name_as_written": "Christie's",
+    "claim": "c-1999.173-008"
+  },
+  {
+    "id": "pa-054",
+    "party": "p-053",
+    "name_as_written": "The Cleveland Museum of Art",
+    "claim": "c-1999.173-009"
+  },
+  {
+    "id": "pa-055",
+    "party": "p-054",
+    "name_as_written": "Boussod",
+    "claim": "c-1963.502-001"
+  },
+  {
+    "id": "pa-056",
+    "party": "p-055",
+    "name_as_written": "Hotel Drouot",
+    "claim": "c-1963.502-002"
+  },
+  {
+    "id": "pa-057",
+    "party": "p-056",
+    "name_as_written": "Octave Linet",
+    "claim": "c-1963.502-003"
+  },
+  {
+    "id": "pa-058",
+    "party": "p-057",
+    "name_as_written": "Galerie Cailleux",
+    "claim": "c-1963.502-005"
+  },
+  {
+    "id": "pa-059",
+    "party": "p-058",
+    "name_as_written": "The Cleveland Museum of Art",
+    "claim": "c-1963.502-006"
+  }
+]

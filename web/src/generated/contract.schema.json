@@ -147,6 +147,7 @@
             "gift",
             "descent",
             "bequest",
+            "restitution",
             "unknown"
           ],
           "title": "Link Type",
@@ -232,6 +233,48 @@
         "cites"
       ],
       "title": "Event",
+      "type": "object"
+    },
+    "Match": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "alias": {
+          "title": "Alias",
+          "type": "string"
+        },
+        "candidate_party": {
+          "title": "Candidate Party",
+          "type": "string"
+        },
+        "reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reasons",
+          "type": "array"
+        },
+        "band": {
+          "enum": [
+            "strong",
+            "possible",
+            "weak"
+          ],
+          "title": "Band",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "alias",
+        "candidate_party",
+        "reasons",
+        "band"
+      ],
+      "title": "Match",
       "type": "object"
     },
     "Party": {
@@ -348,6 +391,73 @@
       ],
       "title": "SourceRecord",
       "type": "object"
+    },
+    "Suggestion": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "event": {
+          "title": "Event",
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "existing",
+            "external"
+          ],
+          "title": "Origin",
+          "type": "string"
+        },
+        "provider": {
+          "title": "Provider",
+          "type": "string"
+        },
+        "query": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Query"
+        },
+        "preview": {
+          "title": "Preview",
+          "type": "string"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Url"
+        },
+        "retrieved_at": {
+          "title": "Retrieved At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "event",
+        "origin",
+        "provider",
+        "query",
+        "preview",
+        "url",
+        "retrieved_at"
+      ],
+      "title": "Suggestion",
+      "type": "object"
     }
   },
   "additionalProperties": false,
@@ -399,6 +509,22 @@
         "$ref": "#/$defs/Event"
       },
       "title": "Events",
+      "type": "array"
+    },
+    "matches": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/Match"
+      },
+      "title": "Matches",
+      "type": "array"
+    },
+    "suggestions": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/Suggestion"
+      },
+      "title": "Suggestions",
       "type": "array"
     }
   },

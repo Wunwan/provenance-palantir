@@ -1,0 +1,1428 @@
+[
+  {
+    "id": "e-1958.32-001",
+    "artwork": "cma-1958.32",
+    "from_party": "p-001",
+    "to_party": "p-002",
+    "link_type": "descent",
+    "date_start": "1891",
+    "date_end": "1891",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-001"
+      ],
+      "to_party": [
+        "c-1958.32-002"
+      ],
+      "link_type": [
+        "c-1958.32-014"
+      ],
+      "date_start": [
+        "c-1958.32-015"
+      ],
+      "date_end": [
+        "c-1958.32-016"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-002",
+    "artwork": "cma-1958.32",
+    "from_party": "p-002",
+    "to_party": "p-003",
+    "link_type": "gift",
+    "date_start": "1905",
+    "date_end": "1905",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-002"
+      ],
+      "to_party": [
+        "c-1958.32-003"
+      ],
+      "link_type": [
+        "c-1958.32-017"
+      ],
+      "date_start": [
+        "c-1958.32-018"
+      ],
+      "date_end": [
+        "c-1958.32-019"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-003",
+    "artwork": "cma-1958.32",
+    "from_party": "p-003",
+    "to_party": "p-004",
+    "link_type": "sale",
+    "date_start": "1910",
+    "date_end": "1910",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-003"
+      ],
+      "to_party": [
+        "c-1958.32-004"
+      ],
+      "link_type": [
+        "c-1958.32-020"
+      ],
+      "date_start": [
+        "c-1958.32-021"
+      ],
+      "date_end": [
+        "c-1958.32-022"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-004",
+    "artwork": "cma-1958.32",
+    "from_party": "p-004",
+    "to_party": "p-005",
+    "link_type": "unknown",
+    "date_start": "1910",
+    "date_end": "1914",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-004"
+      ],
+      "to_party": [
+        "c-1958.32-005"
+      ],
+      "date_start": [
+        "c-1958.32-023"
+      ],
+      "date_end": [
+        "c-1958.32-024"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-005",
+    "artwork": "cma-1958.32",
+    "from_party": "p-005",
+    "to_party": "p-006",
+    "link_type": "unknown",
+    "date_start": "1914",
+    "date_end": "1914",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-005"
+      ],
+      "to_party": [
+        "c-1958.32-006"
+      ],
+      "date_start": [
+        "c-1958.32-025"
+      ],
+      "date_end": [
+        "c-1958.32-026"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-006",
+    "artwork": "cma-1958.32",
+    "from_party": "p-006",
+    "to_party": "p-007",
+    "link_type": "unknown",
+    "date_start": "1914",
+    "date_end": "1927",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-006"
+      ],
+      "to_party": [
+        "c-1958.32-007"
+      ],
+      "date_start": [
+        "c-1958.32-027"
+      ],
+      "date_end": [
+        "c-1958.32-028"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-007",
+    "artwork": "cma-1958.32",
+    "from_party": "p-007",
+    "to_party": "p-008",
+    "link_type": "unknown",
+    "date_start": "1927",
+    "date_end": "1940-07",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-007"
+      ],
+      "to_party": [
+        "c-1958.32-008"
+      ],
+      "date_start": [
+        "c-1958.32-029"
+      ],
+      "date_end": [
+        "c-1958.32-030"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-008",
+    "artwork": "cma-1958.32",
+    "from_party": "p-008",
+    "to_party": "p-009",
+    "link_type": "unknown",
+    "date_start": "1940-07",
+    "date_end": "1946-03",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-008"
+      ],
+      "to_party": [
+        "c-1958.32-009"
+      ],
+      "date_start": [
+        "c-1958.32-031"
+      ],
+      "date_end": [
+        "c-1958.32-032"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-009",
+    "artwork": "cma-1958.32",
+    "from_party": "p-009",
+    "to_party": "p-010",
+    "link_type": "unknown",
+    "date_start": "1946-03",
+    "date_end": "1946-03",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-009"
+      ],
+      "to_party": [
+        "c-1958.32-010"
+      ],
+      "date_start": [
+        "c-1958.32-033"
+      ],
+      "date_end": [
+        "c-1958.32-034"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-010",
+    "artwork": "cma-1958.32",
+    "from_party": "p-010",
+    "to_party": "p-011",
+    "link_type": "sale",
+    "date_start": "1946-03",
+    "date_end": "1946-03",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-010"
+      ],
+      "to_party": [
+        "c-1958.32-011"
+      ],
+      "link_type": [
+        "c-1958.32-035"
+      ],
+      "date_start": [
+        "c-1958.32-036"
+      ],
+      "date_end": [
+        "c-1958.32-036"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.32-011",
+    "artwork": "cma-1958.32",
+    "from_party": "p-011",
+    "to_party": "p-012",
+    "link_type": "bequest",
+    "date_start": "1958",
+    "date_end": "1958",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.32-012"
+      ],
+      "to_party": [
+        "c-1958.32-013"
+      ],
+      "link_type": [
+        "c-1958.32-038"
+      ],
+      "date_start": [
+        "c-1958.32-039"
+      ],
+      "date_end": [
+        "c-1958.32-040"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-012",
+    "artwork": "cma-1958.34",
+    "from_party": "p-013",
+    "to_party": "p-014",
+    "link_type": "sale",
+    "date_start": "1884",
+    "date_end": "1884",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-001"
+      ],
+      "to_party": [
+        "c-1958.34-002"
+      ],
+      "link_type": [
+        "c-1958.34-012"
+      ],
+      "date_start": [
+        "c-1958.34-013"
+      ],
+      "date_end": [
+        "c-1958.34-014"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-013",
+    "artwork": "cma-1958.34",
+    "from_party": "p-014",
+    "to_party": "p-015",
+    "link_type": "unknown",
+    "date_start": "1910",
+    "date_end": "1910",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-002"
+      ],
+      "to_party": [
+        "c-1958.34-003"
+      ],
+      "date_start": [
+        "c-1958.34-015"
+      ],
+      "date_end": [
+        "c-1958.34-016"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-014",
+    "artwork": "cma-1958.34",
+    "from_party": "p-015",
+    "to_party": "p-016",
+    "link_type": "unknown",
+    "date_start": "1910",
+    "date_end": "1912",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-003"
+      ],
+      "to_party": [
+        "c-1958.34-004"
+      ],
+      "date_start": [
+        "c-1958.34-017"
+      ],
+      "date_end": [
+        "c-1958.34-018"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-015",
+    "artwork": "cma-1958.34",
+    "from_party": "p-016",
+    "to_party": "p-017",
+    "link_type": "unknown",
+    "date_start": "1912",
+    "date_end": "1932",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-004"
+      ],
+      "to_party": [
+        "c-1958.34-005"
+      ],
+      "date_start": [
+        "c-1958.34-019"
+      ],
+      "date_end": [
+        "c-1958.34-020"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-016",
+    "artwork": "cma-1958.34",
+    "from_party": "p-017",
+    "to_party": "p-018",
+    "link_type": "sale",
+    "date_start": "1932",
+    "date_end": "1932",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-005"
+      ],
+      "to_party": [
+        "c-1958.34-006"
+      ],
+      "link_type": [
+        "c-1958.34-021"
+      ],
+      "date_start": [
+        "c-1958.34-022"
+      ],
+      "date_end": [
+        "c-1958.34-023"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-017",
+    "artwork": "cma-1958.34",
+    "from_party": "p-018",
+    "to_party": "p-019",
+    "link_type": "unknown",
+    "date_start": "1935",
+    "date_end": "1935",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-006"
+      ],
+      "to_party": [
+        "c-1958.34-007"
+      ],
+      "date_start": [
+        "c-1958.34-024"
+      ],
+      "date_end": [
+        "c-1958.34-025"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-018",
+    "artwork": "cma-1958.34",
+    "from_party": "p-019",
+    "to_party": "p-020",
+    "link_type": "unknown",
+    "date_start": "1935",
+    "date_end": "1935",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-007"
+      ],
+      "to_party": [
+        "c-1958.34-008"
+      ],
+      "date_start": [
+        "c-1958.34-027"
+      ],
+      "date_end": [
+        "c-1958.34-027"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-019",
+    "artwork": "cma-1958.34",
+    "from_party": "p-020",
+    "to_party": "p-021",
+    "link_type": "unknown",
+    "date_start": "1935",
+    "date_end": "1947",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-008"
+      ],
+      "to_party": [
+        "c-1958.34-009"
+      ],
+      "date_start": [
+        "c-1958.34-028"
+      ],
+      "date_end": [
+        "c-1958.34-029"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-020",
+    "artwork": "cma-1958.34",
+    "from_party": "p-021",
+    "to_party": "p-022",
+    "link_type": "sale",
+    "date_start": "1947",
+    "date_end": "1947",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-009"
+      ],
+      "to_party": [
+        "c-1958.34-010"
+      ],
+      "link_type": [
+        "c-1958.34-030"
+      ],
+      "date_start": [
+        "c-1958.34-031"
+      ],
+      "date_end": [
+        "c-1958.34-032"
+      ]
+    }
+  },
+  {
+    "id": "e-1958.34-021",
+    "artwork": "cma-1958.34",
+    "from_party": "p-022",
+    "to_party": "p-023",
+    "link_type": "bequest",
+    "date_start": "1958",
+    "date_end": "1958",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1958.34-010"
+      ],
+      "to_party": [
+        "c-1958.34-011"
+      ],
+      "link_type": [
+        "c-1958.34-033"
+      ],
+      "date_start": [
+        "c-1958.34-034"
+      ],
+      "date_end": [
+        "c-1958.34-035"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-022",
+    "artwork": "cma-1990.7",
+    "from_party": "p-024",
+    "to_party": "p-025",
+    "link_type": "unknown",
+    "date_start": "1900",
+    "date_end": "1900",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-001"
+      ],
+      "to_party": [
+        "c-1990.7-002"
+      ],
+      "date_start": [
+        "c-1990.7-013"
+      ],
+      "date_end": [
+        "c-1990.7-014"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-023",
+    "artwork": "cma-1990.7",
+    "from_party": "p-025",
+    "to_party": "p-026",
+    "link_type": "sale",
+    "date_start": "1900",
+    "date_end": "1900",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-002"
+      ],
+      "to_party": [
+        "c-1990.7-003"
+      ],
+      "link_type": [
+        "c-1990.7-015"
+      ],
+      "date_start": [
+        "c-1990.7-016"
+      ],
+      "date_end": [
+        "c-1990.7-017"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-024",
+    "artwork": "cma-1990.7",
+    "from_party": "p-026",
+    "to_party": "p-027",
+    "link_type": "unknown",
+    "date_start": "1901",
+    "date_end": "1901",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-003"
+      ],
+      "to_party": [
+        "c-1990.7-004"
+      ],
+      "date_start": [
+        "c-1990.7-018"
+      ],
+      "date_end": [
+        "c-1990.7-019"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-025",
+    "artwork": "cma-1990.7",
+    "from_party": "p-027",
+    "to_party": "p-028",
+    "link_type": "sale",
+    "date_start": "1901",
+    "date_end": "1901",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-004"
+      ],
+      "to_party": [
+        "c-1990.7-005"
+      ],
+      "link_type": [
+        "c-1990.7-020"
+      ],
+      "date_start": [
+        "c-1990.7-021"
+      ],
+      "date_end": [
+        "c-1990.7-022"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-026",
+    "artwork": "cma-1990.7",
+    "from_party": "p-028",
+    "to_party": "p-029",
+    "link_type": "unknown",
+    "date_start": "1939",
+    "date_end": null,
+    "precision": "after",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-005"
+      ],
+      "to_party": [
+        "c-1990.7-006"
+      ],
+      "date_start": [
+        "c-1990.7-023"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-027",
+    "artwork": "cma-1990.7",
+    "from_party": "p-029",
+    "to_party": "p-030",
+    "link_type": "unknown",
+    "date_start": null,
+    "date_end": "1951",
+    "precision": "until",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-006"
+      ],
+      "to_party": [
+        "c-1990.7-007"
+      ],
+      "date_end": [
+        "c-1990.7-024"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-028",
+    "artwork": "cma-1990.7",
+    "from_party": "p-030",
+    "to_party": "p-031",
+    "link_type": "sale",
+    "date_start": "1951",
+    "date_end": "1951",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-007"
+      ],
+      "to_party": [
+        "c-1990.7-008"
+      ],
+      "link_type": [
+        "c-1990.7-025"
+      ],
+      "date_start": [
+        "c-1990.7-026"
+      ],
+      "date_end": [
+        "c-1990.7-027"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-029",
+    "artwork": "cma-1990.7",
+    "from_party": "p-031",
+    "to_party": "p-032",
+    "link_type": "sale",
+    "date_start": "1955",
+    "date_end": "1955",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-008"
+      ],
+      "to_party": [
+        "c-1990.7-009"
+      ],
+      "link_type": [
+        "c-1990.7-028"
+      ],
+      "date_start": [
+        "c-1990.7-029"
+      ],
+      "date_end": [
+        "c-1990.7-030"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-030",
+    "artwork": "cma-1990.7",
+    "from_party": "p-032",
+    "to_party": "p-033",
+    "link_type": "descent",
+    "date_start": "1961",
+    "date_end": "1961",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-009"
+      ],
+      "to_party": [
+        "c-1990.7-010"
+      ],
+      "link_type": [
+        "c-1990.7-031"
+      ],
+      "date_start": [
+        "c-1990.7-032"
+      ],
+      "date_end": [
+        "c-1990.7-033"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-031",
+    "artwork": "cma-1990.7",
+    "from_party": "p-033",
+    "to_party": "p-034",
+    "link_type": "unknown",
+    "date_start": "1961",
+    "date_end": "1990",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-010"
+      ],
+      "to_party": [
+        "c-1990.7-011"
+      ],
+      "date_start": [
+        "c-1990.7-034"
+      ],
+      "date_end": [
+        "c-1990.7-035"
+      ]
+    }
+  },
+  {
+    "id": "e-1990.7-032",
+    "artwork": "cma-1990.7",
+    "from_party": "p-034",
+    "to_party": "p-035",
+    "link_type": "sale",
+    "date_start": "1990",
+    "date_end": "1990",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1990.7-011"
+      ],
+      "to_party": [
+        "c-1990.7-012"
+      ],
+      "link_type": [
+        "c-1990.7-036"
+      ],
+      "date_start": [
+        "c-1990.7-037"
+      ],
+      "date_end": [
+        "c-1990.7-038"
+      ]
+    }
+  },
+  {
+    "id": "e-1983.155-033",
+    "artwork": "cma-1983.155",
+    "from_party": "p-036",
+    "to_party": "p-037",
+    "link_type": "unknown",
+    "date_start": "1865",
+    "date_end": null,
+    "precision": "after",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1983.155-001"
+      ],
+      "to_party": [
+        "c-1983.155-002"
+      ],
+      "date_start": [
+        "c-1983.155-011"
+      ]
+    }
+  },
+  {
+    "id": "e-1983.155-034",
+    "artwork": "cma-1983.155",
+    "from_party": "p-037",
+    "to_party": "p-038",
+    "link_type": "unknown",
+    "date_start": null,
+    "date_end": "1930",
+    "precision": "until",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1983.155-002"
+      ],
+      "to_party": [
+        "c-1983.155-003"
+      ],
+      "date_end": [
+        "c-1983.155-012"
+      ]
+    }
+  },
+  {
+    "id": "e-1983.155-035",
+    "artwork": "cma-1983.155",
+    "from_party": "p-038",
+    "to_party": "p-039",
+    "link_type": "unknown",
+    "date_start": "1930",
+    "date_end": "1937",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1983.155-003"
+      ],
+      "to_party": [
+        "c-1983.155-004"
+      ],
+      "date_start": [
+        "c-1983.155-013"
+      ],
+      "date_end": [
+        "c-1983.155-014"
+      ]
+    }
+  },
+  {
+    "id": "e-1983.155-036",
+    "artwork": "cma-1983.155",
+    "from_party": "p-039",
+    "to_party": "p-040",
+    "link_type": "sale",
+    "date_start": "1937",
+    "date_end": "1937",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1983.155-004"
+      ],
+      "to_party": [
+        "c-1983.155-005"
+      ],
+      "link_type": [
+        "c-1983.155-015"
+      ],
+      "date_start": [
+        "c-1983.155-016"
+      ],
+      "date_end": [
+        "c-1983.155-017"
+      ]
+    }
+  },
+  {
+    "id": "e-1983.155-037",
+    "artwork": "cma-1983.155",
+    "from_party": "p-040",
+    "to_party": "p-041",
+    "link_type": "unknown",
+    "date_start": "1937",
+    "date_end": "1943",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1983.155-005"
+      ],
+      "to_party": [
+        "c-1983.155-006"
+      ],
+      "date_start": [
+        "c-1983.155-018"
+      ],
+      "date_end": [
+        "c-1983.155-019"
+      ]
+    }
+  },
+  {
+    "id": "e-1983.155-038",
+    "artwork": "cma-1983.155",
+    "from_party": "p-041",
+    "to_party": "p-042",
+    "link_type": "sale",
+    "date_start": "1945",
+    "date_end": "1945",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1983.155-006"
+      ],
+      "to_party": [
+        "c-1983.155-007"
+      ],
+      "link_type": [
+        "c-1983.155-020"
+      ],
+      "date_start": [
+        "c-1983.155-021"
+      ],
+      "date_end": [
+        "c-1983.155-022"
+      ]
+    }
+  },
+  {
+    "id": "e-1983.155-039",
+    "artwork": "cma-1983.155",
+    "from_party": "p-042",
+    "to_party": "p-038",
+    "link_type": "sale",
+    "date_start": "1945",
+    "date_end": "1957",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1983.155-007"
+      ],
+      "to_party": [
+        "c-1983.155-008"
+      ],
+      "link_type": [
+        "c-1983.155-023"
+      ],
+      "date_start": [
+        "c-1983.155-024"
+      ],
+      "date_end": [
+        "c-1983.155-025"
+      ]
+    }
+  },
+  {
+    "id": "e-1983.155-040",
+    "artwork": "cma-1983.155",
+    "from_party": "p-038",
+    "to_party": "p-043",
+    "link_type": "unknown",
+    "date_start": "1957",
+    "date_end": "1983",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1983.155-008"
+      ],
+      "to_party": [
+        "c-1983.155-009"
+      ],
+      "date_start": [
+        "c-1983.155-026"
+      ],
+      "date_end": [
+        "c-1983.155-027"
+      ]
+    }
+  },
+  {
+    "id": "e-1983.155-041",
+    "artwork": "cma-1983.155",
+    "from_party": "p-043",
+    "to_party": "p-044",
+    "link_type": "sale",
+    "date_start": "1983",
+    "date_end": "1983",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1983.155-009"
+      ],
+      "to_party": [
+        "c-1983.155-010"
+      ],
+      "link_type": [
+        "c-1983.155-028"
+      ],
+      "date_start": [
+        "c-1983.155-029"
+      ],
+      "date_end": [
+        "c-1983.155-030"
+      ]
+    }
+  },
+  {
+    "id": "e-1999.173-042",
+    "artwork": "cma-1999.173",
+    "from_party": "p-045",
+    "to_party": "p-046",
+    "link_type": "unknown",
+    "date_start": "1866",
+    "date_end": "1872",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1999.173-001"
+      ],
+      "to_party": [
+        "c-1999.173-002"
+      ],
+      "date_start": [
+        "c-1999.173-010"
+      ],
+      "date_end": [
+        "c-1999.173-011"
+      ]
+    }
+  },
+  {
+    "id": "e-1999.173-043",
+    "artwork": "cma-1999.173",
+    "from_party": "p-046",
+    "to_party": "p-047",
+    "link_type": "unknown",
+    "date_start": "1874",
+    "date_end": "1874",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1999.173-002"
+      ],
+      "to_party": [
+        "c-1999.173-003"
+      ],
+      "date_start": [
+        "c-1999.173-012"
+      ],
+      "date_end": [
+        "c-1999.173-013"
+      ]
+    }
+  },
+  {
+    "id": "e-1999.173-044",
+    "artwork": "cma-1999.173",
+    "from_party": "p-047",
+    "to_party": "p-048",
+    "link_type": "unknown",
+    "date_start": "1911",
+    "date_end": "1911",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1999.173-003"
+      ],
+      "to_party": [
+        "c-1999.173-004"
+      ],
+      "date_start": [
+        "c-1999.173-014"
+      ],
+      "date_end": [
+        "c-1999.173-015"
+      ]
+    }
+  },
+  {
+    "id": "e-1999.173-045",
+    "artwork": "cma-1999.173",
+    "from_party": "p-048",
+    "to_party": "p-049",
+    "link_type": "unknown",
+    "date_start": "1938",
+    "date_end": "1938",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1999.173-004"
+      ],
+      "to_party": [
+        "c-1999.173-005"
+      ],
+      "date_start": [
+        "c-1999.173-016"
+      ],
+      "date_end": [
+        "c-1999.173-017"
+      ]
+    }
+  },
+  {
+    "id": "e-1999.173-046",
+    "artwork": "cma-1999.173",
+    "from_party": "p-049",
+    "to_party": "p-050",
+    "link_type": "unknown",
+    "date_start": "1938",
+    "date_end": "1947",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1999.173-005"
+      ],
+      "to_party": [
+        "c-1999.173-006"
+      ],
+      "date_start": [
+        "c-1999.173-018"
+      ],
+      "date_end": [
+        "c-1999.173-019"
+      ]
+    }
+  },
+  {
+    "id": "e-1999.173-047",
+    "artwork": "cma-1999.173",
+    "from_party": "p-050",
+    "to_party": "p-051",
+    "link_type": "restitution",
+    "date_start": "1999",
+    "date_end": "1999",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1999.173-006"
+      ],
+      "to_party": [
+        "c-1999.173-007"
+      ],
+      "link_type": [
+        "c-1999.173-020"
+      ],
+      "date_start": [
+        "c-1999.173-021"
+      ],
+      "date_end": [
+        "c-1999.173-022"
+      ]
+    }
+  },
+  {
+    "id": "e-1999.173-048",
+    "artwork": "cma-1999.173",
+    "from_party": "p-051",
+    "to_party": "p-052",
+    "link_type": "unknown",
+    "date_start": "1999",
+    "date_end": "1999",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1999.173-007"
+      ],
+      "to_party": [
+        "c-1999.173-008"
+      ],
+      "date_start": [
+        "c-1999.173-023"
+      ],
+      "date_end": [
+        "c-1999.173-024"
+      ]
+    }
+  },
+  {
+    "id": "e-1999.173-049",
+    "artwork": "cma-1999.173",
+    "from_party": "p-052",
+    "to_party": "p-053",
+    "link_type": "unknown",
+    "date_start": "1999",
+    "date_end": "1999",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1999.173-008"
+      ],
+      "to_party": [
+        "c-1999.173-009"
+      ],
+      "date_start": [
+        "c-1999.173-025"
+      ],
+      "date_end": [
+        "c-1999.173-026"
+      ]
+    }
+  },
+  {
+    "id": "e-1963.502-050",
+    "artwork": "cma-1963.502",
+    "from_party": "p-054",
+    "to_party": "p-055",
+    "link_type": "unknown",
+    "date_start": null,
+    "date_end": "1910-12-02",
+    "precision": "until",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1963.502-001"
+      ],
+      "to_party": [
+        "c-1963.502-002"
+      ],
+      "date_end": [
+        "c-1963.502-007"
+      ]
+    }
+  },
+  {
+    "id": "e-1963.502-051",
+    "artwork": "cma-1963.502",
+    "from_party": "p-055",
+    "to_party": "p-056",
+    "link_type": "unknown",
+    "date_start": "1910-12-02",
+    "date_end": "1963-03-23",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1963.502-002"
+      ],
+      "to_party": [
+        "c-1963.502-003"
+      ],
+      "date_start": [
+        "c-1963.502-008"
+      ],
+      "date_end": [
+        "c-1963.502-009"
+      ]
+    }
+  },
+  {
+    "id": "e-1963.502-052",
+    "artwork": "cma-1963.502",
+    "from_party": "p-056",
+    "to_party": "p-057",
+    "link_type": "unknown",
+    "date_start": "1963-03-23",
+    "date_end": "1963-03-23",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1963.502-004"
+      ],
+      "to_party": [
+        "c-1963.502-005"
+      ],
+      "date_start": [
+        "c-1963.502-010"
+      ],
+      "date_end": [
+        "c-1963.502-010"
+      ]
+    }
+  },
+  {
+    "id": "e-1963.502-053",
+    "artwork": "cma-1963.502",
+    "from_party": "p-057",
+    "to_party": "p-058",
+    "link_type": "sale",
+    "date_start": "1963",
+    "date_end": "1963",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-1963.502-005"
+      ],
+      "to_party": [
+        "c-1963.502-006"
+      ],
+      "link_type": [
+        "c-1963.502-012"
+      ],
+      "date_start": [
+        "c-1963.502-013"
+      ],
+      "date_end": [
+        "c-1963.502-014"
+      ]
+    }
+  }
+]

@@ -1,0 +1,752 @@
+{
+  "source": "cleveland",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.34",
+  "retrieved_at": "2026-10-29T23:21:26Z",
+  "version": "2026-10-26 13:31:21.158000",
+  "payload": {
+    "id": 135336,
+    "accession_number": "1958.34",
+    "share_license_status": "CC0",
+    "tombstone": "Berthe Morisot with a Muff, c. 1871–72. Édouard Manet (French, 1832–1883). Oil on canvas; framed: 91.1 x 76.5 x 7.3 cm (35 7/8 x 30 1/8 x 2 7/8 in.); unframed: 74 x 60 cm (29 1/8 x 23 5/8 in.). The Cleveland Museum of Art, Bequest of Leonard C. Hanna Jr., 1958.34",
+    "current_location": null,
+    "title": "Berthe Morisot with a Muff",
+    "creation_date": "c. 1871–72",
+    "creation_date_earliest": 1871,
+    "creation_date_latest": 1872,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "France, 19th century"
+    ],
+    "technique": "oil on canvas",
+    "support_materials": [],
+    "department": "Modern European Painting and Sculpture",
+    "collection": "Mod Euro - Painting 1800-1960",
+    "type": "Painting",
+    "measurements": "Framed: 91.1 x 76.5 x 7.3 cm (35 7/8 x 30 1/8 x 2 7/8 in.); Unframed: 74 x 60 cm (29 1/8 x 23 5/8 in.)",
+    "dimensions": {
+      "framed": {
+        "height": 0.911,
+        "height_inch": 35,
+        "height_inch_fraction": 0.875,
+        "width": 0.765,
+        "width_inch": 30,
+        "width_inch_fraction": 0.125,
+        "depth": 0.073,
+        "depth_inch": 2,
+        "depth_inch_fraction": 0.875
+      },
+      "unframed": {
+        "height": 0.74,
+        "height_inch": 29,
+        "height_inch_fraction": 0.125,
+        "width": 0.6,
+        "width_inch": 23,
+        "width_inch_fraction": 0.625
+      }
+    },
+    "state_of_the_work": null,
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 304248,
+          "title": "Style, Truth and the Portrait",
+          "description": "<i>Style, Truth and the Portrait</i>. The Cleveland Museum of Art, Cleveland, OH (October 1-November 19, 1963).",
+          "opening_date": "1963-10-01T04:00:00"
+        },
+        {
+          "id": 343605,
+          "title": "Édouard Manet",
+          "description": "<i>Édouard Manet</i>. Philadelphia Museum of Art (organizer) (November 3-December 11, 1966); The Art Institute of Chicago (January 13-February 19, 1967).",
+          "opening_date": "1966-11-03T05:00:00"
+        },
+        {
+          "id": 343611,
+          "title": "Manet",
+          "description": "<i>Manet</i>. Nationalmuseum, Stockholm, Sweden (organizer) (February 7-May 12, 1985).",
+          "opening_date": "1985-02-07T05:00:00"
+        },
+        {
+          "id": 311553,
+          "title": "Mary Cassatt and Berthe Morisot",
+          "description": "<i>Mary Cassatt and Berthe Morisot</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (November 7, 1993-January 2, 1994).",
+          "opening_date": "1993-11-07T05:00:00"
+        },
+        {
+          "id": 221052,
+          "title": "Masters of Impressionism",
+          "description": "<i>Masters of Impressionism</i>. Museo del Palacio de Bellas Artes, Mexico (November 17, 1998-February 28, 1999).",
+          "opening_date": "1998-11-17T00:00:00"
+        },
+        {
+          "id": 216847,
+          "title": "Faces of Impressionism: Portraits from American Collections",
+          "description": "<i>Faces of Impressionism: Portraits from American Collections</i>. The Baltimore Museum of Art (organizer) (October 10, 1999-January 30, 2000); Museum of Fine Arts, Houston (March 25-May 7, 2000); The Cleveland Museum of Art, Cleveland, OH (May 28-July 30, 2000).",
+          "opening_date": "1999-10-10T00:00:00"
+        },
+        {
+          "id": 222877,
+          "title": "An Intimate Vision--Women Impressionsts:  Bracquemond, Cassatt, Gonzalès, and Morisot",
+          "description": "<i>An Intimate Vision--Women Impressionsts:  Bracquemond, Cassatt, Gonzalès, and Morisot</i>. Bilbao Fine Arts Museum, 48011 Bilbao, Spain (organizer) (November 12, 2001-February 3, 2002).",
+          "opening_date": "2001-11-12T00:00:00"
+        },
+        {
+          "id": 220881,
+          "title": "Rétrospective Berthe Morisot (1841-1895)",
+          "description": "<i>Rétrospective Berthe Morisot (1841-1895)</i>. Palais des Beaux Arts de Lille, Lille, France (organizer) (March 8-June 9, 2002).",
+          "opening_date": "2002-03-08T00:00:00"
+        },
+        {
+          "id": 182153,
+          "title": "Monet to Dalí: Modern Masters from the Cleveland Museum of Art",
+          "description": "<i>Monet to Dalí: Modern Masters from the Cleveland Museum of Art</i>. Beijing World Art Museum (May 26-August 27, 2006); Mori Art Center (September 16-November 26, 2006); Seoul Art Center, South Korea (December 22, 2006-March 28, 2007); Seoul Olympic Museum of Art, South Korea (April 7-May 20, 2007); Vancouver Art Gallery, Vancouver, Canada (June 9-September 16, 2007); The Cleveland Museum of Art, Cleveland, OH (organizer) (October 21, 2007-January 13, 2008); Frist Art Museum, Nashville, TN (February 15-June 1, 2008); Utah Museum of Fine Arts, Salt Lake City, UT (June 22-September 21, 2008); The Detroit Institute of Arts, Detroit, MI (October 12, 2008-January 18, 2009).",
+          "opening_date": "2006-05-27T00:00:00"
+        },
+        {
+          "id": 222514,
+          "title": "Manet: Portraying Life",
+          "description": "<i>Manet: Portraying Life</i>. The Toledo Museum of Art, Toledo, OH (October 4, 2012-January 1, 2013); Royal Academy of Arts, London, United Kingdom of Great Britain and Northern Ireland (organizer) (January 26-April 14, 2013).",
+          "opening_date": "2012-10-04T00:00:00"
+        },
+        {
+          "id": 214137,
+          "title": "Degas, Impressionism & the Paris Millinery Trade",
+          "description": "<i>Degas, Impressionism & the Paris Millinery Trade</i>. Saint Louis Art Museum, St. Louis, MO (organizer) (February 12-May 7, 2017); Fine Arts Museum of San Francisco, Legion of Honor, San Francisco, CA (June 24-September 24, 2017).",
+          "opening_date": "2017-02-12T00:00:00"
+        },
+        {
+          "id": 295866,
+          "title": "Edouard Manet",
+          "description": "<i>Edouard Manet</i>. Von der Heydt-Museum, Wuppertal, Germany (organizer) (October 24, 2017-February 25, 2018).",
+          "opening_date": "2017-10-24T04:00:00"
+        },
+        {
+          "id": 315395,
+          "title": "The Impressionists and Photography",
+          "description": "<i>The Impressionists and Photography</i>. Museo Nacional Thyssen-Bornemisza, Madrid, Spain (organizer) (October 15, 2019-January 26, 2020).",
+          "opening_date": "2019-10-15T04:00:00"
+        },
+        {
+          "id": 455282,
+          "title": "Manet: A Model Family",
+          "description": "<i>Manet: A Model Family</i>. Isabella Stewart Gardner Museum, Boston, MA (organizer) (October 10, 2024-January 20, 2025) https://www.gardnermuseum.org/calendar/manet-model-family.",
+          "opening_date": "2024-10-10T04:00:00"
+        },
+        {
+          "id": 668924,
+          "title": "Manet & Morisot",
+          "description": "<i>Manet & Morisot</i>. Fine Arts Museum of San Francisco, Legion of Honor, San Francisco, CA (organizer) (October 11, 2025-February 15, 2026) https://www.famsf.org/exhibitions/manet-morisot; The Cleveland Museum of Art, Cleveland, OH (co-organizer) (March 29-July 5, 2026).",
+          "opening_date": "2025-10-11T04:00:00"
+        }
+      ],
+      "legacy": [
+        {
+          "description": "manchon, prêté par M. Balsan, Paris, France.",
+          "opening_date": null
+        },
+        {
+          "description": "<em>Exposition d'art français du XIXe siècle</em>. Galeries Paul Rosenberg, Paris, France (1917).",
+          "opening_date": "1917-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Le décor de la vie sous le Second Empire.</em> Pavillon de Marsan, Palais du Louvre, Paris, France (1922).",
+          "opening_date": "1922-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Exposition d'oeuvres de Manet.</em>Galerie Bernheim-Jeune, Paris, France (1928).",
+          "opening_date": "1928-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Quelques oeuvres importantes de Manet à Van Gogh</em>. Galerie Durand-Ruel, Paris, France. (1932).",
+          "opening_date": "1932-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Exposition Manet 1832-1883</em>. Musée de l'Orangerie, Paris, France (1932).",
+          "opening_date": "1932-01-01T00:00:00"
+        },
+        {
+          "description": "<em>L'impressionnisme.</em> Palais des Beaux-Arts, Brussels, Belgium (1935).",
+          "opening_date": "1935-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Exhibition of Masters of French Nineteenth Century Painting</em>. New Burlington Galleries, London, United Kingdom (1936).",
+          "opening_date": "1936-01-01T00:00:00"
+        },
+        {
+          "description": "Amsterdam, Stedelijk Museum. Honderd Jaar Fransche Kunst. Stedelijk Museum, Amsterdam, Netherlands (1938).",
+          "opening_date": "1938-01-01T00:00:00"
+        },
+        {
+          "description": "<em>A Loan Exhibition of Manet.</em> Wildenstein, New York, NY (1948).",
+          "opening_date": "1948-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Summer Loan: group of fourteen Hanna paintings</em>. Metropolitan Museum of Art, New York, NY (June-September 1949).",
+          "opening_date": "1949-06-01T00:00:00"
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "description": "Artist's studio inventory, Paris, France, 1884",
+        "citations": [],
+        "footnotes": [],
+        "date": "1884",
+        "sortorder": 2
+      },
+      {
+        "description": "(Drouot, Paris, France, February, 1884, Artist's estate sale, sold back to Mrs. Manet)",
+        "citations": [],
+        "footnotes": [],
+        "date": "1884",
+        "sortorder": 3
+      },
+      {
+        "description": "Mrs. Edouard Manet [1829-1906], Paris, France",
+        "citations": [],
+        "footnotes": [],
+        "date": "1884-1910",
+        "sortorder": 4
+      },
+      {
+        "description": "August Pellerin [1853-1929], Paris, France",
+        "citations": [],
+        "footnotes": [],
+        "date": "1910",
+        "sortorder": 5
+      },
+      {
+        "description": "Jules Strauss [1863-1943], Paris, France",
+        "citations": [],
+        "footnotes": null,
+        "date": "1912",
+        "sortorder": 6
+      },
+      {
+        "description": "(Georges Petit, Paris, France, December 1932, lot 48, sold to Turner",
+        "citations": [],
+        "footnotes": null,
+        "date": "1932",
+        "sortorder": 7
+      },
+      {
+        "description": "Turner, London, United Kingdom",
+        "citations": [],
+        "footnotes": null,
+        "date": "1932-1935",
+        "sortorder": 8
+      },
+      {
+        "description": "Jacques Balsan [1868-1956], Paris, France",
+        "citations": [],
+        "footnotes": null,
+        "date": "1935-1947",
+        "sortorder": 9
+      },
+      {
+        "description": "Mrs. Jules Balsan [1877-1964], New York, NY, November 1947, consigned to  Knoedler & Co. for sale",
+        "citations": [],
+        "footnotes": null,
+        "date": "1935",
+        "sortorder": 10
+      },
+      {
+        "description": "(Knoedler & Co., New York, NY, November 1947, sold to Leonard C. Hanna, Jr.)",
+        "citations": [],
+        "footnotes": null,
+        "date": "1947",
+        "sortorder": 11
+      },
+      {
+        "description": "Leonard C. Hanna, Jr. [1898-1957], Cleveland, OH, by bequest to the Cleveland Museum of Art",
+        "citations": [],
+        "footnotes": null,
+        "date": "1947-1958",
+        "sortorder": 12
+      },
+      {
+        "description": "The Cleveland Museum of Art, Cleveland, OH",
+        "citations": [],
+        "footnotes": null,
+        "date": "1958-",
+        "sortorder": 13
+      }
+    ],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [],
+    "did_you_know": "Manet kept this portrait of Morisot throughout his life, and it was listed in the inventory of his studio after his death.",
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "This is one of two portraits Manet painted of Morisot dressed for winter in a heavy coat and feathered hat. (See <em>Berthe Morisot with a Half Veil</em>, also in this gallery.) Manet’s wide brushstrokes and crosshatchings, which describe areas of shadow, evoke the sketchy quality of Morisot’s own paintings, likely Manet’s nod to his subject’s identity as an artist.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q60465125"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-1958.34-berthe-morisot"
+      ]
+    },
+    "citations": [
+      {
+        "citation": null,
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Duret, Théodore, and J. E. Crawford Flitch.<em> Manet and the French Impressionists: Pissarro--Claude Monet--Sisley--Renoir--Berthe Morisot--Cézanne--Guillaumin.</em> London: G. Richards; Philadelphia: J.B. Lippincott Company, 1910.",
+        "page_number": "Mentioned: p. 226, no. 111",
+        "url": null
+      },
+      {
+        "citation": "Meier-Graefe, Julius. <em>Edouard Manet</em>. München: Piper, 1912.",
+        "page_number": "Reproduced: pl. 93",
+        "url": null
+      },
+      {
+        "citation": "Blanche, Jacques-Émile, and Frederick C. de Sumichrast. <em>Manet</em>. New York: Dodd, Mead, 1925.",
+        "page_number": "Reproduced: pl. 22",
+        "url": null
+      },
+      {
+        "citation": "Duret, Théodore. <em>Histoire de Édouard Manet et de Son Oeuvre: Avec un Catalogue des Peintures et des Pastels</em>. Paris: Bernheim-Jeune, 1926.",
+        "page_number": "Mentioned: p. 250, no. 111",
+        "url": null
+      },
+      {
+        "citation": "Moreau-Nélaton, Etienne. Manet: Raconté par Lui-même. Paris: H. Laurens, 1926.",
+        "page_number": "Mentioned: vol. 1, p. 109; reproduced: vol. 1, fig. 119",
+        "url": null
+      },
+      {
+        "citation": "Manet, Édouard. <em>E. Manet: 24 Phototypies: notice de Florent Fels.</em> Paris: Librairie de France, 1928.",
+        "page_number": "Reproduced: pl. 12",
+        "url": null
+      },
+      {
+        "citation": "Tabarant, A. <em>Manet: Histoire Catalographique</em>. Paris: Éd. Montaigne, 1931.",
+        "page_number": "Mentioned: p. 192, no. 140",
+        "url": null
+      },
+      {
+        "citation": "Colin, Paul. <em>Édouard Manet</em>. Paris: Floury, 1932.",
+        "page_number": "Reproduced: pl. XXXII",
+        "url": null
+      },
+      {
+        "citation": "Jamot, Paul, and Georges Wildenstein. <em>Manet.</em> Paris: Les Beaux-arts, édition d'études et de documents, 1932.",
+        "page_number": "Mentioned: vol. 1, p. 137, no. 154; reproduced: vol. 2, p. 65, fig. 152",
+        "url": null
+      },
+      {
+        "citation": "\"Collection Jules Strauss.\" L'Art et les Artistes 26, no. 131 (November 1932): 71.",
+        "page_number": "Reproduced: p. 71",
+        "url": null
+      },
+      {
+        "citation": "Bataille, Marie-Louise. \"Die Auktion Jules Strauss.\" <em>Kunst und künstler </em>32 (1933): 74-75.",
+        "page_number": "Mentioned and reproduced: p. 74-75",
+        "url": null
+      },
+      {
+        "citation": "Duret, Théodore, and John Ernest Crawford Flitch. <em>Manet.</em> New York: Crown Publishers, 1937.",
+        "page_number": "Reproduced: pl. 42",
+        "url": null
+      },
+      {
+        "citation": "Laver, James, Michel Sevier, and Alfred Flechtheim. <em>French Painting and the Nineteenth Century.</em> New York: Scribner's, 1937.",
+        "page_number": "Mentioned and reproduced: p. 64, no. 64",
+        "url": null
+      },
+      {
+        "citation": "Duca, Lo. \"L'Art Francese in the Mostre.\"<em> Emporium</em> 86 (1937): 517-540.",
+        "page_number": "Reproduced: p. 533",
+        "url": null
+      },
+      {
+        "citation": "Jedlicka, Gotthard.<em> Édouard Manet. Mit 145 abbildungen</em>. Erlenbach-Zürich: E. Rentsch, 1941.",
+        "page_number": "Reproduced: opp. p. 132",
+        "url": null
+      },
+      {
+        "citation": "Florisoone, Michel. <em>Manet.</em> Monaco: Documents d'art, 1947.",
+        "page_number": "Mentioned: p. XXV",
+        "url": null
+      },
+      {
+        "citation": "Tabarant, A. <em>Manet et Ses Oeuvres</em>. [Paris]: Gallimard, 1947.",
+        "page_number": "Reproduced: p. 144; mentioned: p.157-158",
+        "url": null
+      },
+      {
+        "citation": "Louchheim, Aline B. \"Private Collectors: On Loan at the Metropolitan.\" <em>The New York Times </em>(July 17, 1949): 6x.",
+        "page_number": "Reproduced: p. 6x",
+        "url": null
+      },
+      {
+        "citation": "Venturi, Lionello. <em>Impressionists and Symbolists: Manet, Degas, Monet, Pissarro, Sisley, Renoir, Cezanne, Seurat, Gauguin, Van Gogh, Toulouse-Lautrec.</em> New York: Scribner, 1950.",
+        "page_number": "Mentioned: p. 18; reproduced: fig. 9",
+        "url": null
+      },
+      {
+        "citation": "Coe, Nancy. <em>The History of the Collecting of European Paintings and Drawings in the City of Cleveland</em>. Thesis M.A. Oberlin College, 1955.",
+        "page_number": "Reproduced: vol. 2, p. 15",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>In Memoriam: Leonard C. Hanna, Jr</em>. Cleveland: The Cleveland Museum of Art, 1958.",
+        "page_number": "Reproduced: no. 18",
+        "url": null
+      },
+      {
+        "citation": "Frankfurter, Alfred M. “Cleveland: Model Museum for a Modern Cosmopolis.” <em>ARTnews</em> 57 (March 1958): 24–37.",
+        "page_number": "Reproduced: p. 37",
+        "url": null
+      },
+      {
+        "citation": "\"Accessions of American and Canadian Museums.\" <em>Art Quarterly</em> 21, no. 1 (Spring 1958): 83-104.",
+        "page_number": "Reproduced: p. 104",
+        "url": null
+      },
+      {
+        "citation": "“Annual Report of the Year 1958.” <em>The Bulletin of the Cleveland Museum of Art</em> 46, no. 6 (June 1959): 111–158.",
+        "page_number": "Mentioned: p. 122",
+        "url": "http://www.jstor.org/stable/25142346"
+      },
+      {
+        "citation": "Saisselin, Rémy G. <em>Style, Truth, and the Portrait</em>. [Cleveland]: Cleveland Museum of Art, 1963.",
+        "page_number": "Reproduced: cat. no. 87",
+        "url": null
+      },
+      {
+        "citation": "Henning, E. B. “Cleveland Museum of Art: From Turner to Guston.” <em>Apollo: The International Magazine for Collectors</em> 78 (December 1963): 481–88.",
+        "page_number": "Reproduced: p. 484",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1966</em>. Cleveland, OH: The Cleveland Museum of Art, 1966.",
+        "page_number": "Reproduced: p. 172",
+        "url": "https://archive.org/details/CMAHandbook1966/page/n196"
+      },
+      {
+        "citation": "Philadelphia Museum of Art, and Anne Coffin Hanson. <em>Édouard Manet, 1832-1883. [Exhibition] Philadelphia Museum of Art, November 3-December 11, 1966; the Art Institute of Chicago, January 13-February 19, 1967</em>. 1966.",
+        "page_number": "Mentioned and Reproduced: cat. no. 105, p. 121, 123",
+        "url": null
+      },
+      {
+        "citation": "Aymar, Gordon Christian. <em>The Art of Portrait Painting; Portraits Through the Centuries As Seen Through the Eyes of a Practicing Portrait Painter.</em> Philadelphia: Chilton Book Co, 1967.",
+        "page_number": "Mentioned and reproduced: p. 206, pl. 100",
+        "url": null
+      },
+      {
+        "citation": "Orienti,Sandra, and Marcello Venturi. <em>L'Opera Pittorica di Edouard Manet</em>. Milano: Rizzoli, 1967.",
+        "page_number": "Mentioned and reproduced: p. 98, no. 124",
+        "url": null
+      },
+      {
+        "citation": "Neugass, Fritz. \"Manet-Ausstellung in den USA.\" <em>Die Weltkunst. The World-art Review </em>37 (15 January 1967): 50-51.",
+        "page_number": "Mentioned: p. 51",
+        "url": null
+      },
+      {
+        "citation": "Neilson, Winthrop, and Frances Fullerton Neilson. <em>Seven Women: Great Painters</em>. Philadelphia: Chilton Book Co, 1968.",
+        "page_number": "Mentioned: p. 59-60; reproduced: pl. 8",
+        "url": null
+      },
+      {
+        "citation": "Bodelsen, Merete (Christensen). “Early Impressionist Sales 1874-94 in the Light of Some Unpublished ‘Procès-Verbaux.’” <em>Burlington Magazine</em> 110 (February 1968): 330–49.",
+        "page_number": "Reproduced: p. 343",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1969</em>. Cleveland, OH: The Cleveland Museum of Art, 1969.",
+        "page_number": "Reproduced: p. 172",
+        "url": "https://archive.org/details/CMAHandbook1969/page/n196"
+      },
+      {
+        "citation": "Hess, Thomas B., and Linda Nochlin. \"Woman as Sex Object.\" <em>ARTnews Annual</em> 38 (1972): 84.",
+        "page_number": "Reproduced: p. 84",
+        "url": null
+      },
+      {
+        "citation": "Rouart, Denis, and Daniel Wildenstein. <em>Édouard Manet: Catalogue Raisonné</em>. Lausanne: Bibliothèque des arts, 1975.",
+        "page_number": "Mentioned and reproduced: vol. 1, p. 128-129, no. 138",
+        "url": null
+      },
+      {
+        "citation": "Hanson, Anne Coffin. <em>Manet and the Modern Tradition.</em> New Haven: Yale University Press, 1977.",
+        "page_number": "Reproduced: pl. 43",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1978</em>. Cleveland, OH: The Cleveland Museum of Art, 1978.",
+        "page_number": "Reproduced: p. 211",
+        "url": "https://archive.org/details/CMAHandbook1978/page/n231"
+      },
+      {
+        "citation": "Monneret, Sophie. <em>L'Impressionnisme et Son Epoque: Dictionnaire International Illustré</em>. Paris: Denoël, 1978.",
+        "page_number": "Mentioned: vol. 2, p. 19",
+        "url": null
+      },
+      {
+        "citation": "Wentworth, Michael. <em>James Tissot: Catalogue Raisonné of His Prints</em>. <br>Minneapolis, Minn.: Minneapolis Institute of Arts,1978.",
+        "page_number": "Reproduced: p. 145, fig. 31e",
+        "url": null
+      },
+      {
+        "citation": "Holten, Ragnar von, and Édouard Manet. <em>Manet i närbild</em>. Stockholm: Nationalmuseum, 1985.",
+        "page_number": "Mentioned and Reproduced: cat. no. 63, p. 92",
+        "url": null
+      },
+      {
+        "citation": "Keller, Horst. <em>Edouard Manet</em>. München: Bruckmann, 1989.",
+        "page_number": "Reproduced: p. 99, no. 73; mentioned: p. 173, no. 73",
+        "url": null
+      },
+      {
+        "citation": "Cachin, Françoise. <em>Manet.</em> [Paris]: Chêne, 1990.",
+        "page_number": "Reproduced: p. 151, no. 3",
+        "url": null
+      },
+      {
+        "citation": "Higonnet, Anne. <em>Berthe Moriso</em>t. New York, N.Y.: Harper &amp; Row, 1990.",
+        "page_number": "Reproduced: pl. 8",
+        "url": null
+      },
+      {
+        "citation": "Opfell, Olga S. <em>Special Visions: Profiles of Fifteen Women Artists from the Renaissance to the Present Day</em>. Jefferson, N.C.: McFarland, 1991.",
+        "page_number": "Reproduced: p. 71",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>Masterpieces from East and West</em>. New York, NY: Rizzoli International, 1992.",
+        "page_number": "Mentioned and reproduced: p. 151",
+        "url": null
+      },
+      {
+        "citation": "Chong, Alan. <em>European &amp; American Painting in the Cleveland Museum of Art: A Summary Catalogue.</em> Cleveland, Ohio: Cleveland Museum of Art, 1993.",
+        "page_number": "Mentioned and reproduced: p. 140",
+        "url": null
+      },
+      {
+        "citation": "Brombert, Beth Archer.<em> Edouard Manet: Rebel in a Frock Coat.</em> Boston: Little, Brown, 1996.",
+        "page_number": "Mentioned: p. 264; reproduced: fig. 28",
+        "url": null
+      },
+      {
+        "citation": "Körner, Hans. <em>Edouard Manet: Dandy, Flaneur, Maler.</em> München: W. Fink, 1996.",
+        "page_number": "Reproduced: p. 136, fig. 104",
+        "url": null
+      },
+      {
+        "citation": "Shennan, Margaret. <em>Berthe Morisot, the First Lady of Impressionism</em>. Thrupp, Stroud, Gloucestershire: Sutton Pub, 1996.",
+        "page_number": "Mentioned: p. 90",
+        "url": null
+      },
+      {
+        "citation": "Museo del Palacio de Bellas Artes (Mexico). <em>Maestros del impresionismo</em>. México, D.F.: Istituto Nacional de Bellas Artes, 1998.",
+        "page_number": "Mentioned and Reproduced: p. 96-97",
+        "url": null
+      },
+      {
+        "citation": "Museo del Palacio de Bellas Artes (Mexico). <em>Maestros del Impresionismo.</em> México, D.F.: Istituto Nacional de Bellas Artes, 1998.",
+        "page_number": "Mentioned and reproduced: p. 96-97",
+        "url": null
+      },
+      {
+        "citation": "Johnston, Sona.<em> Faces of Impressionism: Portraits from American Collections</em>. New York, NY : Rizzoli, 1999.",
+        "page_number": "Reproduced: p. 169, cat. no. 35",
+        "url": null
+      },
+      {
+        "citation": "D' Argencourt, Louise, and Roger Diederen. <em>Catalogue of Paintings. Pt. 4. European Paintings of the 19th Century. </em>Cleveland: Cleveland Museum of Art, 1974.",
+        "page_number": "Mentioned and reproduced: Vol. 2, p. 408-410, no. 141",
+        "url": null
+      },
+      {
+        "citation": "Johnston, Sona, Susan Bollendorf, and John House.<em> Faces of Impressionism: Portraits from American Collections. </em>[Baltimore, Md.]: Baltimore Museum of Art in association with Rizzoli International, 1999.",
+        "page_number": "Mentioned and reproduced: p. 108-109, no. 35",
+        "url": null
+      },
+      {
+        "citation": "Bray, Xavier, Bill Scott, and Juliet Wilson-Bareau. <em>Mujeres impresionistas: la otra mirada : Sala BBK, 12 de novembre de 2001-3 de febrero de 2002</em>. [Bilbao]: Museo de Bellas Artes de Bilbao, 2001.",
+        "page_number": "Mentioned and Reproduced: cat. no. 3, p. 58-59",
+        "url": null
+      },
+      {
+        "citation": "Bray, Xavier, Bill Scott, and Juliet Wilson-Bareau. <em>Mujeres Impresionistas: la Otra Mirada : Sala BBK, 12 de novembre de 2001-3 de febrero de 2002. </em>[Bilbao]: Museo de Bellas Artes de Bilbao, 2001.",
+        "page_number": "Mentioned and reproduced: p. 58-59, no. 3",
+        "url": null
+      },
+      {
+        "citation": "Locke, Nancy. <em>Manet and the Family Romance.</em> Princeton, N.J.: Princeton University Press, 2001.",
+        "page_number": "Mentioned: p. 148; Reproduced: p. 151, fig. 79",
+        "url": ""
+      },
+      {
+        "citation": "Morisot, Berthe. <em>Berthe Morisot, 1841-1895: Lille, Palais des beaux-arts, 10 mars-9 juin 2002, Martigny, Fondation Pierre Gianadda, 20 juin-19 novembre 2002</em>. Paris: Réunion des musées nationaux, 2002.",
+        "page_number": "Mentioned: cat. no. 162, p. 454-455",
+        "url": null
+      },
+      {
+        "citation": "<em>Berthe Morisot, 1841-1895: Lille, Palais des beaux-arts, 10 mars-9 juin 2002, Martigny, Fondation Pierre Gianadda, 20 juin-19 novembre 2002</em>. Paris: Réunion des musées nationaux, 2002.",
+        "page_number": "Mentioned and reproduced: p. 454-455, no. 162",
+        "url": null
+      },
+      {
+        "citation": "Stevens, Mary Anne. <em>Manet, Portraying Life</em>. Toledo: Toledo Museum of Art; London: Royal Academy of Arts; New York: Distributed in the United States and Canada by Harry N. Abrams, Inc., 2012.",
+        "page_number": "Reproduced: p. 101, no. 19",
+        "url": null
+      },
+      {
+        "citation": "Kelly, Simon, and Esther Bell. <em>Degas, Impressionism, and the Paris Millinery Trade.</em> San Francisco, CA: Fine Arts Museums of San Francisco-Legion of Honor ; Munic ; DelMonico Books, an imprint of Prestel, a member of Verlagsgruppe Random House GmbH, 2017.",
+        "page_number": "Reproduced: p. 150-151, no. 29",
+        "url": null
+      },
+      {
+        "citation": "Conzen, Ina. \"Die Flaneuse - Manets Bilder von Frauen.\" In <em>Edouard Manet. </em>Gerhard Finckh, ed., 41-49. Wuppertal: Von der Heydt-Museum, 2017.",
+        "page_number": "Reproduced: p. 45, 211",
+        "url": null
+      },
+      {
+        "citation": "Diana Greenwald, ed. <em>Manet: A Model Family, </em>Boston, Princeton: Isabella Stewart Gardner Museum; in association with Princeton University Press, 2024.",
+        "page_number": "Mentioned and reproduced: p. 182-185",
+        "url": ""
+      },
+      {
+        "citation": "Beeny, Emily A. \"Manet &amp; Morisot.\" In <em>Manet &amp; Morisot</em>. Emily Beeny, Heather Lemonedes Brown, Anne Higonnet, Kimberly A. Jones, Nicole R. Myers, et al., 11-71. San Francisco, New Haven: Fine Arts Museums of San Francisco; Yale University Press, 2025.",
+        "page_number": "Mentioned: p. 53; Reproduced: p. 98, no. 21",
+        "url": ""
+      },
+      {
+        "citation": "Patry, Sylvie. \"\"Marisot\" in 1874.\" In <em>Manet &amp; Morisot</em>. Emily Beeny, Heather Lemonedes Brown, Anne Higonnet, Kimberly A. Jones, Nicole R. Myers, et al., 11-71. San Francisco, New Haven: Fine Arts Museums of San Francisco; Yale University Press, 2025.",
+        "page_number": "Mentioned: p. 193-194; Reproduced: p. 98, no. 21",
+        "url": ""
+      },
+      {
+        "citation": "Pludermacher, Isolde. \"An Enigma in Painting: Manet's Portraits of Morisot.\" In <em>Manet &amp; Morisot</em>. Emily Beeny, Heather Lemonedes Brown, Anne Higonnet, Kimberly A. Jones, Nicole R. Myers, et al., 167-181. San Francisco, New Haven: Fine Arts Museums of San Francisco; Yale University Press, 2025.",
+        "page_number": "Mentioned: p. 168-168, 171; Reproduced: p. 98, no. 21",
+        "url": ""
+      },
+      {
+        "citation": "Brown, Heather Lemonedes. \"A Spring Exhibition Preview: Manet &amp; Monet.” <em>Cleveland Art: Cleveland Museum of Art Members Magazine</em> 65, no. 4 (2025): 8.",
+        "page_number": "Reproduced and Mentioned: p. 8",
+        "url": "https://archive.org/details/CMAMM-2025-04"
+      }
+    ],
+    "url": "https://clevelandart.org/art/1958.34",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_web.jpg",
+        "width": "726",
+        "height": "900",
+        "filesize": "251668",
+        "filename": "1958.34_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_print.jpg",
+        "width": "2744",
+        "height": "3400",
+        "filesize": "4392059",
+        "filename": "1958.34_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_full.tif",
+        "width": "11668",
+        "height": "14455",
+        "filesize": "506012684",
+        "filename": "1958.34_full.tif"
+      }
+    },
+    "alternate_images": [
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_alt0_web.jpg",
+          "width": "675",
+          "height": "900",
+          "filesize": "261293"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_alt0_print.jpg",
+          "width": "2550",
+          "height": "3400",
+          "filesize": "4259848"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_alt0_full.tif",
+          "width": "12000",
+          "height": "16000",
+          "filesize": "576029560"
+        },
+        "date_created": "2017-10-04T13:20:06",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_alt1_web.jpg",
+          "width": "720",
+          "height": "893",
+          "filesize": "456987"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_alt1_print.jpg",
+          "width": "2741",
+          "height": "3400",
+          "filesize": "7138709"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_alt1_full.tif",
+          "width": "4031",
+          "height": "5000",
+          "filesize": "60495924"
+        },
+        "date_created": "2006-04-06T16:22:38",
+        "annotation": ""
+      }
+    ],
+    "creditline": "Bequest of Leonard C. Hanna Jr.",
+    "image_credit": null,
+    "sketchfab_id": null,
+    "sketchfab_url": null,
+    "gallery_donor_text": null,
+    "athena_id": 135336,
+    "creators": [
+      {
+        "id": 1796,
+        "description": "Édouard Manet (French, 1832–1883)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": "Born into a wealthy family, Édouard Manet was encouraged in his artistic curiosity by his uncle and often visited the Louvre with his college friend Antonin Proust. Initially, however, Manet wanted to pursue a naval career. It was not until he failed the entrance exams for the naval academy that he decided to pursue a career as an artist. In 1850 he entered the studio of Couture (q.v.), whose reputation had risen sharply after exhibiting his Romans of the Decadence (Salon 1847, Musée d'Orsay, Paris). Couture wanted to circumvent conventional academic training and combined traditional painting methods with new techniques-for example, allowing underpaint to form an intrinsic part of the final composition, which resulted in a sketchy appearance. Manet would absorb this technique into his work. He had no strict need to sell his artwork; rather, he longed for recognition as an artist. He responded to Charles Baudelaire's call to young artists to paint contemporary life rather than antiquity and take a distanced point of view, because, as Baudelaire stated in his article The Painter of Modern Life (published in Le Figaro, 1863), objectivity is more sincere and honest. In 1863 the Salon jury rejected more than half of the five thousand works submitted, including Manet's Déjeuner sur l'herbe (Musée d'Orsay, Paris). In response to the conservative jury of that year, Napoleon III, in an effort to appease the artists as well as discourage antigovernment sentiment, organized the Salon des Refusés, which took place in the Palais des Champs-Élysées two weeks after the opening of the official Salon. The painting caused a formidable succès de scandale both for its technique and subject matter. The majority of the people failed to understand that the artist wanted to translate the conventions of the Old Masters into a new idiom that would reflect contemporary society. Two years later the scandal was repeated when Manet's Olympia (Musée d'Orsay, Paris) was accepted into the Salon of 1865. This time the jury was more lenient because fewer academicians were among its members. Even though his work often received severe criticism, Manet continued to submit works to the Salon, which he felt was the only legitimate place to compete and prove himself as an artist. At the time of the Universal Exposition in Paris in 1867, Manet, following Courbet's (q.v.) lead set in 1855, organized his own pavilion next to the Exposition where he showed more than fifty paintings. Émile Zola, the French writer and critic who may have collaborated with Manet in writing the preface for his one-man exhibition, recognized his talent and modernity. Zola rejected academic painting of the day, including Alexandre Cabanel's (1823-1889) The Birth of Venus (Musée d'Orsay, Paris), which not only won the gold medal at the Salon of 1863 but was purchased by Napoleon III. Zola vehemently defended Manet against harsh criticism and exalted him as the greatest painter of the nineteenth century. Manet painted a portrait of Zola (Salon 1868, Musée d'Orsay, Paris) that reflected the artist's interest in Japanese prints as well as photography. By the 1870s Manet's palette had lightened and his brushwork became freer and more sketchy. These new features in his painting technique may have resulted from his contact with the younger impressionist group that began exhibiting as such in 1874. Although Manet was friendly with its members and sympathized with their goals, he never exhibited with them and continued to show his paintings at the official Salon. Manet was truly innovative in depicting subjects of urban life. However, during his lifetime he enjoyed little support, and it was not until the impressionists gained general recognition that Manet was acknowledged as a truly modern painter. Henri Matisse (1869-1954) would express his immense admiration for Manet as follows: \"He was the first to act by reflex, thus simplifying the painter's métier, . . . Manet was direct as could be.\"1 1. Matisse in L'Intransigeant (25 January 1932), cited in Manet 1832-1883, 18.",
+        "name_in_original_language": null,
+        "birth_year": "1832",
+        "death_year": "1883",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "1958-11-29T00:00:00",
+    "sortable_date": 1871,
+    "date_added_to_oa": null,
+    "date_text": "c. 1871–72",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": true,
+    "impression": null,
+    "alternate_titles": [],
+    "is_highlight": false,
+    "updated_at": "2026-10-26 13:31:21.158000"
+  }
+}
