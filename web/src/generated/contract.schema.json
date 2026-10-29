@@ -181,6 +181,7 @@
             "by",
             "until",
             "after",
+            "circa",
             "unknown"
           ],
           "title": "Precision",
@@ -410,6 +411,6 @@
     "party_aliases",
     "events"
   ],
-  "title": "Dataset",
+  "title": "EvidenceModel",
   "type": "object"
 }

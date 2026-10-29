@@ -47,7 +47,7 @@ _Avoid_: Variant, synonym
 ### Time and certainty
 
 **Precision**:
-How exactly a date is known: exact, by, until, circa or unknown. Never converted to an exact year.
+How exactly a date is known: exact, range, by, until, after, circa or unknown. Never converted to an exact year.
 _Avoid_: Accuracy
 
 **Certainty**:

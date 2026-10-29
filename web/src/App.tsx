@@ -1,11 +1,11 @@
-import type { Claim, Dataset, Event } from './generated/contract'
-import raw from './generated/dataset.json'
+import type { Claim, EvidenceModel, Event } from './generated/contract'
+import raw from './generated/evidence.json'
 
-const dataset = raw as unknown as Dataset
+const model = raw as unknown as EvidenceModel
 
-const partyName = new Map(dataset.parties.map((p) => [p.id, p.preferred_name]))
-const claimById = new Map(dataset.claims.map((c) => [c.id, c]))
-const recordById = new Map(dataset.source_records.map((r) => [r.id, r]))
+const partyName = new Map(model.parties.map((p) => [p.id, p.preferred_name]))
+const claimById = new Map(model.claims.map((c) => [c.id, c]))
+const recordById = new Map(model.source_records.map((r) => [r.id, r]))
 
 const LINK_LABEL: Record<Event['link_type'], string> = {
   sale: 'sold to',
@@ -37,8 +37,8 @@ function SourceWords({ claimIds }: { claimIds: string[] }) {
 }
 
 export default function App() {
-  const artwork = dataset.artworks[0]
-  const record = dataset.source_records[0]
+  const artwork = model.artworks[0]
+  const record = model.source_records[0]
   return (
     <main>
       <h1>{artwork.title}</h1>
@@ -47,7 +47,7 @@ export default function App() {
         {record.retrieved_at.slice(0, 10)}.
       </p>
       <ol className="events">
-        {dataset.events.map((e) => (
+        {model.events.map((e) => (
           <li key={e.id}>
             <p>
               <strong>{partyName.get(e.from_party)}</strong> {LINK_LABEL[e.link_type]}{' '}

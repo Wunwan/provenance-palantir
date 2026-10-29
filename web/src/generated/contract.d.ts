@@ -50,12 +50,12 @@ export type ToParty = string;
 export type LinkType = "sale" | "gift" | "descent" | "bequest" | "unknown";
 export type DateStart = string | null;
 export type DateEnd = string | null;
-export type Precision = "exact" | "range" | "by" | "until" | "after" | "unknown";
+export type Precision = "exact" | "range" | "by" | "until" | "after" | "circa" | "unknown";
 export type Certainty1 = "confirmed" | "approximate" | "unknown";
 export type Place = string | null;
 export type Events = Event[];
 
-export interface Dataset {
+export interface EvidenceModel {
   collections: Collections;
   source_records: SourceRecords;
   claims: Claims;

@@ -64,7 +64,7 @@ class PartyAlias(Strict):
 
 
 LinkType = Literal["sale", "gift", "descent", "bequest", "unknown"]
-Precision = Literal["exact", "range", "by", "until", "after", "unknown"]
+Precision = Literal["exact", "range", "by", "until", "after", "circa", "unknown"]
 Certainty = Literal["confirmed", "approximate", "unknown"]
 
 # Event values that must each cite at least one claim when they are set.
@@ -94,7 +94,7 @@ class Event(Strict):
         return self
 
 
-class Dataset(Strict):
+class EvidenceModel(Strict):
     collections: list[Collection]
     source_records: list[SourceRecord]
     claims: list[Claim]
@@ -104,7 +104,7 @@ class Dataset(Strict):
     events: list[Event]
 
     @model_validator(mode="after")
-    def references_resolve(self) -> Dataset:
+    def references_resolve(self) -> EvidenceModel:
         ids = {
             "collection": {c.id for c in self.collections},
             "source_record": {r.id for r in self.source_records},
@@ -145,12 +145,12 @@ TABLES = {
 }
 
 
-def load_dataset(directory: Path) -> Dataset:
+def load_evidence(directory: Path) -> EvidenceModel:
     tables = {
         name: json.loads((directory / filename).read_text(encoding="utf-8"))
         for name, filename in TABLES.items()
     }
-    return Dataset.model_validate(tables)
+    return EvidenceModel.model_validate(tables)
 
 
 def _resolve(payload: object, field_path: str) -> object:
@@ -164,12 +164,12 @@ def _resolve(payload: object, field_path: str) -> object:
     return value
 
 
-def check_claims_against_raw(dataset: Dataset, root: Path) -> list[str]:
+def check_claims_against_raw(model: EvidenceModel, root: Path) -> list[str]:
     """Return one message per claim whose span does not hold its text in the raw record."""
-    records = {r.id: r for r in dataset.source_records}
+    records = {r.id: r for r in model.source_records}
     payloads: dict[str, object] = {}
     problems = []
-    for claim in dataset.claims:
+    for claim in model.claims:
         record = records[claim.source_record]
         if record.id not in payloads:
             snapshot = json.loads((root / record.raw_path).read_text(encoding="utf-8"))
