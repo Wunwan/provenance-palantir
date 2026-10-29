@@ -1,0 +1,74 @@
+[
+  {
+    "id": "theo",
+    "preferred_name": "Theo van Gogh",
+    "kind": "person",
+    "life_dates": "1857-1891"
+  },
+  {
+    "id": "johanna",
+    "preferred_name": "Johanna van Gogh-Bonger",
+    "kind": "person",
+    "life_dates": "1862-1915"
+  },
+  {
+    "id": "steenhoff",
+    "preferred_name": "Willem Steenhoff",
+    "kind": "person",
+    "life_dates": "1863-1932"
+  },
+  {
+    "id": "flechtheim",
+    "preferred_name": "Alfred Flechtheim",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "siller",
+    "preferred_name": "Max Siller",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "cassirer",
+    "preferred_name": "Paul Cassirer",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "thannhauser",
+    "preferred_name": "Justin Thannhauser",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "sperling",
+    "preferred_name": "Harry Sperling",
+    "kind": "person",
+    "life_dates": "1925-1971"
+  },
+  {
+    "id": "knoedler",
+    "preferred_name": "M. Knoedler and Co.",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "salz",
+    "preferred_name": "Sam Salz",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "hanna",
+    "preferred_name": "Leonard C. Hanna, Jr.",
+    "kind": "person",
+    "life_dates": "1889-1957"
+  },
+  {
+    "id": "cma",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
+  }
+]

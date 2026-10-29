@@ -1,0 +1,415 @@
+{
+  "$defs": {
+    "Artwork": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "artist": {
+          "title": "Artist",
+          "type": "string"
+        },
+        "created": {
+          "title": "Created",
+          "type": "string"
+        },
+        "accession": {
+          "title": "Accession",
+          "type": "string"
+        },
+        "image": {
+          "title": "Image",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "artist",
+        "created",
+        "accession",
+        "image"
+      ],
+      "title": "Artwork",
+      "type": "object"
+    },
+    "Claim": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "source_record": {
+          "title": "Source Record",
+          "type": "string"
+        },
+        "field_path": {
+          "title": "Field Path",
+          "type": "string"
+        },
+        "start": {
+          "title": "Start",
+          "type": "integer"
+        },
+        "end": {
+          "title": "End",
+          "type": "integer"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "method": {
+          "enum": [
+            "hand",
+            "rule",
+            "ai"
+          ],
+          "title": "Method",
+          "type": "string"
+        },
+        "certainty": {
+          "title": "Certainty",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "source_record",
+        "field_path",
+        "start",
+        "end",
+        "text",
+        "method",
+        "certainty"
+      ],
+      "title": "Claim",
+      "type": "object"
+    },
+    "Collection": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "source": {
+          "title": "Source",
+          "type": "string"
+        },
+        "snapshot_date": {
+          "title": "Snapshot Date",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "source",
+        "snapshot_date"
+      ],
+      "title": "Collection",
+      "type": "object"
+    },
+    "Event": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "artwork": {
+          "title": "Artwork",
+          "type": "string"
+        },
+        "from_party": {
+          "title": "From Party",
+          "type": "string"
+        },
+        "to_party": {
+          "title": "To Party",
+          "type": "string"
+        },
+        "link_type": {
+          "enum": [
+            "sale",
+            "gift",
+            "descent",
+            "bequest",
+            "unknown"
+          ],
+          "title": "Link Type",
+          "type": "string"
+        },
+        "date_start": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Date Start"
+        },
+        "date_end": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Date End"
+        },
+        "precision": {
+          "enum": [
+            "exact",
+            "range",
+            "by",
+            "until",
+            "after",
+            "unknown"
+          ],
+          "title": "Precision",
+          "type": "string"
+        },
+        "certainty": {
+          "enum": [
+            "confirmed",
+            "approximate",
+            "unknown"
+          ],
+          "title": "Certainty",
+          "type": "string"
+        },
+        "place": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Place"
+        },
+        "cites": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "title": "Cites",
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "artwork",
+        "from_party",
+        "to_party",
+        "link_type",
+        "date_start",
+        "date_end",
+        "precision",
+        "certainty",
+        "place",
+        "cites"
+      ],
+      "title": "Event",
+      "type": "object"
+    },
+    "Party": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "preferred_name": {
+          "title": "Preferred Name",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "person",
+            "organization"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "life_dates": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Life Dates"
+        }
+      },
+      "required": [
+        "id",
+        "preferred_name",
+        "kind",
+        "life_dates"
+      ],
+      "title": "Party",
+      "type": "object"
+    },
+    "PartyAlias": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "party": {
+          "title": "Party",
+          "type": "string"
+        },
+        "name_as_written": {
+          "title": "Name As Written",
+          "type": "string"
+        },
+        "claim": {
+          "title": "Claim",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "party",
+        "name_as_written",
+        "claim"
+      ],
+      "title": "PartyAlias",
+      "type": "object"
+    },
+    "SourceRecord": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "collection": {
+          "title": "Collection",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Version"
+        },
+        "raw_path": {
+          "title": "Raw Path",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "collection",
+        "url",
+        "retrieved_at",
+        "version",
+        "raw_path"
+      ],
+      "title": "SourceRecord",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "collections": {
+      "items": {
+        "$ref": "#/$defs/Collection"
+      },
+      "title": "Collections",
+      "type": "array"
+    },
+    "source_records": {
+      "items": {
+        "$ref": "#/$defs/SourceRecord"
+      },
+      "title": "Source Records",
+      "type": "array"
+    },
+    "claims": {
+      "items": {
+        "$ref": "#/$defs/Claim"
+      },
+      "title": "Claims",
+      "type": "array"
+    },
+    "artworks": {
+      "items": {
+        "$ref": "#/$defs/Artwork"
+      },
+      "title": "Artworks",
+      "type": "array"
+    },
+    "parties": {
+      "items": {
+        "$ref": "#/$defs/Party"
+      },
+      "title": "Parties",
+      "type": "array"
+    },
+    "party_aliases": {
+      "items": {
+        "$ref": "#/$defs/PartyAlias"
+      },
+      "title": "Party Aliases",
+      "type": "array"
+    },
+    "events": {
+      "items": {
+        "$ref": "#/$defs/Event"
+      },
+      "title": "Events",
+      "type": "array"
+    }
+  },
+  "required": [
+    "collections",
+    "source_records",
+    "claims",
+    "artworks",
+    "parties",
+    "party_aliases",
+    "events"
+  ],
+  "title": "Dataset",
+  "type": "object"
+}

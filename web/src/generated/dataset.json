@@ -1,0 +1,879 @@
+{
+  "collections": [
+    {
+      "id": "cleveland-nazi-era",
+      "name": "Cleveland Museum of Art, Nazi-era provenance",
+      "source": "cleveland",
+      "snapshot_date": "2026-10-29"
+    }
+  ],
+  "source_records": [
+    {
+      "id": "sr-1958.32",
+      "collection": "cleveland-nazi-era",
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.32",
+      "retrieved_at": "2026-10-29T23:08:02Z",
+      "version": null,
+      "raw_path": "data/raw/cleveland/1958.32.json"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c-01",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[0].description",
+      "start": 0,
+      "end": 13,
+      "text": "Theo van Gogh",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-02",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[1].description",
+      "start": 0,
+      "end": 23,
+      "text": "Johanna van Gogh-Bonger",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-03",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[2].description",
+      "start": 0,
+      "end": 16,
+      "text": "Willem Steenhoff",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-04",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[3].description",
+      "start": 0,
+      "end": 17,
+      "text": "Alfred Flechtheim",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-05",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[4].description",
+      "start": 0,
+      "end": 10,
+      "text": "Max Siller",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-06",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[5].description",
+      "start": 0,
+      "end": 13,
+      "text": "Paul Cassirer",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-07",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[6].description",
+      "start": 0,
+      "end": 18,
+      "text": "Justin Thannhauser",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-08",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[7].description",
+      "start": 0,
+      "end": 14,
+      "text": "Harry Sperling",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-09",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[8].description",
+      "start": 0,
+      "end": 19,
+      "text": "M. Knoedler and Co.",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-10",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[9].description",
+      "start": 0,
+      "end": 8,
+      "text": "Sam Salz",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-11",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[10].description",
+      "start": 0,
+      "end": 20,
+      "text": "Leonard C. Hanna, Jr",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-12",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[11].description",
+      "start": 0,
+      "end": 21,
+      "text": "Leonard C. Hanna, Jr.",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-13",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[12].description",
+      "start": 0,
+      "end": 27,
+      "text": "The Cleveland Museum of Art",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-14",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[0].description",
+      "start": 41,
+      "end": 51,
+      "text": "by descent",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-15",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[1].description",
+      "start": 70,
+      "end": 77,
+      "text": "by gift",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-16",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[2].description",
+      "start": 53,
+      "end": 60,
+      "text": "sold to",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-17",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[10].description",
+      "start": 37,
+      "end": 61,
+      "text": "purchased March 12, 1946",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-18",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[10].description",
+      "start": 47,
+      "end": 61,
+      "text": "March 12, 1946",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-19",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[11].description",
+      "start": 49,
+      "end": 59,
+      "text": "by bequest",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-20",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[1].date",
+      "start": 0,
+      "end": 4,
+      "text": "1891",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-21",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[0].date",
+      "start": 5,
+      "end": 9,
+      "text": "1891",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-22",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[2].date",
+      "start": 0,
+      "end": 4,
+      "text": "1905",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-23",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[1].date",
+      "start": 5,
+      "end": 9,
+      "text": "1905",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-24",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 4,
+      "text": "1910",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-25",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[2].date",
+      "start": 5,
+      "end": 9,
+      "text": "1910",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-26",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[3].date",
+      "start": 0,
+      "end": 4,
+      "text": "1910",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-27",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 4,
+      "text": "1914",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-28",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[4].date",
+      "start": 0,
+      "end": 4,
+      "text": "1914",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-29",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[5].date",
+      "start": 0,
+      "end": 4,
+      "text": "1914",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-30",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[5].date",
+      "start": 0,
+      "end": 4,
+      "text": "1914",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-31",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 4,
+      "text": "1927",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-32",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[6].date",
+      "start": 0,
+      "end": 4,
+      "text": "1927",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-33",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 9,
+      "text": "July 1940",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-34",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[7].date",
+      "start": 0,
+      "end": 9,
+      "text": "July 1940",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-35",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 10,
+      "text": "March 1946",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-36",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[8].date",
+      "start": 0,
+      "end": 10,
+      "text": "March 1946",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-37",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[9].date",
+      "start": 0,
+      "end": 10,
+      "text": "March 1946",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-38",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[12].date",
+      "start": 0,
+      "end": 4,
+      "text": "1958",
+      "method": "hand",
+      "certainty": "stated"
+    },
+    {
+      "id": "c-39",
+      "source_record": "sr-1958.32",
+      "field_path": "provenance[11].date",
+      "start": 5,
+      "end": 9,
+      "text": "1958",
+      "method": "hand",
+      "certainty": "stated"
+    }
+  ],
+  "artworks": [
+    {
+      "id": "cma-1958.32",
+      "title": "Two Poplars in the Alpilles near Saint-Rémy",
+      "artist": "Vincent van Gogh",
+      "created": "1889",
+      "accession": "1958.32",
+      "image": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_web.jpg"
+    }
+  ],
+  "parties": [
+    {
+      "id": "theo",
+      "preferred_name": "Theo van Gogh",
+      "kind": "person",
+      "life_dates": "1857-1891"
+    },
+    {
+      "id": "johanna",
+      "preferred_name": "Johanna van Gogh-Bonger",
+      "kind": "person",
+      "life_dates": "1862-1915"
+    },
+    {
+      "id": "steenhoff",
+      "preferred_name": "Willem Steenhoff",
+      "kind": "person",
+      "life_dates": "1863-1932"
+    },
+    {
+      "id": "flechtheim",
+      "preferred_name": "Alfred Flechtheim",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "siller",
+      "preferred_name": "Max Siller",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "cassirer",
+      "preferred_name": "Paul Cassirer",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "thannhauser",
+      "preferred_name": "Justin Thannhauser",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "sperling",
+      "preferred_name": "Harry Sperling",
+      "kind": "person",
+      "life_dates": "1925-1971"
+    },
+    {
+      "id": "knoedler",
+      "preferred_name": "M. Knoedler and Co.",
+      "kind": "organization",
+      "life_dates": null
+    },
+    {
+      "id": "salz",
+      "preferred_name": "Sam Salz",
+      "kind": "person",
+      "life_dates": null
+    },
+    {
+      "id": "hanna",
+      "preferred_name": "Leonard C. Hanna, Jr.",
+      "kind": "person",
+      "life_dates": "1889-1957"
+    },
+    {
+      "id": "cma",
+      "preferred_name": "The Cleveland Museum of Art",
+      "kind": "organization",
+      "life_dates": null
+    }
+  ],
+  "party_aliases": [
+    {
+      "id": "pa-theo",
+      "party": "theo",
+      "name_as_written": "Theo van Gogh",
+      "claim": "c-01"
+    },
+    {
+      "id": "pa-johanna",
+      "party": "johanna",
+      "name_as_written": "Johanna van Gogh-Bonger",
+      "claim": "c-02"
+    },
+    {
+      "id": "pa-steenhoff",
+      "party": "steenhoff",
+      "name_as_written": "Willem Steenhoff",
+      "claim": "c-03"
+    },
+    {
+      "id": "pa-flechtheim",
+      "party": "flechtheim",
+      "name_as_written": "Alfred Flechtheim",
+      "claim": "c-04"
+    },
+    {
+      "id": "pa-siller",
+      "party": "siller",
+      "name_as_written": "Max Siller",
+      "claim": "c-05"
+    },
+    {
+      "id": "pa-cassirer",
+      "party": "cassirer",
+      "name_as_written": "Paul Cassirer",
+      "claim": "c-06"
+    },
+    {
+      "id": "pa-thannhauser",
+      "party": "thannhauser",
+      "name_as_written": "Justin Thannhauser",
+      "claim": "c-07"
+    },
+    {
+      "id": "pa-sperling",
+      "party": "sperling",
+      "name_as_written": "Harry Sperling",
+      "claim": "c-08"
+    },
+    {
+      "id": "pa-knoedler",
+      "party": "knoedler",
+      "name_as_written": "M. Knoedler and Co.",
+      "claim": "c-09"
+    },
+    {
+      "id": "pa-salz",
+      "party": "salz",
+      "name_as_written": "Sam Salz",
+      "claim": "c-10"
+    },
+    {
+      "id": "pa-hanna10",
+      "party": "hanna",
+      "name_as_written": "Leonard C. Hanna, Jr",
+      "claim": "c-11"
+    },
+    {
+      "id": "pa-hanna11",
+      "party": "hanna",
+      "name_as_written": "Leonard C. Hanna, Jr.",
+      "claim": "c-12"
+    },
+    {
+      "id": "pa-cma",
+      "party": "cma",
+      "name_as_written": "The Cleveland Museum of Art",
+      "claim": "c-13"
+    }
+  ],
+  "events": [
+    {
+      "id": "e-01",
+      "artwork": "cma-1958.32",
+      "from_party": "theo",
+      "to_party": "johanna",
+      "link_type": "descent",
+      "date_start": "1891",
+      "date_end": "1891",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-01"
+        ],
+        "to_party": [
+          "c-02"
+        ],
+        "link_type": [
+          "c-14"
+        ],
+        "date_start": [
+          "c-20"
+        ],
+        "date_end": [
+          "c-21"
+        ]
+      }
+    },
+    {
+      "id": "e-02",
+      "artwork": "cma-1958.32",
+      "from_party": "johanna",
+      "to_party": "steenhoff",
+      "link_type": "gift",
+      "date_start": "1905",
+      "date_end": "1905",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-02"
+        ],
+        "to_party": [
+          "c-03"
+        ],
+        "link_type": [
+          "c-15"
+        ],
+        "date_start": [
+          "c-22"
+        ],
+        "date_end": [
+          "c-23"
+        ]
+      }
+    },
+    {
+      "id": "e-03",
+      "artwork": "cma-1958.32",
+      "from_party": "steenhoff",
+      "to_party": "flechtheim",
+      "link_type": "sale",
+      "date_start": "1910",
+      "date_end": "1910",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-03"
+        ],
+        "to_party": [
+          "c-04"
+        ],
+        "link_type": [
+          "c-16"
+        ],
+        "date_start": [
+          "c-24"
+        ],
+        "date_end": [
+          "c-25"
+        ]
+      }
+    },
+    {
+      "id": "e-04",
+      "artwork": "cma-1958.32",
+      "from_party": "flechtheim",
+      "to_party": "siller",
+      "link_type": "unknown",
+      "date_start": "1910",
+      "date_end": "1914",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-04"
+        ],
+        "to_party": [
+          "c-05"
+        ],
+        "date_start": [
+          "c-26"
+        ],
+        "date_end": [
+          "c-27"
+        ]
+      }
+    },
+    {
+      "id": "e-05",
+      "artwork": "cma-1958.32",
+      "from_party": "siller",
+      "to_party": "cassirer",
+      "link_type": "unknown",
+      "date_start": "1914",
+      "date_end": "1914",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-05"
+        ],
+        "to_party": [
+          "c-06"
+        ],
+        "date_start": [
+          "c-28"
+        ],
+        "date_end": [
+          "c-29"
+        ]
+      }
+    },
+    {
+      "id": "e-06",
+      "artwork": "cma-1958.32",
+      "from_party": "cassirer",
+      "to_party": "thannhauser",
+      "link_type": "unknown",
+      "date_start": "1914",
+      "date_end": "1927",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-06"
+        ],
+        "to_party": [
+          "c-07"
+        ],
+        "date_start": [
+          "c-30"
+        ],
+        "date_end": [
+          "c-31"
+        ]
+      }
+    },
+    {
+      "id": "e-07",
+      "artwork": "cma-1958.32",
+      "from_party": "thannhauser",
+      "to_party": "sperling",
+      "link_type": "unknown",
+      "date_start": "1927",
+      "date_end": "1940-07",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-07"
+        ],
+        "to_party": [
+          "c-08"
+        ],
+        "date_start": [
+          "c-32"
+        ],
+        "date_end": [
+          "c-33"
+        ]
+      }
+    },
+    {
+      "id": "e-08",
+      "artwork": "cma-1958.32",
+      "from_party": "sperling",
+      "to_party": "knoedler",
+      "link_type": "unknown",
+      "date_start": "1940-07",
+      "date_end": "1946-03",
+      "precision": "range",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-08"
+        ],
+        "to_party": [
+          "c-09"
+        ],
+        "date_start": [
+          "c-34"
+        ],
+        "date_end": [
+          "c-35"
+        ]
+      }
+    },
+    {
+      "id": "e-09",
+      "artwork": "cma-1958.32",
+      "from_party": "knoedler",
+      "to_party": "salz",
+      "link_type": "unknown",
+      "date_start": "1946-03",
+      "date_end": "1946-03",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-09"
+        ],
+        "to_party": [
+          "c-10"
+        ],
+        "date_start": [
+          "c-36"
+        ],
+        "date_end": [
+          "c-37"
+        ]
+      }
+    },
+    {
+      "id": "e-10",
+      "artwork": "cma-1958.32",
+      "from_party": "salz",
+      "to_party": "hanna",
+      "link_type": "sale",
+      "date_start": "1946-03-12",
+      "date_end": "1946-03-12",
+      "precision": "exact",
+      "certainty": "approximate",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-10"
+        ],
+        "to_party": [
+          "c-11"
+        ],
+        "link_type": [
+          "c-17"
+        ],
+        "date_start": [
+          "c-18"
+        ],
+        "date_end": [
+          "c-18"
+        ]
+      }
+    },
+    {
+      "id": "e-11",
+      "artwork": "cma-1958.32",
+      "from_party": "hanna",
+      "to_party": "cma",
+      "link_type": "bequest",
+      "date_start": "1958",
+      "date_end": "1958",
+      "precision": "exact",
+      "certainty": "confirmed",
+      "place": null,
+      "cites": {
+        "from_party": [
+          "c-12"
+        ],
+        "to_party": [
+          "c-13"
+        ],
+        "link_type": [
+          "c-19"
+        ],
+        "date_start": [
+          "c-38"
+        ],
+        "date_end": [
+          "c-39"
+        ]
+      }
+    }
+  ]
+}

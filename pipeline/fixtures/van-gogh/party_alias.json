@@ -1,0 +1,80 @@
+[
+  {
+    "id": "pa-theo",
+    "party": "theo",
+    "name_as_written": "Theo van Gogh",
+    "claim": "c-01"
+  },
+  {
+    "id": "pa-johanna",
+    "party": "johanna",
+    "name_as_written": "Johanna van Gogh-Bonger",
+    "claim": "c-02"
+  },
+  {
+    "id": "pa-steenhoff",
+    "party": "steenhoff",
+    "name_as_written": "Willem Steenhoff",
+    "claim": "c-03"
+  },
+  {
+    "id": "pa-flechtheim",
+    "party": "flechtheim",
+    "name_as_written": "Alfred Flechtheim",
+    "claim": "c-04"
+  },
+  {
+    "id": "pa-siller",
+    "party": "siller",
+    "name_as_written": "Max Siller",
+    "claim": "c-05"
+  },
+  {
+    "id": "pa-cassirer",
+    "party": "cassirer",
+    "name_as_written": "Paul Cassirer",
+    "claim": "c-06"
+  },
+  {
+    "id": "pa-thannhauser",
+    "party": "thannhauser",
+    "name_as_written": "Justin Thannhauser",
+    "claim": "c-07"
+  },
+  {
+    "id": "pa-sperling",
+    "party": "sperling",
+    "name_as_written": "Harry Sperling",
+    "claim": "c-08"
+  },
+  {
+    "id": "pa-knoedler",
+    "party": "knoedler",
+    "name_as_written": "M. Knoedler and Co.",
+    "claim": "c-09"
+  },
+  {
+    "id": "pa-salz",
+    "party": "salz",
+    "name_as_written": "Sam Salz",
+    "claim": "c-10"
+  },
+  {
+    "id": "pa-hanna10",
+    "party": "hanna",
+    "name_as_written": "Leonard C. Hanna, Jr",
+    "claim": "c-11"
+  },
+  {
+    "id": "pa-hanna11",
+    "party": "hanna",
+    "name_as_written": "Leonard C. Hanna, Jr.",
+    "claim": "c-12"
+  },
+  {
+    "id": "pa-cma",
+    "party": "cma",
+    "name_as_written": "The Cleveland Museum of Art",
+    "claim": "c-13"
+  }
+]

@@ -1,0 +1,742 @@
+{
+  "source": "cleveland",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.32",
+  "retrieved_at": "2026-10-29T23:08:02Z",
+  "version": null,
+  "payload": {
+    "id": 135310,
+    "accession_number": "1958.32",
+    "share_license_status": "CC0",
+    "tombstone": "Two Poplars in the Alpilles near Saint-Rémy, 1889. Vincent van Gogh (Dutch, 1853–1890). Oil on fabric; framed: 81 x 66.7 x 7.3 cm (31 7/8 x 26 1/4 x 2 7/8 in.); unframed: 61.6 x 45.7 cm (24 1/4 x 18 in.). The Cleveland Museum of Art, Bequest of Leonard C. Hanna Jr., 1958.32",
+    "current_location": "222 Impressionism & Post-Impressionism",
+    "title": "Two Poplars in the Alpilles near Saint-Rémy",
+    "creation_date": "1889",
+    "creation_date_earliest": 1889,
+    "creation_date_latest": 1889,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "Netherlands"
+    ],
+    "technique": "oil on fabric",
+    "support_materials": [],
+    "department": "Modern European Painting and Sculpture",
+    "collection": "Mod Euro - Painting 1800-1960",
+    "type": "Painting",
+    "measurements": "Framed: 81 x 66.7 x 7.3 cm (31 7/8 x 26 1/4 x 2 7/8 in.); Unframed: 61.6 x 45.7 cm (24 1/4 x 18 in.)",
+    "dimensions": {
+      "framed": {
+        "height": 0.81,
+        "height_inch": 31,
+        "height_inch_fraction": 0.875,
+        "width": 0.667,
+        "width_inch": 26,
+        "width_inch_fraction": 0.25,
+        "depth": 0.073,
+        "depth_inch": 2,
+        "depth_inch_fraction": 0.875
+      },
+      "unframed": {
+        "height": 0.616,
+        "height_inch": 24,
+        "height_inch_fraction": 0.25,
+        "width": 0.457,
+        "width_inch": 18,
+        "width_inch_fraction": 0.0
+      },
+      "No Extent Specified": {}
+    },
+    "state_of_the_work": null,
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 703013,
+          "title": "Highlights of the 19th Century",
+          "description": "<i>Highlights of the 19th Century</i>. Akron Art Museum, Akron, OH (organizer) (March 3-31, 1959).",
+          "opening_date": "1959-03-03T05:00:00"
+        },
+        {
+          "id": 302007,
+          "title": "Paths of Abstract Art",
+          "description": "<i>Paths of Abstract Art</i>. The Cleveland Museum of Art, Cleveland, OH (October 5-November 13, 1960).",
+          "opening_date": "1960-10-05T04:00:00"
+        },
+        {
+          "id": 300779,
+          "title": "Juxtapositions",
+          "description": "<i>Juxtapositions</i>. The Cleveland Museum of Art, Cleveland, OH (September 11-October 10, 1965).",
+          "opening_date": "1965-09-11T04:00:00"
+        },
+        {
+          "id": 304561,
+          "title": "Visions of Landscape: East and West",
+          "description": "<i>Visions of Landscape: East and West</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (February 17-March 21, 1982).",
+          "opening_date": "1982-02-17T05:00:00"
+        },
+        {
+          "id": 442147,
+          "title": "Gauguin and Van Gogh in Copenhagen in 1893",
+          "description": "<i>Gauguin and Van Gogh in Copenhagen in 1893</i>. Ordrupgaard, Charlottenlund, Copenhagen, Denmark (organizer) (December 11, 1984-February 24, 1985).",
+          "opening_date": "1984-12-11T05:00:00"
+        },
+        {
+          "id": 221052,
+          "title": "Masters of Impressionism",
+          "description": "<i>Masters of Impressionism</i>. Museo del Palacio de Bellas Artes, Mexico (November 17, 1998-February 28, 1999).",
+          "opening_date": "1998-11-17T00:00:00"
+        },
+        {
+          "id": 227195,
+          "title": "Vincent and Theo van Gogh",
+          "description": "<i>Vincent and Theo van Gogh</i>. Hokkaido Museum of Modern Art, Hokkaido, Japan (organizer) (July 5-August 25, 2002).",
+          "opening_date": "2002-07-05T00:00:00"
+        },
+        {
+          "id": 220540,
+          "title": "Impressionism, Post-Impressionism and the Nordic Countries",
+          "description": "<i>Impressionism, Post-Impressionism and the Nordic Countries</i>. Nationalmuseum, Stockholm, Sweden (organizer) (September 27, 2002-January 19, 2003); Statens Museum for Kunst, 1307 Københaven K, Denmark (February 21-May 25, 2003).",
+          "opening_date": "2002-09-27T00:00:00"
+        },
+        {
+          "id": 182153,
+          "title": "Monet to Dalí: Modern Masters from the Cleveland Museum of Art",
+          "description": "<i>Monet to Dalí: Modern Masters from the Cleveland Museum of Art</i>. Beijing World Art Museum (May 26-August 27, 2006); Mori Art Center (September 16-November 26, 2006); Seoul Art Center, South Korea (December 22, 2006-March 28, 2007); Seoul Olympic Museum of Art, South Korea (April 7-May 20, 2007); Vancouver Art Gallery, Vancouver, Canada (June 9-September 16, 2007); The Cleveland Museum of Art, Cleveland, OH (organizer) (October 21, 2007-January 13, 2008); Frist Art Museum, Nashville, TN (February 15-June 1, 2008); Utah Museum of Fine Arts, Salt Lake City, UT (June 22-September 21, 2008); The Detroit Institute of Arts, Detroit, MI (October 12, 2008-January 18, 2009).",
+          "opening_date": "2006-05-27T00:00:00"
+        },
+        {
+          "id": 222532,
+          "title": "The Real Van Gogh: The Artist and His Letters",
+          "description": "<i>The Real Van Gogh: The Artist and His Letters</i>. Royal Academy of Arts, London, United Kingdom of Great Britain and Northern Ireland (organizer) (January 23-April 18, 2010).",
+          "opening_date": "2010-01-23T00:00:00"
+        },
+        {
+          "id": 227478,
+          "title": "Becoming Van Gogh: His Years in Paris, 1886-1888",
+          "description": "<i>Becoming Van Gogh: His Years in Paris, 1886-1888</i>. Denver Art Museum, Denver, CO (organizer) (October 20, 2012-January 20, 2013).",
+          "opening_date": "2012-10-20T00:00:00"
+        },
+        {
+          "id": 213656,
+          "title": "Van Gogh Repetitions",
+          "description": "<i>Van Gogh Repetitions</i>. The Phillips Collection, Washington, DC (organizer) (October 12, 2013-February 2, 2014); The Cleveland Museum of Art, Cleveland, OH (March 2-May 26, 2014).",
+          "opening_date": "2013-10-12T00:00:00"
+        },
+        {
+          "id": 216529,
+          "title": "Expressionism in Germany and France: From Van Gogh to Kandinsky",
+          "description": "<i>Expressionism in Germany and France: From Van Gogh to Kandinsky</i>. Los Angeles County Museum of Art, Los Angeles, CA (organizer) (June 8-September 14, 2014).",
+          "opening_date": "2014-06-08T00:00:00"
+        },
+        {
+          "id": 224149,
+          "title": "Reciprocal Loan: Painting the Modern Garden",
+          "description": "<i>Reciprocal Loan: Painting the Modern Garden</i>. Norton Museum of Art, West Palm Beach, FL (organizer) (October 1, 2015-April 30, 2016).",
+          "opening_date": "2015-10-01T00:00:00"
+        },
+        {
+          "id": 294300,
+          "title": "Making Van Gogh",
+          "description": "<i>Making Van Gogh</i>. Städel Museum, Frankfurt am Main, Germany (organizer) (October 23, 2019-February 16, 2020).",
+          "opening_date": "2019-10-23T04:00:00"
+        },
+        {
+          "id": 448164,
+          "title": "There’s Nothing like the Real Thing: Van Gogh at the Cleveland Museum of Art",
+          "description": "<i>There’s Nothing like the Real Thing: Van Gogh at the Cleveland Museum of Art</i>. The Cleveland Museum of Art (organizer) (September 17-December 5, 2021).",
+          "opening_date": "2021-09-17T04:00:00"
+        },
+        {
+          "id": 399470,
+          "title": "Van Gogh's Cypresses",
+          "description": "<i>Van Gogh's Cypresses</i>. The Metropolitan Museum of Art, New York, NY (organizer) (May 15-August 27, 2023) https://www.metmuseum.org/exhibitions/van-gogh-cypresses.",
+          "opening_date": "2023-05-15T04:00:00"
+        }
+      ],
+      "legacy": [
+        {
+          "description": "<em>Den frie Udstilling</em>. Copenhagen, Denmark (1893).",
+          "opening_date": null
+        },
+        {
+          "description": "Paul Cassirer, Berlin, Germany (1901).",
+          "opening_date": "1901-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Tentoonstelling Vincent van Gogh</em>. Stedelijk Museum, Amsterdam, Netherlands (1905).",
+          "opening_date": "1905-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Internationale Ausstellung des Sonderbundes Westdeutscher Kunstfreunde und Künstler</em>. Städtische Ausstellungshalle am Aachener Tor, Cologne, Germany (1912).",
+          "opening_date": "1912-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Vincent van Gogh, Zehnte Ausstellung</em>. Paul Cassirer, Berlin, Germany (1914).",
+          "opening_date": "1914-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Erste Sonderausstellung in Berlin</em>.Galerie Thannhauser, Berlin, Germany (1927).",
+          "opening_date": "1927-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Vincent van Gogh en zijn Tijdgenooten</em>. Stedelijk Museum. Amsterdam, Netherlands (1930).",
+          "opening_date": "1930-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Art Museum. Paintings by Van Gogh</em>. Baltimore Museum of Art, Baltimore, MD; Worcester Museum, Worcester, MA (1942).",
+          "opening_date": "1942-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Works by Vincent van Gog</em>h.Cleveland Museum of Art, Cleveland, OH (1948).",
+          "opening_date": "1948-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Summer Loan: fourteen paintings from the Hanna collection</em>. Metropolitan Museum of Art. New York, NY (June-September 1949).",
+          "opening_date": "1949-06-01T00:00:00"
+        },
+        {
+          "description": "<em>Loan Exhibition Van Gogh</em>. Wildenstein, New York, NY (1955).",
+          "opening_date": "1955-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Masterpiece of the Month</em>. Art Institute, Akron, OH (March 3-31, 1959).",
+          "opening_date": "1931-03-03T00:00:00"
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "description": "Theo van Gogh [1857-1891] Paris, France, by descent to the artist's brother from the artist's estate.",
+        "citations": [],
+        "footnotes": null,
+        "date": "1889–1891",
+        "sortorder": 1
+      },
+      {
+        "description": "Johanna van Gogh-Bonger [1862-1915] his wife, Amsterdam, Netherlands, by gift to Willem Steenhoff.",
+        "citations": [],
+        "footnotes": null,
+        "date": "1891–1905",
+        "sortorder": 2
+      },
+      {
+        "description": "Willem Steenhoff [1863-1932] Amsterdam, Netherlands, sold to Alfred Flechtheim",
+        "citations": [],
+        "footnotes": null,
+        "date": "1905–1910",
+        "sortorder": 3
+      },
+      {
+        "description": "Alfred Flechtheim, Düsseldorf, Germany",
+        "citations": [],
+        "footnotes": [],
+        "date": "1910",
+        "sortorder": 4
+      },
+      {
+        "description": "Max Siller, Barmen, Germany",
+        "citations": [],
+        "footnotes": null,
+        "date": "1914",
+        "sortorder": 5
+      },
+      {
+        "description": "Paul Cassirer, Berlin",
+        "citations": [],
+        "footnotes": null,
+        "date": "1914",
+        "sortorder": 6
+      },
+      {
+        "description": "Justin Thannhauser, Munich, Berlin, Lucerne",
+        "citations": [],
+        "footnotes": null,
+        "date": "1927",
+        "sortorder": 7
+      },
+      {
+        "description": "Harry Sperling [1925-1971] New York, NY",
+        "citations": [],
+        "footnotes": [],
+        "date": "July 1940",
+        "sortorder": 9
+      },
+      {
+        "description": "M. Knoedler and Co., New York, NY",
+        "citations": [],
+        "footnotes": null,
+        "date": "March 1946",
+        "sortorder": 10
+      },
+      {
+        "description": "Sam Salz, New York, NY",
+        "citations": [],
+        "footnotes": [],
+        "date": "March 1946",
+        "sortorder": 11
+      },
+      {
+        "description": "Leonard C. Hanna, Jr, Cleveland, OH, purchased March 12, 1946",
+        "citations": [],
+        "footnotes": [],
+        "date": "1946–1958",
+        "sortorder": 12
+      },
+      {
+        "description": "Leonard C. Hanna, Jr. [1889-1957] Cleveland, OH, by bequest to the Cleveland Museum of Art",
+        "citations": [],
+        "footnotes": null,
+        "date": "1946–1958",
+        "sortorder": 13
+      },
+      {
+        "description": "The Cleveland Museum of Art, Cleveland, OH",
+        "citations": [],
+        "footnotes": null,
+        "date": "1958–",
+        "sortorder": 14
+      }
+    ],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [
+      "427.46"
+    ],
+    "did_you_know": "During his Saint-Rémy period, Van Gogh painted 150 canvases and some 100 drawings. He painted nature as he saw it without enhancement and felt that painting would help cure him of his illness.",
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "Vincent van Gogh painted this autumnal landscape while interned at a psychiatric hospital near Saint-Rémy in southern France. Although initially restricted to painting in his room, he soon resumed working outdoors. This painting reveals the full power of his mature style. Trees twist and lean against a darkening sky, while the intense colors applied with charged brushstrokes convey his emotional reaction to the subject.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q26221176"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-1958.32-two-poplars-in-the-a"
+      ]
+    },
+    "citations": [
+      {
+        "citation": "Flechtheim, Alfred. \"Kunsthaler und Sammler: Dusseldorf.\" In <em>Im Kampf um die Kunst: die Antwort auf den \"Protest deutscher Künstler\": mit Beiträgen deutscher Künstler, Galerieleiter, Sammler und Schriftsteller.</em> München: R. Piper, 1911.",
+        "page_number": "Mentioned: p. 168",
+        "url": null
+      },
+      {
+        "citation": "Pfister, Kurt. <em>Vincent van Gogh</em>. Potsdam: G. Kiepenheuer, 1922.",
+        "page_number": "Reproduced: Pl. 46",
+        "url": null
+      },
+      {
+        "citation": "Waldemar, George. <em>Van Gogh: 24 Phototypies.</em> Paris: Librairie de France F. Sant'Andrea, 1927.",
+        "page_number": "Reproduced: vol. 3, pl. 6",
+        "url": null
+      },
+      {
+        "citation": "de LaFaille, J. B. <em>L'oeuvre de Vincent van Gogh, catalogue raisonné.</em> Paris et Bruxelles: Les Éditions G. van Oest, 1928.",
+        "page_number": "Mentioned: vol.1, no. 638; reproduced: vol. 2, no. 638",
+        "url": null
+      },
+      {
+        "citation": "Gogh, Vincent van. <em>Further Letters of Vincent Van Gogh to His Brother, 1886-1889.</em> London: Constable &amp; Co, 1929.",
+        "page_number": "Mentioned: p. 399, no. 609, p. 416, no. 617, p. 444-445, no. 630",
+        "url": null
+      },
+      {
+        "citation": "Scherjon, W. and W. Jos. de Gruyter. <em>Vincent Van Gogh's Great Period, Arles, St. Rémy and Auvers Sur Oise (Complete Catalogue)</em>. Amsterdam NL: \"De Spieghel\", Ltd, 1937.",
+        "page_number": "Reproduced: p. 253, no. 57",
+        "url": null
+      },
+      {
+        "citation": "De La Faille, J. Bernard, Charles Terrasse, Prudence Montagu-Pollock, and André Gloeckner. <em>Vincent Van Gogh</em>. New York, N.Y.: French and European Publications [etc.], 1939.",
+        "page_number": "Reproduced: no. 643",
+        "url": null
+      },
+      {
+        "citation": "Coe, Nancy. <em>The History of the Collecting of European Paintings and Drawings in the City of Cleveland. </em>Thesis M.A. Oberlin College, 1955.",
+        "page_number": "Reproduced: vol. 2, p. 73-74",
+        "url": null
+      },
+      {
+        "citation": "\"More Than 100 Van Goghs in New York's Major Spring Show.\" <em>ARTnews </em>54 (April 1955): 22.",
+        "page_number": "Reproduced: p. 22",
+        "url": null
+      },
+      {
+        "citation": "Elgar, Frank. <em>Van Gogh, A Study of His Life and Work</em>. New York, NY: Praeger, 1958.",
+        "page_number": "Reproduced: Fig. 185",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>In Memoriam: Leonard C. Hanna, Jr</em>. Cleveland: The Cleveland Museum of Art, 1958.",
+        "page_number": "Reproduced: no. 15",
+        "url": null
+      },
+      {
+        "citation": "\"Acessions of American and Canadian Museums: October--December 1957.\" <em>The Art Quarterly </em>21, no. 1 (Spring 1958): 82-113.",
+        "page_number": "Reproduced: p. 104",
+        "url": null
+      },
+      {
+        "citation": "<em>The Bulletin of The Cleveland Museum of Art X, no. XLVI, </em>no, 6 (June, 1959): 122.",
+        "page_number": "Mentioned: p. 122",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art, and Edward B. Henning. <em>Paths of Abstract Art</em>. [Cleveland]: Distributed by H.N. Abrams [New York], 1960.",
+        "page_number": "Referenced: cat. no. 11, p. 9, Reproduced: p. 9",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art, Edward B. Henning<em>. Paths of Abstract Art</em>. Cleveland, Ohio: H.N. Abrams, 1960.",
+        "page_number": "Reproduced: no. 11, p. 11; mentioned: pp.11, 21",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1966</em>. Cleveland, OH: The Cleveland Museum of Art, 1966.",
+        "page_number": "Reproduced: p. 179",
+        "url": "https://archive.org/details/CMAHandbook1966/page/n203"
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1969</em>. Cleveland, OH: The Cleveland Museum of Art, 1969.",
+        "page_number": "Reproduced: p. 179",
+        "url": "https://archive.org/details/CMAHandbook1969/page/n203"
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>Art of the Twentieth Century in the Cleveland Museum of Art</em>. Cleveland, OH: Dept. of Art History &amp; Education, CMA, 1969.",
+        "page_number": "Mentioned: p. 1",
+        "url": "https://archive.org/details/20thCenturyArtCMA/page/n1"
+      },
+      {
+        "citation": "De La Faille, J.-B. <em>The Works of Vincent Van Gogh; His Paintings and Drawings</em>. Amsterdam, NL: Meulenhoff International, 1970.",
+        "page_number": "Reproduced: p. 638",
+        "url": null
+      },
+      {
+        "citation": "Lecaldano, Paolo. <em>L'opera pittorica completa di Van Gogh e i suoi nessi grafici</em>. Milan, IT: Rizzoli,1971.",
+        "page_number": "Reproduced: no. 707, vol. 2",
+        "url": null
+      },
+      {
+        "citation": "Gogh, Vincent van, Jean Leymarie, and V. W. van Gogh. <em>Letters of Vincent van Gogh, 1886-1890: a facsimile edition.</em> London: Scolar Press, 1977.",
+        "page_number": "Mentioned: vol. 2, no. 609 3/4, no. 630 2/4",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1978</em>. Cleveland, OH: The Cleveland Museum of Art, 1978.",
+        "page_number": "Reproduced: p. 221",
+        "url": "https://archive.org/details/CMAHandbook1978/page/n241"
+      },
+      {
+        "citation": "Hulsker, Jan. <em>The Complete Van Gogh: Paintings, Drawings, Sketches</em>. New York, NY: H.N. Abrams, 1980.",
+        "page_number": "Reproduced: no. 1797",
+        "url": null
+      },
+      {
+        "citation": "Bodelsen, Merete, Paul Gauguin, Vincent van Gogh, and Kirsten Olesen. <em>Gauguin og van Gogh i København i 1893 = Gauguin and van Gogh in Copenhagen in 1893</em>. København, Denmark: Ordrupgaard, 1984.",
+        "page_number": "Mentioned: p. 126-127; Reproduced: no. 40, 73",
+        "url": null
+      },
+      {
+        "citation": "Bernard, Bruce. <em>Vincent by Himself: A Selection of His Paintings and Drawings Together with Extracts from His Letters</em>. London, UK: Orbis, 1985.",
+        "page_number": "Reproduced: p. 286",
+        "url": null
+      },
+      {
+        "citation": "Pickvance, Ronald. <em>Van Gogh in Saint-Rémy and Auvers</em>. New York, NY: Metropolitan Museum of Art, 1986.",
+        "page_number": "Reproduced: p. 302; Mentioned: p. 301",
+        "url": null
+      },
+      {
+        "citation": "Sackerlotsky, Rotraud. \"Giovanni Segantini: Stone Pine and Roses.\" <em>The Bulletin of The Cleveland Museum of Art LXXIII</em>, no. 1 (January, 1986): 3-13.",
+        "page_number": "Reproduced: p. 9, fig. 9",
+        "url": null
+      },
+      {
+        "citation": "Stein, Susan Alyson. <em>Van Gogh: A Retrospective</em>. New York, NY: H.L. Levin Associates, 1986.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Kunstmuseum Düsseldorf, and Westfälisches Landesmuseum für Kunst und Kulturgeschichte Münster. <em>Alfred Flechtheim: Sammler, Kunsthändler, Verleger</em>. Düsseldorf: Kunstmuseum Düsseldorf, 1987.",
+        "page_number": "Reproduced: p. 39",
+        "url": null
+      },
+      {
+        "citation": "Manheim, Ron.<em> 'Im Kampf um die Kunst: de discussie van 1911 over contemporaine Kunst in Duitsland = Die Diskussion von 1911 über zeitgenössische Kunst in Deutschland.</em> Hamburg: Sautter + Lackmann, 1987.",
+        "page_number": "Mentioned: p. 141",
+        "url": null
+      },
+      {
+        "citation": "Feilchenfeldt, Walter, Han Veenebos, and Paul Cassirer. <em>Vincent van Gogh &amp; Paul Cassirer, Berlin: the reception of van Gogh in Germany from 1901 to 1914</em>. Zwolle, NL: Waanders, 1988.",
+        "page_number": "Reproduced: p. 109, no. f638",
+        "url": null
+      },
+      {
+        "citation": "Feilchenfeldt, Walter. \"Van Gogh Fakes: The Wacker Affair, with an Illustrated Catalogue of the Forgeries.\" <em>Simiolus: Netherlands Quarterly for the History of Art</em> 19, no. 4 (1989): 289-316.",
+        "page_number": "Reproduced: p. 305",
+        "url": null
+      },
+      {
+        "citation": "Bronkhorst, Hans. <em>Vincent Van Gogh</em>. New York, NY: Portland House, 1990.",
+        "page_number": "Reproduced: p. 143",
+        "url": null
+      },
+      {
+        "citation": "Heijbroek, J. F. \"Het Rijksmuseum Voor Moderne Kunst Van Willem Steenhoff. Werkelijkheid of Utopie?\" <em>Bulletin Van Het Rijksmuseum</em> 39, no. 2 (1991): 163-231.",
+        "page_number": "Reproduced: p. 182",
+        "url": null
+      },
+      {
+        "citation": "Hulsker, Jan. <em>The New Complete Van Gogh: Paintings, Drawings, Sketches : Revised and Enlarged Edition of the Catalogue Raisonné of the Works of Vincent Van Gogh</em>. Amsterdam NL: J.M. Meulenhoff, 1996.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Museo del Palacio de Bellas Artes (Mexico). <em>Maestros del impresionismo</em>. México, D.F.: Istituto Nacional de Bellas Artes, 1998.",
+        "page_number": "Referenced: p. 186-187",
+        "url": null
+      },
+      {
+        "citation": "Argencourt, Louise d', and Roger Diederen. <em>Catalogue of Paintings</em>. <em>Pt. 4. European Paintings of the 19th Century</em>. Cleveland: Cleveland Museum of Art, 1974.",
+        "page_number": "Mentioned and reproduced: P. 302-305, Vol. I, no. 108",
+        "url": ""
+      },
+      {
+        "citation": "Gunnarsson, Torsten, and Hans Henrik Brummer. <em>Impressionism and the North: Late 19th Century French Avant-Garde Art and the Art in the Nordic Countries 1870-1920</em>. Stockholm, SE: Nationalmuseum, 2002.",
+        "page_number": "Reproduced: p. 154-155, no. 99",
+        "url": null
+      },
+      {
+        "citation": "<em>Theo and Vincent van Gogh</em>. <em>Gohho ten = Vincent &amp; Theo van Gogh</em>. Hokkaidō Shinbunsha, JP: 2002.",
+        "page_number": "Reproduced: p. 134-135, fig. 39",
+        "url": null
+      },
+      {
+        "citation": "Toccoli, Vincent Paul and Nicoline Lopez. <em>Vincent van Gogh: le soleil foudroyé</em>. Ampang Point, Selangor, MY: NGM Publishers, 2004.",
+        "page_number": "Reproduced: p. 109, fig. 91",
+        "url": null
+      },
+      {
+        "citation": "Dumas, Ann. <em>The Real Van Gogh: The Artist and His Letters</em>. London, UK: Royal Academy of Arts, 2010.",
+        "page_number": "Reproduced & Mentioned: no. 141, p. 258-259",
+        "url": null
+      },
+      {
+        "citation": "Standring, Timothy J., and Louis van Tilborgh. <em>Becoming Van Gogh</em>. Denver, CO: Denver Art Museum, 2012.",
+        "page_number": "Reproduced: p. 228, p. 273; cat. 88",
+        "url": null
+      },
+      {
+        "citation": "Van Tilborgh, Louis, Teio Meedendorp, Ella Hendriks, Don H. Johnson, C. Richard Johnson, and Robert G. Erdmann. \"Weave Matching and Dating of Van Gogh's Paintings: An Interdisciplinary Approach.\" <em>The Burlington Magazine</em> 154, no. 1307 (2012): 112-22.",
+        "page_number": "Mentioned: p. 121; reproduced: p. 120, fig. 36",
+        "url": null
+      },
+      {
+        "citation": "Skea, Ralph. <em>Vincent's Trees: Paintings and Drawings by Van Gogh</em>. London, UK: Thames &amp; Hudson, 2013.",
+        "page_number": "Reproduced: p.7-8, fig. 2; Mentioned: p. 111",
+        "url": null
+      },
+      {
+        "citation": "Rathbone, Eliza E., William H. Robinson, William H. Robinson, and Marcia Steele. <em>Van Gogh Repetitions</em>. New Haven, CT : Yale University Press, 2013.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Wiekop, Christian. \"Crossing Borders: Expressionist Encounters with the French Avant-Garde.\" Art History: Journal of the Association of Art Historians 38, no. 5 (November 2015): 976-981.",
+        "page_number": "Reproduced: fig. 1, p. 977",
+        "url": null
+      },
+      {
+        "citation": "Blanc, Jan. <em>Van Gogh: ni Dieu ni maître.</em> Paris: Citadelles &amp; Mazenod, 2017.",
+        "page_number": "Reproduced: p. 300-301",
+        "url": null
+      },
+      {
+        "citation": "Koldehoff, Stefan and Chris Stolwijk, eds. <em>The Thannhauser Gallery: Marketing Van Gogh.</em> Brussels: Mercatorfonds; Amsterdam: Van Gogh Museum, 2017.",
+        "page_number": "Reproduction: p. 137, cat. 19",
+        "url": null
+      },
+      {
+        "citation": "Dempsey, Amy. <em>Modern Art.</em> London: Thames &amp; Hudson, 2018.",
+        "page_number": "Reproduced: p. 22",
+        "url": null
+      },
+      {
+        "citation": "Eiling, Alexander B., Felix Krämer, and Elena Schroll. <em>Making Van Gogh: A German Love Story</em>. München: Hirmer Verlag GmbH, 2019.",
+        "page_number": "Reproduced: P. 103",
+        "url": null
+      },
+      {
+        "citation": "Koldehoff, Nora, and Stefan Koldehoff. <em>Der van Gogh-Coup: Otto Wackers Aufstieg und Fall.</em> Wädenswil am Zürichsee: Nimbus, Kunst und Bücher, 2019.",
+        "page_number": "Reproduced: P. 204, f. 638",
+        "url": ""
+      },
+      {
+        "citation": "Michael, Cora. \"Gauguin in the the Buckeye and Hoosier States: Portrait of Teuraheimata and its Midwestern Collectors.\" In <em>Paul Gauguin: Teuraheimata a Potoru, a Rediscovery, </em>11-19. New York: Jill Newhouse Gallery; [Akron, Ohio]: Thomas French Fine Art, 2019.",
+        "page_number": "Mentioned: P. 14",
+        "url": ""
+      },
+      {
+        "citation": "Wach, Alexandra. \"Making van Gogh.\" <em>Restauro, 8 (2019): 44-51</em>.",
+        "page_number": "Reproduced: p. 50",
+        "url": null
+      },
+      {
+        "citation": "Stein, Susan Alyson. \"Signing Off in Style.\" In<em> Van Gogh's Cypresses</em>. Susan Alyson Stein, ed., 110-141. New York: The Metropolitan Museum of Art, 2023.",
+        "page_number": "Mentioned and reproduced: P. 118-119, fig. 93",
+        "url": ""
+      },
+      {
+        "citation": "Van Heteren, Marjan. \"Van Gogh, Cézanne, Le Fauconnier &amp; De Bergense School.\" In <em>Van Gogh, Cézanne, Le Fauconnier &amp; De Bergense School, </em>edited by Chris Stolwijk, and Marjan van Heteren, 92-151. 2023.",
+        "page_number": "Mentioned and reproduced: p. 140, no. 158",
+        "url": ""
+      },
+      {
+        "citation": "Bonafoux, Pascal. <em>Vincent van Gogh</em>. Roma: Istituto della Enciclopedia Italiana Fondato da Giovanni Treccani, 2023.",
+        "page_number": "Reproduced: p. 328",
+        "url": ""
+      },
+      {
+        "citation": "Sefrioui, Anne. <em>Van Gogh: The Bigger Picture. </em>New York, NY: Prestel Publishing, 2023.",
+        "page_number": "Mentioned: p. 84; Reproduced: p. 89",
+        "url": ""
+      }
+    ],
+    "url": "https://clevelandart.org/art/1958.32",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_web.jpg",
+        "width": "673",
+        "height": "900",
+        "filesize": "338119",
+        "filename": "1958.32_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_print.jpg",
+        "width": "2543",
+        "height": "3400",
+        "filesize": "3870658",
+        "filename": "1958.32_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_full.tif",
+        "width": "10950",
+        "height": "14640",
+        "filesize": "480958152",
+        "filename": "1958.32_full.tif"
+      }
+    },
+    "alternate_images": [
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_alt0_web.jpg",
+          "width": "900",
+          "height": "711",
+          "filesize": "487008"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_alt0_print.jpg",
+          "width": "3400",
+          "height": "2686",
+          "filesize": "5832375"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_alt0_full.tif",
+          "width": "15095",
+          "height": "11923",
+          "filesize": "539967596"
+        },
+        "date_created": "2017-08-03T14:32:58",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_alt1_web.jpg",
+          "width": "664",
+          "height": "900",
+          "filesize": "232522"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_alt1_print.jpg",
+          "width": "2510",
+          "height": "3400",
+          "filesize": "3095970"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_alt1_full.tif",
+          "width": "5682",
+          "height": "7697",
+          "filesize": "131233080"
+        },
+        "date_created": "2015-09-11T15:41:49",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_alt2_web.jpg",
+          "width": "662",
+          "height": "893",
+          "filesize": "606480"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_alt2_print.jpg",
+          "width": "2521",
+          "height": "3400",
+          "filesize": "7299504"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.32/1958.32_alt2_full.tif",
+          "width": "4182",
+          "height": "5640",
+          "filesize": "70795048"
+        },
+        "date_created": "2005-09-15T17:09:54",
+        "annotation": ""
+      }
+    ],
+    "creditline": "Bequest of Leonard C. Hanna Jr.",
+    "image_credit": null,
+    "sketchfab_id": "e89d1437be394b238a85adba5cd8067a",
+    "sketchfab_url": "https://sketchfab.com/models/e89d1437be394b238a85adba5cd8067a",
+    "gallery_donor_text": "Nancy F. and Joseph P. Keithley Gallery",
+    "athena_id": 135310,
+    "creators": [
+      {
+        "id": 1779,
+        "description": "Vincent van Gogh (Dutch, 1853–1890)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": "The son of a clergyman, Vincent van Gogh was sent to The Hague at the age of sixteen to become an apprentice at Goupil &amp; Co., an art dealer with whom his uncle was affiliated. In August 1872 van Gogh began his extensive correspondence with his younger brother Theo, who would join the Brussels branch of the firm the following year. Vincent was transferred to the London offices in 1873 and two years later to the Paris office, but he despised the art trade and was dismissed in 1876. He then taught briefly at a boarding school in Ramsgate and Isleworth, and, back in the Netherlands, worked in a bookshop in Dordrecht before moving to Amsterdam to study theology. In little more than a year he had left the university and entered missionary school, failing again. Still intent on entering the ministry, he moved to the Borinage in Belgium and became a lay evangelist to the miners. Van Gogh finally decided to become an artist in August 1880 and started copying works by Millet (q.v.), the painter of peasant life. With his brother's financial help, he briefly joined the Academy in Brussels. The following year he returned to The Hague, where he received some artistic training from his cousin by marriage, Anton Mauve (1838-1888). There van Gogh met Sien Hoornik, a pregnant prostitute with a five-year-old daughter, with whom he lived briefly. Unable to marry her because of his family's disapproval, he moved in November 1883 from The Hague to the province of Drenthe, a popular place for artists, where he painted and drew laborers and peasants. Feeling terribly lonely, he visited his parents in December 1884 in Nuenen, and it was there that he finally decided to become a painter of peasant life. Van Gogh completed The Potato Eaters (Van Gogh Museum, Amsterdam) in April 1885 and sent it to his brother in Paris. On 25 November he moved to Antwerp, where he reveled in the work of Rubens and first came to know Japanese prints. Van Gogh traveled to Paris in March 1886 and lived with Theo. Under the influence of the impressionists, and works by Monticelli (q.v.), his palette changed to more intense and vibrant colors. He began to associate with Émile Bernard (1868-1941), Henri de Toulouse-Lautrec (1864-1901), Degas (q.v.), Gauguin (q.v.), Pissarro (q.v.), and Seurat (q.v.) and started collecting some of their paintings as well as Japanese prints. He moved to Arles in February 1888. Apart from paintings, he also made some drawings because it was a cheaper medium. Theo encouraged him to submit to the Salon des Indépendants. In May Vincent rented a room in the Yellow House, even though he could hardly afford to do so, and continued to send his work to his brother. In June he became intrigued with the subject of the wheat harvest and painted The Sower (Kröller-Müller Museum, Otterlo). On 23 October 1888, Gauguin arrived in Arles, at a time when van Gogh was having trouble with his eyesight. Gauguin encouraged him to paint from memory, which resulted in Memory of the Garden in Etten (Hermitage, St. Petersburg). The artists, however, had many disagreements, and during a dramatic quarrel on 23 December van Gogh mutilated his ear. He was taken into a hospital in Arles, and Gauguin left for Paris. Van Gogh recovered rapidly and was dismissed on 7 January 1889. In February his neighbors objected to his presence in the Yellow House, and he had to return to the hospital. In April Theo married Johanna Gesina Bonger, who would eventually safeguard most of Vincent's oeuvre. Aware of his mental problems, at the end of April van Gogh checked himself into the asylum of Saint-Paul-de-Mausole in Saint-Rémy, where he was treated by Dr. Peyron. His condition was stable, and he was allowed to work in a makeshift studio. He worked in the garden (Irises, J. Paul Getty Museum, Los Angeles) and painted the fields he could see from his window. Under supervision he painted in the countryside, rendering cypresses and olive trees. Starry Night (Museum of Modern Art, New York) also stems from this period. From July through September he suffered from a severe depression that prevented him from working. He resumed his work from October through December, painting well-known Provençal works and adapting prints after Delacroix (q.v.), Millet, and Rembrandt (1606-1669). In January 1890 he exhibited five works with Les XX in Brussels, selling one of them. After a visit to Arles at the end of February, he became ill again but continued to work. He finally left the asylum, and visited Theo in Paris on his way to Auvers, where he arrived on 20 May. He became close friends with Dr. Gachet and rented a room at the inn of the Ravoux family. He painted the village, portraits, and the surrounding wheat fields. On 27 July 1890, during an episode of depression, van Gogh shot himself in the chest and died two days later.",
+        "name_in_original_language": null,
+        "birth_year": "1853",
+        "death_year": "1890",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "1958-11-29T00:00:00",
+    "sortable_date": 1889,
+    "date_added_to_oa": null,
+    "date_text": "1889",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": true,
+    "impression": null,
+    "alternate_titles": [
+      "Poplars on a Hill"
+    ],
+    "is_highlight": false,
+    "updated_at": "2026-10-29 22:05:00.474000"
+  }
+}

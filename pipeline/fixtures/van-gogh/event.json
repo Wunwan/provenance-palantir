@@ -1,0 +1,303 @@
+[
+  {
+    "id": "e-01",
+    "artwork": "cma-1958.32",
+    "from_party": "theo",
+    "to_party": "johanna",
+    "link_type": "descent",
+    "date_start": "1891",
+    "date_end": "1891",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-01"
+      ],
+      "to_party": [
+        "c-02"
+      ],
+      "link_type": [
+        "c-14"
+      ],
+      "date_start": [
+        "c-20"
+      ],
+      "date_end": [
+        "c-21"
+      ]
+    }
+  },
+  {
+    "id": "e-02",
+    "artwork": "cma-1958.32",
+    "from_party": "johanna",
+    "to_party": "steenhoff",
+    "link_type": "gift",
+    "date_start": "1905",
+    "date_end": "1905",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-02"
+      ],
+      "to_party": [
+        "c-03"
+      ],
+      "link_type": [
+        "c-15"
+      ],
+      "date_start": [
+        "c-22"
+      ],
+      "date_end": [
+        "c-23"
+      ]
+    }
+  },
+  {
+    "id": "e-03",
+    "artwork": "cma-1958.32",
+    "from_party": "steenhoff",
+    "to_party": "flechtheim",
+    "link_type": "sale",
+    "date_start": "1910",
+    "date_end": "1910",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-03"
+      ],
+      "to_party": [
+        "c-04"
+      ],
+      "link_type": [
+        "c-16"
+      ],
+      "date_start": [
+        "c-24"
+      ],
+      "date_end": [
+        "c-25"
+      ]
+    }
+  },
+  {
+    "id": "e-04",
+    "artwork": "cma-1958.32",
+    "from_party": "flechtheim",
+    "to_party": "siller",
+    "link_type": "unknown",
+    "date_start": "1910",
+    "date_end": "1914",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-04"
+      ],
+      "to_party": [
+        "c-05"
+      ],
+      "date_start": [
+        "c-26"
+      ],
+      "date_end": [
+        "c-27"
+      ]
+    }
+  },
+  {
+    "id": "e-05",
+    "artwork": "cma-1958.32",
+    "from_party": "siller",
+    "to_party": "cassirer",
+    "link_type": "unknown",
+    "date_start": "1914",
+    "date_end": "1914",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-05"
+      ],
+      "to_party": [
+        "c-06"
+      ],
+      "date_start": [
+        "c-28"
+      ],
+      "date_end": [
+        "c-29"
+      ]
+    }
+  },
+  {
+    "id": "e-06",
+    "artwork": "cma-1958.32",
+    "from_party": "cassirer",
+    "to_party": "thannhauser",
+    "link_type": "unknown",
+    "date_start": "1914",
+    "date_end": "1927",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-06"
+      ],
+      "to_party": [
+        "c-07"
+      ],
+      "date_start": [
+        "c-30"
+      ],
+      "date_end": [
+        "c-31"
+      ]
+    }
+  },
+  {
+    "id": "e-07",
+    "artwork": "cma-1958.32",
+    "from_party": "thannhauser",
+    "to_party": "sperling",
+    "link_type": "unknown",
+    "date_start": "1927",
+    "date_end": "1940-07",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-07"
+      ],
+      "to_party": [
+        "c-08"
+      ],
+      "date_start": [
+        "c-32"
+      ],
+      "date_end": [
+        "c-33"
+      ]
+    }
+  },
+  {
+    "id": "e-08",
+    "artwork": "cma-1958.32",
+    "from_party": "sperling",
+    "to_party": "knoedler",
+    "link_type": "unknown",
+    "date_start": "1940-07",
+    "date_end": "1946-03",
+    "precision": "range",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-08"
+      ],
+      "to_party": [
+        "c-09"
+      ],
+      "date_start": [
+        "c-34"
+      ],
+      "date_end": [
+        "c-35"
+      ]
+    }
+  },
+  {
+    "id": "e-09",
+    "artwork": "cma-1958.32",
+    "from_party": "knoedler",
+    "to_party": "salz",
+    "link_type": "unknown",
+    "date_start": "1946-03",
+    "date_end": "1946-03",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-09"
+      ],
+      "to_party": [
+        "c-10"
+      ],
+      "date_start": [
+        "c-36"
+      ],
+      "date_end": [
+        "c-37"
+      ]
+    }
+  },
+  {
+    "id": "e-10",
+    "artwork": "cma-1958.32",
+    "from_party": "salz",
+    "to_party": "hanna",
+    "link_type": "sale",
+    "date_start": "1946-03-12",
+    "date_end": "1946-03-12",
+    "precision": "exact",
+    "certainty": "approximate",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-10"
+      ],
+      "to_party": [
+        "c-11"
+      ],
+      "link_type": [
+        "c-17"
+      ],
+      "date_start": [
+        "c-18"
+      ],
+      "date_end": [
+        "c-18"
+      ]
+    }
+  },
+  {
+    "id": "e-11",
+    "artwork": "cma-1958.32",
+    "from_party": "hanna",
+    "to_party": "cma",
+    "link_type": "bequest",
+    "date_start": "1958",
+    "date_end": "1958",
+    "precision": "exact",
+    "certainty": "confirmed",
+    "place": null,
+    "cites": {
+      "from_party": [
+        "c-12"
+      ],
+      "to_party": [
+        "c-13"
+      ],
+      "link_type": [
+        "c-19"
+      ],
+      "date_start": [
+        "c-38"
+      ],
+      "date_end": [
+        "c-39"
+      ]
+    }
+  }
+]
