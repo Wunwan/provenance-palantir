@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "s-getty-e-1958.34-019-knoedler---co-3789e524",
+    "event": "e-1958.34-019",
+    "origin": "external",
+    "provider": "Getty Provenance Index",
+    "query": "PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?party ?party_label ?acquisition ?label WHERE {\n  ?party a ?kind ; rdfs:label ?party_label .\n  FILTER(?kind IN (crm:E21_Person, crm:E74_Group))\n  FILTER(CONTAINS(LCASE(STR(?party_label)), \"knoedler\"))\n  ?acquisition (crm:P22_transferred_title_to|crm:P23_transferred_title_from) ?party ;\n               a crm:E8_Acquisition ; rdfs:label ?label .\n} LIMIT 25",
+    "preview": "Getty Provenance Index records “Knoedler Purchase of [GRI Number K-23359]” involving M. Knoedler & Co.",
+    "url": "https://data.getty.edu/provenance/3789e524-7894-3c53-a2cb-193d4aa17c61",
+    "retrieved_at": "2026-10-29T23:32:41Z",
+    "covers_start": null,
+    "covers_end": null
+  },
+  {
+    "id": "s-getty-e-1958.34-019-knoedler---co-0a67e5b9",
+    "event": "e-1958.34-019",
+    "origin": "external",
+    "provider": "Getty Provenance Index",
+    "query": "PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?party ?party_label ?acquisition ?label WHERE {\n  ?party a ?kind ; rdfs:label ?party_label .\n  FILTER(?kind IN (crm:E21_Person, crm:E74_Group))\n  FILTER(CONTAINS(LCASE(STR(?party_label)), \"knoedler\"))\n  ?acquisition (crm:P22_transferred_title_to|crm:P23_transferred_title_from) ?party ;\n               a crm:E8_Acquisition ; rdfs:label ?label .\n} LIMIT 25",
+    "preview": "Getty Provenance Index records “Knoedler Purchase of Stock Number A3535 (1946-07-26)” involving M. Knoedler & Co.",
+    "url": "https://data.getty.edu/provenance/0a67e5b9-d1a7-35ee-b7e7-6a6f9f8f8235",
+    "retrieved_at": "2026-10-29T23:32:41Z",
+    "covers_start": "1946",
+    "covers_end": "1946"
+  }
+]

@@ -1,0 +1,470 @@
+{
+  "name": "Boussod",
+  "query": "PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?party ?party_label ?acquisition ?label WHERE {\n  ?party a ?kind ; rdfs:label ?party_label .\n  FILTER(?kind IN (crm:E21_Person, crm:E74_Group))\n  FILTER(CONTAINS(LCASE(STR(?party_label)), \"boussod\"))\n  ?acquisition (crm:P22_transferred_title_to|crm:P23_transferred_title_from) ?party ;\n               a crm:E8_Acquisition ; rdfs:label ?label .\n} LIMIT 25",
+  "endpoint": "https://data.getty.edu/provenance/sparql",
+  "retrieved_at": "2026-10-29T23:38:32Z",
+  "raw": {
+    "head": {
+      "vars": [
+        "party",
+        "party_label",
+        "acquisition",
+        "label"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/69b2751c-c150-3877-91ed-b3b68a141a98/tile/bbd2f0e4-c603-4ee2-a221-4591b66a384e/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Sale of Stock Number 9063 (1900-03-15)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/37aa1507-aae7-3a74-99b7-7f9c9d479d10/tile/9ef3e32f-38a5-46a5-97a1-b3c7621c87f9/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 11047 (1906-03-24)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/dabe630b-8097-3f86-8265-ca89f9175543/tile/9fec24be-ea46-4376-a7ea-97c0874dfaaa/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 5908 (1887-10-10)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/387240dc-29dc-3cf6-ab03-758b19bfa91f/tile/168405e1-4cc1-4f4e-830d-97633066907f/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Sale of Stock Number 11928 (1910-03-03)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/9c8f5be2-ab72-339a-83e3-35e315726a3f/tile/9ee03d7a-5883-4ee6-a0a4-9aad2ae3100f/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 13454 (1914-03-01)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/692ae00f-8a1a-3d68-8c28-384c20b9848e/tile/f4c0a94e-ea56-4b7d-a887-4221443e1093/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 9903 (1902-07-28)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/5e551e3f-b05d-3e4b-8045-fb5aa6048ab3/tile/916a8027-c956-40f3-a6dd-a444036c2d04/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler exchange of Stock Number 5908 (1887-10-10)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/d59b0474-5ac0-360d-b41d-1a5c6cd71aa8/tile/23b4e47a-0da8-4f7d-8d30-6972b5ef1672/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 13645 (1915-07-15)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0b00bebb-aa1e-3340-b04f-73e856cf26b1/tile/f0b6ec24-648d-4c47-a522-31ab071e8565/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of [GRI Number K-23249] (1886-12-07)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/70e17827-2b8b-3b89-aa83-be1ae025adeb/tile/f1bb3ca6-1eff-4465-9cab-030d9d7418b9/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 4826 (1885-09-03)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/c28ace11-d432-3805-9a0c-90aaa61c2f39/tile/428904d2-a711-4083-9202-1736996e4714/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 9822 (1902-02-27)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/ca80ffae-611e-3d60-ab9c-c1557719a61c/tile/48b2a452-261f-46bf-a4ef-4b4452ae5813/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 12628 (1911-12-07)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/df9bbf06-3368-3d7d-bb57-a0e73fd11745/tile/6b7422ff-300f-4c59-88a8-a7fed5dd8c10/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 12155 (1910-06-23)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/fd6d8f5f-c6d6-39d3-86a6-ee5134aeefaa/tile/48f212e3-4935-40a4-b762-b0d6d69a3955/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 8830 (1899-07-31)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/8aae0d95-f833-3e33-a296-fead272c9529/tile/e816a75b-5edc-47d7-8bff-9de2df547440/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 9816 (1902-03-05)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/e37ac708-5bab-3bb6-a275-2d1a4cc18b7b/tile/0eb47536-6f90-4b5f-8a40-88aaac2953d7/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 8643 (1898-10-22)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/c3190c94-7d3a-32c1-9e38-10b473637388/tile/7660326e-f51d-407d-9498-bb57f56a9c41/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 9547 (1901-06-11)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/e39a53c1-183f-30ef-b7c5-6649d340c208/tile/d432b5a7-cd10-4ff7-a9bc-1919dabaef94/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 5093 (1886-04-15)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/4ec0eb72-d272-3e1c-b5e5-f388ecc3ffa1/tile/fe5eaece-79b3-4d30-8f12-40391107a6e0/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 9916 (1902-08-01)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/cdba7741-fa32-3d5e-8cdf-318924355381/tile/48d0e6bf-77fa-4107-8c30-09155e3b7b55/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 8893 (1899-08-02)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/f9df6513-a90f-3589-83d7-1273f387d041/tile/773ea411-631a-402a-9792-6e2d82247765/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 4735 (1885-01-02)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/c3045c39-3f7e-3c84-8879-f7f91732be83/tile/1505eb15-28a8-469b-8dda-cbaebb7f048e/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 11813 (1909-05-01)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/f5178b90-341c-3656-b02b-a972a6c851c8/tile/3a0ed40c-72d5-4e91-8e77-5bd54e69b14d/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 8351 (1897-08-13)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a65c4d6-b8e4-3fba-939d-bad7766d7bf7/tile/65fe86ee-637b-4362-a8cb-151b17e50533/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 4720 (1884-11-27)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/046fe9e4-b66e-3333-a274-262cb260a015/tile/89c1498c-c8bc-49ea-8f61-e487b655c79e/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a716c61-8cd9-3266-a15a-36249eb78b2a"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Boussod, Valadon et Cie."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 9589 (1901-05-28)"
+          }
+        }
+      ]
+    }
+  }
+}

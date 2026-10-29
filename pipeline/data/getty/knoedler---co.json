@@ -1,0 +1,470 @@
+{
+  "name": "Knoedler & Co.",
+  "query": "PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?party ?party_label ?acquisition ?label WHERE {\n  ?party a ?kind ; rdfs:label ?party_label .\n  FILTER(?kind IN (crm:E21_Person, crm:E74_Group))\n  FILTER(CONTAINS(LCASE(STR(?party_label)), \"knoedler\"))\n  ?acquisition (crm:P22_transferred_title_to|crm:P23_transferred_title_from) ?party ;\n               a crm:E8_Acquisition ; rdfs:label ?label .\n} LIMIT 25",
+  "endpoint": "https://data.getty.edu/provenance/sparql",
+  "retrieved_at": "2026-10-29T23:32:41Z",
+  "raw": {
+    "head": {
+      "vars": [
+        "party",
+        "party_label",
+        "acquisition",
+        "label"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/c17deb78-b88f-3f8c-86ac-8c65d17b9aaf/tile/a4d12a02-8135-4986-aacc-881ae2ae2dbd/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 14864 (1919-10-22)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/41dd3d4d-988f-35d7-98c7-5dd0a19bd2a3/tile/47098e11-bd02-460d-b47e-e6577cdc65ee/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number A8074 (1961-08-22)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/52786aad-7767-3202-8d2c-6e08342eaf26/tile/fd263b46-d756-4efc-86a4-17d3db7bf984/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of [GRI Number K-20759] (1875-08-12)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/7b6d4ab8-dd24-3640-8a75-430cc7b9f6bc/tile/725e17b5-94ec-4bd6-802a-e6c8e1c98ce2/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 13912 (1916-07-13)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/3789e524-7894-3c53-a2cb-193d4aa17c61/tile/f99edeb9-461a-4bd4-8a69-aec549904119/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of [GRI Number K-23359]"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/37930cfa-4fd4-389c-819c-bd7ce709d834/tile/4b66ec11-a0c1-4ba8-9a91-d66b3d4dff53/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 9978 (1902-09-29)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/375de19d-c0e0-3138-8e7f-feffdbc4817e/tile/29d2dcaf-6c33-46a1-839c-8de44cdbec53/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 1805 (1879-08-13)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/4c26b20c-4276-3383-93ed-e5518b288201/tile/2061c49c-d19c-416a-8121-472a1b8ddb0e/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 6969 (1891-10-09)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/376d81ee-01b8-3255-86d3-a8debaf49628/tile/8a6b025a-c835-4ae8-acea-2f180726999a/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number A9263 (1968-06-13)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/377cfa22-e7aa-3133-95b6-9ce630be9303/tile/71cb026e-4ad3-439b-8396-505e138f9d88/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 2353 (1880-04-10)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/9b7b2f2b-7e1a-352e-a12d-56b6e6aea8db/tile/98ada06f-4154-4ab6-b714-dfb7b34c5dac/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 15518 (1923-02-01)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/e16f1e2b-0024-3b35-87a2-3e36265c9796/tile/e27a8604-146c-478c-9e6f-c4434b5f6caa/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 14641 (1919-03-13)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/f76fff96-396d-399e-a4d9-6921201ad78b/tile/104d9604-c477-4d8c-babe-c2af6e21b96b/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 12391 (1911-05-26)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/37a5ce53-696a-3a40-9c3e-bc6b5091c4df/tile/6273724b-d2e0-456c-ae46-d5e3ac6c0440/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 15740 (1923-10-01)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/d2685472-dacf-333c-b4c3-c401762343ac/tile/48435a5a-e137-45f9-a75e-1b812188aa74/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 11995 (1910-02-25)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/c186052f-437b-3c54-b669-d4e02e5f6c85/tile/4ad9cd4a-f0aa-4e23-8d68-17a3ef236967/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 14926 (1920-01-15)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/696d7f97-c25e-36fb-bb40-7996c7909c6a/tile/e0b267c9-576c-4263-b733-0541f0cc2087/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 13423 (1914-02-01)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/9b3f6591-77da-3a9c-8417-b0895467184d/tile/80255702-83dd-43ed-a86c-1da5cb89a526/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number A9024 (1966-06-14)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0fcdc95a-ca19-3224-9200-1670c04382dc/tile/1b750132-3bbb-4956-b9f5-05990dcd38db/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number A4722 (1951-12-31)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/6953f0c8-8d42-3ea1-92a7-53b2724cd62d/tile/5b3c2bd2-2407-480b-b806-986992f4c45d/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/1bdb1e84-b1e9-3b8d-b43b-346fbdc9100e"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "Knoedler's"
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Sale of Stock Number A1639 (1957-12-01)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a67e5b9-d1a7-35ee-b7e7-6a6f9f8f8235/tile/3717fcfc-ac7e-45d1-9f2a-b15ff0027fa8/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number A3535 (1946-07-26)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/043d480d-8e49-389a-ab34-fcabc5e974cf/tile/f042cbb9-cfdb-4734-baff-46ed8349e1c0/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of [GRI Number K-20758] (1875-08-12)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/9b56477a-41f9-3c1f-8782-eb5ad6bba8d1/tile/839a7d27-5168-4e6c-ad63-8aaad74d7680/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 11439 (1907-07-01)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0dfea9b2-902b-3698-81b6-bd60fd0314e6/tile/2d41916f-873f-4da1-a061-6f4135e45baa/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of Stock Number 201 (1876-12-31)"
+          }
+        },
+        {
+          "acquisition": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/0a510569-60f1-3dcd-bb24-4a40117fec13/tile/80e896ad-3f0a-47d3-bfef-c2390bbcd67e/node/62490080-bba4-11ea-ad92-3af9d3b32b71"
+          },
+          "party": {
+            "type": "uri",
+            "value": "https://data.getty.edu/provenance/29246664-db2b-3f62-8ba6-5e82ad675c77"
+          },
+          "party_label": {
+            "type": "literal",
+            "value": "M. Knoedler & Co."
+          },
+          "label": {
+            "type": "literal",
+            "value": "Knoedler Purchase of [GRI Number K-17734] (1873-12-31)"
+          }
+        }
+      ]
+    }
+  }
+}
