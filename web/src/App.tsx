@@ -50,12 +50,13 @@ export default function App() {
   }, [])
 
   const onDecide = useCallback((d: Omit<Decision, 'id' | 'at'>) => {
-    setDecisions((prev) => {
-      const next = [...prev, { id: crypto.randomUUID(), at: new Date().toISOString(), ...d }]
-      saveDecisions(next)
-      return next
-    })
+    const id = globalThis.crypto?.randomUUID?.() ?? `d-${Date.now()}-${Math.random().toString(36).slice(2)}`
+    const at = new Date().toISOString()
+    setDecisions((prev) => [...prev, { id, at, ...d }])
   }, [])
+  useEffect(() => {
+    saveDecisions(decisions)
+  }, [decisions])
 
   const goCollection = () => setView({ name: 'collection' })
   const goSources = () => setView({ name: 'sources' })

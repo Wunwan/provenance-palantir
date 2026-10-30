@@ -11,7 +11,7 @@ CLEVELAND_DESCRIPTION = (
 )
 GETTY_DESCRIPTION = (
     "Dealer stock books and sales catalogs, searched ahead of time for the names in a gap. It only produces "
-    "leads: suggestions that a person can accept to close a gap. It never adds events to a chain."
+    "leads: suggestions to review. Nothing from this source is added to a chain, and accepting a lead does not yet change a gap."
 )
 
 
@@ -40,7 +40,10 @@ def build_sources(data_dir: Path, out_existing: Path) -> dict:
                         "retrievedAt": cache["retrieved_at"], "results": results})
     # Not derivable from stored data: getty_fetch saves a file only on success and records no failures,
     # so a name with no file may have timed out or never been run. Keep the hand-curated list.
-    not_covered = _read(out_existing)["providers"][1].get("notCovered", []) if out_existing.exists() else []
+    not_covered = []
+    if out_existing.exists():
+        prior = next((p for p in _read(out_existing)["providers"] if p.get("id") == "getty"), {})
+        not_covered = prior.get("notCovered", [])
 
     return {"providers": [
         {"id": "cleveland", "name": "Cleveland Museum of Art Open Access API", "kind": "API", "role": "records",
@@ -48,7 +51,7 @@ def build_sources(data_dir: Path, out_existing: Path) -> dict:
          "retrievedAt": max((r["retrievedAt"] for r in records), default=""), "records": records},
         {"id": "getty", "name": "Getty Provenance Index", "kind": "Cached lookup", "role": "suggestions",
          "description": GETTY_DESCRIPTION, "endpoint": "https://data.getty.edu/provenance/sparql",
-         "license": "Getty open content",
+         "license": "See Getty's terms of use",
          "retrievedAt": max((l["retrievedAt"] for l in lookups), default=""), "lookups": lookups,
          "notCovered": not_covered},
     ]}

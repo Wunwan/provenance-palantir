@@ -163,7 +163,7 @@
       "role": "suggestions",
       "description": "Dealer stock books and sales catalogs, searched ahead of time for the names in a gap. It only produces leads: suggestions that a person can accept to close a gap. It never adds events to a chain.",
       "endpoint": "https://data.getty.edu/provenance/sparql",
-      "license": "Getty open content",
+      "license": "See Getty's terms of use",
       "retrievedAt": "2026-10-29T23:38:32Z",
       "lookups": [
         {

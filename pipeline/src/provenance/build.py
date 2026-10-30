@@ -26,7 +26,8 @@ def write(root: Path, out_dir: Path) -> list[str]:
         m for m in matching.compute(model)
         if "Cleveland Museum" not in names[m.candidate_party] and "Cleveland Museum" not in aliases[m.alias]
     ]
-    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # the snapshot date of the raw data, not the wall clock, so rebuilding unchanged input is byte-identical
+    now = max((r.retrieved_at for r in model.source_records), default="")
     model.suggestions = suggest.existing(model, now) + suggest.external(model)
     out_dir.mkdir(parents=True, exist_ok=True)
     dumped = result.model.model_dump(mode="json")

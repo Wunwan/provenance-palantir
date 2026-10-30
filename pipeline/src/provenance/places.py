@@ -1,6 +1,6 @@
 """Place extraction by rule: the place a holder is named at, in the words of the provenance step.
 
-The gazetteer lists only places that appear in the six demo records' provenance text.
+The gazetteer lists only places that appear in the 16 records' provenance text.
 A place is returned only (city, then county or region, then country) when the text states exactly one; otherwise None (a question, not a guess).
 """
 

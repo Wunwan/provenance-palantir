@@ -120,6 +120,7 @@ export function derive(model: EvidenceModel, decisions: Decision[], focus: Focus
       )
       let risk = overlap(start, end, lo, hi)
       let closed = false
+      const covered: [number, number][] = []
       for (const d of added) {
         if (!ids.includes(d.target)) continue
         const s = suggestions.get(d.suggestion as string)
@@ -130,8 +131,19 @@ export function derive(model: EvidenceModel, decisions: Decision[], focus: Focus
         }
         const cs = Math.max(year(s.covers_start) ?? start, start)
         const ce = Math.min(year(s.covers_end) ?? end, end)
-        if (ce > cs) risk -= overlap(cs, ce, lo, hi)
+        if (ce > cs) covered.push([cs, ce])
       }
+      // union the covered spans so overlapping or repeated suggestions are not subtracted twice
+      covered.sort((x, y) => x[0] - y[0])
+      let cur: [number, number] | null = null
+      for (const iv of covered) {
+        if (cur && iv[0] <= cur[1]) cur[1] = Math.max(cur[1], iv[1])
+        else {
+          if (cur) risk -= overlap(cur[0], cur[1], lo, hi)
+          cur = [iv[0], iv[1]]
+        }
+      }
+      if (cur) risk -= overlap(cur[0], cur[1], lo, hi)
       if (closed) risk = 0
       risk = Math.max(0, risk)
       gaps.push({

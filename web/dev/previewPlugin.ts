@@ -27,7 +27,7 @@ function runPreview(accession: string, cwd: string): Promise<string> {
       }
     }
     // argument array, never a shell string
-    const child = spawn('uv', ['run', '--project', 'pipeline', 'python', '-m', 'provenance.preview', accession], { cwd })
+    const child = spawn('uv', ['run', '--project', 'pipeline', 'python', '-m', 'provenance.preview', accession], { cwd, stdio: ['ignore', 'pipe', 'ignore'] })
     const timer = setTimeout(() => {
       child.kill()
       done(unavailable)
@@ -48,7 +48,19 @@ export function previewPlugin(): Plugin {
       repoRoot = resolve(config.root, '..')
     },
     configureServer(server) {
+      let busy = false
       server.middlewares.use('/api/preview', async (req, res) => {
+        const site = req.headers['sec-fetch-site']
+        const host = req.headers.host ?? ''
+        const origin = req.headers.origin
+        const sameOrigin = (!site || site === 'same-origin' || site === 'none') && (!origin || new URL(origin).host === host)
+        if (!sameOrigin || busy) {
+          res.statusCode = sameOrigin ? 429 : 403
+          res.end()
+          return
+        }
+        busy = true
+        try {
         const accession = new URL(req.url ?? '', 'http://localhost').searchParams.get('accession') ?? ''
         const body = req.method !== 'GET'
           ? unavailable
@@ -58,6 +70,9 @@ export function previewPlugin(): Plugin {
         res.statusCode = 200
         res.setHeader('Content-Type', 'application/json')
         res.end(body)
+        } finally {
+          busy = false
+        }
       })
     },
   }

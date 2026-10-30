@@ -5,7 +5,8 @@ const KEY = 'provenance-decisions-v1'
 /** Decisions live in the browser over the static seed data (ADR 0002). */
 export function loadDecisions(): Decision[] {
   try {
-    return JSON.parse(localStorage.getItem(KEY) ?? '[]') as Decision[]
+    const parsed: unknown = JSON.parse(localStorage.getItem(KEY) ?? '[]')
+    return Array.isArray(parsed) ? (parsed as Decision[]) : []
   } catch {
     return []
   }

@@ -64,6 +64,21 @@ describe('derive', () => {
     expect(g.closed).toBe(false)
   })
 
+  it('overlapping or repeated suggestions are not subtracted twice', () => {
+    const m = {
+      ...model,
+      suggestions: [
+        ...(model.suggestions ?? []),
+        { id: 's-a', event: 'e-1958.32-007', covers_start: '1933', covers_end: '1936' },
+        { id: 's-b', event: 'e-1958.32-007', covers_start: '1934', covers_end: '1936' },
+      ],
+    } as unknown as EvidenceModel
+    const mk = (id: string, suggestion: string): Decision =>
+      ({ id, target: 'e-1958.32-007', choice: 'evidence_added', suggestion, note: '', at: '2026-01-01T00:00:00Z' })
+    const g = gapOf(derive(m, [mk('d1', 's-a'), mk('d2', 's-a'), mk('d3', 's-b')], NAZI_ERA), 'cma-1958.32', 1927, 1940)!
+    expect(g.riskYears).toBe(4)
+  })
+
   it('a suggestion without a span closes the gap', () => {
     const m = {
       ...model,

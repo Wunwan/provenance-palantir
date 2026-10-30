@@ -56,7 +56,7 @@ Do it **inline** (no state file, no workers) when it is ~3 files or fewer, or on
 
 ```
 Goal: <one sentence, the outcome>
-Repo: /Users/wunwan/provenance-palantir — cd there in every Bash call.
+Repo: the repo root — cd there in every Bash call.
 May edit: <exact paths>
 Never edit: guards and checks (check scripts, tsconfig/lint config, CI),
   <files other chunks own>, files with someone's uncommitted edits unless listed above.

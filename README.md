@@ -122,6 +122,8 @@ uv run python -m provenance.geocode                                      # place
 cd ../web && npm run generate                                            # JSON + types for the app
 ```
 
+`geocode` reads the generated `evidence.json`, so after adding a new accession run `npm run generate`, then `geocode`, then `npm run generate` again.
+
 The **Add source** live preview calls `/api/preview`, a route that exists only in the dev server (`npm run dev`) and runs the pipeline in a temporary folder without touching `pipeline/data`. In a production build it is absent and the flow says so. You can also run it directly: `uv run python -m provenance.preview 1965.233`.
 
 ## Repository layout

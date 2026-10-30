@@ -4,55 +4,39 @@ Open [`moodboard.html`](moodboard.html) for the visual board. This file holds th
 
 The visual references behind the interface, and what was taken from each. The look is a **dark gallery at night**: the works are the light source, shown as real images on near-black, with museum-label captions, thin rules, one red accent and light type.
 
-![The moodboard: references 01 to 08, where the interface landed (09, 10), the palette and the three typefaces](moodboard/moodboard.png)
+The palette and type tokens are in [`design-direction.md`](design-direction.md). Screenshots of this app and the chart reference are in [`moodboard/`](moodboard/). The outside references (01 to 07) are described in words with credits; their images are not included because they are other people's work.
 
-The palette and type tokens are in [`design-direction.md`](design-direction.md). The images are in [`moodboard/`](moodboard/).
-
-> **Use of third-party material.** References 01 to 07 are other people's work, kept here as private design references. Their original credits were not all recorded. Remove or replace them before making this repository public. Where an image carries its own credit it is noted below.
+> **Third-party material.** References 01 to 07 are other people's work and are described in words only. Where a reference carries its own credit it is noted below.
 
 ## References
 
 ### 01 Dark museum app
-![Dark museum app](moodboard/01-louvre-museum-app.png)
-
 A museum page in a dark mobile app: charcoal ground, serif titles, a boxed row of three facts (Founded, Paintings, Location), rounded cards, and numbered annotations (01 to 06) ending in small red dots.
 - **Taken:** the dark charcoal ground, serif for names, red used only as small dots and links, numbered sections.
 - **Changed:** the boxed fact row and rounded cards were flattened into plain rows with hairlines when the direction moved toward 07.
 
 ### 02 Objects on black
-![Objects on black](moodboard/02-british-museum-objects.png)
-
 "Over 8 million objects": cut-out objects floating on black, each with a two-line museum caption, a muted line for the object and a bright line for its place and date.
 - **Taken:** the images sit directly on the page ground, with no card behind them, and every collection card has a two-line caption in the same pattern.
 
 ### 03 Archive grid
-![Archive grid](moodboard/03-archive-grid.png)
-
 A row of archive objects on dark, with an italic serif title, monospace uppercase headings, small body text, thin rules above each item and one cream button.
 - **Taken:** the collection as a grid of images with a rule and a caption beneath each, and monospace uppercase for small labels and numbers.
 - **Changed:** the cream button became a charcoal button with white text and a thin white border.
 
 ### 04 Black gallery page
-![Black gallery page](moodboard/04-irving-penn-works.png)
-
 A photographer's site: black ground, a serif all-caps statement, a row of overlapping photographs in different sizes, a centred pill button, and a minimal top navigation.
 - **Noted for:** the calm, centred composition and the overlap of images of different sizes. Nothing from it is in the interface yet.
 
 ### 05 Overlapping translucent images
-![Overlapping translucent images](moodboard/05-overlapping-collective.png)
-
 A grey page with a horizontal band of overlapping translucent images, a thin vertical axis with small labels above and below, an italic-accent serif line and a small "Random / Linear" toggle.
 - **Noted for:** layering images in time order along an axis, and the quiet toggle between two arrangements. It resembles the Timeline | Map switch in spirit. Nothing is taken from it directly yet.
 
 ### 06 Boxed insets with leader lines
-![Boxed insets with leader lines](moodboard/06-rosetta-annotated-insets.png)
-
 A comet image with boxed close-ups connected to their place on the main image by thin leader lines, each with a small size and date caption. Credit in the image: ESA/Rosetta/NavCam, CC BY-SA IGO 3.0.
 - **Noted for:** callouts that point from a detail back to its place on the whole, which is the idea behind the chart's label leader lines and a future gap-detail view.
 
 ### 07 Harvard CAMLab
-![Harvard CAMLab](moodboard/07-harvard-camlab-about.png)
-
 The About page of Harvard's Cognitive Aesthetics Media Lab (camlab.fas.harvard.edu, captured 2026-10-30): near-black ground, a full-bleed cinematic hero, one light-weight sans, and editorial rows with a small label in a narrow left column and a large light headline plus short-line text on the right, separated by full-width hairlines. No cards, no accent colour.
 - **Taken:** the row structure used across the app (label column on the left, content on the right, hairlines between), light type at large sizes, a full-bleed artwork image at the top of each artwork page, and flat surfaces. Cards survive in one place only: the source cards.
 

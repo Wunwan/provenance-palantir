@@ -223,7 +223,7 @@ const FEATURES = [
       ['i','2. Score similarity with RapidFuzz token-sort ratio, 0 to 100 (a name contained in another is capped at 85)','RapidFuzz token-sort score',['PRD','Proposal','Built'],''],
       ['i','3. Corroborate with life dates, a shared artwork, or a shared neighbour in the chain','Corroborate: dates, artwork',['PRD','Built'],''],
       ['i','4. Assign a band: strong 90 and up, possible 75, weak 60','Bands: 90 / 75 / 60',['PRD','Proposal','Built'],'A strong name with no other evidence drops to possible; conflicting life dates force weak'],
-      ['i','5. Rank candidates by band, then by id; no numeric score is shown','Rank: band, then id',['PRD','Built'],'Order inside a band is not meaningful yet'],
+      ['i','5. Rank candidates by band, then by id; the score only appears inside the plain-language reason','Rank: band, then id',['PRD','Built'],'Order inside a band is not meaningful yet'],
       ['i','457 candidate pairs across the 16 artworks',null,['Built'],''],
     ]},
     { t: 'Planned matching and ranking', short: 'PLANNED RANKING', items: [
@@ -288,7 +288,7 @@ const RANKING = [
   ['Score similarity','RapidFuzz name similarity (PRD, proposal)','RapidFuzz token-sort ratio, 0 to 100; a name contained in another is capped at 85','i'],
   ['Corroborate','Reasons from names, dates, places and a shared dealer (proposal)','Life dates, a shared artwork, a shared neighbour. Place and title rules are not built','i'],
   ['Assign a band','Rough bands rather than precise scores (proposal)','Strong 90 and up, possible 75, weak 60. A strong name with no other evidence drops to possible; conflicting life dates force weak','i'],
-  ['Rank candidates','Ranked candidates with reasons and bands (PRD P3). No formula is given','Sort by band, then by id. No numeric score is shown. Order inside a band is arbitrary','i'],
+  ['Rank candidates','Ranked candidates with reasons and bands (PRD P3). No formula is given','Sort by band, then by id. The score only appears inside the plain-language reason. Order inside a band is arbitrary','i'],
   ['Order within a band','Not specified in the documents','Suggested: order by name score, then by the number of corroborating reasons','s'],
   ['Decide','Confirm or reject, recording who decided and why (proposal)','Accept or reject, saved in the browser. Who and why are not recorded','i'],
   ['Collection ranking','Pieces sorted by missing years in 1933 to 1945 (PRD P4)','Sort by open years (any period; focus period optional), then fewer parties named, a longer single silence, more unknown history, then id','i'],
