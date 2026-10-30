@@ -1,0 +1,70 @@
+/* Pin colours (kept in step with PIN_COLORS in colors.ts, which a test checks for contrast). */
+:root { --m-pin: #ece9e2; --m-pin-edge: #141416; }
+@media (prefers-color-scheme: light) { :root { --m-pin: #1a1a1a; --m-pin-edge: #f0ede6; } }
+/* Map view of the ownership journey. Uses the --j-* tokens from journey.css; same encodings as the timeline. */
+.m-root { position: relative; font-family: var(--sans, "Hanken Grotesk", system-ui, sans-serif); font-weight: 300; color: var(--j-ink); }
+.m-main { position: relative; min-width: 0; }
+.m-svg { display: block; width: 100%; height: auto; border: 1px solid var(--j-rule); background: var(--j-surface); }
+.m-svg text { font-family: var(--sans, "Hanken Grotesk", system-ui, sans-serif); font-weight: 300; font-size: 11px; fill: var(--j-ink); }
+.m-land { fill: var(--j-gap-fill); stroke: none; }
+.m-item { cursor: pointer; outline: none; }
+.m-hit { fill: none; stroke: transparent; stroke-width: 14; pointer-events: stroke; }
+circle.m-hit { fill: transparent; stroke: none; pointer-events: all; }
+.m-focus { fill: none; stroke: none; }
+.m-item:focus-visible .m-focus, .m-pin.is-selected .m-focus { stroke: var(--j-ink); stroke-width: 1.5; }
+.m-item:focus-visible .m-hit { stroke: transparent; }
+.m-dot { fill: var(--m-pin); stroke: var(--m-pin-edge); stroke-width: 1.5; }
+.m-dot.is-approx { fill: var(--j-surface); stroke: var(--m-pin); stroke-width: 2; }
+.m-badge { fill: var(--j-ink); }
+.m-svg .m-badge-t { fill: var(--j-surface); font-size: 11px; font-weight: 400; }
+.m-svg .m-city { paint-order: stroke; stroke: var(--j-surface); stroke-width: 3px; stroke-linejoin: round; }
+.m-year-ring { fill: none; stroke: var(--j-ink); stroke-width: 2; stroke-dasharray: 4 2.5; }
+.m-q-ring { fill: var(--j-surface); stroke: var(--j-ink); stroke-width: 1.2; stroke-dasharray: 2 2; }
+.m-svg .m-q { font-size: 12px; font-weight: 400; }
+.m-unplaced { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; font-size: 13px; }
+.m-unplaced-btn { text-align: left; font: 300 13px/1.4 var(--sans, "Hanken Grotesk", system-ui, sans-serif); color: var(--j-ink); background: transparent; border: 1px solid var(--j-rule); border-radius: 0; padding: 6px 10px; cursor: pointer; }
+.m-unplaced-btn:hover, .m-unplaced-btn.is-selected { border-color: var(--j-ink); }
+.m-unplaced-btn:focus-visible { outline: 1.5px solid var(--j-ink); outline-offset: 2px; }
+.m-note { font-size: 13px; color: var(--j-muted); margin: 8px 0 0; }
+.m-scrub { margin-top: 12px; display: grid; gap: 4px; }
+.m-scrub-l { font: 400 11px "Helvetica Neue", Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.14em; color: var(--j-muted); display: flex; gap: 8px; }
+.m-scrub-y { color: var(--j-ink); font-family: var(--mono, "IBM Plex Mono", ui-monospace, monospace); letter-spacing: 0; }
+.m-range { width: 100%; accent-color: var(--j-own); }
+.m-scrub-s { margin: 0; font-size: 13px; min-height: 1.4em; }
+.m-legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 12px; color: var(--j-muted); margin: 12px 0 0; padding: 0; list-style: none; }
+.m-legend li { display: inline-flex; align-items: center; gap: 6px; }
+.m-foot { font-size: 12px; color: var(--j-muted); margin: 8px 0 0; }
+
+.m-leader { stroke: var(--j-muted); stroke-width: 0.8; }
+.m-zoom { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 12px; }
+.m-zoom-l { font: 400 11px "Helvetica Neue", Arial, sans-serif; text-transform: uppercase; letter-spacing: 0.14em; color: var(--j-muted); }
+.m-zoom-opt { border: 1px solid var(--rule, var(--j-rule)) !important; }
+.m-zoom-n { font-size: 13px; color: var(--j-muted); }
+
+/* Colour-coded moves: colour follows time; solid = handover recorded, dashed = link unknown; red = focus period. */
+.m-arc { fill: none; stroke-width: 2.25; }
+.m-arc.is-dashed { stroke-dasharray: 6 4; }
+.m-halo { fill: none; stroke: var(--j-focus); stroke-width: 4.75; opacity: 0.7; }
+.m-sel { fill: none; stroke: #fff; stroke-width: 6; }
+.m-move:hover .m-arc, .m-move:focus-visible .m-arc, .m-move.is-selected .m-arc { stroke-width: 3.5; }
+.m-step-c { stroke: var(--j-surface); stroke-width: 1; }
+.m-move:hover .m-step-c, .m-move:focus-visible .m-step-c, .m-move.is-selected .m-step-c { stroke: var(--j-ink); stroke-width: 2; }
+.m-badge-focus { fill: none; stroke: var(--j-focus); stroke-width: 2; }
+.m-svg .m-step { font-family: var(--mono, "IBM Plex Mono", ui-monospace, monospace); font-size: 11px; font-weight: 600; pointer-events: none; }
+.m-lg { stroke: var(--j-marker); stroke-width: 2.25; }
+.m-lg.is-dashed { stroke-dasharray: 5 3; }
+.m-lg-focus { stroke: var(--j-focus); stroke-width: 4; }
+.m-ramp { display: inline-block; width: 44px; height: 8px; }
+/* Zoom and pan */
+.m-svg { touch-action: none; cursor: grab; overflow: hidden; }
+.m-svg:active { cursor: grabbing; }
+.m-scene { transition: opacity 200ms ease; }
+.m-scene.is-switching { opacity: 0.35; }
+@media (prefers-reduced-motion: reduce) { .m-scene { transition: none; } }
+.m-zbtns { position: absolute; top: 8px; right: 8px; display: grid; gap: 4px; }
+.m-zbtn { font: 400 13px "Helvetica Neue", Arial, sans-serif; min-width: 32px; height: 32px; padding: 0 8px; background: var(--j-surface); color: var(--j-ink); border: 1px solid var(--j-rule); border-radius: 0; cursor: pointer; }
+.m-zbtn-reset { font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; }
+.m-zbtn:hover:not(:disabled) { border-color: var(--j-ink); }
+.m-zbtn:disabled { opacity: 0.4; cursor: default; }
+.m-zbtn:focus-visible { outline: 1.5px solid var(--j-ink); outline-offset: 2px; }
+.m-hint { font-size: 12px; color: var(--j-muted); margin: 6px 0 0; }
