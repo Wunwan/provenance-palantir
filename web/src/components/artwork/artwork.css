@@ -1,0 +1,130 @@
+.aw { padding: 16px var(--gutter, 16px) 64px; color: var(--ink, #ece9e2); font-family: var(--sans, "Hanken Grotesk", system-ui, sans-serif); font-weight: 300; }
+.aw h1 { font-family: var(--serif, "Source Serif 4", Georgia, serif); font-size: clamp(36px, 5vw, 64px); font-weight: 400; letter-spacing: -0.01em; margin: 0 0 12px; line-height: 1.08; }
+.aw h2 { display: flex; gap: 12px; align-items: baseline; font-family: var(--sans, "Hanken Grotesk", system-ui, sans-serif); font-size: clamp(22px, 2.4vw, 32px); font-weight: 300; letter-spacing: -0.01em; line-height: 1.15; margin: 0; }
+
+.aw-sec-n { color: var(--muted, #8d8d90); font-family: var(--mono, ui-monospace, monospace); font-size: 0.72rem; }
+.aw-meta, .aw-note { color: var(--muted, #8d8d90); font-size: 0.85rem; margin: 2px 0; }
+.aw-tl { width: 100%; height: auto; display: block; overflow: visible; }
+.aw-tl text { font-size: 10px; fill: var(--muted, #8d8d90); }
+.aw-tl .band { fill: var(--red, #e0443a); opacity: 0.14; }
+.aw-tl .band-line { stroke: var(--red, #e0443a); stroke-width: 1; }
+.aw-tl .band-label { fill: var(--red, #e0443a); }
+.aw-tl .axis { stroke: var(--ink, #ece9e2); stroke-width: 1; }
+.aw-tl .gap { fill: none; stroke: var(--ink, #ece9e2); stroke-width: 1; stroke-dasharray: 3 2; }
+.aw-tl .dot { fill: var(--ink, #ece9e2); }
+.aw-tl .dot.approximate { opacity: 0.45; }
+.aw-tl .dot.unknown { fill: url(#aw-hatch); stroke: var(--ink, #ece9e2); stroke-width: 1; }
+.aw-tl .hatch-line { stroke: var(--ink, #ece9e2); stroke-width: 1; }
+.aw-list { list-style: none; padding: 0; margin: 0; }
+.aw-list .aw-item:first-child { border-top: 0; padding-top: 0; }
+.aw-item { display: grid; grid-template-columns: 2.5rem 1fr; gap: 8px; padding: 16px 0; border-top: 1px solid var(--rule, #34353a); }
+.aw-num { font-family: var(--mono, ui-monospace, monospace); font-size: 0.75rem; color: var(--muted, #8d8d90); }
+.aw-item p { margin: 0 0 4px; }
+.aw-form { display: inline-block; width: 10px; height: 10px; border: 1px solid var(--ink, #ece9e2); border-radius: 50%; vertical-align: middle; margin-right: 6px; }
+.aw-form.confirmed { background: var(--ink, #ece9e2); }
+.aw-form.approximate { background: var(--ink, #ece9e2); opacity: 0.4; }
+.aw-form.unknown { background: repeating-linear-gradient(45deg, var(--ink, #ece9e2) 0 1px, transparent 1px 3px); }
+.aw-item.approximate .aw-main { opacity: 0.8; }
+.aw-item.unknown .aw-main { border-left: 2px dashed var(--muted, #8d8d90); padding-left: 8px; }
+.aw-src { list-style: none; padding: 0; margin: 4px 0 0; font-size: 0.85rem; }
+.aw-src li { margin: 2px 0; }
+.aw-src a { color: var(--ink, #ece9e2); text-decoration: underline; text-decoration-color: var(--red, #e0443a); text-underline-offset: 2px; }
+.aw-where { color: var(--muted, #8d8d90); font-size: 0.75rem; }
+.aw-card { padding: 16px 0; border-top: 1px solid var(--rule, #34353a); }
+.aw-card:first-of-type { border-top: 0; padding-top: 0; }
+.aw-card p { margin: 0 0 6px; }
+.aw-card ul { margin: 4px 0 8px 18px; padding: 0; font-size: 0.85rem; }
+.aw-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.aw-slot { border: 0; border-top: 1px dashed var(--rule, #34353a); padding: 8px; margin-top: 8px; color: var(--muted, #8d8d90); font-size: 0.8rem; }
+
+.aw-src a:hover, .aw a:hover { color: var(--red, #e0443a); }
+.aw-tag { font-family: var(--mono, ui-monospace, monospace); font-size: 0.7rem; background: var(--panel-2, #2a2b2f) !important; color: var(--muted, #8d8d90) !important; }
+.aw-accept.bp6-button, .aw-accept { background: var(--panel-2, #242424) !important; color: #fff !important; border: 1px solid #fff !important; border-radius: 0; box-shadow: none !important; background-image: none !important; }
+.aw-accept .bp6-button-text { color: #fff !important; }
+.aw-reject.bp6-button, .aw-reject { background: transparent !important; color: var(--ink, #ece9e2) !important; border: 1px solid var(--rule, #34353a); border-radius: 0; box-shadow: none !important; background-image: none !important; }
+.aw-accept[aria-pressed="true"], .aw-reject[aria-pressed="true"] { outline: 1px solid var(--red, #e0443a); outline-offset: 2px; }
+
+/* Hero: full-bleed image, flat caption */
+.aw-head { margin-top: 8px; }
+.aw-figure { margin: 16px calc(-1 * var(--gutter, 16px)) 0; }
+.aw-figure img { display: block; width: 100%; max-height: 70vh; object-fit: contain; background: transparent; border-radius: 0; }
+.aw-figure figcaption { font-size: 11px; color: var(--muted, #8d8d90); margin: 8px var(--gutter, 16px) 0; }
+.aw-head-text { min-width: 0; }
+.aw-by { font-size: 1.15rem; font-weight: 300; margin: 0 0 8px; }
+
+/* CAM Lab rows: hairline on top, label left, content right */
+.aw-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; border-top: 1px solid var(--rule, #34353a); padding: 24px 0 40px; margin: 0; }
+.aw-head > .aw-row { margin-top: 32px; padding-bottom: 24px; }
+.aw-row-label { min-width: 0; }
+.aw-row-body { min-width: 0; margin: 0; }
+.aw-label-small { font-size: 0.85rem; font-weight: 300; color: var(--muted, #8d8d90); margin: 0; }
+.aw-facts { margin: 0; }
+.aw-facts > .aw-row { padding: 14px 0; gap: 4px; }
+.aw-facts dd { overflow-wrap: anywhere; font-size: 1rem; }
+@media (min-width: 760px) {
+  .aw-row { grid-template-columns: var(--label-col, 30%) minmax(0, 1fr); gap: 16px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .aw-figure img { animation: aw-fade 600ms ease-out both; }
+  @keyframes aw-fade { from { opacity: 0; } to { opacity: 1; } }
+}
+
+/* Wide screens: the image sits left; the title block and facts (through Open years) sit to its right */
+@media (min-width: 900px) {
+  .aw-head { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); column-gap: 48px; align-items: start; grid-template-rows: auto auto 1fr; }
+  .aw-figure { grid-column: 1; grid-row: 1 / span 3; margin-top: 16px; }
+  .aw-figure img { max-height: 80vh; object-position: left top; }
+  .aw-head > .aw-row, .aw-head > .aw-facts { grid-column: 2; }
+  .aw-head > .aw-row { grid-template-columns: 28% minmax(0, 1fr); gap: 24px; margin-top: 16px; }
+  .aw-facts > .aw-row { grid-template-columns: 28% minmax(0, 1fr); gap: 24px; }
+}
+
+/* Tab switch: Journey / Chain of possession, in the content column under the header */
+.aw-tabs { display: flex; gap: 28px; border-bottom: 1px solid var(--rule, #34353a); margin-bottom: 24px; overflow-x: auto; }
+.aw-tab { background: none; border: 0; border-bottom: 1px solid transparent; margin-bottom: -1px; padding: 8px 0 12px; font: 400 11px/1.4 var(--sans, "Hanken Grotesk", system-ui, sans-serif); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted, #8d8d90); cursor: pointer; white-space: nowrap; }
+.aw-tab:hover { color: var(--ink, #ece9e2); }
+.aw-tab[aria-selected="true"] { color: var(--ink, #ece9e2); border-bottom-color: var(--ink, #ece9e2); }
+.aw-tab-n { margin-left: 8px; font-family: var(--mono, ui-monospace, monospace); font-size: 10px; letter-spacing: 0; color: var(--muted, #8d8d90); }
+.aw-tabs-row { padding-top: 16px; }
+
+/* The tab row and its panel use the full width */
+.aw-tabs-row { grid-template-columns: minmax(0, 1fr) !important; }
+.aw-pair { display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px 48px; align-items: start; }
+.aw .aw-sub { font: 400 11px/1.4 var(--sans, "Hanken Grotesk", system-ui, sans-serif); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted, #8d8d90); margin: 0 0 12px; padding: 0; border: 0; }
+@media (min-width: 900px) { .aw-pair { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); } }
+
+/* Journey on the left; the chain of possession as a narrow bar on the right, one card per ownership step */
+.aw-duo { display: grid; grid-template-columns: minmax(0, 1fr); gap: 40px; align-items: start; padding: 24px 0 8px; border-top: 1px solid var(--rule, #34353a); }
+.aw-duo-main, .aw-duo-side { min-width: 0; }
+.aw .aw-duo .aw-sub { margin: 0 0 16px; }
+.aw-cards { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.aw-own { position: relative; border: 1px solid var(--rule, #34353a); padding: 14px 16px 14px 48px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.aw-own .aw-num { position: absolute; left: 16px; top: 15px; font: 400 11px var(--mono, ui-monospace, monospace); color: var(--muted, #8d8d90); }
+.aw-own-line { margin: 0; font-size: 14px; line-height: 1.4; overflow-wrap: anywhere; }
+.aw-own .aw-meta { margin: 0; }
+.aw-own.unknown { border-style: dashed; }
+.aw-own.approximate { border-color: var(--muted, #8d8d90); }
+@media (min-width: 1100px) {
+  .aw-duo { grid-template-columns: minmax(0, 1fr) minmax(320px, 400px); }
+  .aw-duo-side { position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; padding-right: 4px; }
+}
+
+/* Ownership card: each fact is a row with the information on the left and what it is on the right */
+.aw-own { padding: 14px 16px; gap: 0; }
+.aw-own .aw-num { position: static; display: block; margin-bottom: 8px; }
+.aw-facts-list { margin: 0; display: flex; flex-direction: column; }
+.aw-fact { display: grid; grid-template-columns: minmax(0, 1fr) 6.5rem; gap: 12px; align-items: baseline; padding: 6px 0; border-top: 1px solid var(--rule, #34353a); }
+.aw-fact:first-child { border-top: 0; }
+.aw-fact dt { grid-column: 2; grid-row: 1; }
+.aw-fact dd { grid-column: 1; grid-row: 1; margin: 0; font-size: 14px; line-height: 1.4; overflow-wrap: anywhere; }
+.aw-fact-main { font-weight: 400; font-size: 16px !important; }
+.aw-fact dt { text-align: right; font: 400 10px/1.4 var(--sans, "Hanken Grotesk", system-ui, sans-serif); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted, #8d8d90); }
+.aw-fact .aw-form { display: inline-block; margin-right: 8px; vertical-align: middle; }
+.aw-fact-src .aw-src { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 2px 10px; }
+.aw-fact-src .aw-src li { margin: 0; font-size: 13px; }
+
+/* Ownership card header: step number on the left, the source tag on the right */
+.aw-own-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.aw-own .aw-num { margin-bottom: 0; }
+.aw-src-tag { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; border: 1px solid var(--src, var(--muted, #8d8d90)); font: 400 10px/1.4 var(--sans, "Hanken Grotesk", system-ui, sans-serif); letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink, #ece9e2); }
+.aw-src-tag i { width: 8px; height: 8px; border-radius: 50%; background: var(--src, var(--muted, #8d8d90)); flex: none; }

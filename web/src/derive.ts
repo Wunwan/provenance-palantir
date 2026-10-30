@@ -1,8 +1,12 @@
 import type { ArtworkState, CertaintyShares, Decision, Derived, Gap } from './types'
 import type { EvidenceModel } from './generated/contract'
 
-const RISK_START = 1933
-const RISK_END = 1945
+import { NAZI_ERA, type FocusPeriod } from './focus'
+
+/** Legacy name: the length of the Nazi-era preset (12 years). Prefer focusYears(focus). */
+export const RISK_WINDOW_YEARS = NAZI_ERA.end - NAZI_ERA.start
+/** Length of a focus period in years; Infinity when there is none (all periods). */
+export const focusYears = (focus: FocusPeriod | null): number => (focus ? focus.end - focus.start : Infinity)
 const HIDDEN_HOLDER = /^(private collection|possibly|a swiss private collector)/i
 
 type Ev = EvidenceModel['events'][number]
@@ -16,7 +20,6 @@ const year = (d: string | null): number | null => {
 const overlap = (a: number, b: number, c: number, d: number) =>
   Math.max(0, Math.min(b, d) - Math.max(a, c))
 
-const riskOf = (start: number, end: number) => overlap(start, end, RISK_START, RISK_END)
 
 function isSilence(e: Ev): boolean {
   return e.date_start === null || e.date_end === null || e.date_start !== e.date_end
@@ -47,9 +50,52 @@ function shares(events: Ev[]): CertaintyShares {
   return { confirmed: count('confirmed'), approximate: count('approximate'), unknown: count('unknown') }
 }
 
-export function derive(model: EvidenceModel, decisions: Decision[]): Derived {
+/**
+ * Person-made verdict per match id. The latest decision on a match wins; when one alias has
+ * several accepted candidates only the most recently decided stays accepted and its siblings
+ * read as rejected. Undecided matches are absent.
+ */
+export function latestMatchDecisions(
+  model: EvidenceModel,
+  decisions: Decision[],
+): Map<string, 'accepted' | 'rejected'> {
+  const aliasOf = new Map((model.matches ?? []).map((m) => [m.id, m.alias]))
+  const last = new Map<string, { choice: 'accepted' | 'rejected'; order: number }>()
+  decisions.forEach((d, order) => {
+    if ((d.choice === 'accepted' || d.choice === 'rejected') && aliasOf.has(d.target)) {
+      last.set(d.target, { choice: d.choice, order })
+    }
+  })
+  const winner = new Map<string, { id: string; order: number }>()
+  for (const [id, v] of last) {
+    if (v.choice !== 'accepted') continue
+    const alias = aliasOf.get(id) as string
+    const w = winner.get(alias)
+    if (!w || v.order > w.order) winner.set(alias, { id, order: v.order })
+  }
+  const out = new Map<string, 'accepted' | 'rejected'>()
+  for (const [id, v] of last) {
+    out.set(id, v.choice === 'accepted' && winner.get(aliasOf.get(id) as string)?.id !== id ? 'rejected' : v.choice)
+  }
+  return out
+}
+
+/** With a focus period, riskYears and warParties measure that range; with none, every date counts equally. */
+export function derive(model: EvidenceModel, decisions: Decision[], focus: FocusPeriod | null = null): Derived {
+  const lo = focus ? focus.start : -Infinity
+  const hi = focus ? focus.end : Infinity
   const partyName = new Map(model.parties.map((p) => [p.id, p.preferred_name]))
   const suggestions = new Map((model.suggestions ?? []).map((s) => [s.id, s]))
+  // A hidden party stays hidden until a person accepts a match for one of its aliases that
+  // resolves to a party whose own name is not a hidden holder.
+  const verdicts = latestMatchDecisions(model, decisions)
+  const aliasParty = new Map(model.party_aliases.map((a) => [a.id, a.party]))
+  const resolved = new Set<string>()
+  for (const m of model.matches ?? []) {
+    const named = partyName.get(m.candidate_party)
+    const party = aliasParty.get(m.alias)
+    if (verdicts.get(m.id) === 'accepted' && party && named && !HIDDEN_HOLDER.test(named)) resolved.add(party)
+  }
   const added = decisions.filter((d) => d.choice === 'evidence_added' && d.suggestion)
 
   const artworks: ArtworkState[] = model.artworks.map((a) => {
@@ -69,10 +115,10 @@ export function derive(model: EvidenceModel, decisions: Decision[]): Derived {
       const hidden = chain.some((e) =>
         [e.from_party, e.to_party].some((p) => {
           const name = p ? partyName.get(p) : undefined
-          return !!name && HIDDEN_HOLDER.test(name)
+          return !!name && HIDDEN_HOLDER.test(name) && !resolved.has(p as string)
         }),
       )
-      let risk = riskOf(start, end)
+      let risk = overlap(start, end, lo, hi)
       let closed = false
       for (const d of added) {
         if (!ids.includes(d.target)) continue
@@ -84,7 +130,7 @@ export function derive(model: EvidenceModel, decisions: Decision[]): Derived {
         }
         const cs = Math.max(year(s.covers_start) ?? start, start)
         const ce = Math.min(year(s.covers_end) ?? end, end)
-        if (ce > cs) risk -= overlap(cs, ce, RISK_START, RISK_END)
+        if (ce > cs) risk -= overlap(cs, ce, lo, hi)
       }
       if (closed) risk = 0
       risk = Math.max(0, risk)
@@ -100,14 +146,39 @@ export function derive(model: EvidenceModel, decisions: Decision[]): Derived {
         closed,
       })
     }
+    const warParties = new Set<string>()
+    for (const e of events) {
+      const [s, t] = [year(e.date_start), year(e.date_end)]
+      if (!focus) {
+        if (e.from_party) warParties.add(e.from_party)
+        if (e.to_party) warParties.add(e.to_party)
+        continue
+      }
+      if (s === null && t === null) continue
+      if ((t ?? s!) >= lo && (s ?? t!) <= hi) {
+        if (e.from_party) warParties.add(e.from_party)
+        if (e.to_party) warParties.add(e.to_party)
+      }
+    }
     return {
       artwork: a.id,
       gaps,
       riskYears: gaps.reduce((t, g) => t + g.riskYears, 0),
       shares: shares(events),
+      warParties: warParties.size,
+      longestRiskGap: gaps.reduce((m, g) => Math.max(m, g.riskYears), 0),
     }
   })
 
-  artworks.sort((x, y) => y.riskYears - x.riskYears || x.artwork.localeCompare(y.artwork))
+  // Most open years in the focus period first (all years when there is none). Ties: fewer parties named in those years, a longer single silence,
+  // more unknown history overall, and only then the artwork id so the order is stable.
+  artworks.sort(
+    (x, y) =>
+      y.riskYears - x.riskYears ||
+      x.warParties - y.warParties ||
+      y.longestRiskGap - x.longestRiskGap ||
+      y.shares.unknown - x.shares.unknown ||
+      x.artwork.localeCompare(y.artwork),
+  )
   return { artworks }
 }

@@ -1,66 +1,142 @@
-import type { Claim, EvidenceModel, Event } from './generated/contract'
+import { useCallback, useEffect, useMemo, useState } from 'react'
+import { Navbar, Button } from '@blueprintjs/core'
+import '@blueprintjs/core/lib/css/blueprint.css'
 import raw from './generated/evidence.json'
+import type { EvidenceModel } from './generated/contract'
+import type { Decision } from './types'
+import { derive } from './derive'
+import { loadFocus, saveFocus, type FocusPeriod } from './focus'
+import FocusMenu from './components/FocusMenu'
+import { loadDecisions, saveDecisions } from './store'
+import DemoView from './components/DemoView'
+import ArtworkView from './components/ArtworkView'
+import CollectionView from './components/CollectionView'
+import SourcesView from './components/SourcesView'
+import SourceDetail from './components/sources/SourceDetail'
+import DraftDetail from './components/sources/DraftDetail'
+import AddSourceFlow from './components/sources/AddSourceFlow'
+import { addDraft, deleteDraft, loadDrafts } from './sources/draftStore'
+import type { DraftSource } from './sources/types'
 
 const model = raw as unknown as EvidenceModel
 
-const partyName = new Map(model.parties.map((p) => [p.id, p.preferred_name]))
-const claimById = new Map(model.claims.map((c) => [c.id, c]))
-const recordById = new Map(model.source_records.map((r) => [r.id, r]))
+type View = { name: 'collection' } | { name: 'artwork'; id: string } | { name: 'sources' }
+  | { name: 'source'; id: string }
+  | { name: 'draft'; id: string }
+  | { name: 'add' }
+  | { name: 'demo' }
 
-const LINK_LABEL: Record<Event['link_type'], string> = {
-  sale: 'sold to',
-  gift: 'gift to',
-  descent: 'by descent to',
-  bequest: 'bequest to',
-  restitution: 'restituted to',
-  unknown: 'link not stated, then',
-}
-
-function dates(e: Event): string {
-  if (e.date_start === e.date_end) return e.date_start ?? 'date unknown'
-  return `${e.date_start ?? '?'} to ${e.date_end ?? '?'}`
-}
-
-function SourceWords({ claimIds }: { claimIds: string[] }) {
-  const claims = [...new Set(claimIds)].map((id) => claimById.get(id)).filter((c): c is Claim => !!c)
-  return (
-    <ul className="source-words">
-      {claims.map((c) => (
-        <li key={c.id}>
-          <a href={recordById.get(c.source_record)?.url} target="_blank" rel="noreferrer">
-            “{c.text}”
-          </a>{' '}
-          <span className="where">{c.field_path}</span>
-        </li>
-      ))}
-    </ul>
-  )
+/** Blueprint themes its own components with a class; dark is the default, matching the palette tokens. */
+function useBlueprintDark() {
+  useEffect(() => {
+    const query = window.matchMedia('(prefers-color-scheme: light)')
+    const apply = () => document.body.classList.toggle('bp6-dark', !query.matches)
+    apply()
+    query.addEventListener('change', apply)
+    return () => query.removeEventListener('change', apply)
+  }, [])
 }
 
 export default function App() {
-  const artwork = model.artworks[0]
-  const record = model.source_records[0]
+  useBlueprintDark()
+  const [view, setView] = useState<View>({ name: 'collection' })
+  const [decisions, setDecisions] = useState<Decision[]>(loadDecisions)
+  const [drafts, setDrafts] = useState<DraftSource[]>(loadDrafts)
+  const [focus, setFocus] = useState<FocusPeriod | null>(loadFocus)
+  const derived = useMemo(() => derive(model, decisions, focus), [decisions, focus])
+  const changeFocus = useCallback((f: FocusPeriod | null) => {
+    setFocus(f)
+    saveFocus(f)
+  }, [])
+
+  const onDecide = useCallback((d: Omit<Decision, 'id' | 'at'>) => {
+    setDecisions((prev) => {
+      const next = [...prev, { id: crypto.randomUUID(), at: new Date().toISOString(), ...d }]
+      saveDecisions(next)
+      return next
+    })
+  }, [])
+
+  const goCollection = () => setView({ name: 'collection' })
+  const goSources = () => setView({ name: 'sources' })
+  const openArtwork = (id: string) => setView({ name: 'artwork', id })
+
   return (
-    <main>
-      <h1>{artwork.title}</h1>
-      <p className="byline">
-        {artwork.artist}, {artwork.created}. Cleveland Museum of Art, {artwork.accession}. Record retrieved{' '}
-        {record.retrieved_at.slice(0, 10)}.
-      </p>
-      <ol className="events">
-        {model.events.map((e) => (
-          <li key={e.id}>
-            <p>
-              <strong>{partyName.get(e.from_party)}</strong> {LINK_LABEL[e.link_type]}{' '}
-              <strong>{partyName.get(e.to_party)}</strong>
-            </p>
-            <p className="meta">
-              {dates(e)} · {e.precision} · {e.certainty}
-            </p>
-            <SourceWords claimIds={Object.values(e.cites).flat()} />
-          </li>
-        ))}
-      </ol>
-    </main>
+    <>
+      <Navbar className="app-nav">
+        <div className="app-nav-inner">
+          <Navbar.Heading className="app-title">Provenance project</Navbar.Heading>
+          <div className="app-nav-items">
+            <Button
+              minimal
+              text="Collection"
+              active={['collection', 'artwork'].includes(view.name)}
+              onClick={goCollection}
+            />
+            <Button
+              minimal
+              text="Sources"
+              active={!['collection', 'artwork', 'demo'].includes(view.name)}
+              onClick={goSources}
+            />
+            <Button minimal text="Demo scenario" active={view.name === 'demo'} onClick={() => setView({ name: 'demo' })} />
+          </div>
+          <FocusMenu value={focus} onChange={changeFocus} />
+        </div>
+      </Navbar>
+      {view.name === 'collection' && (
+        <CollectionView
+          model={model}
+          derived={derived}
+          focus={focus}
+          onSelect={(id) => setView({ name: 'artwork', id })}
+        />
+      )}
+      {view.name === 'artwork' && (
+        <ArtworkView
+          model={model}
+          artworkId={view.id}
+          derived={derived}
+          focus={focus}
+          decisions={decisions}
+          onDecide={onDecide}
+          onBack={goCollection}
+        />
+      )}
+      {view.name === 'demo' && <DemoView onBack={goCollection} focus={focus} />}
+      {view.name === 'sources' && (
+        <SourcesView
+          model={model}
+          drafts={drafts}
+          onOpenSource={(id) => setView({ name: 'source', id })}
+          onOpenDraft={(id) => setView({ name: 'draft', id })}
+          onAdd={() => setView({ name: 'add' })}
+        />
+      )}
+      {view.name === 'source' && (
+        <SourceDetail model={model} id={view.id} onBack={goSources} onOpenArtwork={openArtwork} />
+      )}
+      {view.name === 'draft' && (
+        <DraftDetail
+          draft={drafts.find((d) => d.id === view.id)}
+          onBack={goSources}
+          onDelete={(id) => {
+            setDrafts(deleteDraft(id))
+            goSources()
+          }}
+        />
+      )}
+      {view.name === 'add' && (
+        <AddSourceFlow
+          model={model}
+          onClose={goSources}
+          onSaveDraft={(d) => {
+            setDrafts(addDraft(d))
+            goSources()
+          }}
+          onOpenArtwork={openArtwork}
+        />
+      )}
+    </>
   )
 }

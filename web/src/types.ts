@@ -16,8 +16,8 @@ export interface Gap {
   start: number | null // year; null when the source gives no start
   end: number | null // year; null when the source gives no end
   kind: 'unattested' | 'hidden_holder'
-  inRiskWindow: boolean // overlaps 1933 to 1945
-  riskYears: number // years of this gap inside 1933 to 1945
+  inRiskWindow: boolean // overlaps the focus period (legacy name); any dated gap when no focus is set
+  riskYears: number // years of this gap inside the focus period (legacy name); the whole gap length when no focus is set
   closed: boolean // an added piece of evidence has closed it
 }
 
@@ -30,18 +30,21 @@ export interface CertaintyShares {
 export interface ArtworkState {
   artwork: string // artwork id
   gaps: Gap[]
-  riskYears: number // total missing years in the risk window
+  riskYears: number // total open years inside the focus period (legacy name); all gap years when no focus is set
   shares: CertaintyShares
+  warParties: number // distinct parties named on steps that touch the focus period (all parties when none; legacy name); fewer means thinner coverage
+  longestRiskGap: number // the largest single silence inside the focus period (whole gap when none), in years
 }
 
 export interface Derived {
-  artworks: ArtworkState[] // ranked, most missing risk-window years first
+  artworks: ArtworkState[] // ranked: most open years in the focus period (all years when none), then fewer parties named in them, then the longer single silence, then more unknown history, then artwork id
 }
 
 export interface ArtworkViewProps {
   model: import('./generated/contract').EvidenceModel
   artworkId: string
   derived: Derived
+  focus?: import('./focus').FocusPeriod | null
   decisions: Decision[]
   onDecide: (decision: Omit<Decision, 'id' | 'at'>) => void
   onBack: () => void
