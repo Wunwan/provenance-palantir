@@ -1,0 +1,476 @@
+{
+  "source": "cleveland",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/1964.292",
+  "retrieved_at": "2026-10-30T00:29:30Z",
+  "version": "2026-05-29 07:12:28.963000",
+  "payload": {
+    "id": 140342,
+    "accession_number": "1964.292",
+    "share_license_status": "CC0",
+    "tombstone": "Mme. Dufresne, c. 1816. Pierre-Paul Prud'hon (French, 1758–1823). Oil on paper mounted on fabric; framed: 34.5 x 27 x 5 cm (13 9/16 x 10 5/8 x 1 15/16 in.); unframed: 23.8 x 17.5 cm (9 3/8 x 6 7/8 in.). The Cleveland Museum of Art, Severance and Greta Millikin Collection, 1964.292",
+    "current_location": null,
+    "title": "Mme. Dufresne",
+    "creation_date": "c. 1816",
+    "creation_date_earliest": 1811,
+    "creation_date_latest": 1821,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "France, 19th century"
+    ],
+    "technique": "oil on paper mounted on fabric",
+    "support_materials": [],
+    "department": "Modern European Painting and Sculpture",
+    "collection": "Mod Euro - Painting 1800-1960",
+    "type": "Painting",
+    "measurements": "Framed: 34.5 x 27 x 5 cm (13 9/16 x 10 5/8 x 1 15/16 in.); Unframed: 23.8 x 17.5 cm (9 3/8 x 6 7/8 in.)",
+    "dimensions": {
+      "framed": {
+        "height": 0.345,
+        "height_inch": 13,
+        "height_inch_fraction": 0.5625,
+        "width": 0.27,
+        "width_inch": 10,
+        "width_inch_fraction": 0.625,
+        "depth": 0.05,
+        "depth_inch": 1,
+        "depth_inch_fraction": 0.9375
+      },
+      "unframed": {
+        "height": 0.238,
+        "height_inch": 9,
+        "height_inch_fraction": 0.375,
+        "width": 0.175,
+        "width_inch": 6,
+        "width_inch_fraction": 0.875
+      }
+    },
+    "state_of_the_work": null,
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [
+      {
+        "inscription": "Inscription on face of frame: prud'hon. portrait de mme dufresne\r\n\r\n\r\n",
+        "inscription_translation": null,
+        "inscription_remark": null,
+        "sortorder": null
+      }
+    ],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 310300,
+          "title": "The Severance and Greta Millikin Collection",
+          "description": "<i>The Severance and Greta Millikin Collection</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (July 5-September 2, 1990).",
+          "opening_date": "1990-07-05T04:00:00"
+        },
+        {
+          "id": 206263,
+          "title": "Pierre Paul Prud'hon",
+          "description": "<i>Pierre Paul Prud'hon</i>. The Metropolitan Museum of Art (organizer) (March 2-June 8, 1998).",
+          "opening_date": "1997-09-23T00:00:00"
+        }
+      ],
+      "legacy": [
+        {
+          "description": "Paris, École des Beaux-Arts. Exposition des oeuvres de Prud'hon (1874), no. 11, Portrait de Mme Dufresne, femme d'un marchand de tableaux, appartient à M. Jeanne-Deslandes.",
+          "opening_date": null
+        },
+        {
+          "description": "Paris, École des Beaux-Arts. Exposition de tableaux de maîtres anciens au profit des inondés du Midi (1887), no. 119, Portrait de jeune femme, appartient à Henri Rochefort.",
+          "opening_date": null
+        },
+        {
+          "description": "Paris, Palais des Beaux-Arts. Exposition P.-P. Prud'hon (1922), no. 65, Portrait de Mme Dufresne, collection de David Weill.",
+          "opening_date": "1922-01-01T00:00:00"
+        },
+        {
+          "description": "New York, Wildenstein &amp; Co. David-Weill Pictures (1937), no. 44, Mme Dufrene [sic].",
+          "opening_date": "1937-01-01T00:00:00"
+        },
+        {
+          "description": "CMA. Catalogue of the Severance and Greta Millikin Collection (1990), no. 220.",
+          "opening_date": "1990-01-01T00:00:00"
+        },
+        {
+          "description": "Paris, Grand Palais; New York, Metropolitan Museum of Art. Prud'hon ou le rêve du bonheur (1997-98), 281-83 (repr.). Text by Sylvain Laveissière (French and English eds.)",
+          "opening_date": "1997-01-01T00:00:00"
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "description": "Studio of the artist",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->On February 11, 1823, five days before his death, Prud'hon bequeathed to Boisfremont, his friend and student, “tous [ses] portefeuilles de dessins, études, etc.”&nbsp; The CMA painting was likely among these works, as it does not appear in the artist’s estate sale, held on May 13, 1823, from which Boisfremont purchased a number of works. &nbsp;</div>"
+        ],
+        "date": "c. 1816 - 1823",
+        "sortorder": 1
+      },
+      {
+        "description": "Charles Boulanger de Boisfremont [1773-1838], probably bequeathed to his daughter, Henri Power",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->When Boisfremont died in 1838, he bequeathed his portfolios of works by Prud'hon to his daughter, Madame Henri Power (née de Boisfremont), and on the occasion of her death in 1864, the Boisfremont collection of drawings and sketches by Prud'hon was sold at auction. &nbsp; Research is ongoing into whether the sale contains the Cleveland painting.&nbsp; The heirs of Prud'hon claimed that the objects in this sale were rightfully theirs.&nbsp; In May of 1868, the Tribunal civil de la Seine (1er chamber) ruled in favor of Boisfremont’s son (Power’s brother), saying that the Prud'hon heirs could not establish that their father had renounced the bequest and that there was no reason to conclude that Boisfremont had unlawfully appropriated the objects in dispute. &nbsp; The works for sale in the 1870 auction are those that had been bequeathed to Power, now belonging to Boisfremont’s son in accordance with his father’s estate.&nbsp;</div>"
+        ],
+        "date": "Probably 1823 - 1838",
+        "sortorder": 2
+      },
+      {
+        "description": "Probably Henri Power [d. 1864], probably to Charles Boulanger de Boisfremont fils",
+        "citations": [],
+        "footnotes": [],
+        "date": "Probably 1838 - 1864",
+        "sortorder": 3
+      },
+      {
+        "description": "Probably Charles Boulanger de Boisfremont fils",
+        "citations": [],
+        "footnotes": [],
+        "date": "Probably 1864 - 1870",
+        "sortorder": 4
+      },
+      {
+        "description": "(Boisfremont fils sale, Hôtel Drouot, Paris, April 9, 1870, no. 8, sold to Monsieur de Norzy)",
+        "citations": [],
+        "footnotes": [],
+        "date": "1870",
+        "sortorder": 5
+      },
+      {
+        "description": "Monsieur de Norzy",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->Goncourt records in 1876 that Monsieur de Norzy purchased the Prud'hon at the Boisfremont sale for ff 310.&nbsp; It does not appear to have been sold in the sale of de Norzy’s collection on May 20, 1873: while the sale includes several drawings formerly in the Boisfremont collection depicting the Empress Josephine – the Cleveland picture has been connected to sketches of the Empress – none are oil sketches. &nbsp;</div>"
+        ],
+        "date": "1870 - by 1874",
+        "sortorder": 6
+      },
+      {
+        "description": "M. Jeanne-Deslandes",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->Goncourt’s 1876 <em>Catalogue Raisonné de l’oeuvre…de P.P. Prud'hon </em>situates the painting at the time with M. Jeanne Deslandes, while the 1874 <em>Exposition des oeuvres de Prud'hon </em>records the current owner as M. Jeanne-Deslandes.&nbsp; Hippolyte Fontaine’s <em>Electric Lighting: A Practical Treatise </em>of 1878 discusses a “M. Jeanne Deslandes,” a contractor involved in the enlargement of the port at Havre.&nbsp; There also appears to have been a Jean Deslandes.&nbsp; Thus, the exact name of the owner is unclear.&nbsp;</div>"
+        ],
+        "date": "By 1874",
+        "sortorder": 7
+      },
+      {
+        "description": "(Sale, Hôtel Drouot, Paris, April 24, 1886, no. 52)",
+        "citations": [],
+        "footnotes": [],
+        "date": "1886",
+        "sortorder": 8
+      },
+      {
+        "description": "Collection Henri Rochefort [1831-1913], Paris",
+        "citations": [],
+        "footnotes": [],
+        "date": "By 1887",
+        "sortorder": 9
+      },
+      {
+        "description": "Paul-Arthur Chéramy [1840-1912], Paris",
+        "citations": [],
+        "footnotes": [],
+        "date": "Until 1908",
+        "sortorder": 10
+      },
+      {
+        "description": "(Chéramy sale, Galerie Georges Petit, Paris, May 5-7, 1908, no. 95, bought in)",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->The Prud'hon failed to sell in this auction and was included in Chéramy’s estate sale five years later. &nbsp;</div>"
+        ],
+        "date": "1908",
+        "sortorder": 11
+      },
+      {
+        "description": "Probably Paul-Arthur Chéramy [1840-1912], Paris",
+        "citations": [],
+        "footnotes": [],
+        "date": "1908-1912",
+        "sortorder": 12
+      },
+      {
+        "description": "(Chéramy estate sale, Hôtel Drouot, Paris, April 14-16, 1913, no. 391, sold to Jacob)",
+        "citations": [],
+        "footnotes": [],
+        "date": "1913",
+        "sortorder": 13
+      },
+      {
+        "description": "Jacob",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->“Jacob,” a dealer or collector of unknown identity, is written in as the buyer in Hôtel Drouot’s annotated copy of the Chéramy estate catalogue.</div>"
+        ],
+        "date": "1913-",
+        "sortorder": 14
+      },
+      {
+        "description": "David David-Weill [1871-1952], Paris",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->David-Weill certainly had the painting from 1922 until 1937, as he is listed as the lender of the painting to several exhibitions within that period.&nbsp; His ownership is confirmed by a label on the painting’s stretcher.&nbsp; &nbsp;</div>"
+        ],
+        "date": "By 1922 - at least 1937",
+        "sortorder": 15
+      },
+      {
+        "description": "Irwin Laughlin [1871-1941], Washington, D.C.",
+        "citations": [],
+        "footnotes": [],
+        "date": "Probably until 1941",
+        "sortorder": 16
+      },
+      {
+        "description": "(Laughlin sale, Sotheby's, London, June 10, 1959, lot 123, possibly sold to Betts on behalf of Clifford Duits)",
+        "citations": [],
+        "footnotes": [],
+        "date": "1959",
+        "sortorder": 17
+      },
+      {
+        "description": "Severance A. [1895-1989] and Greta Millikin [1903-1989], Cleveland, OH, given to the Cleveland Museum of Art",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->The Duits records at the Getty Research Institute show that Duits acquired the Prud'hon on June 10, 1959 – the date of the Laughlin sale. While several past owners are listed (Weill, Deslandes), the seller/consignor to Duits is not recorded. &nbsp; However, in the price list accompanying the Laughlin sale catalogue, “Betts” is listed as the buyer.&nbsp; In the case of at least one other provenance (a Boucher painting in the Philadelphia Museum of Art, 1965-85-1), “Betts” appears to have purchased a painting at a Sotheby’s sale, and the painting was in Duits’ stock within that same year, so it is certainly possible that Betts was buying on behalf of Duits.&nbsp; “Betts” may refer to Anthony J. Betts, a professor and collector who made numerous purchases at auction in the 1950s and 1960s.&nbsp; &nbsp;</div>"
+        ],
+        "date": "1963-1964",
+        "sortorder": 18
+      },
+      {
+        "description": "The Cleveland Museum of Art, Cleveland, OH",
+        "citations": [],
+        "footnotes": [],
+        "date": "1964-",
+        "sortorder": 19
+      }
+    ],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [],
+    "did_you_know": null,
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "The artist made this sketch in preparation for a full-length portrait of Madame Dufresne that is now lost. Prud'hon showed the sitter—probably the wife of an art dealer—in a landscape where she is seated in a relaxed pose with her legs crossed. According to an early auction record, the composition is based upon one of several sketches Prud'hon made for a portrait of Empress Josephine (1763–1814). The empress probably rejected the pose as too casual. Prud'hon's portraits show his skill in capturing emotions, especially melancholy. This is true of the Cleveland portrait; despite its rough surface, we sense the sitter's gentle demeanor and slightly wistful expression. In 1789 Prud'hon was awarded the Prix de Rome, a scholarship that allowed especially gifted French art students the chance to study in Rome. While in Italy, Prud'hon was deeply influenced not only by ancient Roman art but also by the lively, international Neoclassical movement that was centered there. After his return to France, the artist became very popular with Napoleon, painting portraits of the emperor and his entourage and acting as Empress Josephine's drawing instructor.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q60469200"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-1964.292-mme-dufresne"
+      ]
+    },
+    "citations": [
+      {
+        "citation": "Clément, Charles. <em>Prud'hon; sa vie, ses œuvres et sa correspondance</em>. Paris: Didier et cie, 1880.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Hôtel Drouot, and Paul Chevallier. <em>Tableaux anciens</em>. April 24, 1886.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Henriot, Gabriel. <em>Collection David Weill</em>, vol. 1 pt. 2.  Paris: Braun, 1926.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Clément, Charles. <em>Prud'hon; sa vie, ses œuvres et sa correspondance</em>. Paris: Didier et cie, 1880.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Hôtel Drouot. <em>Dessins, croquis, études, tableaux et esquisses par Prud'hon</em>. April 9, 1870.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Hôtel Drouot. <em>Dessins, croquis, études, tableaux et esquisses par Prud'hon</em>. April 9, 1870.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Goncourt, Edmond de. <em>Catalogue raisonné de l'oeuvre peint, dessiné et gravé de P.P. Prud'hon</em>. Paris: Rapilly, 1876.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Marcille, Camille, and Eudoxe Marcille. <em>Exposition des œuvres de Prud'hon: au profit de sa fille : École des beaux-arts</em>. Paris: Imprimerie de J. Claye, 1874.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "<em>Exposition de tableaux de maîtres anciens au profit des inondes du midi</em>. [Paris]: [E. Ménard et J. Augry], 1887.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Hôtel Drouot, and Paul Chevallier. <em>Tableaux anciens</em>. April 24, 1886.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "<em>Exposition de tableaux de maîtres anciens au profit des inondes du midi</em>. [Paris]: [E. Ménard et J. Augry], 1887.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Galerie Georges Petit. <em>Tableaux anciens &amp; modernes</em>. May 5-7, 1908.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "<em>Exposition de tableaux de maîtres anciens au profit des inondes du midi</em>. [Paris]: [E. Ménard et J. Augry], 1887.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Galerie Georges Petit. <em>Tableaux anciens &amp; modernes</em>. May 5-7, 1908.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Hôtel Drouot, F. Lair-Dubreuil, and Henri Baudoin. <em>Catalogue des tableaux anciens &amp; modernes, aquarelles, dessins, pastels</em> <em>... estampes anciennes &amp; modernes dépendant de la succession de M.P.A. Chéramy</em>. April 14-16, 1913.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "<br>Galerie Georges Petit. <em>Tableaux anciens &amp; modernes</em>. May 5-7, 1908.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "<br>Hôtel Drouot, F. Lair-Dubreuil, and Henri Baudoin. <em>Catalogue des tableaux anciens &amp; modernes, aquarelles, dessins, pastels</em> <em>... estampes anciennes &amp; modernes dépendant de la succession de M.P.A. Chéramy</em>. April 14-16, 1913.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "<br>Hôtel Drouot, F. Lair-Dubreuil, and Henri Baudoin. <em>Catalogue des tableaux anciens &amp; modernes, aquarelles, dessins, pastels</em> <em>... estampes anciennes &amp; modernes dépendant de la succession de M.P.A. Chéramy</em>. April 14-16, 1913.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Duits, Ltd. (Gallery: London, England) records, 1920-1979, stock book 1954-1968, box 21, Getty Research Institute.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Ville de Paris. <em>Exposition P.-P. Prud'hon, mai-juin 1922: catalogue</em>. S.l: s.n.], 1922.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Henriot, Gabriel. C<em>ollection David Weill</em>, vol. 1 pt. 2.  Paris: Braun, 1926.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Wildenstein and Company (New York, N.Y.). <em>David-Weill Collection Pictures: Exhibited Nov. 10-Dec. 11, 1937</em>. [New York]: [Wildenstein Galleries], 1937.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Sotheby's (Firm). <em>Highly Important French Drawings and Paintings</em>. June 10, 1959",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Sotheby's (Firm). <em>Highly Important French Drawings and Paintings</em>. June 10, 1959.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Clifford Duits, invoice, July 12, 1963, in CMA curatorial file.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Duits, Ltd. (Gallery: London, England) records, 1920-1979, stock book 1954-1968, box 21, Getty Research Institute.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Argencourt, Louise d', and Roger Diederen. <em>Catalogue of Paintings</em>. <em>Pt. 4. European Paintings of the 19th Century</em>. Cleveland: Cleveland Museum of Art, 1974.",
+        "page_number": "Mentioned and reproduced: P. 502-504, Vol. II, no. 175",
+        "url": ""
+      },
+      {
+        "citation": "Guffey, Elizabeth E.<em> Drawing an Elusive Line: The Art of Pierre-Paul Prud'hon.</em> Newark, Del: University of Delaware Press, 2001.",
+        "page_number": "Reproduced: p. 211, fig. 153",
+        "url": null
+      }
+    ],
+    "url": "https://clevelandart.org/art/1964.292",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/1964.292/1964.292_web.jpg",
+        "width": "667",
+        "height": "893",
+        "filesize": "384472",
+        "filename": "1964.292_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/1964.292/1964.292_print.jpg",
+        "width": "2540",
+        "height": "3400",
+        "filesize": "5088214",
+        "filename": "1964.292_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/1964.292/1964.292_full.tif",
+        "width": "3660",
+        "height": "4900",
+        "filesize": "53833508",
+        "filename": "1964.292_full.tif"
+      }
+    },
+    "alternate_images": [],
+    "creditline": "Severance and Greta Millikin Collection",
+    "image_credit": null,
+    "sketchfab_id": null,
+    "sketchfab_url": null,
+    "gallery_donor_text": null,
+    "athena_id": 140342,
+    "creators": [
+      {
+        "id": 1646,
+        "description": "Pierre-Paul Prud'hon (French, 1758–1823)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": "Pierre-Paul Prud'hon studied at the Dijon School of Art under François Devosge (1732-1811), founder and director of one of the most prominent art schools in France. In 1776 Prud'hon met the Baron de Joursanvault, a follower of Jean-Jacques Rousseau and an art lover, who became his first patron. At the age of twenty-two Prud'hon left for Paris, where he attended the Académie Royale and was introduced to Jean-Baptiste Greuze (1725-1805) and Jean-Georges Wille (1715-1808), an important engraver and collector. Soon after he returned to Dijon in 1784, he won the Prix de Rome and left for Italy, where he would spend four decisive years. He studied the works of Raphael (1483-1520), Leonardo da Vinci (1452--1519), and Correggio (ca. 1489/94-1534) as well as antique sculptures. He was influenced by the artists Anton Raphael Mengs (1728-1779), Antonio Canova (1757-1822), and Angelica Kauffmann (1741-1807) rather than his own countrymen, the pupils of David (q.v.). When he returned to Paris in 1788, Prud'hon endorsed the revolutionary ideals. He attended the meetings of David's Club des Arts and made drawings with political overtones that were to be engraved. After Robespierre's execution, Prud'hon was forced to live in exile in the Franche-Comté (1794-96), where he painted several portraits and made book illustrations. Upon his return to Paris he was elected to the Institut de France and received private and public commissions for decorative projects, including, for example, the ceilings in the Greek sculpture rooms of the Louvre and designs for the celebrations of the emperor's coronation and his marriage to Marie-Louise of Austria. During the First Empire (1805-15) he became equally respected for his imperial portraits and was appointed drawing instructor of the new empress. During the Bourbon restoration (1815-23) he still received several public commissions, even though he did not sympathize with the regime. In 1802 Prud'hon's wife had to be institutionalized, leaving him to care for their five children. He would be supported in this task by his pupil, Constance Mayer (1774-1821), who not only became his mistress but also his first artistic collaborator. (Prud'hon often made the preparatory drawings for her paintings.) His last years were plagued with many problems, and Mayer's suicide in 1821 affected him tremendously. He would survive her only briefly, dying two years later in 1823.",
+        "name_in_original_language": null,
+        "birth_year": "1758",
+        "death_year": "1823",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "1964-06-09T00:00:00",
+    "sortable_date": 1811,
+    "date_added_to_oa": null,
+    "date_text": "c. 1816",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": true,
+    "impression": null,
+    "alternate_titles": [],
+    "is_highlight": false,
+    "updated_at": "2026-05-29 07:12:28.963000"
+  }
+}

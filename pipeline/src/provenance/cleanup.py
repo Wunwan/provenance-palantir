@@ -8,6 +8,7 @@ import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from provenance.places import place_for
 from provenance.contract import (
     Artwork,
     Claim,
@@ -68,6 +69,17 @@ def parse_date(text: str | None) -> tuple[str | None, str | None, bool]:
 
 def year(d: str) -> int:
     return int(d[:4])
+
+
+def is_reversed(rows: list[dict]) -> bool:
+    """True when most consecutive dated steps run from later to earlier (latest first)."""
+    years = []
+    for r in rows:
+        m = DATE_TOKEN.search((r.get("date") or "").replace("–", "-"))
+        if m:
+            years.append(int(m.group(3)))
+    pairs = list(zip(years, years[1:]))
+    return sum(a > b for a, b in pairs) > sum(a < b for a, b in pairs)
 
 
 @dataclass
@@ -175,7 +187,9 @@ def build(raw_dir: Path, accessions: list[str]) -> Result:
             return cid
 
         holders = []
-        for i, r in enumerate(rows):
+        order = range(len(rows) - 1, -1, -1) if is_reversed(rows) else range(len(rows))
+        for i in order:  # oldest first; claims keep the original provenance[i] index
+            r = rows[i]
             h = holder_of(i, r["description"], r.get("date"))
             if h is None:
                 skipped.append(f"{accession}[{i}]: {r['description'][:60]!r}")
@@ -244,6 +258,15 @@ def build(raw_dir: Path, accessions: list[str]) -> Result:
                 else:
                     start = end
                     cites["date_start"] = cites["date_end"]
+            place = None
+            for h in b:
+                desc = rows[h.row]["description"]
+                found = place_for(desc[h.span[1]:])
+                if found:
+                    place = found[0]
+                    s0, s1 = h.span[1] + found[1][0], h.span[1] + found[1][1]
+                    cites["place"] = [claim(h.row, "description", s0, s1, desc[s0:s1])]
+                    break
             if start is None and end is None:
                 precision, certainty = "unknown", "unknown"
             elif start is None:
@@ -258,7 +281,7 @@ def build(raw_dir: Path, accessions: list[str]) -> Result:
                 id=f"e-{accession}-{len(events) + 1:03d}", artwork=art_id,
                 from_party=pid[party_key(a[0].name)], to_party=pid[party_key(b[0].name)],
                 link_type=link, date_start=start, date_end=end, precision=precision,
-                certainty=certainty, place=None, cites=cites))
+                certainty=certainty, place=place, cites=cites))
 
     collection.snapshot_date = latest
     model = EvidenceModel(collections=[collection], source_records=records, claims=claims,

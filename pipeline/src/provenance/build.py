@@ -10,7 +10,10 @@ from provenance import matching, suggest
 from provenance.cleanup import build
 from provenance.contract import TABLES
 
-ACCESSIONS = ["1958.32", "1958.34", "1990.7", "1983.155", "1999.173", "1963.502"]
+ACCESSIONS = [
+    "1958.32", "1958.34", "1990.7", "1983.155", "1999.173", "1963.502",
+    "1959.190", "1964.292", "1958.21", "1958.20", "1958.23", "1948.137", "1962.256", "2003.225", "1988.57", "1977.117",
+]
 
 
 def write(root: Path, out_dir: Path) -> list[str]:

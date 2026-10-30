@@ -55,10 +55,13 @@ def test_different_people_with_similar_names_do_not_become_strong():
     aliases = {a.id: a.name_as_written for a in model.party_aliases}
 
     # Barons Albert and Alphonse von Rothschild have different life dates (1844-1911, 1878-1942).
+    # The same Baron Albert recorded under two artworks is one person, so a strong match there is right.
     rothschilds = [m for m in matches if "Rothschild" in aliases[m.alias]
                    and "Rothschild" in parties[m.candidate_party]
+                   and aliases[m.alias] != parties[m.candidate_party]
                    and "Heirs" not in aliases[m.alias] + parties[m.candidate_party]]
-    assert rothschilds and all(m.band == "weak" for m in rothschilds)
+    # Different Rothschilds may be a lead ("possible") but never "strong"; strong needs the same life dates.
+    assert rothschilds and all(m.band != "strong" or any("same life dates" in r for r in m.reasons) for m in rothschilds)
     # Theo van Gogh and the dealers (Knoedler, Wildenstein, Salz, ...) are nowhere near each other.
     van_gogh = [m for m in matches if "van Gogh" in aliases[m.alias]]
     assert all(m.band != "strong" for m in van_gogh)

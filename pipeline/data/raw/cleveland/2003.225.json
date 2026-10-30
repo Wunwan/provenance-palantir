@@ -1,0 +1,328 @@
+{
+  "source": "cleveland",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/2003.225",
+  "retrieved_at": "2026-10-30T00:29:32Z",
+  "version": "2026-05-29 08:26:36.119000",
+  "payload": {
+    "id": 162623,
+    "accession_number": "2003.225",
+    "share_license_status": "CC0",
+    "tombstone": "Portrait of King Louis XIII of France, 1611. Frans Pourbus (Flemish, 1569–1622). Oil on canvas; framed: 186.7 x 122.4 x 6.3 cm (73 1/2 x 48 3/16 x 2 1/2 in.); unframed: 159.3 x 95.3 cm (62 11/16 x 37 1/2 in.). The Cleveland Museum of Art, Mr. and Mrs. William H. Marlatt Fund, 2003.225",
+    "current_location": "212 Baroque Painting and Sculpture",
+    "title": "Portrait of King Louis XIII of France",
+    "creation_date": "1611",
+    "creation_date_earliest": 1611,
+    "creation_date_latest": 1611,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "Flanders"
+    ],
+    "technique": "oil on canvas",
+    "support_materials": [],
+    "department": "European Painting and Sculpture",
+    "collection": "P - Netherlandish-Flemish",
+    "type": "Painting",
+    "measurements": "Framed: 186.7 x 122.4 x 6.3 cm (73 1/2 x 48 3/16 x 2 1/2 in.); Unframed: 159.3 x 95.3 cm (62 11/16 x 37 1/2 in.)",
+    "dimensions": {
+      "framed": {
+        "height": 1.867,
+        "height_inch": 73,
+        "height_inch_fraction": 0.5,
+        "width": 1.224,
+        "width_inch": 48,
+        "width_inch_fraction": 0.1875,
+        "depth": 0.063,
+        "depth_inch": 2,
+        "depth_inch_fraction": 0.5
+      },
+      "unframed": {
+        "height": 1.593,
+        "height_inch": 62,
+        "height_inch_fraction": 0.6875,
+        "width": 0.953,
+        "width_inch": 37,
+        "width_inch_fraction": 0.5
+      }
+    },
+    "state_of_the_work": null,
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [
+      {
+        "inscription": "Signed with the monogram lower right: F.P. FACIEBAT.  Inscribed middle right:  AN° SAL. 1611. AETA'. SVAE. A°. 10.  Inscribed with inventory number lower left 783.  Inscribed on the reverse, on a hand written label:  brought back from Rome by J. W. Brigstocke of Carmarthen.",
+        "inscription_translation": null,
+        "inscription_remark": null,
+        "sortorder": null
+      }
+    ],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 292699,
+          "title": "Artlens Exhibition 2017",
+          "description": "<i>Artlens Exhibition 2017</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (June 24, 2017-May 29, 2019).",
+          "opening_date": "2017-06-24T04:00:00"
+        }
+      ],
+      "legacy": []
+    },
+    "provenance": [
+      {
+        "description": "Marie de Medici",
+        "citations": [],
+        "footnotes": [],
+        "date": "1610    ",
+        "sortorder": 1
+      },
+      {
+        "description": "Philippe III of Spain",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 2
+      },
+      {
+        "description": "W. J. Brigstocke of Carmarten",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 3
+      },
+      {
+        "description": "Josiah Wedgwood III (1795-1880) of Leith Hill Place, Surrey",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 4
+      },
+      {
+        "description": "Margaret Wedgwood (1843-1937), wife of Rev. Arthur Charles Vaughan-Williams (1834-1875)",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 5
+      },
+      {
+        "description": "Vaughan-Williams family of Tanhurst House, Leith Hill, Surrey",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 6
+      },
+      {
+        "description": "Mark Weiss",
+        "citations": [],
+        "footnotes": [],
+        "date": "2002    ",
+        "sortorder": 7
+      },
+      {
+        "description": "Commissioned in 1610 by Marie de Medici",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 8
+      },
+      {
+        "description": "Philippe III of Spain",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 9
+      },
+      {
+        "description": "W. J. Brigstocke of Carmarten",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 10
+      },
+      {
+        "description": "Josiah Wedgwood III (1795-1880) of Leith Hill Place, Surrey",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 11
+      },
+      {
+        "description": "By inheritance to Margaret Wedgwood (1843-1937), wife of Rev. Arthur Charles Vaughan-Williams (1834-1875)",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 12
+      },
+      {
+        "description": "By inheritanace to the Vaughan-Williams family of Tanhurst House, Leith Hill, Surrey",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 13
+      },
+      {
+        "description": "Acquired at the hotel Drouot in 2002 by Mark Weiss",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 14
+      },
+      {
+        "description": "The Weiss Gallery, sold to the Cleveland Museum of Art, 2003.",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 15
+      }
+    ],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [],
+    "did_you_know": "While the color pink has feminine associations now, it was commonly worn by girls and boys alike in the 1600s.",
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "Although ten-year-old Louis XIII was king of France, his mother Marie de’ Medici remained in power until the boy officially came of age. Pourbus inscribed the sitter’s age and the painting’s year in the composition: “The holy year 1611 at his age of 10 years.” Marie de’ Medici commissioned this work as she negotiated marriages for her two children to Philip III of Spain and Mary Marguerite of Austria, alliances that led to the European domination of the next two centuries by the Bourbon and Habsburg families.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q60479590"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-2003.225-portrait-of-king-lou"
+      ]
+    },
+    "citations": [],
+    "url": "https://clevelandart.org/art/2003.225",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_web.jpg",
+        "width": "529",
+        "height": "893",
+        "filesize": "372429",
+        "filename": "2003.225_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_print.jpg",
+        "width": "2016",
+        "height": "3400",
+        "filesize": "5072145",
+        "filename": "2003.225_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_full.tif",
+        "width": "3600",
+        "height": "6072",
+        "filesize": "65612004",
+        "filename": "2003.225_full.tif"
+      }
+    },
+    "alternate_images": [
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_alt0_web.jpg",
+          "width": "546",
+          "height": "893",
+          "filesize": "343264"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_alt0_print.jpg",
+          "width": "2078",
+          "height": "3400",
+          "filesize": "5513175"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_alt0_full.tif",
+          "width": "3821",
+          "height": "6252",
+          "filesize": "71699604"
+        },
+        "date_created": "2009-06-30T13:08:41",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_alt1_web.jpg",
+          "width": "608",
+          "height": "893",
+          "filesize": "443892"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_alt1_print.jpg",
+          "width": "2315",
+          "height": "3400",
+          "filesize": "6162994"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_alt1_full.tif",
+          "width": "4435",
+          "height": "6514",
+          "filesize": "86704476"
+        },
+        "date_created": "2009-05-18T16:54:56",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_alt2_web.jpg",
+          "width": "538",
+          "height": "893",
+          "filesize": "379030"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_alt2_print.jpg",
+          "width": "2048",
+          "height": "3400",
+          "filesize": "4527488"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.225/2003.225_alt2_full.tif",
+          "width": "3012",
+          "height": "5000",
+          "filesize": "45208448"
+        },
+        "annotation": ""
+      }
+    ],
+    "creditline": "Mr. and Mrs. William H. Marlatt Fund",
+    "image_credit": null,
+    "sketchfab_id": null,
+    "sketchfab_url": null,
+    "gallery_donor_text": "Reinberger Gallery",
+    "athena_id": 162623,
+    "creators": [
+      {
+        "id": 45777,
+        "description": "Frans Pourbus (Flemish, 1569–1622)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": null,
+        "name_in_original_language": null,
+        "birth_year": "1569",
+        "death_year": "1622",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "2003-12-01T00:00:00",
+    "sortable_date": 1611,
+    "date_added_to_oa": null,
+    "date_text": "1611",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": false,
+    "impression": null,
+    "alternate_titles": [
+      "Louis XIII (1601-1643) as a Child"
+    ],
+    "is_highlight": false,
+    "updated_at": "2026-05-29 08:26:36.119000"
+  }
+}

@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+# build-loop scratch: backups of files before an agent edits them, and dev-server logs
+.agents/runs/*/saved/
+.agents/runs/*/*.log
+__pycache__/
+.pytest_cache/

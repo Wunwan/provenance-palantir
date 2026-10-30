@@ -1,0 +1,801 @@
+{
+  "source": "cleveland",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.21",
+  "retrieved_at": "2026-10-30T00:29:30Z",
+  "version": "2026-10-29 22:04:50.522000",
+  "payload": {
+    "id": 135185,
+    "accession_number": "1958.21",
+    "share_license_status": "CC0",
+    "tombstone": "Mount Sainte-Victoire, c. 1904. Paul Cezanne (French, 1839–1906). Oil on fabric; framed: 87.5 x 106.5 x 7 cm (34 7/16 x 41 15/16 x 2 3/4 in.); unframed: 72.2 x 92.4 cm (28 7/16 x 36 3/8 in.). The Cleveland Museum of Art, Bequest of Leonard C. Hanna Jr., 1958.21",
+    "current_location": "222 Impressionism & Post-Impressionism",
+    "title": "Mount Sainte-Victoire",
+    "creation_date": "c. 1904",
+    "creation_date_earliest": 1899,
+    "creation_date_latest": 1909,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "France, late 19th-early 20th Century"
+    ],
+    "technique": "oil on fabric",
+    "support_materials": [],
+    "department": "Modern European Painting and Sculpture",
+    "collection": "Mod Euro - Painting 1800-1960",
+    "type": "Painting",
+    "measurements": "Framed: 87.5 x 106.5 x 7 cm (34 7/16 x 41 15/16 x 2 3/4 in.); Unframed: 72.2 x 92.4 cm (28 7/16 x 36 3/8 in.)",
+    "dimensions": {
+      "framed": {
+        "height": 0.875,
+        "height_inch": 34,
+        "height_inch_fraction": 0.4375,
+        "width": 1.065,
+        "width_inch": 41,
+        "width_inch_fraction": 0.9375,
+        "depth": 0.07,
+        "depth_inch": 2,
+        "depth_inch_fraction": 0.75
+      },
+      "unframed": {
+        "height": 0.722,
+        "height_inch": 28,
+        "height_inch_fraction": 0.4375,
+        "width": 0.924,
+        "width_inch": 36,
+        "width_inch_fraction": 0.375
+      }
+    },
+    "state_of_the_work": null,
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 338935,
+          "title": "Loan Exhibition: Cezanne",
+          "description": "<i>Loan Exhibition: Cezanne</i>. Wildenstein & Co. (organizer) (November 5-December 5, 1959).",
+          "opening_date": "1959-11-05T05:00:00"
+        },
+        {
+          "id": 302007,
+          "title": "Paths of Abstract Art",
+          "description": "<i>Paths of Abstract Art</i>. The Cleveland Museum of Art, Cleveland, OH (October 5-November 13, 1960).",
+          "opening_date": "1960-10-05T04:00:00"
+        },
+        {
+          "id": 300763,
+          "title": "Years of Ferment: The Birth of Twentieth-century Art",
+          "description": "<i>Years of Ferment: The Birth of Twentieth-century Art</i>. Frederick S. Wight Art Gallery, UCLA, Los Angeles, CA (January 24-March 7, 1965); San Francisco Museum of Modern Art, San Francisco, CA (March 28-May 16, 1965); The Cleveland Museum of Art, Cleveland, OH (July 14-August 22, 1965).",
+          "opening_date": "1965-01-24T05:00:00"
+        },
+        {
+          "id": 300779,
+          "title": "Juxtapositions",
+          "description": "<i>Juxtapositions</i>. The Cleveland Museum of Art, Cleveland, OH (September 11-October 10, 1965).",
+          "opening_date": "1965-09-11T04:00:00"
+        },
+        {
+          "id": 338921,
+          "title": "Cézanne: The Late Work",
+          "description": "<i>Cézanne: The Late Work</i>. The Museum of Modern Art (organizer) (October 7, 1977-January 3, 1978).",
+          "opening_date": "1977-10-07T04:00:00"
+        },
+        {
+          "id": 304561,
+          "title": "Visions of Landscape: East and West",
+          "description": "<i>Visions of Landscape: East and West</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (February 17-March 21, 1982).",
+          "opening_date": "1982-02-17T05:00:00"
+        },
+        {
+          "id": 310025,
+          "title": "Creativity in Art and Science, 1860-1960",
+          "description": "<i>Creativity in Art and Science, 1860-1960</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (September 16-November 8, 1987).",
+          "opening_date": "1987-09-16T04:00:00"
+        },
+        {
+          "id": 338916,
+          "title": "Sainte-Victoire, Cézanne 1990",
+          "description": "<i>Sainte-Victoire, Cézanne 1990</i>. Musée Granet, 13100 Aix-en-Provence, France (organizer) (June 15-September 2, 1990).",
+          "opening_date": "1990-06-15T04:00:00"
+        },
+        {
+          "id": 311444,
+          "title": "Object Lessons: Cleveland Creates an Art Museum",
+          "description": "<i>Object Lessons: Cleveland Creates an Art Museum</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (June 7-September 8, 1991).",
+          "opening_date": "1991-06-07T04:00:00"
+        },
+        {
+          "id": 184132,
+          "title": "Masterworks from The Phillips Collection",
+          "description": "<i>Masterworks from The Phillips Collection</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (February 20-May 29, 2005).",
+          "opening_date": "2005-02-20T00:00:00"
+        },
+        {
+          "id": 177189,
+          "title": "Cézanne in Provence",
+          "description": "<i>Cézanne in Provence</i>. National Gallery of Art, Landover, MD (organizer) (January 29-May 7, 2006); Musée Granet, 13100 Aix-en-Provence, France (June 5-September 15, 2006).",
+          "opening_date": "2006-01-29T00:00:00"
+        },
+        {
+          "id": 182153,
+          "title": "Monet to Dalí: Modern Masters from the Cleveland Museum of Art",
+          "description": "<i>Monet to Dalí: Modern Masters from the Cleveland Museum of Art</i>. Vancouver Art Gallery, Vancouver, Canada (June 9-September 16, 2007); The Cleveland Museum of Art, Cleveland, OH (organizer) (October 21, 2007-January 13, 2008); Frist Art Museum, Nashville, TN (February 15-June 1, 2008); Utah Museum of Fine Arts, Salt Lake City, UT (June 22-September 21, 2008); The Detroit Institute of Arts, Detroit, MI (October 12, 2008-January 18, 2009).",
+          "opening_date": "2006-05-27T00:00:00"
+        },
+        {
+          "id": 220355,
+          "title": "Cézanne Site/Non-Site",
+          "description": "<i>Cézanne Site/Non-Site</i>. Museo Nacional Thyssen-Bornemisza, Madrid, Spain (organizer) (February 4-May 18, 2014).",
+          "opening_date": "2014-02-04T00:00:00"
+        }
+      ],
+      "legacy": [
+        {
+          "description": "<em>Französische Kunst des XIX. und XX</em>. Jahrhunderts. Zürich Kunsthaus, Zurich, Switzerland (1917),",
+          "opening_date": "1917-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Obecní dÿm. French Art of the 19th-20th Centuries</em>. Galerie Barbazanges.Prague,Czechoslovakia (1923).",
+          "opening_date": "1923-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Important Pictures by Nineteenth Century French Masters</em>. Lefèvre Galleries, London, United Kingdom (1924),",
+          "opening_date": "1924-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Exhibition of French Paintings by Cézanne, Matisse, Derain, Utrillo, Pascin, Marie Laurencin, and Van Dongen.</em> Reinhardt Galleries, New York, NY (1926).",
+          "opening_date": "1926-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Four Paintings by Cézanne</em>. Valentine Gallery, New York, NY (1939).",
+          "opening_date": "1939-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Loan Exhibition of Paintings by Cézanne</em>. Paul Rosenberg, New York, NY (1942).",
+          "opening_date": "1942-01-01T00:00:00"
+        },
+        {
+          "description": "<em>A Loan Exhibition of Cézanne</em>. Wildenstein Gallery, New York, NY (1947).",
+          "opening_date": "1947-01-01T00:00:00"
+        },
+        {
+          "description": "<em>The Post-Impressionists and Their Followers. </em>Society of Four Arts, Palm Beach, FL (1949).",
+          "opening_date": "1949-01-01T00:00:00"
+        },
+        {
+          "description": "Yale University Art Gallery. New Haven, CT (1950),",
+          "opening_date": "1950-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Exposition pour commémorer le cinquantenaire de la mort de Cézanne</em>. Pavillon de Vendôme, Aix-en-Provence, France (1956).",
+          "opening_date": "1956-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Paul Cézanne 1839-1906</em>. Haus der Kunst, Munich, Germany (1956).",
+          "opening_date": "1956-01-01T00:00:00"
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "description": "Estate of Paul Cezanne",
+        "citations": [],
+        "footnotes": null,
+        "date": "October 22, 1906–March 11, 1907",
+        "sortorder": 1
+      },
+      {
+        "description": "Ambroise Vollard [1866-1939] Paris, France (Purchase from the Estate of Paul Cezanne).",
+        "citations": [],
+        "footnotes": null,
+        "date": "March 11, 1907",
+        "sortorder": 2
+      },
+      {
+        "description": "Bernheim-Jeune [sale by Rosenberg Gallery]",
+        "citations": [],
+        "footnotes": null,
+        "date": "1922",
+        "sortorder": 3
+      },
+      {
+        "description": "Galerie Barbazanges, Paris France",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->Barbazanges was succeeded by Hodebert Gallery, closing permanently at the end of 1929, selling the remaining collection to Georges Bernhaim's Gallery.</div>"
+        ],
+        "date": null,
+        "sortorder": 4
+      },
+      {
+        "description": "Auguste Pellerin [1853-1929], Paris, France",
+        "citations": [],
+        "footnotes": null,
+        "date": "1923",
+        "sortorder": 5
+      },
+      {
+        "description": "Alphonse Kann [1870-1948] Saint-Germain-en Laye, Paris, France. (Purchase from Auguste Pellerin)",
+        "citations": [],
+        "footnotes": null,
+        "date": "1924",
+        "sortorder": 6
+      },
+      {
+        "description": "(Reinhardt Galleries, New York, NY)",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->Exhibition at M. Goldschmidt &amp; Co., Berlin in 1928; ownership not published</div>"
+        ],
+        "date": "1926–1934?",
+        "sortorder": 7
+      },
+      {
+        "description": "Paul Guillaume (1891-1934), Paris",
+        "citations": [],
+        "footnotes": null,
+        "date": "By 1934",
+        "sortorder": 8
+      },
+      {
+        "description": "Ms. Juliette \"Domenica\" Guillaume (widow of Paul Guillaume)",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->Ms. Juliette \"Domenica\" Guillaume inherits her late husband's collection and begins to sell major works of art from 1935-1939; she uses Valentine Gallery in NYC to find buyers.&nbsp;</div>"
+        ],
+        "date": "1934–1939",
+        "sortorder": 9
+      },
+      {
+        "description": "Valentine (Dudensing) Gallery, New York, NY",
+        "citations": [],
+        "footnotes": null,
+        "date": "February 1939",
+        "sortorder": 10
+      },
+      {
+        "description": "Leonard C. Hanna Jr [1889-1957] Cleveland, OH",
+        "citations": [],
+        "footnotes": null,
+        "date": "February 20, 1939-1957",
+        "sortorder": 11
+      },
+      {
+        "description": "Leonard C. Hanna [1889-1957] Cleveland, OH, bequeathed to the Cleveland Museum of Art",
+        "citations": [],
+        "footnotes": [],
+        "date": "1958",
+        "sortorder": 12
+      },
+      {
+        "description": "The Cleveland Museum of Art, Cleveland, OH",
+        "citations": [],
+        "footnotes": [],
+        "date": "1958–",
+        "sortorder": 13
+      }
+    ],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [
+      "1637.43"
+    ],
+    "did_you_know": "Cezanne created 36 paintings and 45 watercolors of Mount Sainte-Victoire. He was preoccupied with this subject and painted this mountain repeatedly until his death.",
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "During the last 20 years of his life, Cezanne repeatedly painted Mount Sainte-Victoire near his home in Aix-en-Provence in southern France. Cezanne painted this view from life at one of his favorite sites, a small road that led from Aix eastward toward Mount Sainte-Victoire. He set up his easel at the edge of the road where he could see two umbrella pines and the mountain towering over the scene. A branch of one of the pines extends from the left of the canvas across the sky, echoing the slope of the mountain, linking the near and the far.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q60517723"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-1958.21-mount-sainte-victoir"
+      ]
+    },
+    "citations": [
+      {
+        "citation": "Wedderkop, Hans von. <em>Paul Cézanne</em>. Leipzig: Klinkhardt &amp; Biermann, 1922.",
+        "page_number": "Reproduced: unpaginated",
+        "url": null
+      },
+      {
+        "citation": "Wedderkop, Hans von. \"Paul Cezanne.\" <em>Der Cicerone </em>14, pt. 2 (1922): 681-692.",
+        "page_number": "Reproduced: p; 684",
+        "url": null
+      },
+      {
+        "citation": "Rivière, Georges. <em>Le Maître Paul Cézan</em>ne. Paris: H. Floury, 1923.",
+        "page_number": "Mentioned: p. 211",
+        "url": null
+      },
+      {
+        "citation": "<em>ARTnews</em> 25 (November 27, 1926): 9.",
+        "page_number": "Reproduced: p. 9",
+        "url": null
+      },
+      {
+        "citation": "Venturi, Lionello. <em>Cézanne, Son Art, Son Oeuvre; 1,600 illustrations.</em> Paris: P. Rosenberg, 1936.",
+        "page_number": "Mentioned: v. 1, no. 666; reproduced: v. 2, fig. 666",
+        "url": null
+      },
+      {
+        "citation": "Rewald, John. <em>Cezanne et Zola</em>. Paris: A. Sedrowski, 1936.",
+        "page_number": "Reproduced: fig. 74",
+        "url": null
+      },
+      {
+        "citation": "Novotny, Fritz. <em>Cézanne und das Ende der wissenschaftlichen Perspektive</em>. Wien: A. Schroll, 1938.",
+        "page_number": "Mentioned: p. 194; reproduced: abb. 1",
+        "url": null
+      },
+      {
+        "citation": "“Cézanne, Fighter for Freedom.” <em>ARTnews</em> 41 (November 15, 1942): 16–19.",
+        "page_number": "Reproduced: p. 18",
+        "url": null
+      },
+      {
+        "citation": "Loran, Erle. <em>Cezanne's Composition; Analysis of His Form, with Diagrams and Photographs of His Motifs.</em> Berkeley: University of California Press, 1943.",
+        "page_number": "Mentioned and reproduced: p. 99",
+        "url": null
+      },
+      {
+        "citation": "Rewald, John. “As Cézanne Recreated Nature; Camera Record.” <em>ARTnews</em> 43 (February 15, 1944): 9–13.",
+        "page_number": "Reproduced: p. 10",
+        "url": null
+      },
+      {
+        "citation": "“Mountain in Provence.” <em>Time</em> 64, no. 2 (July 12, 1954): 75.",
+        "page_number": "Mentioned and reproduced: p. 75",
+        "url": null
+      },
+      {
+        "citation": "Coe, Nancy. T<em>he History of the Collecting of European Paintings and Drawings in the City of Cleveland</em>. Thesis M.A. Oberlin College 1955.",
+        "page_number": "Reproduced: v. 2, p. 71-72.",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>In Memoriam: Leonard C. Hanna, Jr.</em> Cleveland: The Museum, 1958.",
+        "page_number": "Mentioned and reproduced: no. 5",
+        "url": null
+      },
+      {
+        "citation": "\"Great Gifts of Art, 1958.\" <em>Fortune Magazine</em> LVIII, no. 6 (December 1958): 106-116.",
+        "page_number": "Reproduced: p. 109",
+        "url": null
+      },
+      {
+        "citation": "Cézanne, Paul, and Meyer Schapiro. <em>Loan Exhibition Cézanne Under the Patronage of Mrs. Dwight D. Eisenhower and His Excellency, Monsieur Hervé Alphand, the Ambassador of France to the United States, for the Benefit of the National Organization of Mentally Ill Children, November 5-December 5, 1959</em>. New York: Wildenstein, 1959.",
+        "page_number": "Mentioned and Reproduced: cat. no. 42",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art, Edward B. Henning<em>. Paths of Abstract Art</em>. Cleveland, Ohio: H.N. Abrams, 1960.",
+        "page_number": "Reproduced: no. 9, p. 11; mentioned: pp. 11,19",
+        "url": null
+      },
+      {
+        "citation": "Reff, Theodore. \"A New Exhibition of Cezanne.\" <em>The Burlington Magazine</em> 102, no. 684 (March 1960): 114-118.",
+        "page_number": "Mentioned: p. 114, 116",
+        "url": null
+      },
+      {
+        "citation": "Ratcliffe, R. W. <em>Cézanne's Working Methods and Their Theoretical Background.</em> Thesis(PhD)--University of London (Courtauld Institute of Art), 1960-61, 1961.",
+        "page_number": "Mentioned: p. 211",
+        "url": null
+      },
+      {
+        "citation": "Henning, E. B. “Cleveland Museum of Art: From Turner to Guston.” <em>Apollo: The International Magazine for Collectors</em> 78 (December 1963): 481–88.",
+        "page_number": "Reproduced: p. 485",
+        "url": null
+      },
+      {
+        "citation": "UCLA Art Council. <em>Years of Ferment; The Birth of Twentieth Century Art 1886-1914</em>. [Los Angeles]: [UCLA Art Council], 1965.",
+        "page_number": "Mentioned and Reproduced: P. 13, no. 2",
+        "url": null
+      },
+      {
+        "citation": "Saisselin, Remy. \"Art Is Imitation of Nature.\" <em>The Bulletin of the Cleveland Museum of Art</em> LII, no. 2 (February 1965): 34-44.",
+        "page_number": "Mentioned and reproduced: p. 43-44",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1966</em>. Cleveland, OH: The Cleveland Museum of Art, 1966.",
+        "page_number": "Reproduced: p. 178",
+        "url": "https://archive.org/details/CMAHandbook1966/page/n202"
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1969</em>. Cleveland, OH: The Cleveland Museum of Art, 1969.",
+        "page_number": "Reproduced: p. 178",
+        "url": "https://archive.org/details/CMAHandbook1969/page/n202"
+      },
+      {
+        "citation": "Henning, Edward B. “South of His House, North of His House: Nyack, a Painting by Fairfield Porter.” <em>The Bulletin of the Cleveland Museum of Art</em> 58, no. 3 (March 1971): 85–90.",
+        "page_number": "Mentioned and reproduced: p. 89-90, fig. 11",
+        "url": "http://www.jstor.org/stable/25152366"
+      },
+      {
+        "citation": "Orienti, Sandra. <em>The Complete Paintings of Cézanne</em>. New York: H.N. Abrams, 1972.",
+        "page_number": "Mentioned and reproduced: p. 120, no. 756",
+        "url": null
+      },
+      {
+        "citation": "Henning, Edward B. “Pablo Picasso: Bouteille, Verre, et Fourchette.” <em>The Bulletin of the Cleveland Museum of Art</em> 59, no. 7 (September 1972): 195–203.",
+        "page_number": "Mentioned: p. 199; Reproduced: p. 201, fig. 13",
+        "url": "http://www.jstor.org/stable/25152438"
+      },
+      {
+        "citation": "Henning, Edward B. \"Two Major Paintings by Georges Braque.\" <em>The Bulletin of the Cleveland Museum of Art </em>LXIV, no. 4 (April 1977): 137-141.",
+        "page_number": "Mentioned and reproduced: p, 138, fig. 4",
+        "url": null
+      },
+      {
+        "citation": "Cézanne, Paul, Theodore Reff, and William Rubin. <em>Cézanne: The Late Work : Essays</em>. New York: Museum of Modern Art, 1977.",
+        "page_number": "Mentioned: cat. no. 45, p. 27, 49, 85, 205, 401, Reproduced p. 321, pl. 119",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1978</em>. Cleveland, OH: The Cleveland Museum of Art, 1978.",
+        "page_number": "Reproduced: p. 220",
+        "url": "https://archive.org/details/CMAHandbook1978/page/n240"
+      },
+      {
+        "citation": "Bourges, M. R. <em>Itinéraires de Cézanne.</em> [Aix-en-Provence]: Ville d'Aix-en-Provence, 1982.",
+        "page_number": "Reproduced: Route du Tholonet, fig. 4",
+        "url": null
+      },
+      {
+        "citation": "Hoog, Michel. \"Le Motif de la Sainte Victoire.\" In <em>Cézanne, ou, La Peinture en Jeu. </em>Musee Granet, 92-105. Limoges: Criterion, 1982.",
+        "page_number": "Mentioned and reproduced: p. 96",
+        "url": null
+      },
+      {
+        "citation": "Talbot, William S. “Visions of Landscape: East and West.” <em>The Bulletin of the Cleveland Museum of Art</em> 70, no. 3 (March 1983): 112–135.",
+        "page_number": "Reproduced and mentioned: p. 131, fig. 32",
+        "url": "http://www.jstor.org/stable/25159808"
+      },
+      {
+        "citation": "Shiff, Richard. \"Representation, Copying, and the Technique of Originality.\" <em>New Literary History</em> 15, no. 2 (1984): 333-63.",
+        "page_number": "Mentioned and reproduced: p. 354-355",
+        "url": null
+      },
+      {
+        "citation": "Henning, Edward B. \" Woman in the Waves by Paul Gauguin.\" <em>The Bulletin of the Cleveland Museum of Art </em>LXXI, no. 8 (October 1984): 280-",
+        "page_number": "Mentioned and reproduced: p. 282-283, fig. 4",
+        "url": null
+      },
+      {
+        "citation": "Pickvance, Ronald, and Hideo Takumi.<em> Paul Cézanne: (1839-1906) ; Tokyo ; 18.9. - 7.10.1986 ; Isetan Museum of Art ; Kobe ; 10.10. 9.11.1986 ; Hyogo Prefectural Museum of Modern Art ; Nagoya ; 15.11. - 4.12.1986 ; Aichi Prefectural Art Gallery.</em> Tokyo: Tokyo Shimbun, 1986.",
+        "page_number": "Reproduced: p. 76",
+        "url": null
+      },
+      {
+        "citation": "Rewald, John. <em>Cézanne: A Biograph</em>y. New York: H.N. Abrams, 1986.",
+        "page_number": "Mentioned and reproduced: p. 240-241",
+        "url": null
+      },
+      {
+        "citation": "Henning, Edward B. <em>Creativity in Art and Science</em>, 1860-1960. [Cleveland, Ohio]: Published by the Cleveland Museum of Art in cooperation with Indiana University Press, 1987.",
+        "page_number": "Mentioned: p. 105",
+        "url": null
+      },
+      {
+        "citation": "Teboul, Jacques. <em>Les Victoires de Cézanne</em>. Paris: A. Biro, 1988.",
+        "page_number": "Mentioned and reproduced: p. 19",
+        "url": null
+      },
+      {
+        "citation": "Cézanne, Paul. <em>Sainte-Victoire, Cézanne, 1990: Musée Granet, Musée des tapisseries, Pavillon de Vendôme, Aix-en-Provence, 16 juin-2 septembre 1990</em>. Paris: Réunion des musées nationaux, 1990.",
+        "page_number": "Mentioned cat. not. 38, Reproduced: fig. 66 and on cover",
+        "url": null
+      },
+      {
+        "citation": "Turner, Evan H. <em>Object Lessons: Cleveland Creates an Art Museum</em>. Cleveland: Cleveland Museum of Art, 1991.",
+        "page_number": "Reproduced: p. 152",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art.<em> Interpretations: Sixty-Five Works from the Cleveland Museum of Art.</em> Cleveland, Ohio: Cleveland Museum of Art,1991.",
+        "page_number": "Mentioned and reproduced: no. 35",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>Masterpieces from East and West.</em> New York, NY: Rizzoli International, 1992.",
+        "page_number": "Mentioned and reproduced: p. 157",
+        "url": null
+      },
+      {
+        "citation": "Cahn, Isabelle. <em>Cézann</em>e. [Milano]: Editoriale Giorgio Mondadori, 1992.",
+        "page_number": "Reproduced: fig. 65",
+        "url": null
+      },
+      {
+        "citation": "Chong, Alan. <em>European &amp; American Painting in the Cleveland Museum of Art: A Summary Catalogue.</em> Cleveland, Ohio: Cleveland Museum of Art, 1993.",
+        "page_number": "Reproduced: p. 33",
+        "url": null
+      },
+      {
+        "citation": "Vescovo, Marisa. \"Dossier-Cezanne.\" <em>Art e Dossier </em>75 (January 1993): 12.",
+        "page_number": "Reproduced: p. 12",
+        "url": null
+      },
+      {
+        "citation": "Patin, Sylvie. <em>Cézanne.</em> Paris: Réunion des Musées Nationaux, 1995.",
+        "page_number": "Reproduced: p. 80",
+        "url": null
+      },
+      {
+        "citation": "Orienti, Sandra. <em>Tout l'Oeuvre Peint de Cézanne</em>. Paris: Flammarion, 1995.",
+        "page_number": "Reproduced: p. 120-121, no. 756",
+        "url": null
+      },
+      {
+        "citation": "Lartigue, Charles de. <em>Les Paysages de Paul Cézanne.</em> Lyon: Créations du Pélican, 1995.",
+        "page_number": "Reproduced: p. 148",
+        "url": null
+      },
+      {
+        "citation": "Machotka, Pavel. <em>Cézanne: Landscape into Art</em>. New Haven: Yale University Press, 1996.",
+        "page_number": "Mentioned: p. 61, 138, 144-145; reproduced: p. 145, fig. 138",
+        "url": null
+      },
+      {
+        "citation": "Coutagne, Denis, and Bruno Ely, eds. <em>Les Sites Cézanniens du Pays d'Aix: Hommage à John Rewald.</em> Paris: Réunion des musées nationaux, 1996.",
+        "page_number": "Reproduced: p. 162",
+        "url": null
+      },
+      {
+        "citation": "Rewald, John. <em>The Paintings of Paul Cézanne: A Catalogue Raisonné</em>. New York: Harry N. Abrams,1996.",
+        "page_number": "Mentioned: v. 1, p. 530, no. 900; Reproduced: v. 2, p. 529, fig. 900",
+        "url": null
+      },
+      {
+        "citation": "Museo del Palacio de Bellas Artes (Mexico). <em>Maestros del Impresionismo</em>. México, D.F.: Istituto Nacional de Bellas Artes, 1998.",
+        "page_number": "Reproduced: p. 63, fig. 17",
+        "url": null
+      },
+      {
+        "citation": "Châtelet, Albert, and Bernard Philippe Groslier. <em>Histoire de l'Art: Peinture, Sculpture, Architecture, Arts Décorati</em>fs. [Paris]: Larousse, 1998.",
+        "page_number": "Mentioned and reproduced: p. 488",
+        "url": null
+      },
+      {
+        "citation": "D' Argencourt, Louise, and Roger Diederen. <em>Catalogue of Paintings. Pt. 4. European Paintings of the 19th Century</em>. Cleveland: Cleveland Museum of Art, 1999.",
+        "page_number": "Mentioned and reproduced: p. 127-130, no. 48",
+        "url": null
+      },
+      {
+        "citation": "Adachi, Shinzō. <em>Kaiga jisshū</em>. Ōsaka-fu: Ōsaka Geijutsu Daigaku Tsūshin Kyōikubu, 2001.",
+        "page_number": "Reproduced: p. 170",
+        "url": null
+      },
+      {
+        "citation": "Burgess, Margaret B., \"Side by Side\", Cleveland Museum of Art. <em>Cleveland Art: The Cleveland Museum of Art Members Magazine</em>. Vol. 45 no. 05, May/June 2005",
+        "page_number": "Mentioned & reproduced: p. 8-9",
+        "url": "https://archive.org/details/CMAMM2005-05/page/8"
+      },
+      {
+        "citation": "Conisbee, Philip, and Denis Coutagne. <em>Cézanne in Provenc</em>e. Washington: National Gallery of Art, 2006.",
+        "page_number": "Mentioned and reproduced: p. 202, no. 83",
+        "url": null
+      },
+      {
+        "citation": "Conisbee, Philip, and Denis Coutagne. <em>Cézanne en Provence: Musée Granet, Aix-en-Provence, 9 Juin-17 Septembre 2006.</em> Paris: Réunion des Musées Nationaux, 2006.",
+        "page_number": "Reproduced: p. 30",
+        "url": null
+      },
+      {
+        "citation": "Coutagne, Denis. \"Cézanne en Provence: L'Estaque.\" <em>Dossier de l'Art</em> 130 (2006):18.",
+        "page_number": "Reproduced: p. 18",
+        "url": null
+      },
+      {
+        "citation": "Conisbee, Philip, and Denis Coutagne. <em>Cézanne en Provence: Musée Granet, Aix-en-Provence, 9 juin-17 septembre 2006.</em> Paris: Réunion des Musées Nationaux, 2006.",
+        "page_number": "Reproduced: p. 30",
+        "url": null
+      },
+      {
+        "citation": "Boigontier, Pascale, and Bruno Boigontier. <em>Portraits d'Aix-en-Provence</em>. Bordeaux: Sud Ouest, 2006.",
+        "page_number": "Reproduced: p. 59",
+        "url": null
+      },
+      {
+        "citation": "Coutagne, Denis. <em>Cézanne en Vérité(s): Essai.</em> Arles: Actes sud, 2006.",
+        "page_number": "Reproduced: p. 441, ill. 54",
+        "url": null
+      },
+      {
+        "citation": "Solana, Guillermo. <em>Cézanne: Site/Non-site: Museo Thyssen-Bornemisza, Madrid, February 4-May 18, 2014</em>. [Madrid]: Museo Thyssen-Bornemisza, 2014.",
+        "page_number": "Reproduced: p. 122, no. 35",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>The CMA Companion: A Guide to the Cleveland Museum of Art</em>. Cleveland: Cleveland Museum of Art, 2014.",
+        "page_number": "Mentioned and reproduced: P. 294; reproduced: P. 284-285",
+        "url": ""
+      },
+      {
+        "citation": "Arendsee, M., and M. Steinman-Arendsee. \"Take the CAN disability aesthetics tour, at the Cleveland Museum of art.\" <em>CAN Journal</em> (Winter 2019/20): 76-87.",
+        "page_number": "Reproduced & mentioned: p. 81",
+        "url": null
+      },
+      {
+        "citation": "Green, Tyler. <em>Emerson's Nature and the Artists: Idea As Landscape, Landscape As Idea</em>. Munich: Prestel, 2021.",
+        "page_number": "Mentioned and reproduced: P. 47, fig. 3",
+        "url": ""
+      },
+      {
+        "citation": "Basch, Sophie. <em>Le Japonisme, Un Art Français</em>. Œuvres En Sociétés. Dijon: Les Presses du réel, 2022.",
+        "page_number": "Mentioned and reproduced: P. 68-69, fig. 33",
+        "url": ""
+      },
+      {
+        "citation": "Adams, William D., and Thierry Maugenest. <em>Cezanne À Château Noir: L’Histoire d’Une Fascination.</em> Bordeaux: Éditions Hervé Chopin, 2025.",
+        "page_number": "Mentioned and reproduced: p. 34-35, fig. 22; p. 166, fig. 190",
+        "url": ""
+      },
+      {
+        "citation": "Boddewyn, Julia May.<em> The Valentine Gallery: The Forgotten Story of Valentine Dudensing, Matisse, Picasso, and the US Market for Modern Art (1926-1947). </em>London: Bloomsbury Visual Arts, 2026.",
+        "page_number": "Mentioned: p. 137, 152",
+        "url": ""
+      }
+    ],
+    "url": "https://clevelandart.org/art/1958.21",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_web.jpg",
+        "width": "900",
+        "height": "714",
+        "filesize": "328736",
+        "filename": "1958.21_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_print.jpg",
+        "width": "3400",
+        "height": "2697",
+        "filesize": "4725207",
+        "filename": "1958.21_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_full.tif",
+        "width": "11542",
+        "height": "9157",
+        "filesize": "317102404",
+        "filename": "1958.21_full.tif"
+      }
+    },
+    "alternate_images": [
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt0_web.jpg",
+          "width": "900",
+          "height": "746",
+          "filesize": "336250"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt0_print.jpg",
+          "width": "3400",
+          "height": "2820",
+          "filesize": "4876796"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt0_full.tif",
+          "width": "11008",
+          "height": "9129",
+          "filesize": "301508112"
+        },
+        "date_created": "2026-08-31T14:09:59",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt1_web.jpg",
+          "width": "900",
+          "height": "723",
+          "filesize": "233136"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt1_print.jpg",
+          "width": "3400",
+          "height": "2732",
+          "filesize": "3705898"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt1_full.tif",
+          "width": "12319",
+          "height": "9897",
+          "filesize": "365792228"
+        },
+        "date_created": "2026-08-31T11:33:57",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt2_web.jpg",
+          "width": "900",
+          "height": "717",
+          "filesize": "258218"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt2_print.jpg",
+          "width": "3400",
+          "height": "2709",
+          "filesize": "4080763"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt2_full.tif",
+          "width": "14368",
+          "height": "11448",
+          "filesize": "493479916"
+        },
+        "date_created": "2013-10-25T09:32:46",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt3_web.jpg",
+          "width": "1128",
+          "height": "893",
+          "filesize": "736893"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt3_print.jpg",
+          "width": "3400",
+          "height": "2691",
+          "filesize": "6776077"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_alt3_full.tif",
+          "width": "5935",
+          "height": "4698",
+          "filesize": "83687020"
+        },
+        "date_created": "2007-10-15T18:21:41",
+        "annotation": ""
+      }
+    ],
+    "creditline": "Bequest of Leonard C. Hanna Jr.",
+    "image_credit": null,
+    "sketchfab_id": "10d9d7aa5dac45b899b1cf5ba00a5e2b",
+    "sketchfab_url": "https://sketchfab.com/models/10d9d7aa5dac45b899b1cf5ba00a5e2b",
+    "gallery_donor_text": "Nancy F. and Joseph P. Keithley Gallery",
+    "athena_id": 135185,
+    "creators": [
+      {
+        "id": 1754,
+        "description": "Paul Cezanne (French, 1839–1906)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": "The son of a wealthy banker, Cézanne began his studies in Aix-en-Provence at the École Saint-Joseph in 1849, then attended the Collège Bourbon from 1852 until 1858. Émile Zola, the future author, was to become one of his closest friends. Cézanne enrolled at the École Gratuite de Dessin in 1857, entering the studio of Joseph Gibert (1806-1884). Two years later, complying with his father's wishes, he began studying law at the Université d'Aix while still at the École Gratuite de Dessin. In 1861 Cézanne finally left law school and followed Zola to Paris where he met Pissarro (q.v.) at the Académie Suisse. Probably after his failure to enter the École des Beaux-Arts, he returned to Aix and began working at his father's bank. In 1862, however, Cézanne returned to Paris, where he studied at the Académie Suisse and copied the works of the Old Masters in the Louvre. The works he produced during this period reflect the influence of Spanish painters such as Ribera (1591-1562) and Zurbarán (1598-1664), and other predecessors such as Delacroix (q.v.). His submissions to the Salons of 1865 through 1870 (and even through 1881) did not receive the jury's approval; the reinstatement of the Salon des Refusés was repeatedly but unsuccessfully demanded. Cézanne traveled often between Aix and Paris until 1870. To escape the Franco-Prussian War (1870-71) he stayed in the south in L'Estaque, along with his mistress, Hortense Fiquet, whom he had met in 1869. Cézanne moved back north to Pontoise with Hortense and his son, Paul, in 1872 and worked with Pissarro and met Dr. Paul Gachet. The following year he moved again to nearby Auvers-sur-Oise with his family, continuing his work with Pissarro. In 1874 and 1877 Cézanne participated in the first and third impressionist exhibitions, but the severe criticism of his works led him to abstain from using this venue again. In 1878 his father learned of the existence of Hortense and Paul, who at that point were living in Marseille, and threatened to discontinue his allowance. While in the Midi, Cézanne often worked with Monticelli (q.v.). His art increasingly matured, and he began concentrating on the order and internal structure within his compositions, limiting his palette. During these years he also met Gauguin (q.v.) and Renoir (q.v.), and always trav-eled, chiefly between Aix and L'Estaque. In 1886 Cézanne married Hortense, his father died, and the inheritance provided him with the financial means to live without constraints. He bought a house in Marlotte near Fontainebleau in 1892. In 1895 he had his first solo show at the gallery of Ambroise Vollard, who two years later bought all the artist's works from his studio near Corbeil. The dealer Paul Durand-Ruel became another important client. Cézanne participated in the Salon des Indépendants in 1899, 1901, and 1902 and exhibited at La Libre Esthétique in Brussels in 1901 and 1904, the Secession in Vienna in 1903, and the Salon d'Automne in 1904-6. He continued to study the underlying structure of nature, at times approaching abstraction by denying traditional perspective and using multiple viewpoints. He also began leaving portions of the canvas bare, giving some works an unfinished appearance. Cézanne's work had a tremendous influence on the artists of his time as well as those of subsequent generations, and he is considered one of the most influential figures in the development of modern art.",
+        "name_in_original_language": null,
+        "birth_year": "1839",
+        "death_year": "1906",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "1958-11-29T00:00:00",
+    "sortable_date": 1899,
+    "date_added_to_oa": null,
+    "date_text": "c. 1904",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": true,
+    "impression": null,
+    "alternate_titles": [
+      "La Montagne Sainte-Victoire"
+    ],
+    "is_highlight": true,
+    "updated_at": "2026-10-29 22:04:50.522000"
+  }
+}

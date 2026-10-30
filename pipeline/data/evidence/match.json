@@ -10,6 +10,46 @@
     "band": "strong"
   },
   {
+    "id": "m-pa-011-p-109",
+    "alias": "pa-011",
+    "candidate_party": "p-109",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr' and 'Leonard C. Hanna Jr' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-011-p-110",
+    "alias": "pa-011",
+    "candidate_party": "p-110",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr' and 'Leonard C. Hanna' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-011-p-121",
+    "alias": "pa-011",
+    "candidate_party": "p-121",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr' and 'Leonard C. Hanna, Jr.' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-011-p-130",
+    "alias": "pa-011",
+    "candidate_party": "p-130",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr' and 'Leonard C. Hanna Jr.' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
     "id": "m-pa-012-p-022",
     "alias": "pa-012",
     "candidate_party": "p-022",
@@ -20,11 +60,101 @@
     "band": "strong"
   },
   {
+    "id": "m-pa-012-p-109",
+    "alias": "pa-012",
+    "candidate_party": "p-109",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna Jr' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-012-p-110",
+    "alias": "pa-012",
+    "candidate_party": "p-110",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-012-p-121",
+    "alias": "pa-012",
+    "candidate_party": "p-121",
+    "reasons": [
+      "Names are identical: 'Leonard C. Hanna, Jr.' (100% similar)",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-012-p-130",
+    "alias": "pa-012",
+    "candidate_party": "p-130",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna Jr.' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-016-p-103",
+    "alias": "pa-016",
+    "candidate_party": "p-103",
+    "reasons": [
+      "Names 'August Pellerin' and 'Auguste Pellerin' are 97% similar",
+      "Both have the same life dates (1853-1929 and 1853-1929)"
+    ],
+    "band": "strong"
+  },
+  {
     "id": "m-pa-023-p-011",
     "alias": "pa-023",
     "candidate_party": "p-011",
     "reasons": [
       "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna, Jr' are 100% similar",
+      "Both have a life date in common (1898-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-023-p-109",
+    "alias": "pa-023",
+    "candidate_party": "p-109",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna Jr' are 100% similar",
+      "Both have a life date in common (1898-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-023-p-110",
+    "alias": "pa-023",
+    "candidate_party": "p-110",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna' are 100% similar",
+      "Both have a life date in common (1898-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-023-p-121",
+    "alias": "pa-023",
+    "candidate_party": "p-121",
+    "reasons": [
+      "Names are identical: 'Leonard C. Hanna, Jr.' (100% similar)",
+      "Both have a life date in common (1898-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-023-p-130",
+    "alias": "pa-023",
+    "candidate_party": "p-130",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna Jr.' are 100% similar",
       "Both have a life date in common (1898-1957 and 1889-1957)"
     ],
     "band": "strong"
@@ -50,11 +180,412 @@
     "band": "strong"
   },
   {
+    "id": "m-pa-048-p-135",
+    "alias": "pa-048",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names are identical: 'Baron Albert von Rothschild' (100% similar)",
+      "Both have the same life dates (1844-1911 and 1844-1911)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-049-p-136",
+    "alias": "pa-049",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names are identical: 'Baron Alphonse von Rothschild' (100% similar)",
+      "Both have the same life dates (1878-1942 and 1878-1942)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-049-p-146",
+    "alias": "pa-049",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names are identical: 'Baron Alphonse von Rothschild' (100% similar)",
+      "Both have the same life dates (1878-1942 and 1878-1942)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-051-p-139",
+    "alias": "pa-051",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Clarice von Rothschild' and 'Baroness Clarice de Rothschild' are 100% similar after dropping 'baroness'",
+      "Both have the same life dates (1894-1967 and 1894-1967)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-051-p-149",
+    "alias": "pa-051",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Clarice von Rothschild' and 'Baroness Clarice von Rothschild' are 100% similar after dropping 'baroness'",
+      "Both have the same life dates (1894-1967 and 1894-1967)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-101-p-112",
+    "alias": "pa-101",
+    "candidate_party": "p-112",
+    "reasons": [
+      "Names are identical: 'Ambroise Vollard' (100% similar)",
+      "Both have the same life dates (1866-1939 and 1866-1939)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-104-p-015",
+    "alias": "pa-104",
+    "candidate_party": "p-015",
+    "reasons": [
+      "Names 'Auguste Pellerin' and 'August Pellerin' are 97% similar",
+      "Both have the same life dates (1853-1929 and 1853-1929)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-110-p-011",
+    "alias": "pa-110",
+    "candidate_party": "p-011",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr' and 'Leonard C. Hanna, Jr' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-110-p-022",
+    "alias": "pa-110",
+    "candidate_party": "p-022",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr' and 'Leonard C. Hanna, Jr.' are 100% similar",
+      "Both have a life date in common (1889-1957 and 1898-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-110-p-110",
+    "alias": "pa-110",
+    "candidate_party": "p-110",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr' and 'Leonard C. Hanna' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)",
+      "Both appear in artwork cma-1958.21"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-110-p-121",
+    "alias": "pa-110",
+    "candidate_party": "p-121",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr' and 'Leonard C. Hanna, Jr.' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-110-p-130",
+    "alias": "pa-110",
+    "candidate_party": "p-130",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr' and 'Leonard C. Hanna Jr.' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-111-p-011",
+    "alias": "pa-111",
+    "candidate_party": "p-011",
+    "reasons": [
+      "Names 'Leonard C. Hanna' and 'Leonard C. Hanna, Jr' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-111-p-022",
+    "alias": "pa-111",
+    "candidate_party": "p-022",
+    "reasons": [
+      "Names 'Leonard C. Hanna' and 'Leonard C. Hanna, Jr.' are 100% similar",
+      "Both have a life date in common (1889-1957 and 1898-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-111-p-109",
+    "alias": "pa-111",
+    "candidate_party": "p-109",
+    "reasons": [
+      "Names 'Leonard C. Hanna' and 'Leonard C. Hanna Jr' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)",
+      "Both appear in artwork cma-1958.21"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-111-p-121",
+    "alias": "pa-111",
+    "candidate_party": "p-121",
+    "reasons": [
+      "Names 'Leonard C. Hanna' and 'Leonard C. Hanna, Jr.' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-111-p-130",
+    "alias": "pa-111",
+    "candidate_party": "p-130",
+    "reasons": [
+      "Names 'Leonard C. Hanna' and 'Leonard C. Hanna Jr.' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-113-p-100",
+    "alias": "pa-113",
+    "candidate_party": "p-100",
+    "reasons": [
+      "Names are identical: 'Ambroise Vollard' (100% similar)",
+      "Both have the same life dates (1866-1939 and 1866-1939)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-122-p-011",
+    "alias": "pa-122",
+    "candidate_party": "p-011",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna, Jr' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-122-p-022",
+    "alias": "pa-122",
+    "candidate_party": "p-022",
+    "reasons": [
+      "Names are identical: 'Leonard C. Hanna, Jr.' (100% similar)",
+      "Both have a life date in common (1889-1957 and 1898-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-122-p-109",
+    "alias": "pa-122",
+    "candidate_party": "p-109",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna Jr' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-122-p-110",
+    "alias": "pa-122",
+    "candidate_party": "p-110",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-122-p-130",
+    "alias": "pa-122",
+    "candidate_party": "p-130",
+    "reasons": [
+      "Names 'Leonard C. Hanna, Jr.' and 'Leonard C. Hanna Jr.' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-131-p-011",
+    "alias": "pa-131",
+    "candidate_party": "p-011",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr.' and 'Leonard C. Hanna, Jr' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-131-p-022",
+    "alias": "pa-131",
+    "candidate_party": "p-022",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr.' and 'Leonard C. Hanna, Jr.' are 100% similar",
+      "Both have a life date in common (1889-1957 and 1898-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-131-p-109",
+    "alias": "pa-131",
+    "candidate_party": "p-109",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr.' and 'Leonard C. Hanna Jr' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-131-p-110",
+    "alias": "pa-131",
+    "candidate_party": "p-110",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr.' and 'Leonard C. Hanna' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-131-p-121",
+    "alias": "pa-131",
+    "candidate_party": "p-121",
+    "reasons": [
+      "Names 'Leonard C. Hanna Jr.' and 'Leonard C. Hanna, Jr.' are 100% similar",
+      "Both have the same life dates (1889-1957 and 1889-1957)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-136-p-047",
+    "alias": "pa-136",
+    "candidate_party": "p-047",
+    "reasons": [
+      "Names are identical: 'Baron Albert von Rothschild' (100% similar)",
+      "Both have the same life dates (1844-1911 and 1844-1911)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-137-p-048",
+    "alias": "pa-137",
+    "candidate_party": "p-048",
+    "reasons": [
+      "Names are identical: 'Baron Alphonse von Rothschild' (100% similar)",
+      "Both have the same life dates (1878-1942 and 1878-1942)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-137-p-146",
+    "alias": "pa-137",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names are identical: 'Baron Alphonse von Rothschild' (100% similar)",
+      "Both have the same life dates (1878-1942 and 1878-1942)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-140-p-050",
+    "alias": "pa-140",
+    "candidate_party": "p-050",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Clarice von Rothschild' are 100% similar after dropping 'baroness'",
+      "Both have the same life dates (1894-1967 and 1894-1967)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-140-p-149",
+    "alias": "pa-140",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baroness Clarice von Rothschild' are 100% similar after dropping 'baroness'",
+      "Both have the same life dates (1894-1967 and 1894-1967)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-147-p-048",
+    "alias": "pa-147",
+    "candidate_party": "p-048",
+    "reasons": [
+      "Names are identical: 'Baron Alphonse von Rothschild' (100% similar)",
+      "Both have the same life dates (1878-1942 and 1878-1942)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-147-p-136",
+    "alias": "pa-147",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names are identical: 'Baron Alphonse von Rothschild' (100% similar)",
+      "Both have the same life dates (1878-1942 and 1878-1942)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-150-p-050",
+    "alias": "pa-150",
+    "candidate_party": "p-050",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Clarice von Rothschild' are 100% similar after dropping 'baroness'",
+      "Both have the same life dates (1894-1967 and 1894-1967)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-150-p-139",
+    "alias": "pa-150",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baroness Clarice de Rothschild' are 100% similar after dropping 'baroness'",
+      "Both have the same life dates (1894-1967 and 1894-1967)"
+    ],
+    "band": "strong"
+  },
+  {
+    "id": "m-pa-006-p-126",
+    "alias": "pa-006",
+    "candidate_party": "p-126",
+    "reasons": [
+      "Names are identical: 'Paul Cassirer' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-007-p-129",
+    "alias": "pa-007",
+    "candidate_party": "p-129",
+    "reasons": [
+      "Names 'Justin Thannhauser' and 'Justin K. Thannhauser' are 85% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
     "id": "m-pa-009-p-021",
     "alias": "pa-009",
     "candidate_party": "p-021",
     "reasons": [
       "Names 'M. Knoedler and Co.' and 'Knoedler & Co.' are 85% similar, one name containing the other after dropping 'co'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-010-p-120",
+    "alias": "pa-010",
+    "candidate_party": "p-120",
+    "reasons": [
+      "Names are identical: 'Sam Salz' (100% similar)",
+      "No other evidence yet beyond the name"
     ],
     "band": "possible"
   },
@@ -69,11 +600,56 @@
     "band": "possible"
   },
   {
+    "id": "m-pa-014-p-163",
+    "alias": "pa-014",
+    "candidate_party": "p-163",
+    "reasons": [
+      "Names 'Drouot' and 'Acquired at the hotel Drouot in 2002 by Mark Weiss' are 80% similar, one name containing the other after dropping 'hotel'"
+    ],
+    "band": "possible"
+  },
+  {
     "id": "m-pa-022-p-009",
     "alias": "pa-022",
     "candidate_party": "p-009",
     "reasons": [
       "Names 'Knoedler & Co.' and 'M. Knoedler and Co.' are 85% similar, one name containing the other after dropping 'co'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-022-p-119",
+    "alias": "pa-022",
+    "candidate_party": "p-119",
+    "reasons": [
+      "Names 'Knoedler & Co.' and 'Knoedler Galleries' are 80% similar, one name containing the other after dropping 'co'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-026-p-067",
+    "alias": "pa-026",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Guasco sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-026-p-087",
+    "alias": "pa-026",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Guasco sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-026-p-167",
+    "alias": "pa-026",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Guasco sale' and 'Sale' are 80% similar, one name containing the other"
     ],
     "band": "possible"
   },
@@ -98,6 +674,82 @@
     "band": "possible"
   },
   {
+    "id": "m-pa-028-p-067",
+    "alias": "pa-028",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Schoengrün sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-028-p-087",
+    "alias": "pa-028",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Schoengrün sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-028-p-167",
+    "alias": "pa-028",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Schoengrün sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-035-p-173",
+    "alias": "pa-035",
+    "candidate_party": "p-173",
+    "reasons": [
+      "Names 'Artemis Fine Arts/David Carritt' and 'David Carritt' are 85% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-039-p-116",
+    "alias": "pa-039",
+    "candidate_party": "p-116",
+    "reasons": [
+      "Names 'Private collection' and 'Private Collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-039-p-132",
+    "alias": "pa-039",
+    "candidate_party": "p-132",
+    "reasons": [
+      "Names are identical: 'Private collection' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-039-p-172",
+    "alias": "pa-039",
+    "candidate_party": "p-172",
+    "reasons": [
+      "Names are identical: 'Private collection' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-039-p-175",
+    "alias": "pa-039",
+    "candidate_party": "p-175",
+    "reasons": [
+      "Names 'Private collection' and 'Private Collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
     "id": "m-pa-040-p-043",
     "alias": "pa-040",
     "candidate_party": "p-043",
@@ -109,12 +761,30 @@
     "band": "possible"
   },
   {
+    "id": "m-pa-040-p-169",
+    "alias": "pa-040",
+    "candidate_party": "p-169",
+    "reasons": [
+      "Names 'Fritz Nathan' and 'Galerie Nathan' are 80% similar, one name containing the other after dropping 'galerie'"
+    ],
+    "band": "possible"
+  },
+  {
     "id": "m-pa-043-p-043",
     "alias": "pa-043",
     "candidate_party": "p-043",
     "reasons": [
       "Names 'Dr. Fritz Nathan' and 'Galerie Nathan' are 80% similar, one name containing the other after dropping 'dr', 'galerie'",
       "Both appear in artwork cma-1983.155"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-043-p-169",
+    "alias": "pa-043",
+    "candidate_party": "p-169",
+    "reasons": [
+      "Names 'Dr. Fritz Nathan' and 'Galerie Nathan' are 80% similar, one name containing the other after dropping 'dr', 'galerie'"
     ],
     "band": "possible"
   },
@@ -140,12 +810,79 @@
     "band": "possible"
   },
   {
+    "id": "m-pa-044-p-169",
+    "alias": "pa-044",
+    "candidate_party": "p-169",
+    "reasons": [
+      "Names are identical: 'Galerie Nathan' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-046-p-093",
+    "alias": "pa-046",
+    "candidate_party": "p-093",
+    "reasons": [
+      "Names 'Friedrich Jacob Gsell' and 'Jacob' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-047-p-134",
+    "alias": "pa-047",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names are identical: 'Baron Anselm Mayer von Rothschild' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-047-p-144",
+    "alias": "pa-047",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Anselm von Rothschild' are 85.0% similar, one name containing the other after dropping 'baron'",
+      "Both have the same life dates (1803-1874 and 1803-1874)"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-048-p-134",
+    "alias": "pa-048",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 75% similar after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
     "id": "m-pa-049-p-051",
     "alias": "pa-049",
     "candidate_party": "p-051",
     "reasons": [
       "Names 'Baron Alphonse von Rothschild' and 'the Heirs of Barons Alphonse and Louis von Rothschild' are 80% similar, one name containing the other after dropping 'baron'",
       "Both appear in artwork cma-1999.173"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-050-p-137",
+    "alias": "pa-050",
+    "candidate_party": "p-137",
+    "reasons": [
+      "Names are identical: 'the Nazis' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-050-p-147",
+    "alias": "pa-050",
+    "candidate_party": "p-147",
+    "reasons": [
+      "Names 'the Nazis' and 'In possession of the Nazis' are 80% similar, one name containing the other"
     ],
     "band": "possible"
   },
@@ -160,6 +897,24 @@
     "band": "possible"
   },
   {
+    "id": "m-pa-052-p-136",
+    "alias": "pa-052",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'the Heirs of Barons Alphonse and Louis von Rothschild' and 'Baron Alphonse von Rothschild' are 80% similar, one name containing the other after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-052-p-146",
+    "alias": "pa-052",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'the Heirs of Barons Alphonse and Louis von Rothschild' and 'Baron Alphonse von Rothschild' are 80% similar, one name containing the other after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
     "id": "m-pa-056-p-013",
     "alias": "pa-056",
     "candidate_party": "p-013",
@@ -168,6 +923,1603 @@
       "No other evidence yet beyond the name"
     ],
     "band": "possible"
+  },
+  {
+    "id": "m-pa-056-p-163",
+    "alias": "pa-056",
+    "candidate_party": "p-163",
+    "reasons": [
+      "Names 'Hotel Drouot' and 'Acquired at the hotel Drouot in 2002 by Mark Weiss' are 80% similar, one name containing the other after dropping 'hotel'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-067-p-067",
+    "alias": "pa-067",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Clarke/Hibbert sale' and 'Sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-067-p-069",
+    "alias": "pa-067",
+    "candidate_party": "p-069",
+    "reasons": [
+      "Names 'Clarke/Hibbert sale' and 'Clarke sale' are 77% similar, one name containing the other",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-067-p-087",
+    "alias": "pa-067",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Clarke/Hibbert sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-067-p-167",
+    "alias": "pa-067",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Clarke/Hibbert sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-025",
+    "alias": "pa-068",
+    "candidate_party": "p-025",
+    "reasons": [
+      "Names 'Sale' and 'Guasco sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-027",
+    "alias": "pa-068",
+    "candidate_party": "p-027",
+    "reasons": [
+      "Names 'Sale' and 'Schoengrün sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-066",
+    "alias": "pa-068",
+    "candidate_party": "p-066",
+    "reasons": [
+      "Names 'Sale' and 'Clarke/Hibbert sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-069",
+    "alias": "pa-068",
+    "candidate_party": "p-069",
+    "reasons": [
+      "Names 'Sale' and 'Clarke sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-084",
+    "alias": "pa-068",
+    "candidate_party": "p-084",
+    "reasons": [
+      "Names 'Sale' and 'Boisfremont fils sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-087",
+    "alias": "pa-068",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names are identical: 'Sale' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-090",
+    "alias": "pa-068",
+    "candidate_party": "p-090",
+    "reasons": [
+      "Names 'Sale' and 'Chéramy sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-092",
+    "alias": "pa-068",
+    "candidate_party": "p-092",
+    "reasons": [
+      "Names 'Sale' and 'Chéramy estate sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-096",
+    "alias": "pa-068",
+    "candidate_party": "p-096",
+    "reasons": [
+      "Names 'Sale' and 'Laughlin sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-124",
+    "alias": "pa-068",
+    "candidate_party": "p-124",
+    "reasons": [
+      "Names 'Sale' and 'Armand Doria sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-143",
+    "alias": "pa-068",
+    "candidate_party": "p-143",
+    "reasons": [
+      "Names 'Sale' and 'Rochebousseau sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-167",
+    "alias": "pa-068",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names are identical: 'Sale' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-176",
+    "alias": "pa-068",
+    "candidate_party": "p-176",
+    "reasons": [
+      "Names 'Sale' and 'Sale: \"Tableaux Anciens\"' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-179",
+    "alias": "pa-068",
+    "candidate_party": "p-179",
+    "reasons": [
+      "Names 'Sale' and 'Sale: Frederik Muller' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-183",
+    "alias": "pa-068",
+    "candidate_party": "p-183",
+    "reasons": [
+      "Names 'Sale' and 'Sale: Sotheby’s' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-068-p-186",
+    "alias": "pa-068",
+    "candidate_party": "p-186",
+    "reasons": [
+      "Names 'Sale' and 'Sale: Gebr. Douwes' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-070-p-066",
+    "alias": "pa-070",
+    "candidate_party": "p-066",
+    "reasons": [
+      "Names 'Clarke sale' and 'Clarke/Hibbert sale' are 77% similar, one name containing the other",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-070-p-067",
+    "alias": "pa-070",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Clarke sale' and 'Sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-070-p-087",
+    "alias": "pa-070",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Clarke sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-070-p-167",
+    "alias": "pa-070",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Clarke sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-074-p-134",
+    "alias": "pa-074",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baron Anselm Mayer von Rothschild' are 88% similar after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-078-p-138",
+    "alias": "pa-078",
+    "candidate_party": "p-138",
+    "reasons": [
+      "Names 'In possession of the Allies' and 'In possession of the Allies. Restituted to Alphose von Rothschild's widow' are 85% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-078-p-147",
+    "alias": "pa-078",
+    "candidate_party": "p-147",
+    "reasons": [
+      "Names 'In possession of the Allies' and 'In possession of the Nazis' are 76% similar"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-078-p-148",
+    "alias": "pa-078",
+    "candidate_party": "p-148",
+    "reasons": [
+      "Names are identical: 'In possession of the Allies' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-079-p-140",
+    "alias": "pa-079",
+    "candidate_party": "p-140",
+    "reasons": [
+      "Names are identical: 'Rosenberg & Stiebel' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-079-p-150",
+    "alias": "pa-079",
+    "candidate_party": "p-150",
+    "reasons": [
+      "Names are identical: 'Rosenberg & Stiebel' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-082-p-083",
+    "alias": "pa-082",
+    "candidate_party": "p-083",
+    "reasons": [
+      "Names 'Charles Boulanger de Boisfremont' and 'Probably Charles Boulanger de Boisfremont fils' are 85% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-084-p-081",
+    "alias": "pa-084",
+    "candidate_party": "p-081",
+    "reasons": [
+      "Names 'Probably Charles Boulanger de Boisfremont fils' and 'Charles Boulanger de Boisfremont' are 85% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-085-p-067",
+    "alias": "pa-085",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Boisfremont fils sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-085-p-087",
+    "alias": "pa-085",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Boisfremont fils sale' and 'Sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-085-p-167",
+    "alias": "pa-085",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Boisfremont fils sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-025",
+    "alias": "pa-088",
+    "candidate_party": "p-025",
+    "reasons": [
+      "Names 'Sale' and 'Guasco sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-027",
+    "alias": "pa-088",
+    "candidate_party": "p-027",
+    "reasons": [
+      "Names 'Sale' and 'Schoengrün sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-066",
+    "alias": "pa-088",
+    "candidate_party": "p-066",
+    "reasons": [
+      "Names 'Sale' and 'Clarke/Hibbert sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-067",
+    "alias": "pa-088",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names are identical: 'Sale' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-069",
+    "alias": "pa-088",
+    "candidate_party": "p-069",
+    "reasons": [
+      "Names 'Sale' and 'Clarke sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-084",
+    "alias": "pa-088",
+    "candidate_party": "p-084",
+    "reasons": [
+      "Names 'Sale' and 'Boisfremont fils sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-090",
+    "alias": "pa-088",
+    "candidate_party": "p-090",
+    "reasons": [
+      "Names 'Sale' and 'Chéramy sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-092",
+    "alias": "pa-088",
+    "candidate_party": "p-092",
+    "reasons": [
+      "Names 'Sale' and 'Chéramy estate sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-096",
+    "alias": "pa-088",
+    "candidate_party": "p-096",
+    "reasons": [
+      "Names 'Sale' and 'Laughlin sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-124",
+    "alias": "pa-088",
+    "candidate_party": "p-124",
+    "reasons": [
+      "Names 'Sale' and 'Armand Doria sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-143",
+    "alias": "pa-088",
+    "candidate_party": "p-143",
+    "reasons": [
+      "Names 'Sale' and 'Rochebousseau sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-167",
+    "alias": "pa-088",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names are identical: 'Sale' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-176",
+    "alias": "pa-088",
+    "candidate_party": "p-176",
+    "reasons": [
+      "Names 'Sale' and 'Sale: \"Tableaux Anciens\"' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-179",
+    "alias": "pa-088",
+    "candidate_party": "p-179",
+    "reasons": [
+      "Names 'Sale' and 'Sale: Frederik Muller' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-183",
+    "alias": "pa-088",
+    "candidate_party": "p-183",
+    "reasons": [
+      "Names 'Sale' and 'Sale: Sotheby’s' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-088-p-186",
+    "alias": "pa-088",
+    "candidate_party": "p-186",
+    "reasons": [
+      "Names 'Sale' and 'Sale: Gebr. Douwes' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-090-p-091",
+    "alias": "pa-090",
+    "candidate_party": "p-091",
+    "reasons": [
+      "Names 'Paul-Arthur Chéramy' and 'Probably Paul-Arthur Chéramy' are 85% similar, one name containing the other",
+      "Both have the same life dates (1840-1912 and 1840-1912)",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-091-p-067",
+    "alias": "pa-091",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Chéramy sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-091-p-087",
+    "alias": "pa-091",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Chéramy sale' and 'Sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-091-p-092",
+    "alias": "pa-091",
+    "candidate_party": "p-092",
+    "reasons": [
+      "Names 'Chéramy sale' and 'Chéramy estate sale' are 85% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-091-p-167",
+    "alias": "pa-091",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Chéramy sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-092-p-089",
+    "alias": "pa-092",
+    "candidate_party": "p-089",
+    "reasons": [
+      "Names 'Probably Paul-Arthur Chéramy' and 'Paul-Arthur Chéramy' are 85% similar, one name containing the other",
+      "Both have the same life dates (1840-1912 and 1840-1912)",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-093-p-067",
+    "alias": "pa-093",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Chéramy estate sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-093-p-087",
+    "alias": "pa-093",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Chéramy estate sale' and 'Sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-093-p-090",
+    "alias": "pa-093",
+    "candidate_party": "p-090",
+    "reasons": [
+      "Names 'Chéramy estate sale' and 'Chéramy sale' are 85% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-093-p-167",
+    "alias": "pa-093",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Chéramy estate sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-094-p-045",
+    "alias": "pa-094",
+    "candidate_party": "p-045",
+    "reasons": [
+      "Names 'Jacob' and 'Friedrich Jacob Gsell' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-097-p-067",
+    "alias": "pa-097",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Laughlin sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-097-p-087",
+    "alias": "pa-097",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Laughlin sale' and 'Sale' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-097-p-167",
+    "alias": "pa-097",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Laughlin sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-101-p-125",
+    "alias": "pa-101",
+    "candidate_party": "p-125",
+    "reasons": [
+      "Names are identical: 'Ambroise Vollard' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-113-p-125",
+    "alias": "pa-113",
+    "candidate_party": "p-125",
+    "reasons": [
+      "Names are identical: 'Ambroise Vollard' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-117-p-038",
+    "alias": "pa-117",
+    "candidate_party": "p-038",
+    "reasons": [
+      "Names 'Private Collection' and 'Private collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-117-p-132",
+    "alias": "pa-117",
+    "candidate_party": "p-132",
+    "reasons": [
+      "Names 'Private Collection' and 'Private collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-117-p-172",
+    "alias": "pa-117",
+    "candidate_party": "p-172",
+    "reasons": [
+      "Names 'Private Collection' and 'Private collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-117-p-175",
+    "alias": "pa-117",
+    "candidate_party": "p-175",
+    "reasons": [
+      "Names are identical: 'Private Collection' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-120-p-021",
+    "alias": "pa-120",
+    "candidate_party": "p-021",
+    "reasons": [
+      "Names 'Knoedler Galleries' and 'Knoedler & Co.' are 80% similar, one name containing the other after dropping 'co'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-121-p-010",
+    "alias": "pa-121",
+    "candidate_party": "p-010",
+    "reasons": [
+      "Names are identical: 'Sam Salz' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-125-p-067",
+    "alias": "pa-125",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Armand Doria sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-125-p-087",
+    "alias": "pa-125",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Armand Doria sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-125-p-167",
+    "alias": "pa-125",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Armand Doria sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-126-p-100",
+    "alias": "pa-126",
+    "candidate_party": "p-100",
+    "reasons": [
+      "Names are identical: 'Ambroise Vollard' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-126-p-112",
+    "alias": "pa-126",
+    "candidate_party": "p-112",
+    "reasons": [
+      "Names are identical: 'Ambroise Vollard' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-127-p-006",
+    "alias": "pa-127",
+    "candidate_party": "p-006",
+    "reasons": [
+      "Names are identical: 'Paul Cassirer' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-130-p-007",
+    "alias": "pa-130",
+    "candidate_party": "p-007",
+    "reasons": [
+      "Names 'Justin K. Thannhauser' and 'Justin Thannhauser' are 85% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-133-p-038",
+    "alias": "pa-133",
+    "candidate_party": "p-038",
+    "reasons": [
+      "Names are identical: 'Private collection' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-133-p-116",
+    "alias": "pa-133",
+    "candidate_party": "p-116",
+    "reasons": [
+      "Names 'Private collection' and 'Private Collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-133-p-172",
+    "alias": "pa-133",
+    "candidate_party": "p-172",
+    "reasons": [
+      "Names are identical: 'Private collection' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-133-p-175",
+    "alias": "pa-133",
+    "candidate_party": "p-175",
+    "reasons": [
+      "Names 'Private collection' and 'Private Collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-135-p-046",
+    "alias": "pa-135",
+    "candidate_party": "p-046",
+    "reasons": [
+      "Names are identical: 'Baron Anselm Mayer von Rothschild' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-135-p-047",
+    "alias": "pa-135",
+    "candidate_party": "p-047",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Albert von Rothschild' are 75% similar after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-135-p-073",
+    "alias": "pa-135",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Mayer Alphonse de Rothschild' are 88% similar after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-135-p-135",
+    "alias": "pa-135",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Albert von Rothschild' are 75% similar after dropping 'baron'",
+      "Both appear in artwork cma-1948.137"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-135-p-144",
+    "alias": "pa-135",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Anselm von Rothschild' are 85.0% similar, one name containing the other after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-136-p-134",
+    "alias": "pa-136",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 75% similar after dropping 'baron'",
+      "Both appear in artwork cma-1948.137"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-137-p-051",
+    "alias": "pa-137",
+    "candidate_party": "p-051",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'the Heirs of Barons Alphonse and Louis von Rothschild' are 80% similar, one name containing the other after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-138-p-049",
+    "alias": "pa-138",
+    "candidate_party": "p-049",
+    "reasons": [
+      "Names are identical: 'the Nazis' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-138-p-147",
+    "alias": "pa-138",
+    "candidate_party": "p-147",
+    "reasons": [
+      "Names 'the Nazis' and 'In possession of the Nazis' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-139-p-077",
+    "alias": "pa-139",
+    "candidate_party": "p-077",
+    "reasons": [
+      "Names 'In possession of the Allies. Restituted to Alphose von Rothschild's widow' and 'In possession of the Allies' are 85% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-139-p-148",
+    "alias": "pa-139",
+    "candidate_party": "p-148",
+    "reasons": [
+      "Names 'In possession of the Allies. Restituted to Alphose von Rothschild's widow' and 'In possession of the Allies' are 85% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-141-p-078",
+    "alias": "pa-141",
+    "candidate_party": "p-078",
+    "reasons": [
+      "Names are identical: 'Rosenberg & Stiebel' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-141-p-150",
+    "alias": "pa-141",
+    "candidate_party": "p-150",
+    "reasons": [
+      "Names are identical: 'Rosenberg & Stiebel' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-144-p-067",
+    "alias": "pa-144",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Rochebousseau sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-144-p-087",
+    "alias": "pa-144",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Rochebousseau sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-144-p-167",
+    "alias": "pa-144",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Rochebousseau sale' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-145-p-046",
+    "alias": "pa-145",
+    "candidate_party": "p-046",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 85.0% similar, one name containing the other after dropping 'baron'",
+      "Both have the same life dates (1803-1874 and 1803-1874)"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-145-p-134",
+    "alias": "pa-145",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 85.0% similar, one name containing the other after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-147-p-051",
+    "alias": "pa-147",
+    "candidate_party": "p-051",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'the Heirs of Barons Alphonse and Louis von Rothschild' are 80% similar, one name containing the other after dropping 'baron'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-148-p-049",
+    "alias": "pa-148",
+    "candidate_party": "p-049",
+    "reasons": [
+      "Names 'In possession of the Nazis' and 'the Nazis' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-148-p-077",
+    "alias": "pa-148",
+    "candidate_party": "p-077",
+    "reasons": [
+      "Names 'In possession of the Nazis' and 'In possession of the Allies' are 76% similar"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-148-p-137",
+    "alias": "pa-148",
+    "candidate_party": "p-137",
+    "reasons": [
+      "Names 'In possession of the Nazis' and 'the Nazis' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-148-p-148",
+    "alias": "pa-148",
+    "candidate_party": "p-148",
+    "reasons": [
+      "Names 'In possession of the Nazis' and 'In possession of the Allies' are 76% similar",
+      "Both appear in artwork cma-1962.256"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-149-p-077",
+    "alias": "pa-149",
+    "candidate_party": "p-077",
+    "reasons": [
+      "Names are identical: 'In possession of the Allies' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-149-p-138",
+    "alias": "pa-149",
+    "candidate_party": "p-138",
+    "reasons": [
+      "Names 'In possession of the Allies' and 'In possession of the Allies. Restituted to Alphose von Rothschild's widow' are 85% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-149-p-147",
+    "alias": "pa-149",
+    "candidate_party": "p-147",
+    "reasons": [
+      "Names 'In possession of the Allies' and 'In possession of the Nazis' are 76% similar",
+      "Both appear in artwork cma-1962.256"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-151-p-078",
+    "alias": "pa-151",
+    "candidate_party": "p-078",
+    "reasons": [
+      "Names are identical: 'Rosenberg & Stiebel' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-151-p-140",
+    "alias": "pa-151",
+    "candidate_party": "p-140",
+    "reasons": [
+      "Names are identical: 'Rosenberg & Stiebel' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-154-p-160",
+    "alias": "pa-154",
+    "candidate_party": "p-160",
+    "reasons": [
+      "Names 'Marie de Medici' and 'Commissioned in 1610 by Marie de Medici' are 85% similar, one name containing the other",
+      "Both appear in artwork cma-2003.225",
+      "Both passed it on to Philippe III of Spain"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-158-p-161",
+    "alias": "pa-158",
+    "candidate_party": "p-161",
+    "reasons": [
+      "Names 'Margaret Wedgwood' and 'By inheritance to Margaret Wedgwood' are 85% similar, one name containing the other",
+      "Both have the same life dates (1843-1937 and 1843-1937)",
+      "Both appear in artwork cma-2003.225",
+      "Both received it from Josiah Wedgwood III"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-159-p-162",
+    "alias": "pa-159",
+    "candidate_party": "p-162",
+    "reasons": [
+      "Names 'Vaughan-Williams family of Tanhurst House' and 'By inheritanace to the Vaughan-Williams family of Tanhurst House' are 85% similar, one name containing the other",
+      "Both appear in artwork cma-2003.225"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-160-p-163",
+    "alias": "pa-160",
+    "candidate_party": "p-163",
+    "reasons": [
+      "Names 'Mark Weiss' and 'Acquired at the hotel Drouot in 2002 by Mark Weiss' are 85% similar, one name containing the other after dropping 'hotel'",
+      "Both appear in artwork cma-2003.225"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-160-p-164",
+    "alias": "pa-160",
+    "candidate_party": "p-164",
+    "reasons": [
+      "Names 'Mark Weiss' and 'The Weiss Gallery' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-2003.225"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-161-p-153",
+    "alias": "pa-161",
+    "candidate_party": "p-153",
+    "reasons": [
+      "Names 'Commissioned in 1610 by Marie de Medici' and 'Marie de Medici' are 85% similar, one name containing the other",
+      "Both appear in artwork cma-2003.225",
+      "Both passed it on to Philippe III of Spain"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-162-p-157",
+    "alias": "pa-162",
+    "candidate_party": "p-157",
+    "reasons": [
+      "Names 'By inheritance to Margaret Wedgwood' and 'Margaret Wedgwood' are 85% similar, one name containing the other",
+      "Both have the same life dates (1843-1937 and 1843-1937)",
+      "Both appear in artwork cma-2003.225",
+      "Both received it from Josiah Wedgwood III"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-163-p-158",
+    "alias": "pa-163",
+    "candidate_party": "p-158",
+    "reasons": [
+      "Names 'By inheritanace to the Vaughan-Williams family of Tanhurst House' and 'Vaughan-Williams family of Tanhurst House' are 85% similar, one name containing the other",
+      "Both appear in artwork cma-2003.225"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-164-p-013",
+    "alias": "pa-164",
+    "candidate_party": "p-013",
+    "reasons": [
+      "Names 'Acquired at the hotel Drouot in 2002 by Mark Weiss' and 'Drouot' are 80% similar, one name containing the other after dropping 'hotel'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-164-p-055",
+    "alias": "pa-164",
+    "candidate_party": "p-055",
+    "reasons": [
+      "Names 'Acquired at the hotel Drouot in 2002 by Mark Weiss' and 'Hotel Drouot' are 80% similar, one name containing the other after dropping 'hotel'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-164-p-159",
+    "alias": "pa-164",
+    "candidate_party": "p-159",
+    "reasons": [
+      "Names 'Acquired at the hotel Drouot in 2002 by Mark Weiss' and 'Mark Weiss' are 85% similar, one name containing the other after dropping 'hotel'",
+      "Both appear in artwork cma-2003.225"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-164-p-164",
+    "alias": "pa-164",
+    "candidate_party": "p-164",
+    "reasons": [
+      "Names 'Acquired at the hotel Drouot in 2002 by Mark Weiss' and 'The Weiss Gallery' are 80% similar, one name containing the other after dropping 'hotel'",
+      "Both appear in artwork cma-2003.225"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-165-p-159",
+    "alias": "pa-165",
+    "candidate_party": "p-159",
+    "reasons": [
+      "Names 'The Weiss Gallery' and 'Mark Weiss' are 80% similar, one name containing the other",
+      "Both appear in artwork cma-2003.225"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-165-p-163",
+    "alias": "pa-165",
+    "candidate_party": "p-163",
+    "reasons": [
+      "Names 'The Weiss Gallery' and 'Acquired at the hotel Drouot in 2002 by Mark Weiss' are 80% similar, one name containing the other after dropping 'hotel'",
+      "Both appear in artwork cma-2003.225"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-025",
+    "alias": "pa-168",
+    "candidate_party": "p-025",
+    "reasons": [
+      "Names 'Sale' and 'Guasco sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-027",
+    "alias": "pa-168",
+    "candidate_party": "p-027",
+    "reasons": [
+      "Names 'Sale' and 'Schoengrün sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-066",
+    "alias": "pa-168",
+    "candidate_party": "p-066",
+    "reasons": [
+      "Names 'Sale' and 'Clarke/Hibbert sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-067",
+    "alias": "pa-168",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names are identical: 'Sale' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-069",
+    "alias": "pa-168",
+    "candidate_party": "p-069",
+    "reasons": [
+      "Names 'Sale' and 'Clarke sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-084",
+    "alias": "pa-168",
+    "candidate_party": "p-084",
+    "reasons": [
+      "Names 'Sale' and 'Boisfremont fils sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-087",
+    "alias": "pa-168",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names are identical: 'Sale' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-090",
+    "alias": "pa-168",
+    "candidate_party": "p-090",
+    "reasons": [
+      "Names 'Sale' and 'Chéramy sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-092",
+    "alias": "pa-168",
+    "candidate_party": "p-092",
+    "reasons": [
+      "Names 'Sale' and 'Chéramy estate sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-096",
+    "alias": "pa-168",
+    "candidate_party": "p-096",
+    "reasons": [
+      "Names 'Sale' and 'Laughlin sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-124",
+    "alias": "pa-168",
+    "candidate_party": "p-124",
+    "reasons": [
+      "Names 'Sale' and 'Armand Doria sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-143",
+    "alias": "pa-168",
+    "candidate_party": "p-143",
+    "reasons": [
+      "Names 'Sale' and 'Rochebousseau sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-176",
+    "alias": "pa-168",
+    "candidate_party": "p-176",
+    "reasons": [
+      "Names 'Sale' and 'Sale: \"Tableaux Anciens\"' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-179",
+    "alias": "pa-168",
+    "candidate_party": "p-179",
+    "reasons": [
+      "Names 'Sale' and 'Sale: Frederik Muller' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-183",
+    "alias": "pa-168",
+    "candidate_party": "p-183",
+    "reasons": [
+      "Names 'Sale' and 'Sale: Sotheby’s' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-168-p-186",
+    "alias": "pa-168",
+    "candidate_party": "p-186",
+    "reasons": [
+      "Names 'Sale' and 'Sale: Gebr. Douwes' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-170-p-039",
+    "alias": "pa-170",
+    "candidate_party": "p-039",
+    "reasons": [
+      "Names 'Galerie Nathan' and 'Fritz Nathan' are 80% similar, one name containing the other after dropping 'galerie'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-170-p-042",
+    "alias": "pa-170",
+    "candidate_party": "p-042",
+    "reasons": [
+      "Names 'Galerie Nathan' and 'Dr. Fritz Nathan' are 80% similar, one name containing the other after dropping 'dr', 'galerie'"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-170-p-043",
+    "alias": "pa-170",
+    "candidate_party": "p-043",
+    "reasons": [
+      "Names are identical: 'Galerie Nathan' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-173-p-038",
+    "alias": "pa-173",
+    "candidate_party": "p-038",
+    "reasons": [
+      "Names are identical: 'Private collection' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-173-p-116",
+    "alias": "pa-173",
+    "candidate_party": "p-116",
+    "reasons": [
+      "Names 'Private collection' and 'Private Collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-173-p-132",
+    "alias": "pa-173",
+    "candidate_party": "p-132",
+    "reasons": [
+      "Names are identical: 'Private collection' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-173-p-175",
+    "alias": "pa-173",
+    "candidate_party": "p-175",
+    "reasons": [
+      "Names 'Private collection' and 'Private Collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-174-p-034",
+    "alias": "pa-174",
+    "candidate_party": "p-034",
+    "reasons": [
+      "Names 'David Carritt' and 'Artemis Fine Arts/David Carritt' are 85% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-176-p-038",
+    "alias": "pa-176",
+    "candidate_party": "p-038",
+    "reasons": [
+      "Names 'Private Collection' and 'Private collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-176-p-116",
+    "alias": "pa-176",
+    "candidate_party": "p-116",
+    "reasons": [
+      "Names are identical: 'Private Collection' (100% similar)",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-176-p-132",
+    "alias": "pa-176",
+    "candidate_party": "p-132",
+    "reasons": [
+      "Names 'Private Collection' and 'Private collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-176-p-172",
+    "alias": "pa-176",
+    "candidate_party": "p-172",
+    "reasons": [
+      "Names 'Private Collection' and 'Private collection' are 100% similar",
+      "No other evidence yet beyond the name"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-177-p-067",
+    "alias": "pa-177",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Sale: \"Tableaux Anciens\"' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-177-p-087",
+    "alias": "pa-177",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Sale: \"Tableaux Anciens\"' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-177-p-167",
+    "alias": "pa-177",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Sale: \"Tableaux Anciens\"' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-180-p-067",
+    "alias": "pa-180",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Sale: Frederik Muller' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-180-p-087",
+    "alias": "pa-180",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Sale: Frederik Muller' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-180-p-167",
+    "alias": "pa-180",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Sale: Frederik Muller' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-184-p-067",
+    "alias": "pa-184",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Sale: Sotheby’s' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-184-p-087",
+    "alias": "pa-184",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Sale: Sotheby’s' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-184-p-167",
+    "alias": "pa-184",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Sale: Sotheby’s' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-187-p-067",
+    "alias": "pa-187",
+    "candidate_party": "p-067",
+    "reasons": [
+      "Names 'Sale: Gebr. Douwes' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-187-p-087",
+    "alias": "pa-187",
+    "candidate_party": "p-087",
+    "reasons": [
+      "Names 'Sale: Gebr. Douwes' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-187-p-167",
+    "alias": "pa-187",
+    "candidate_party": "p-167",
+    "reasons": [
+      "Names 'Sale: Gebr. Douwes' and 'Sale' are 80% similar, one name containing the other"
+    ],
+    "band": "possible"
+  },
+  {
+    "id": "m-pa-015-p-074",
+    "alias": "pa-015",
+    "candidate_party": "p-074",
+    "reasons": [
+      "Names 'Mrs. Edouard Manet' and 'Édouard' are 80% similar, one name containing the other after dropping 'mrs'",
+      "Life dates differ (1829-1906 and 1868-1949), which points to different people"
+    ],
+    "band": "weak"
   },
   {
     "id": "m-pa-020-p-020",
@@ -209,6 +2561,51 @@
     "band": "weak"
   },
   {
+    "id": "m-pa-030-p-116",
+    "alias": "pa-030",
+    "candidate_party": "p-116",
+    "reasons": [
+      "Names 'Possibly Gouin collection' and 'Private Collection' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-030-p-132",
+    "alias": "pa-030",
+    "candidate_party": "p-132",
+    "reasons": [
+      "Names 'Possibly Gouin collection' and 'Private collection' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-030-p-172",
+    "alias": "pa-030",
+    "candidate_party": "p-172",
+    "reasons": [
+      "Names 'Possibly Gouin collection' and 'Private collection' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-030-p-175",
+    "alias": "pa-030",
+    "candidate_party": "p-175",
+    "reasons": [
+      "Names 'Possibly Gouin collection' and 'Private Collection' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-032-p-108",
+    "alias": "pa-032",
+    "candidate_party": "p-108",
+    "reasons": [
+      "Names 'Wildenstein & Co.' and 'Valentine' are 60% similar after dropping 'co'"
+    ],
+    "band": "weak"
+  },
+  {
     "id": "m-pa-034-p-024",
     "alias": "pa-034",
     "candidate_party": "p-024",
@@ -234,6 +2631,15 @@
     "candidate_party": "p-029",
     "reasons": [
       "Names 'Private collection' and 'Possibly Gouin collection' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-039-p-088",
+    "alias": "pa-039",
+    "candidate_party": "p-088",
+    "reasons": [
+      "Names 'Private collection' and 'Collection Henri Rochefort' are 64% similar"
     ],
     "band": "weak"
   },
@@ -278,6 +2684,76 @@
     "band": "weak"
   },
   {
+    "id": "m-pa-047-p-073",
+    "alias": "pa-047",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Mayer Alphonse de Rothschild' are 88% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-047-p-135",
+    "alias": "pa-047",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Albert von Rothschild' are 75% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-047-p-136",
+    "alias": "pa-047",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Alphonse von Rothschild' are 71% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-047-p-139",
+    "alias": "pa-047",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baroness Clarice de Rothschild' are 68% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1803-1874 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-047-p-145",
+    "alias": "pa-047",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Nathaniel von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-047-p-146",
+    "alias": "pa-047",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Alphonse von Rothschild' are 71% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-047-p-149",
+    "alias": "pa-047",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baroness Clarice von Rothschild' are 68% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1803-1874 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
     "id": "m-pa-048-p-046",
     "alias": "pa-048",
     "candidate_party": "p-046",
@@ -303,6 +2779,76 @@
     "candidate_party": "p-050",
     "reasons": [
       "Names 'Baron Albert von Rothschild' and 'Clarice von Rothschild' are 74% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-048-p-073",
+    "alias": "pa-048",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Mayer Alphonse de Rothschild' are 71% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-048-p-136",
+    "alias": "pa-048",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Alphonse von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-048-p-139",
+    "alias": "pa-048",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baroness Clarice de Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1844-1911 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-048-p-144",
+    "alias": "pa-048",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Anselm von Rothschild' are 76% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-048-p-145",
+    "alias": "pa-048",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Nathaniel von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-048-p-146",
+    "alias": "pa-048",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Alphonse von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-048-p-149",
+    "alias": "pa-048",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baroness Clarice von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
       "Life dates differ (1844-1911 and 1894-1967), which points to different people"
     ],
     "band": "weak"
@@ -338,6 +2884,75 @@
     "band": "weak"
   },
   {
+    "id": "m-pa-049-p-073",
+    "alias": "pa-049",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Mayer Alphonse de Rothschild' are 85% similar, one name containing the other after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-049-p-134",
+    "alias": "pa-049",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 71% similar after dropping 'baron'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-049-p-135",
+    "alias": "pa-049",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Albert von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-049-p-139",
+    "alias": "pa-049",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baroness Clarice de Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1878-1942 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-049-p-144",
+    "alias": "pa-049",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Anselm von Rothschild' are 83% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-049-p-145",
+    "alias": "pa-049",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Nathaniel von Rothschild' are 77% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-049-p-149",
+    "alias": "pa-049",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baroness Clarice von Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1878-1942 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
     "id": "m-pa-051-p-046",
     "alias": "pa-051",
     "candidate_party": "p-046",
@@ -364,6 +2979,1447 @@
     "reasons": [
       "Names 'Clarice von Rothschild' and 'Baron Alphonse von Rothschild' are 70% similar after dropping 'baron'",
       "Life dates differ (1894-1967 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-051-p-073",
+    "alias": "pa-051",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Clarice von Rothschild' and 'Mayer Alphonse de Rothschild' are 65% similar",
+      "Life dates differ (1894-1967 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-051-p-134",
+    "alias": "pa-051",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Clarice von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 68% similar after dropping 'baron'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-051-p-135",
+    "alias": "pa-051",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Clarice von Rothschild' and 'Baron Albert von Rothschild' are 74% similar after dropping 'baron'",
+      "Life dates differ (1894-1967 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-051-p-136",
+    "alias": "pa-051",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Clarice von Rothschild' and 'Baron Alphonse von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1894-1967 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-051-p-144",
+    "alias": "pa-051",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Clarice von Rothschild' and 'Baron Anselm von Rothschild' are 74% similar after dropping 'baron'",
+      "Life dates differ (1894-1967 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-051-p-145",
+    "alias": "pa-051",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Clarice von Rothschild' and 'Baron Nathaniel von Rothschild' are 74% similar after dropping 'baron'",
+      "Life dates differ (1894-1967 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-051-p-146",
+    "alias": "pa-051",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Clarice von Rothschild' and 'Baron Alphonse von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1894-1967 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-052-p-073",
+    "alias": "pa-052",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'the Heirs of Barons Alphonse and Louis von Rothschild' and 'Mayer Alphonse de Rothschild' are 70% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-066-p-068",
+    "alias": "pa-066",
+    "candidate_party": "p-068",
+    "reasons": [
+      "Names 'Sir Simon Haughton Clarke' and 'Sir Simon H. Clarke' are 80% similar after dropping 'sir'",
+      "Life dates differ (1764-1832 and 1818-1849), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-067-p-068",
+    "alias": "pa-067",
+    "candidate_party": "p-068",
+    "reasons": [
+      "Names 'Clarke/Hibbert sale' and 'Sir Simon H. Clarke' are 61% similar after dropping 'sir'",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-069-p-065",
+    "alias": "pa-069",
+    "candidate_party": "p-065",
+    "reasons": [
+      "Names 'Sir Simon H. Clarke' and 'Sir Simon Haughton Clarke' are 80% similar after dropping 'sir'",
+      "Life dates differ (1818-1849 and 1764-1832), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-069-p-066",
+    "alias": "pa-069",
+    "candidate_party": "p-066",
+    "reasons": [
+      "Names 'Sir Simon H. Clarke' and 'Clarke/Hibbert sale' are 61% similar after dropping 'sir'",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-069-p-069",
+    "alias": "pa-069",
+    "candidate_party": "p-069",
+    "reasons": [
+      "Names 'Sir Simon H. Clarke' and 'Clarke sale' are 64% similar after dropping 'sir'",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-070-p-068",
+    "alias": "pa-070",
+    "candidate_party": "p-068",
+    "reasons": [
+      "Names 'Clarke sale' and 'Sir Simon H. Clarke' are 64% similar after dropping 'sir'",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-070-p-090",
+    "alias": "pa-070",
+    "candidate_party": "p-090",
+    "reasons": [
+      "Names 'Clarke sale' and 'Chéramy sale' are 61% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-072-p-072",
+    "alias": "pa-072",
+    "candidate_party": "p-072",
+    "reasons": [
+      "Names 'Thomas Baring' and 'Thomas George Baring' are 78.78787878787878% similar, one name containing the other",
+      "Life dates differ (1799-1873 and 1826-1904), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-073-p-071",
+    "alias": "pa-073",
+    "candidate_party": "p-071",
+    "reasons": [
+      "Names 'Thomas George Baring' and 'Thomas Baring' are 78.78787878787878% similar, one name containing the other",
+      "Life dates differ (1826-1904 and 1799-1873), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-046",
+    "alias": "pa-074",
+    "candidate_party": "p-046",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baron Anselm Mayer von Rothschild' are 88% similar after dropping 'baron'",
+      "Life dates differ (1827-1905 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-047",
+    "alias": "pa-074",
+    "candidate_party": "p-047",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baron Albert von Rothschild' are 71% similar after dropping 'baron'",
+      "Life dates differ (1827-1905 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-048",
+    "alias": "pa-074",
+    "candidate_party": "p-048",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baron Alphonse von Rothschild' are 85% similar, one name containing the other after dropping 'baron'",
+      "Life dates differ (1827-1905 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-050",
+    "alias": "pa-074",
+    "candidate_party": "p-050",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Clarice von Rothschild' are 65% similar",
+      "Life dates differ (1827-1905 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-051",
+    "alias": "pa-074",
+    "candidate_party": "p-051",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'the Heirs of Barons Alphonse and Louis von Rothschild' are 70% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-135",
+    "alias": "pa-074",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baron Albert von Rothschild' are 71% similar after dropping 'baron'",
+      "Life dates differ (1827-1905 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-136",
+    "alias": "pa-074",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baron Alphonse von Rothschild' are 85% similar, one name containing the other after dropping 'baron'",
+      "Life dates differ (1827-1905 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-139",
+    "alias": "pa-074",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baroness Clarice de Rothschild' are 65% similar after dropping 'baroness'",
+      "Life dates differ (1827-1905 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-144",
+    "alias": "pa-074",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baron Anselm von Rothschild' are 76% similar after dropping 'baron'",
+      "Life dates differ (1827-1905 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-145",
+    "alias": "pa-074",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baron Nathaniel von Rothschild' are 67% similar after dropping 'baron'",
+      "Both have a life date in common (1827-1905 and 1836-1905)"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-146",
+    "alias": "pa-074",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baron Alphonse von Rothschild' are 85% similar, one name containing the other after dropping 'baron'",
+      "Life dates differ (1827-1905 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-074-p-149",
+    "alias": "pa-074",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Mayer Alphonse de Rothschild' and 'Baroness Clarice von Rothschild' are 65% similar after dropping 'baroness'",
+      "Life dates differ (1827-1905 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-075-p-014",
+    "alias": "pa-075",
+    "candidate_party": "p-014",
+    "reasons": [
+      "Names 'Édouard' and 'Mrs. Edouard Manet' are 80% similar, one name containing the other after dropping 'mrs'",
+      "Life dates differ (1868-1949 and 1829-1906), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-075-p-127",
+    "alias": "pa-075",
+    "candidate_party": "p-127",
+    "reasons": [
+      "Names 'Édouard' and 'Eduard Fuchs' are 63% similar",
+      "Life dates differ (1868-1949 and 1870-1940), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-077-p-077",
+    "alias": "pa-077",
+    "candidate_party": "p-077",
+    "reasons": [
+      "Names 'In possession of Hermann Goering' and 'In possession of the Allies' are 69% similar",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-077-p-147",
+    "alias": "pa-077",
+    "candidate_party": "p-147",
+    "reasons": [
+      "Names 'In possession of Hermann Goering' and 'In possession of the Nazis' are 70% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-077-p-148",
+    "alias": "pa-077",
+    "candidate_party": "p-148",
+    "reasons": [
+      "Names 'In possession of Hermann Goering' and 'In possession of the Allies' are 69% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-078-p-076",
+    "alias": "pa-078",
+    "candidate_party": "p-076",
+    "reasons": [
+      "Names 'In possession of the Allies' and 'In possession of Hermann Goering' are 69% similar",
+      "Both appear in artwork cma-1959.190"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-082-p-084",
+    "alias": "pa-082",
+    "candidate_party": "p-084",
+    "reasons": [
+      "Names 'Charles Boulanger de Boisfremont' and 'Boisfremont fils sale' are 68% similar",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-085-p-081",
+    "alias": "pa-085",
+    "candidate_party": "p-081",
+    "reasons": [
+      "Names 'Boisfremont fils sale' and 'Charles Boulanger de Boisfremont' are 68% similar",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-089-p-038",
+    "alias": "pa-089",
+    "candidate_party": "p-038",
+    "reasons": [
+      "Names 'Collection Henri Rochefort' and 'Private collection' are 64% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-089-p-116",
+    "alias": "pa-089",
+    "candidate_party": "p-116",
+    "reasons": [
+      "Names 'Collection Henri Rochefort' and 'Private Collection' are 64% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-089-p-132",
+    "alias": "pa-089",
+    "candidate_party": "p-132",
+    "reasons": [
+      "Names 'Collection Henri Rochefort' and 'Private collection' are 64% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-089-p-172",
+    "alias": "pa-089",
+    "candidate_party": "p-172",
+    "reasons": [
+      "Names 'Collection Henri Rochefort' and 'Private collection' are 64% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-089-p-175",
+    "alias": "pa-089",
+    "candidate_party": "p-175",
+    "reasons": [
+      "Names 'Collection Henri Rochefort' and 'Private Collection' are 64% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-090-p-090",
+    "alias": "pa-090",
+    "candidate_party": "p-090",
+    "reasons": [
+      "Names 'Paul-Arthur Chéramy' and 'Chéramy sale' are 65% similar",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-091-p-069",
+    "alias": "pa-091",
+    "candidate_party": "p-069",
+    "reasons": [
+      "Names 'Chéramy sale' and 'Clarke sale' are 61% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-091-p-089",
+    "alias": "pa-091",
+    "candidate_party": "p-089",
+    "reasons": [
+      "Names 'Chéramy sale' and 'Paul-Arthur Chéramy' are 65% similar",
+      "Both appear in artwork cma-1964.292"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-091-p-143",
+    "alias": "pa-091",
+    "candidate_party": "p-143",
+    "reasons": [
+      "Names 'Chéramy sale' and 'Rochebousseau sale' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-093-p-099",
+    "alias": "pa-093",
+    "candidate_party": "p-099",
+    "reasons": [
+      "Names 'Chéramy estate sale' and 'Estate of Paul Cezanne' are 63% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-100-p-092",
+    "alias": "pa-100",
+    "candidate_party": "p-092",
+    "reasons": [
+      "Names 'Estate of Paul Cezanne' and 'Chéramy estate sale' are 63% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-106-p-119",
+    "alias": "pa-106",
+    "candidate_party": "p-119",
+    "reasons": [
+      "Names 'Reinhardt Galleries' and 'Knoedler Galleries' are 65% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-109-p-031",
+    "alias": "pa-109",
+    "candidate_party": "p-031",
+    "reasons": [
+      "Names 'Valentine' and 'Wildenstein & Co.' are 60% similar after dropping 'co'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-115-p-190",
+    "alias": "pa-115",
+    "candidate_party": "p-190",
+    "reasons": [
+      "Names 'Galerie Brummer' and 'Cramer' are 62% similar after dropping 'galerie'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-117-p-029",
+    "alias": "pa-117",
+    "candidate_party": "p-029",
+    "reasons": [
+      "Names 'Private Collection' and 'Possibly Gouin collection' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-117-p-088",
+    "alias": "pa-117",
+    "candidate_party": "p-088",
+    "reasons": [
+      "Names 'Private Collection' and 'Collection Henri Rochefort' are 64% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-120-p-105",
+    "alias": "pa-120",
+    "candidate_party": "p-105",
+    "reasons": [
+      "Names 'Knoedler Galleries' and 'Reinhardt Galleries' are 65% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-124-p-124",
+    "alias": "pa-124",
+    "candidate_party": "p-124",
+    "reasons": [
+      "Names 'Count Armand Doria' and 'Armand Doria sale' are 69% similar",
+      "Both appear in artwork cma-1958.23"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-125-p-123",
+    "alias": "pa-125",
+    "candidate_party": "p-123",
+    "reasons": [
+      "Names 'Armand Doria sale' and 'Count Armand Doria' are 69% similar",
+      "Both appear in artwork cma-1958.23"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-128-p-074",
+    "alias": "pa-128",
+    "candidate_party": "p-074",
+    "reasons": [
+      "Names 'Eduard Fuchs' and 'Édouard' are 63% similar",
+      "Life dates differ (1870-1940 and 1868-1949), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-133-p-029",
+    "alias": "pa-133",
+    "candidate_party": "p-029",
+    "reasons": [
+      "Names 'Private collection' and 'Possibly Gouin collection' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-133-p-088",
+    "alias": "pa-133",
+    "candidate_party": "p-088",
+    "reasons": [
+      "Names 'Private collection' and 'Collection Henri Rochefort' are 64% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-135-p-048",
+    "alias": "pa-135",
+    "candidate_party": "p-048",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Alphonse von Rothschild' are 71% similar after dropping 'baron'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-135-p-050",
+    "alias": "pa-135",
+    "candidate_party": "p-050",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Clarice von Rothschild' are 68% similar after dropping 'baron'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-135-p-136",
+    "alias": "pa-135",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Alphonse von Rothschild' are 71% similar after dropping 'baron'",
+      "Both appear in artwork cma-1948.137"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-135-p-139",
+    "alias": "pa-135",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baroness Clarice de Rothschild' are 68% similar after dropping 'baron', 'baroness'",
+      "Both appear in artwork cma-1948.137"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-135-p-145",
+    "alias": "pa-135",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Nathaniel von Rothschild' are 70% similar after dropping 'baron'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-135-p-146",
+    "alias": "pa-135",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baron Alphonse von Rothschild' are 71% similar after dropping 'baron'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-135-p-149",
+    "alias": "pa-135",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baron Anselm Mayer von Rothschild' and 'Baroness Clarice von Rothschild' are 68% similar after dropping 'baron', 'baroness'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-046",
+    "alias": "pa-136",
+    "candidate_party": "p-046",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 75% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-048",
+    "alias": "pa-136",
+    "candidate_party": "p-048",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Alphonse von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-050",
+    "alias": "pa-136",
+    "candidate_party": "p-050",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Clarice von Rothschild' are 74% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-073",
+    "alias": "pa-136",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Mayer Alphonse de Rothschild' are 71% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-136",
+    "alias": "pa-136",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Alphonse von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-139",
+    "alias": "pa-136",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baroness Clarice de Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1844-1911 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-144",
+    "alias": "pa-136",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Anselm von Rothschild' are 76% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-145",
+    "alias": "pa-136",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Nathaniel von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-146",
+    "alias": "pa-136",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baron Alphonse von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1844-1911 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-136-p-149",
+    "alias": "pa-136",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baron Albert von Rothschild' and 'Baroness Clarice von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1844-1911 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-046",
+    "alias": "pa-137",
+    "candidate_party": "p-046",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 71% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-047",
+    "alias": "pa-137",
+    "candidate_party": "p-047",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Albert von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-050",
+    "alias": "pa-137",
+    "candidate_party": "p-050",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Clarice von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-073",
+    "alias": "pa-137",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Mayer Alphonse de Rothschild' are 85% similar, one name containing the other after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-134",
+    "alias": "pa-137",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 71% similar after dropping 'baron'",
+      "Both appear in artwork cma-1948.137"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-135",
+    "alias": "pa-137",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Albert von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-139",
+    "alias": "pa-137",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baroness Clarice de Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1878-1942 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-144",
+    "alias": "pa-137",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Anselm von Rothschild' are 83% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-145",
+    "alias": "pa-137",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Nathaniel von Rothschild' are 77% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-137-p-149",
+    "alias": "pa-137",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baroness Clarice von Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1878-1942 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-046",
+    "alias": "pa-140",
+    "candidate_party": "p-046",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baron Anselm Mayer von Rothschild' are 68% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-047",
+    "alias": "pa-140",
+    "candidate_party": "p-047",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baron Albert von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-048",
+    "alias": "pa-140",
+    "candidate_party": "p-048",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baron Alphonse von Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-073",
+    "alias": "pa-140",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Mayer Alphonse de Rothschild' are 65% similar after dropping 'baroness'",
+      "Life dates differ (1894-1967 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-134",
+    "alias": "pa-140",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baron Anselm Mayer von Rothschild' are 68% similar after dropping 'baron', 'baroness'",
+      "Both appear in artwork cma-1948.137"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-135",
+    "alias": "pa-140",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baron Albert von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-136",
+    "alias": "pa-140",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baron Alphonse von Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-144",
+    "alias": "pa-140",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baron Anselm von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-145",
+    "alias": "pa-140",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baron Nathaniel von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-140-p-146",
+    "alias": "pa-140",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Baroness Clarice de Rothschild' and 'Baron Alphonse von Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-143-p-143",
+    "alias": "pa-143",
+    "candidate_party": "p-143",
+    "reasons": [
+      "Names 'Marquis de La Rochebousseau' and 'Rochebousseau sale' are 62% similar",
+      "Both appear in artwork cma-1962.256"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-144-p-090",
+    "alias": "pa-144",
+    "candidate_party": "p-090",
+    "reasons": [
+      "Names 'Rochebousseau sale' and 'Chéramy sale' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-144-p-142",
+    "alias": "pa-144",
+    "candidate_party": "p-142",
+    "reasons": [
+      "Names 'Rochebousseau sale' and 'Marquis de La Rochebousseau' are 62% similar",
+      "Both appear in artwork cma-1962.256"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-047",
+    "alias": "pa-145",
+    "candidate_party": "p-047",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baron Albert von Rothschild' are 76% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-048",
+    "alias": "pa-145",
+    "candidate_party": "p-048",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baron Alphonse von Rothschild' are 83% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-050",
+    "alias": "pa-145",
+    "candidate_party": "p-050",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Clarice von Rothschild' are 74% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-073",
+    "alias": "pa-145",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Mayer Alphonse de Rothschild' are 76% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-135",
+    "alias": "pa-145",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baron Albert von Rothschild' are 76% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-136",
+    "alias": "pa-145",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baron Alphonse von Rothschild' are 83% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-139",
+    "alias": "pa-145",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baroness Clarice de Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1803-1874 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-145",
+    "alias": "pa-145",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baron Nathaniel von Rothschild' are 81% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-146",
+    "alias": "pa-145",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baron Alphonse von Rothschild' are 83% similar after dropping 'baron'",
+      "Life dates differ (1803-1874 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-145-p-149",
+    "alias": "pa-145",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baron Anselm von Rothschild' and 'Baroness Clarice von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1803-1874 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-046",
+    "alias": "pa-146",
+    "candidate_party": "p-046",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1836-1905 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-047",
+    "alias": "pa-146",
+    "candidate_party": "p-047",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baron Albert von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1836-1905 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-048",
+    "alias": "pa-146",
+    "candidate_party": "p-048",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baron Alphonse von Rothschild' are 77% similar after dropping 'baron'",
+      "Life dates differ (1836-1905 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-050",
+    "alias": "pa-146",
+    "candidate_party": "p-050",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Clarice von Rothschild' are 74% similar after dropping 'baron'",
+      "Life dates differ (1836-1905 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-073",
+    "alias": "pa-146",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Mayer Alphonse de Rothschild' are 67% similar after dropping 'baron'",
+      "Both have a life date in common (1836-1905 and 1827-1905)"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-134",
+    "alias": "pa-146",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 70% similar after dropping 'baron'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-135",
+    "alias": "pa-146",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baron Albert von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1836-1905 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-136",
+    "alias": "pa-146",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baron Alphonse von Rothschild' are 77% similar after dropping 'baron'",
+      "Life dates differ (1836-1905 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-139",
+    "alias": "pa-146",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baroness Clarice de Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1836-1905 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-144",
+    "alias": "pa-146",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baron Anselm von Rothschild' are 81% similar after dropping 'baron'",
+      "Life dates differ (1836-1905 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-146",
+    "alias": "pa-146",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baron Alphonse von Rothschild' are 77% similar after dropping 'baron'",
+      "Life dates differ (1836-1905 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-146-p-149",
+    "alias": "pa-146",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baron Nathaniel von Rothschild' and 'Baroness Clarice von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1836-1905 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-046",
+    "alias": "pa-147",
+    "candidate_party": "p-046",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 71% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-047",
+    "alias": "pa-147",
+    "candidate_party": "p-047",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Albert von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-050",
+    "alias": "pa-147",
+    "candidate_party": "p-050",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Clarice von Rothschild' are 70% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-073",
+    "alias": "pa-147",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Mayer Alphonse de Rothschild' are 85% similar, one name containing the other after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-134",
+    "alias": "pa-147",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 71% similar after dropping 'baron'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-135",
+    "alias": "pa-147",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Albert von Rothschild' are 78% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-139",
+    "alias": "pa-147",
+    "candidate_party": "p-139",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baroness Clarice de Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1878-1942 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-144",
+    "alias": "pa-147",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Anselm von Rothschild' are 83% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-145",
+    "alias": "pa-147",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baron Nathaniel von Rothschild' are 77% similar after dropping 'baron'",
+      "Life dates differ (1878-1942 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-147-p-149",
+    "alias": "pa-147",
+    "candidate_party": "p-149",
+    "reasons": [
+      "Names 'Baron Alphonse von Rothschild' and 'Baroness Clarice von Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1878-1942 and 1894-1967), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-148-p-076",
+    "alias": "pa-148",
+    "candidate_party": "p-076",
+    "reasons": [
+      "Names 'In possession of the Nazis' and 'In possession of Hermann Goering' are 70% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-149-p-076",
+    "alias": "pa-149",
+    "candidate_party": "p-076",
+    "reasons": [
+      "Names 'In possession of the Allies' and 'In possession of Hermann Goering' are 69% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-046",
+    "alias": "pa-150",
+    "candidate_party": "p-046",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 68% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-047",
+    "alias": "pa-150",
+    "candidate_party": "p-047",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baron Albert von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-048",
+    "alias": "pa-150",
+    "candidate_party": "p-048",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baron Alphonse von Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-073",
+    "alias": "pa-150",
+    "candidate_party": "p-073",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Mayer Alphonse de Rothschild' are 65% similar after dropping 'baroness'",
+      "Life dates differ (1894-1967 and 1827-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-134",
+    "alias": "pa-150",
+    "candidate_party": "p-134",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baron Anselm Mayer von Rothschild' are 68% similar after dropping 'baron', 'baroness'"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-135",
+    "alias": "pa-150",
+    "candidate_party": "p-135",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baron Albert von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1844-1911), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-136",
+    "alias": "pa-150",
+    "candidate_party": "p-136",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baron Alphonse von Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-144",
+    "alias": "pa-150",
+    "candidate_party": "p-144",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baron Anselm von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1803-1874), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-145",
+    "alias": "pa-150",
+    "candidate_party": "p-145",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baron Nathaniel von Rothschild' are 74% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1836-1905), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-150-p-146",
+    "alias": "pa-150",
+    "candidate_party": "p-146",
+    "reasons": [
+      "Names 'Baroness Clarice von Rothschild' and 'Baron Alphonse von Rothschild' are 70% similar after dropping 'baron', 'baroness'",
+      "Life dates differ (1894-1967 and 1878-1942), which points to different people"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-173-p-029",
+    "alias": "pa-173",
+    "candidate_party": "p-029",
+    "reasons": [
+      "Names 'Private collection' and 'Possibly Gouin collection' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-173-p-088",
+    "alias": "pa-173",
+    "candidate_party": "p-088",
+    "reasons": [
+      "Names 'Private collection' and 'Collection Henri Rochefort' are 64% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-176-p-029",
+    "alias": "pa-176",
+    "candidate_party": "p-029",
+    "reasons": [
+      "Names 'Private Collection' and 'Possibly Gouin collection' are 60% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-176-p-088",
+    "alias": "pa-176",
+    "candidate_party": "p-088",
+    "reasons": [
+      "Names 'Private Collection' and 'Collection Henri Rochefort' are 64% similar"
+    ],
+    "band": "weak"
+  },
+  {
+    "id": "m-pa-191-p-114",
+    "alias": "pa-191",
+    "candidate_party": "p-114",
+    "reasons": [
+      "Names 'Cramer' and 'Galerie Brummer' are 62% similar after dropping 'galerie'"
     ],
     "band": "weak"
   }

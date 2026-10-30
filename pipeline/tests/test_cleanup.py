@@ -19,7 +19,7 @@ def _events(model, accession):
 def test_every_cleaned_value_cites_words_that_are_really_in_the_source():
     model = build(ROOT / "data/raw/cleveland", ACCESSIONS).model
 
-    assert len(model.artworks) == 6
+    assert len(model.artworks) == len(ACCESSIONS)
     assert check_claims_against_raw(model, ROOT) == []
 
 

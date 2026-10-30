@@ -1,0 +1,329 @@
+{
+  "places": [
+    {
+      "id": "amsterdam",
+      "label": "Amsterdam",
+      "lat": 52.36666666666667,
+      "lon": 4.883333333333333,
+      "precision": "city",
+      "wikidataId": "Q727",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "austria",
+      "label": "Austria",
+      "lat": 48,
+      "lon": 14,
+      "precision": "country",
+      "wikidataId": "Q40",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "barmen",
+      "label": "Barmen",
+      "lat": 51.2694,
+      "lon": 7.19167,
+      "precision": "city",
+      "source": "manual",
+      "retrievedAt": "2026-10-30",
+      "wikidataId": "Q13388983",
+      "note": "historical name; now part of Wuppertal, Germany (Wikidata: district of Wuppertal)"
+    },
+    {
+      "id": "basel",
+      "label": "Basel",
+      "lat": 47.558055555555555,
+      "lon": 7.587777777777777,
+      "precision": "city",
+      "wikidataId": "Q78",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "berlin",
+      "label": "Berlin",
+      "lat": 52.516666666667,
+      "lon": 13.383333333333,
+      "precision": "city",
+      "wikidataId": "Q64",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "berlin-zehlendorf",
+      "label": "Berlin-Zehlendorf",
+      "lat": 52.434,
+      "lon": 13.259,
+      "precision": "city",
+      "source": "manual",
+      "retrievedAt": "2026-10-30",
+      "wikidataId": "Q324402",
+      "note": "locality (Ortsteil) of Berlin, in the borough of Steglitz-Zehlendorf; coordinates of the locality"
+    },
+    {
+      "id": "boston",
+      "label": "Boston",
+      "lat": 42.360277777777775,
+      "lon": -71.05777777777777,
+      "precision": "city",
+      "wikidataId": "Q100",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "chantilly",
+      "label": "Chantilly",
+      "lat": 49.186944444444,
+      "lon": 2.4608333333333,
+      "precision": "city",
+      "wikidataId": "Q126675",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "cleveland",
+      "label": "Cleveland",
+      "lat": 41.49916666666667,
+      "lon": -81.69472222222223,
+      "precision": "city",
+      "wikidataId": "Q37320",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "dusseldorf",
+      "label": "Düsseldorf",
+      "lat": 51.22555555555556,
+      "lon": 6.776666666666666,
+      "precision": "city",
+      "wikidataId": "Q1718",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "ferrieres",
+      "label": "Ferrières",
+      "lat": 48.8214,
+      "lon": 2.7047,
+      "precision": "city",
+      "source": "manual",
+      "retrievedAt": "2026-10-30",
+      "wikidataId": "Q1453372",
+      "note": "Ferrières-en-Brie, Seine-et-Marne (site of the Rothschild Château de Ferrières); an automatic search chose a different Ferrières in the Somme, so this is hand-checked"
+    },
+    {
+      "id": "hartford",
+      "label": "Hartford",
+      "lat": 41.763333333333,
+      "lon": -72.685,
+      "precision": "city",
+      "wikidataId": "Q33486",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "hertfordshire",
+      "label": "Hertfordshire",
+      "lat": 51.9,
+      "lon": -0.2,
+      "precision": "region",
+      "wikidataId": "Q3410",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "hoevelaken",
+      "label": "Hoevelaken",
+      "lat": 52.1742,
+      "lon": 5.4597,
+      "precision": "city",
+      "wikidataId": "Q3056778",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "london",
+      "label": "London",
+      "lat": 51.507222222222,
+      "lon": -0.1275,
+      "precision": "city",
+      "wikidataId": "Q84",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "lucerne",
+      "label": "Lucerne",
+      "lat": 47.0523,
+      "lon": 8.3059,
+      "precision": "city",
+      "wikidataId": "Q4191",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "munich",
+      "label": "Munich",
+      "lat": 48.1375,
+      "lon": 11.575,
+      "precision": "city",
+      "wikidataId": "Q1726",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "new-york",
+      "label": "New York",
+      "lat": 40.71277777777778,
+      "lon": -74.00611111111111,
+      "precision": "city",
+      "source": "manual",
+      "retrievedAt": "2026-10-30",
+      "wikidataId": "Q60",
+      "note": "New York City; a Wikidata search for the bare label returns the state first"
+    },
+    {
+      "id": "oslo",
+      "label": "Oslo",
+      "lat": 59.913333333333334,
+      "lon": 10.738888888888889,
+      "precision": "city",
+      "wikidataId": "Q585",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "paris",
+      "label": "Paris",
+      "lat": 48.85666666666667,
+      "lon": 2.352222222222222,
+      "precision": "city",
+      "wikidataId": "Q90",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "prague",
+      "label": "Prague",
+      "lat": 50.0875,
+      "lon": 14.421388888888888,
+      "precision": "city",
+      "wikidataId": "Q1085",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "shaker-heights",
+      "label": "Shaker Heights",
+      "lat": 41.476388888889,
+      "lon": -81.551666666667,
+      "precision": "city",
+      "wikidataId": "Q1065497",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "st-gallen",
+      "label": "St. Gallen",
+      "lat": 47.423333333333,
+      "lon": 9.3772222222222,
+      "precision": "city",
+      "wikidataId": "Q25607",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "surrey",
+      "label": "Surrey",
+      "lat": 51.25,
+      "lon": -0.45,
+      "precision": "region",
+      "wikidataId": "Q23276",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "the-hague",
+      "label": "The Hague",
+      "lat": 52.08,
+      "lon": 4.31,
+      "precision": "city",
+      "wikidataId": "Q36600",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "utrecht",
+      "label": "Utrecht",
+      "lat": 52.090833333333336,
+      "lon": 5.121666666666667,
+      "precision": "city",
+      "wikidataId": "Q803",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "vienna",
+      "label": "Vienna",
+      "lat": 48.208333333333336,
+      "lon": 16.3725,
+      "precision": "city",
+      "wikidataId": "Q1741",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "washington-d-c",
+      "label": "Washington, D.C.",
+      "lat": 38.895,
+      "lon": -77.036666666667,
+      "precision": "city",
+      "wikidataId": "Q61",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    },
+    {
+      "id": "zurich",
+      "label": "Zurich",
+      "lat": 47.37444444444444,
+      "lon": 8.54111111111111,
+      "precision": "city",
+      "wikidataId": "Q72",
+      "source": "wikidata",
+      "retrievedAt": "2026-10-30"
+    }
+  ],
+  "labels": {
+    "Amsterdam": "amsterdam",
+    "Austria": "austria",
+    "Barmen": "barmen",
+    "Basel": "basel",
+    "Berlin": "berlin",
+    "Berlin-Zehlendorf": "berlin-zehlendorf",
+    "Boston": "boston",
+    "Chantilly": "chantilly",
+    "Cleveland": "cleveland",
+    "Düsseldorf": "dusseldorf",
+    "Ferrières": "ferrieres",
+    "Hartford": "hartford",
+    "Hertfordshire": "hertfordshire",
+    "Hoevelaken": "hoevelaken",
+    "London": "london",
+    "Lucerne": "lucerne",
+    "Munich": "munich",
+    "New York": "new-york",
+    "Oslo": "oslo",
+    "Paris": "paris",
+    "Prague": "prague",
+    "Shaker Heights": "shaker-heights",
+    "St. Gallen": "st-gallen",
+    "Surrey": "surrey",
+    "The Hague": "the-hague",
+    "Utrecht": "utrecht",
+    "Vienna": "vienna",
+    "Washington, D.C.": "washington-d-c",
+    "Zurich": "zurich"
+  }
+}

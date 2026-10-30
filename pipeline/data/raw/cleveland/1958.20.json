@@ -1,0 +1,414 @@
+{
+  "source": "cleveland",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.20",
+  "retrieved_at": "2026-10-30T00:29:31Z",
+  "version": "2026-07-29 11:09:49.665000",
+  "payload": {
+    "id": 135173,
+    "accession_number": "1958.20",
+    "share_license_status": "CC0",
+    "tombstone": "The Brook, c. 1895–1900. Paul Cezanne (French, 1839–1906). Oil on fabric; framed: 74.9 x 97.2 x 8.3 cm (29 1/2 x 38 1/4 x 3 1/4 in.); unframed: 59.2 x 81 cm (23 5/16 x 31 7/8 in.). The Cleveland Museum of Art, Bequest of Leonard C. Hanna Jr., 1958.20",
+    "current_location": "222 Impressionism & Post-Impressionism",
+    "title": "The Brook",
+    "creation_date": "c. 1895–1900",
+    "creation_date_earliest": 1895,
+    "creation_date_latest": 1900,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "France, late 19th-early 20th Century"
+    ],
+    "technique": "oil on fabric",
+    "support_materials": [],
+    "department": "Modern European Painting and Sculpture",
+    "collection": "Mod Euro - Painting 1800-1960",
+    "type": "Painting",
+    "measurements": "Framed: 74.9 x 97.2 x 8.3 cm (29 1/2 x 38 1/4 x 3 1/4 in.); Unframed: 59.2 x 81 cm (23 5/16 x 31 7/8 in.)",
+    "dimensions": {
+      "framed": {
+        "height": 0.749,
+        "height_inch": 29,
+        "height_inch_fraction": 0.5,
+        "width": 0.972,
+        "width_inch": 38,
+        "width_inch_fraction": 0.25,
+        "depth": 0.083,
+        "depth_inch": 3,
+        "depth_inch_fraction": 0.25
+      },
+      "unframed": {
+        "height": 0.592,
+        "height_inch": 23,
+        "height_inch_fraction": 0.3125,
+        "width": 0.81,
+        "width_inch": 31,
+        "width_inch_fraction": 0.875
+      }
+    },
+    "state_of_the_work": null,
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 703013,
+          "title": "Highlights of the 19th Century",
+          "description": "<i>Highlights of the 19th Century</i>. Akron Art Museum, Akron, OH (organizer) (March 3-31, 1959).",
+          "opening_date": "1959-03-03T05:00:00"
+        },
+        {
+          "id": 338838,
+          "title": "Masterpiece of the Month",
+          "description": "<i>Masterpiece of the Month</i>. Akron Art Museum (organizer) (April 2-26, 1959).",
+          "opening_date": "1959-04-02T05:00:00"
+        },
+        {
+          "id": 444758,
+          "title": "セザンヌ展 (Paul Cezanne Exhibition)",
+          "description": "<i>セザンヌ展 (Paul Cezanne Exhibition)</i>. National Museum of Western Art, Tokyo, Tokyo, Japan (organizer) (March 29-May 25, 1974); Kyoto Municipal Museum of Art, Kyoto, Japan (June 1-July 17, 1974); Fukuoka Art Museum, Fukuoka, Japan (July 24-August 18, 1974).",
+          "opening_date": "1974-03-29T04:00:00"
+        },
+        {
+          "id": 338835,
+          "title": "Cezanne Retrospective",
+          "description": "<i>Cezanne Retrospective</i>. Künsthalle Tubingen, D-72076 Tübingen, Germany (organizer) (January 16-April 27, 1993).",
+          "opening_date": "1993-01-16T05:00:00"
+        },
+        {
+          "id": 223815,
+          "title": "Cezanne au fil de l'eau",
+          "description": "<i>Cezanne au fil de l'eau</i>. Musée Granet, 13100 Aix-en-Provence, France (organizer) (June 15-September 15, 2000).",
+          "opening_date": "2000-06-15T00:00:00"
+        },
+        {
+          "id": 182153,
+          "title": "Monet to Dalí: Modern Masters from the Cleveland Museum of Art",
+          "description": "<i>Monet to Dalí: Modern Masters from the Cleveland Museum of Art</i>. Beijing World Art Museum (May 26-August 27, 2006); Mori Art Center (September 16-November 26, 2006); Seoul Art Center, South Korea (December 22, 2006-March 28, 2007); Seoul Olympic Museum of Art, South Korea (April 7-May 20, 2007); Vancouver Art Gallery, Vancouver, Canada (June 9-September 16, 2007); The Cleveland Museum of Art, Cleveland, OH (organizer) (October 21, 2007-January 13, 2008); Frist Art Museum, Nashville, TN (February 15-June 1, 2008); Utah Museum of Fine Arts, Salt Lake City, UT (June 22-September 21, 2008); The Detroit Institute of Arts, Detroit, MI (October 12, 2008-January 18, 2009).",
+          "opening_date": "2006-05-27T00:00:00"
+        }
+      ],
+      "legacy": [
+        {
+          "description": "Galerie Heinemann. Possibly Munich, Germany (1928),",
+          "opening_date": "1928-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Modern Paintings from Boston Collections</em>. Institute of Modern Art, Boston, MA (1937).",
+          "opening_date": "1937-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Art in New England-Paintings, Drawings, Prints from Private Collections in New England</em>. Museum of Fine Arts, Boston. MA (1939).",
+          "opening_date": "1939-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Centennial Exhibition 1839-1939</em>. Marie Harriman Gallery, New York, NY (1939).",
+          "opening_date": "1939-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Summer Loan - group of fourteen Hanna paintings on loan</em>. Metropolitan Museum of Art, New York, NY. (June-September 1949).",
+          "opening_date": "1949-06-01T00:00:00"
+        },
+        {
+          "description": "<em>Cézanne-Rarely Shown Works</em>. Fine Arts Associates, New York, NY (1952).",
+          "opening_date": "1952-01-01T00:00:00"
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "description": "Ambroise Vollard [1866-1939], Paris, France",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 1
+      },
+      {
+        "description": "Walther Halvorsen [1887-1972]. Oslo, Norway",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 2
+      },
+      {
+        "description": "(Galerie Brummer, Paris, France/New York, NY)",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 3
+      },
+      {
+        "description": "(Galerie Heinemann, Munich, Germany, by 1928, sold to a Private Collection)",
+        "citations": [],
+        "footnotes": [],
+        "date": "by 1928",
+        "sortorder": 4
+      },
+      {
+        "description": "Private Collection, Vienna, Austria",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 5
+      },
+      {
+        "description": "Robert Treat Paine, Jr., Boston, MA",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 6
+      },
+      {
+        "description": "Thomas Metcalf, Boston, MA",
+        "citations": [],
+        "footnotes": [],
+        "date": "by 1939",
+        "sortorder": 7
+      },
+      {
+        "description": "(Knoedler Galleries, New York, NY)",
+        "citations": [],
+        "footnotes": [],
+        "date": null,
+        "sortorder": 8
+      },
+      {
+        "description": "(Sam Salz, New York, NY, March 12, 1945, sold to Leonard C. Hanna, Jr.)",
+        "citations": [],
+        "footnotes": [],
+        "date": "1945",
+        "sortorder": 9
+      },
+      {
+        "description": "Leonard C. Hanna, Jr. [1889-1957], Cleveland, OH, bequeathed to the Cleveland Museum of Art",
+        "citations": [],
+        "footnotes": [],
+        "date": "1945-1958",
+        "sortorder": 10
+      },
+      {
+        "description": "The Cleveland Museum of Art, Cleveland, OH",
+        "citations": [],
+        "footnotes": [],
+        "date": "1958-",
+        "sortorder": 11
+      }
+    ],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [],
+    "did_you_know": "Cezanne rarely did preparatory sketches for his paintings. The shapes on the canvas are provided by tonal contrasts and color sensation.",
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "Although Cezanne exhibited twice with the Impressionists, he rejected his friends’ goals of capturing the fleeting effects of light and atmosphere in their art. Instead, he sought to create balance among the forms and colors in his compositions. This painting depicts the valley of the Arc River that runs southeast of Cezanne’s home in Aix-en-Provence. Throughout the composition, he juxtaposed strokes of different hues, describing the leaves, branches, and the stream with color rather than drawing the outlines of forms.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q60517676"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-1958.20-the-brook"
+      ]
+    },
+    "citations": [
+      {
+        "citation": "Venturi, Lionello. <em>Cézanne, Son Art, Son Oeuvre; 1,600 Illustrations</em>. Paris: P. Rosenberg, 1936.",
+        "page_number": "Mentioned: vol. 1, p. 233, no. 783; reproduced: vol. 2, pl. 258, no. 783",
+        "url": null
+      },
+      {
+        "citation": "Coe, Nancy. <em>The History of the Collecting of European Paintings and Drawings in the City of Cleveland.</em> Thesis M.A. Oberlin College 1955.",
+        "page_number": "Reproduced: vol. 2, p. 71",
+        "url": null
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>In Memoriam: Leonard C. Hanna, Jr.</em> Cleveland: The Museum, 1958.",
+        "page_number": "Mentioned and reproduced: no. 4",
+        "url": null
+      },
+      {
+        "citation": "\"Great Show of French Masters: Cleveland Celebrates Legacy of Hanna Collection.\" <em>Life</em> 45, no. 8 (August 25, 1958): 41-46.",
+        "page_number": "Reproduced: p. 43",
+        "url": null
+      },
+      {
+        "citation": "Henning, E. B. “Cleveland Museum of Art: From Turner to Guston.” <em>Apollo: The International Magazine for Collectors</em> 78 (December 1963): 481–88.",
+        "page_number": "Reproduced: p. 485",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1966</em>. Cleveland, OH: The Cleveland Museum of Art, 1966.",
+        "page_number": "Reproduced: p. 177",
+        "url": "https://archive.org/details/CMAHandbook1966/page/n201"
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1969</em>. Cleveland, OH: The Cleveland Museum of Art, 1969.",
+        "page_number": "Reproduced: p. 177",
+        "url": "https://archive.org/details/CMAHandbook1969/page/n201"
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>Art of the Twentieth Century in the Cleveland Museum of Art</em>. Cleveland, OH: Dept. of Art History &amp; Education, CMA, 1969.",
+        "page_number": "Mentioned p. 1",
+        "url": "https://archive.org/details/20thCenturyArtCMA/page/n1"
+      },
+      {
+        "citation": "Orienti, Sandra. <em>The Complete Paintings of Cézanne.</em> New York: H.N. Abrams, 1972.",
+        "page_number": "Reproduced: p. 120, no. 746",
+        "url": null
+      },
+      {
+        "citation": "Reff, Theodore, William Rubin, et. al. <em>Cézanne: The Late Work: Essays. </em>New York: Museum of Modern Art, 1977.",
+        "page_number": "Mentioned: p. 26; reproduced: p. 273, pl. 70",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1978</em>. Cleveland, OH: The Cleveland Museum of Art, 1978.",
+        "page_number": "Reproduced: p. 219",
+        "url": "https://archive.org/details/CMAHandbook1978/page/n239"
+      },
+      {
+        "citation": "Hata, Kōhei, Kazuo Anazawa, and Kunio Motoe. <em>Sezannu.</em> Tokyo: Shōgakkan, Shōwa 54, 1979.",
+        "page_number": "Reproduced: fig. 50",
+        "url": null
+      },
+      {
+        "citation": "Bourges, M. R. <em>Itinéraires de Cézanne</em>. [Aix-en-Provence]: Ville d'Aix-en-Provence, 1982.",
+        "page_number": "Reproduced: La Vallee de l'Arc, fig. 1",
+        "url": null
+      },
+      {
+        "citation": "Landau, Ellen G. \"Space and Pictorial Life: Hans Hofmann's <em>Smaragd Red and Germinating Yellow</em>.\" The Bulletin of the Cleveland Museum of Art. 72, no. 5 (September 1985): 310-323.",
+        "page_number": "Mentioned and reproduced: p. 316, fig. 11",
+        "url": null
+      },
+      {
+        "citation": "Chong, Alan. <em>European &amp; American Painting in the Cleveland Museum of Art: A Summary Catalogue.</em> Cleveland, Ohio: Cleveland Museum of Art, 1993.",
+        "page_number": "Reproduced: p. 33",
+        "url": null
+      },
+      {
+        "citation": "Adriani, Götz, Paul Cézanne, and Walter Feilchenfeldt. <em>Cezanne: Gemälde</em>. Köln: DuMont, 1993.",
+        "page_number": "Referenced: cat. no. 75, Reproduced",
+        "url": null
+      },
+      {
+        "citation": "Patin, Sylvie. <em>Cézann</em>e. Paris: Réunion des Musées Nationaux, 1995.",
+        "page_number": "Reproduced: p. 76",
+        "url": null
+      },
+      {
+        "citation": "Orienti, Sandra. <em>Tout l'Oeuvre Peint de Cézann</em>e. Paris: Flammarion, 1995.",
+        "page_number": "Reproduced: p. 120, no. 746",
+        "url": null
+      },
+      {
+        "citation": "Rewald, John, Walter Feilchenfeldt, and Jayne Warman. <em>The Paintings of Paul Cézanne: A Catalogue Raisonné.</em> New York: Harry N. Abrams, 1996.",
+        "page_number": "Mentioned: vol. 1, p. 465, no. 766",
+        "url": null
+      },
+      {
+        "citation": "D' Argencourt, Louise and Roger Diederen. <em>Catalogue of Paintings. Pt. 4. European Paintings of the 19th Century.</em> Cleveland: Cleveland Museum of Art, 1999.",
+        "page_number": "Mentioned and reproduced: v.1, p.125-126, no. 47",
+        "url": null
+      },
+      {
+        "citation": "Sims, Lowery Stokes. <em>The Persistence of Geometry: Form, Content, and Culture in the Collection of the Cleveland Museum of Art.</em> Cleveland: Cleveland Museum of Art, 2006.",
+        "page_number": "Mentioned: p. 56; reproduced: p. 58, fig. 8",
+        "url": null
+      },
+      {
+        "citation": "Mothe, Alain. Ce Que Voyait Cézanne: Les Paysages Impressionnistes à la Lumière des Cartes Postales. Paris: RMN Editions, Grandpalais, 2011.",
+        "page_number": "Reproduced: p. 121",
+        "url": null
+      }
+    ],
+    "url": "https://clevelandart.org/art/1958.20",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.20/1958.20_web.jpg",
+        "width": "900",
+        "height": "651",
+        "filesize": "318429",
+        "filename": "1958.20_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.20/1958.20_print.jpg",
+        "width": "3400",
+        "height": "2460",
+        "filesize": "4116585",
+        "filename": "1958.20_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.20/1958.20_full.tif",
+        "width": "15414",
+        "height": "11154",
+        "filesize": "515816820",
+        "filename": "1958.20_full.tif"
+      }
+    },
+    "alternate_images": [
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.20/1958.20_alt0_web.jpg",
+          "width": "1239",
+          "height": "893",
+          "filesize": "914203"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.20/1958.20_alt0_print.jpg",
+          "width": "3400",
+          "height": "2451",
+          "filesize": "6579161"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.20/1958.20_alt0_full.tif",
+          "width": "5670",
+          "height": "4088",
+          "filesize": "69572828"
+        },
+        "date_created": "2007-10-19T16:28:41",
+        "annotation": ""
+      }
+    ],
+    "creditline": "Bequest of Leonard C. Hanna Jr.",
+    "image_credit": null,
+    "sketchfab_id": null,
+    "sketchfab_url": null,
+    "gallery_donor_text": "Nancy F. and Joseph P. Keithley Gallery",
+    "athena_id": 135173,
+    "creators": [
+      {
+        "id": 1754,
+        "description": "Paul Cezanne (French, 1839–1906)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": "The son of a wealthy banker, Cézanne began his studies in Aix-en-Provence at the École Saint-Joseph in 1849, then attended the Collège Bourbon from 1852 until 1858. Émile Zola, the future author, was to become one of his closest friends. Cézanne enrolled at the École Gratuite de Dessin in 1857, entering the studio of Joseph Gibert (1806-1884). Two years later, complying with his father's wishes, he began studying law at the Université d'Aix while still at the École Gratuite de Dessin. In 1861 Cézanne finally left law school and followed Zola to Paris where he met Pissarro (q.v.) at the Académie Suisse. Probably after his failure to enter the École des Beaux-Arts, he returned to Aix and began working at his father's bank. In 1862, however, Cézanne returned to Paris, where he studied at the Académie Suisse and copied the works of the Old Masters in the Louvre. The works he produced during this period reflect the influence of Spanish painters such as Ribera (1591-1562) and Zurbarán (1598-1664), and other predecessors such as Delacroix (q.v.). His submissions to the Salons of 1865 through 1870 (and even through 1881) did not receive the jury's approval; the reinstatement of the Salon des Refusés was repeatedly but unsuccessfully demanded. Cézanne traveled often between Aix and Paris until 1870. To escape the Franco-Prussian War (1870-71) he stayed in the south in L'Estaque, along with his mistress, Hortense Fiquet, whom he had met in 1869. Cézanne moved back north to Pontoise with Hortense and his son, Paul, in 1872 and worked with Pissarro and met Dr. Paul Gachet. The following year he moved again to nearby Auvers-sur-Oise with his family, continuing his work with Pissarro. In 1874 and 1877 Cézanne participated in the first and third impressionist exhibitions, but the severe criticism of his works led him to abstain from using this venue again. In 1878 his father learned of the existence of Hortense and Paul, who at that point were living in Marseille, and threatened to discontinue his allowance. While in the Midi, Cézanne often worked with Monticelli (q.v.). His art increasingly matured, and he began concentrating on the order and internal structure within his compositions, limiting his palette. During these years he also met Gauguin (q.v.) and Renoir (q.v.), and always trav-eled, chiefly between Aix and L'Estaque. In 1886 Cézanne married Hortense, his father died, and the inheritance provided him with the financial means to live without constraints. He bought a house in Marlotte near Fontainebleau in 1892. In 1895 he had his first solo show at the gallery of Ambroise Vollard, who two years later bought all the artist's works from his studio near Corbeil. The dealer Paul Durand-Ruel became another important client. Cézanne participated in the Salon des Indépendants in 1899, 1901, and 1902 and exhibited at La Libre Esthétique in Brussels in 1901 and 1904, the Secession in Vienna in 1903, and the Salon d'Automne in 1904-6. He continued to study the underlying structure of nature, at times approaching abstraction by denying traditional perspective and using multiple viewpoints. He also began leaving portions of the canvas bare, giving some works an unfinished appearance. Cézanne's work had a tremendous influence on the artists of his time as well as those of subsequent generations, and he is considered one of the most influential figures in the development of modern art.",
+        "name_in_original_language": null,
+        "birth_year": "1839",
+        "death_year": "1906",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "1958-11-29T00:00:00",
+    "sortable_date": 1895,
+    "date_added_to_oa": null,
+    "date_text": "c. 1895–1900",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": false,
+    "impression": null,
+    "alternate_titles": [],
+    "is_highlight": false,
+    "updated_at": "2026-07-29 11:09:49.665000"
+  }
+}

@@ -346,5 +346,809 @@
     "preferred_name": "The Cleveland Museum of Art",
     "kind": "organization",
     "life_dates": null
+  },
+  {
+    "id": "p-059",
+    "preferred_name": "Wouter Valckenier and family",
+    "kind": "person",
+    "life_dates": "1705-1784"
+  },
+  {
+    "id": "p-060",
+    "preferred_name": "Elisabeth Hooft",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-061",
+    "preferred_name": "C. Blasius",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-062",
+    "preferred_name": "Van Coevorden1",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-063",
+    "preferred_name": "Michael Bryan",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-064",
+    "preferred_name": "Coxe",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-065",
+    "preferred_name": "Sir Simon Haughton Clarke",
+    "kind": "person",
+    "life_dates": "1764-1832"
+  },
+  {
+    "id": "p-066",
+    "preferred_name": "Clarke/Hibbert sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-067",
+    "preferred_name": "Sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-068",
+    "preferred_name": "Sir Simon H. Clarke",
+    "kind": "person",
+    "life_dates": "1818-1849"
+  },
+  {
+    "id": "p-069",
+    "preferred_name": "Clarke sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-070",
+    "preferred_name": "C. Nieuwenhuys",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-071",
+    "preferred_name": "Thomas Baring",
+    "kind": "person",
+    "life_dates": "1799-1873"
+  },
+  {
+    "id": "p-072",
+    "preferred_name": "Thomas George Baring",
+    "kind": "person",
+    "life_dates": "1826-1904"
+  },
+  {
+    "id": "p-073",
+    "preferred_name": "Mayer Alphonse de Rothschild",
+    "kind": "person",
+    "life_dates": "1827-1905"
+  },
+  {
+    "id": "p-074",
+    "preferred_name": "Édouard",
+    "kind": "person",
+    "life_dates": "1868-1949"
+  },
+  {
+    "id": "p-075",
+    "preferred_name": "In possession of the Einsatzstab Reichsleiter Rosenberg",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-076",
+    "preferred_name": "In possession of Hermann Goering",
+    "kind": "person",
+    "life_dates": "1893-1946"
+  },
+  {
+    "id": "p-077",
+    "preferred_name": "In possession of the Allies",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-078",
+    "preferred_name": "Rosenberg & Stiebel",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-079",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-080",
+    "preferred_name": "Studio of the artist",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-081",
+    "preferred_name": "Charles Boulanger de Boisfremont",
+    "kind": "person",
+    "life_dates": "1773-1838"
+  },
+  {
+    "id": "p-082",
+    "preferred_name": "Probably Henri Power",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-083",
+    "preferred_name": "Probably Charles Boulanger de Boisfremont fils",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-084",
+    "preferred_name": "Boisfremont fils sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-085",
+    "preferred_name": "Monsieur de Norzy",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-086",
+    "preferred_name": "M. Jeanne-Deslandes",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-087",
+    "preferred_name": "Sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-088",
+    "preferred_name": "Collection Henri Rochefort",
+    "kind": "organization",
+    "life_dates": "1831-1913"
+  },
+  {
+    "id": "p-089",
+    "preferred_name": "Paul-Arthur Chéramy",
+    "kind": "person",
+    "life_dates": "1840-1912"
+  },
+  {
+    "id": "p-090",
+    "preferred_name": "Chéramy sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-091",
+    "preferred_name": "Probably Paul-Arthur Chéramy",
+    "kind": "person",
+    "life_dates": "1840-1912"
+  },
+  {
+    "id": "p-092",
+    "preferred_name": "Chéramy estate sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-093",
+    "preferred_name": "Jacob",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-094",
+    "preferred_name": "David David-Weill",
+    "kind": "person",
+    "life_dates": "1871-1952"
+  },
+  {
+    "id": "p-095",
+    "preferred_name": "Irwin Laughlin",
+    "kind": "person",
+    "life_dates": "1871-1941"
+  },
+  {
+    "id": "p-096",
+    "preferred_name": "Laughlin sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-097",
+    "preferred_name": "Severance A.",
+    "kind": "person",
+    "life_dates": "1895-1989"
+  },
+  {
+    "id": "p-098",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-099",
+    "preferred_name": "Estate of Paul Cezanne",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-100",
+    "preferred_name": "Ambroise Vollard",
+    "kind": "person",
+    "life_dates": "1866-1939"
+  },
+  {
+    "id": "p-101",
+    "preferred_name": "Bernheim-Jeune",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-102",
+    "preferred_name": "Galerie Barbazanges",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-103",
+    "preferred_name": "Auguste Pellerin",
+    "kind": "person",
+    "life_dates": "1853-1929"
+  },
+  {
+    "id": "p-104",
+    "preferred_name": "Alphonse Kann",
+    "kind": "person",
+    "life_dates": "1870-1948"
+  },
+  {
+    "id": "p-105",
+    "preferred_name": "Reinhardt Galleries",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-106",
+    "preferred_name": "Paul Guillaume",
+    "kind": "person",
+    "life_dates": "1891-1934"
+  },
+  {
+    "id": "p-107",
+    "preferred_name": "Ms. Juliette \"Domenica\" Guillaume",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-108",
+    "preferred_name": "Valentine",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-109",
+    "preferred_name": "Leonard C. Hanna Jr",
+    "kind": "person",
+    "life_dates": "1889-1957"
+  },
+  {
+    "id": "p-110",
+    "preferred_name": "Leonard C. Hanna",
+    "kind": "person",
+    "life_dates": "1889-1957"
+  },
+  {
+    "id": "p-111",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-112",
+    "preferred_name": "Ambroise Vollard",
+    "kind": "person",
+    "life_dates": "1866-1939"
+  },
+  {
+    "id": "p-113",
+    "preferred_name": "Walther Halvorsen",
+    "kind": "person",
+    "life_dates": "1887-1972"
+  },
+  {
+    "id": "p-114",
+    "preferred_name": "Galerie Brummer",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-115",
+    "preferred_name": "Galerie Heinemann",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-116",
+    "preferred_name": "Private Collection",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-117",
+    "preferred_name": "Robert Treat Paine, Jr.",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-118",
+    "preferred_name": "Thomas Metcalf",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-119",
+    "preferred_name": "Knoedler Galleries",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-120",
+    "preferred_name": "Sam Salz",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-121",
+    "preferred_name": "Leonard C. Hanna, Jr.",
+    "kind": "person",
+    "life_dates": "1889-1957"
+  },
+  {
+    "id": "p-122",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-123",
+    "preferred_name": "Count Armand Doria",
+    "kind": "person",
+    "life_dates": "1824-1896"
+  },
+  {
+    "id": "p-124",
+    "preferred_name": "Armand Doria sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-125",
+    "preferred_name": "Ambroise Vollard",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-126",
+    "preferred_name": "Paul Cassirer",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-127",
+    "preferred_name": "Eduard Fuchs",
+    "kind": "person",
+    "life_dates": "1870-1940"
+  },
+  {
+    "id": "p-128",
+    "preferred_name": "Margaret Fuchs",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-129",
+    "preferred_name": "Justin K. Thannhauser",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-130",
+    "preferred_name": "Leonard C. Hanna Jr.",
+    "kind": "person",
+    "life_dates": "1889-1957"
+  },
+  {
+    "id": "p-131",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-132",
+    "preferred_name": "Private collection",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-133",
+    "preferred_name": "Jeronimo de Vries/Johannes Albertus Brondgeest",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-134",
+    "preferred_name": "Baron Anselm Mayer von Rothschild",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-135",
+    "preferred_name": "Baron Albert von Rothschild",
+    "kind": "person",
+    "life_dates": "1844-1911"
+  },
+  {
+    "id": "p-136",
+    "preferred_name": "Baron Alphonse von Rothschild",
+    "kind": "person",
+    "life_dates": "1878-1942"
+  },
+  {
+    "id": "p-137",
+    "preferred_name": "the Nazis",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-138",
+    "preferred_name": "In possession of the Allies. Restituted to Alphose von Rothschild's widow",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-139",
+    "preferred_name": "Baroness Clarice de Rothschild",
+    "kind": "person",
+    "life_dates": "1894-1967"
+  },
+  {
+    "id": "p-140",
+    "preferred_name": "Rosenberg & Stiebel",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-141",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-142",
+    "preferred_name": "Marquis de La Rochebousseau",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-143",
+    "preferred_name": "Rochebousseau sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-144",
+    "preferred_name": "Baron Anselm von Rothschild",
+    "kind": "person",
+    "life_dates": "1803-1874"
+  },
+  {
+    "id": "p-145",
+    "preferred_name": "Baron Nathaniel von Rothschild",
+    "kind": "person",
+    "life_dates": "1836-1905"
+  },
+  {
+    "id": "p-146",
+    "preferred_name": "Baron Alphonse von Rothschild",
+    "kind": "person",
+    "life_dates": "1878-1942"
+  },
+  {
+    "id": "p-147",
+    "preferred_name": "In possession of the Nazis",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-148",
+    "preferred_name": "In possession of the Allies",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-149",
+    "preferred_name": "Baroness Clarice von Rothschild",
+    "kind": "person",
+    "life_dates": "1894-1967"
+  },
+  {
+    "id": "p-150",
+    "preferred_name": "Rosenberg & Stiebel",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-151",
+    "preferred_name": "Jane Taft Ingalls",
+    "kind": "person",
+    "life_dates": "1874-1962"
+  },
+  {
+    "id": "p-152",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-153",
+    "preferred_name": "Marie de Medici",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-154",
+    "preferred_name": "Philippe III of Spain",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-155",
+    "preferred_name": "W. J. Brigstocke of Carmarten",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-156",
+    "preferred_name": "Josiah Wedgwood III",
+    "kind": "person",
+    "life_dates": "1795-1880"
+  },
+  {
+    "id": "p-157",
+    "preferred_name": "Margaret Wedgwood",
+    "kind": "person",
+    "life_dates": "1843-1937"
+  },
+  {
+    "id": "p-158",
+    "preferred_name": "Vaughan-Williams family of Tanhurst House",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-159",
+    "preferred_name": "Mark Weiss",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-160",
+    "preferred_name": "Commissioned in 1610 by Marie de Medici",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-161",
+    "preferred_name": "By inheritance to Margaret Wedgwood",
+    "kind": "person",
+    "life_dates": "1843-1937"
+  },
+  {
+    "id": "p-162",
+    "preferred_name": "By inheritanace to the Vaughan-Williams family of Tanhurst House",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-163",
+    "preferred_name": "Acquired at the hotel Drouot in 2002 by Mark Weiss",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-164",
+    "preferred_name": "The Weiss Gallery",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-165",
+    "preferred_name": "Possibly Dr. Izidor Deutsch",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-166",
+    "preferred_name": "Maximilian Mauthner",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-167",
+    "preferred_name": "Sale",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-168",
+    "preferred_name": "Possibly Dr. Paul Eger",
+    "kind": "person",
+    "life_dates": "1881-1947"
+  },
+  {
+    "id": "p-169",
+    "preferred_name": "Galerie Nathan",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-170",
+    "preferred_name": "Erich von Kreibig",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-171",
+    "preferred_name": "Galerie Grünwald",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-172",
+    "preferred_name": "Private collection",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-173",
+    "preferred_name": "David Carritt",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-174",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-175",
+    "preferred_name": "Private Collection",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-176",
+    "preferred_name": "Sale: \"Tableaux Anciens\"",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-177",
+    "preferred_name": "Dirksen",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-178",
+    "preferred_name": "Raedt van Oldenbarnevelt",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-179",
+    "preferred_name": "Sale: Frederik Muller",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-180",
+    "preferred_name": "M. le Chevalier de Stuers",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-181",
+    "preferred_name": "Hoschek",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-182",
+    "preferred_name": "Farrar",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-183",
+    "preferred_name": "Sale: Sotheby’s",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-184",
+    "preferred_name": "Rothstien",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-185",
+    "preferred_name": "Kenyon-Slaney",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-186",
+    "preferred_name": "Sale: Gebr. Douwes",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-187",
+    "preferred_name": "Victor de Stuers",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-188",
+    "preferred_name": "Dr. Cornelis Johannes Karel van Aalst",
+    "kind": "person",
+    "life_dates": "1866-1939"
+  },
+  {
+    "id": "p-189",
+    "preferred_name": "Heirs of C. J. K. van Aalst",
+    "kind": "organization",
+    "life_dates": null
+  },
+  {
+    "id": "p-190",
+    "preferred_name": "Cramer",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-191",
+    "preferred_name": "Mr. and Mrs. Noah L. Butkin",
+    "kind": "person",
+    "life_dates": null
+  },
+  {
+    "id": "p-192",
+    "preferred_name": "The Cleveland Museum of Art",
+    "kind": "organization",
+    "life_dates": null
   }
 ]

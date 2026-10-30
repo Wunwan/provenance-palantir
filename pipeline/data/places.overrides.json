@@ -1,0 +1,34 @@
+{
+  "Barmen": {
+    "lat": 51.2694,
+    "lon": 7.19167,
+    "precision": "city",
+    "wikidataId": "Q13388983",
+    "retrievedAt": "2026-10-30",
+    "note": "historical name; now part of Wuppertal, Germany (Wikidata: district of Wuppertal)"
+  },
+  "Berlin-Zehlendorf": {
+    "lat": 52.434,
+    "lon": 13.259,
+    "precision": "city",
+    "wikidataId": "Q324402",
+    "retrievedAt": "2026-10-30",
+    "note": "locality (Ortsteil) of Berlin, in the borough of Steglitz-Zehlendorf; coordinates of the locality"
+  },
+  "New York": {
+    "lat": 40.71277777777778,
+    "lon": -74.00611111111111,
+    "precision": "city",
+    "wikidataId": "Q60",
+    "retrievedAt": "2026-10-30",
+    "note": "New York City; a Wikidata search for the bare label returns the state first"
+  },
+  "Ferrières": {
+    "lat": 48.8214,
+    "lon": 2.7047,
+    "precision": "city",
+    "wikidataId": "Q1453372",
+    "retrievedAt": "2026-10-30",
+    "note": "Ferrières-en-Brie, Seine-et-Marne (site of the Rothschild Château de Ferrières); an automatic search chose a different Ferrières in the Somme, so this is hand-checked"
+  }
+}

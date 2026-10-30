@@ -1,0 +1,198 @@
+{
+  "providers": [
+    {
+      "id": "cleveland",
+      "name": "Cleveland Museum of Art Open Access API",
+      "kind": "API",
+      "role": "records",
+      "description": "The museum's public collection API. Each record is stored exactly as fetched, then its provenance steps are cleaned into events, parties and claims that point back to the original words.",
+      "endpoint": "https://openaccess-api.clevelandart.org/api/artworks/",
+      "license": "CC0 (per record)",
+      "retrievedAt": "2026-10-30T00:29:33Z",
+      "records": [
+        {
+          "id": "sr-1948.137",
+          "accession": "1948.137",
+          "artworkId": "cma-1948.137",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:31Z",
+          "version": "2026-05-29 06:30:54.639000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1948.137"
+        },
+        {
+          "id": "sr-1958.20",
+          "accession": "1958.20",
+          "artworkId": "cma-1958.20",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:31Z",
+          "version": "2026-07-29 11:09:49.665000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.20"
+        },
+        {
+          "id": "sr-1958.21",
+          "accession": "1958.21",
+          "artworkId": "cma-1958.21",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:30Z",
+          "version": "2026-10-29 22:04:50.522000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.21"
+        },
+        {
+          "id": "sr-1958.23",
+          "accession": "1958.23",
+          "artworkId": "cma-1958.23",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:31Z",
+          "version": "2026-07-01 11:21:40.271000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.23"
+        },
+        {
+          "id": "sr-1958.32",
+          "accession": "1958.32",
+          "artworkId": "cma-1958.32",
+          "license": "CC0",
+          "retrievedAt": "2026-10-29T23:21:26Z",
+          "version": "2026-10-29 22:05:00.474000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.32"
+        },
+        {
+          "id": "sr-1958.34",
+          "accession": "1958.34",
+          "artworkId": "cma-1958.34",
+          "license": "CC0",
+          "retrievedAt": "2026-10-29T23:21:26Z",
+          "version": "2026-10-26 13:31:21.158000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.34"
+        },
+        {
+          "id": "sr-1959.190",
+          "accession": "1959.190",
+          "artworkId": "cma-1959.190",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:29Z",
+          "version": "2026-06-10 18:00:18.302000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1959.190"
+        },
+        {
+          "id": "sr-1962.256",
+          "accession": "1962.256",
+          "artworkId": "cma-1962.256",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:32Z",
+          "version": "2026-05-29 07:00:47.675000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1962.256"
+        },
+        {
+          "id": "sr-1963.502",
+          "accession": "1963.502",
+          "artworkId": "cma-1963.502",
+          "license": "CC0",
+          "retrievedAt": "2026-10-29T23:21:28Z",
+          "version": "2026-08-22 11:53:15.110000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1963.502"
+        },
+        {
+          "id": "sr-1964.292",
+          "accession": "1964.292",
+          "artworkId": "cma-1964.292",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:30Z",
+          "version": "2026-05-29 07:12:28.963000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1964.292"
+        },
+        {
+          "id": "sr-1977.117",
+          "accession": "1977.117",
+          "artworkId": "cma-1977.117",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:33Z",
+          "version": "2026-09-17 11:22:17.566000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1977.117"
+        },
+        {
+          "id": "sr-1983.155",
+          "accession": "1983.155",
+          "artworkId": "cma-1983.155",
+          "license": "CC0",
+          "retrievedAt": "2026-10-29T23:21:27Z",
+          "version": "2026-06-20 11:04:22.986000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1983.155"
+        },
+        {
+          "id": "sr-1988.57",
+          "accession": "1988.57",
+          "artworkId": "cma-1988.57",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:32Z",
+          "version": "2026-06-20 11:04:23.081000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1988.57"
+        },
+        {
+          "id": "sr-1990.7",
+          "accession": "1990.7",
+          "artworkId": "cma-1990.7",
+          "license": "CC0",
+          "retrievedAt": "2026-10-29T23:21:27Z",
+          "version": "2026-10-27 11:15:32.246000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1990.7"
+        },
+        {
+          "id": "sr-1999.173",
+          "accession": "1999.173",
+          "artworkId": "cma-1999.173",
+          "license": "CC0",
+          "retrievedAt": "2026-10-29T23:21:27Z",
+          "version": "2026-05-29 08:21:48.853000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1999.173"
+        },
+        {
+          "id": "sr-2003.225",
+          "accession": "2003.225",
+          "artworkId": "cma-2003.225",
+          "license": "CC0",
+          "retrievedAt": "2026-10-30T00:29:32Z",
+          "version": "2026-05-29 08:26:36.119000",
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/2003.225"
+        }
+      ]
+    },
+    {
+      "id": "getty",
+      "name": "Getty Provenance Index",
+      "kind": "Cached lookup",
+      "role": "suggestions",
+      "description": "Dealer stock books and sales catalogs, searched ahead of time for the names in a gap. It only produces leads: suggestions that a person can accept to close a gap. It never adds events to a chain.",
+      "endpoint": "https://data.getty.edu/provenance/sparql",
+      "license": "Getty open content",
+      "retrievedAt": "2026-10-29T23:38:32Z",
+      "lookups": [
+        {
+          "name": "Boussod",
+          "query": "PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?party ?party_label ?acquisition ?label WHERE {\n  ?party a ?kind ; rdfs:label ?party_label .\n  FILTER(?kind IN (crm:E21_Person, crm:E74_Group))\n  FILTER(CONTAINS(LCASE(STR(?party_label)), \"boussod\"))\n  ?acquisition (crm:P22_transferred_title_to|crm:P23_transferred_title_from) ?party ;\n               a crm:E8_Acquisition ; rdfs:label ?label .\n} LIMIT 25",
+          "endpoint": "https://data.getty.edu/provenance/sparql",
+          "retrievedAt": "2026-10-29T23:38:32Z",
+          "results": 2
+        },
+        {
+          "name": "Knoedler & Co.",
+          "query": "PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?party ?party_label ?acquisition ?label WHERE {\n  ?party a ?kind ; rdfs:label ?party_label .\n  FILTER(?kind IN (crm:E21_Person, crm:E74_Group))\n  FILTER(CONTAINS(LCASE(STR(?party_label)), \"knoedler\"))\n  ?acquisition (crm:P22_transferred_title_to|crm:P23_transferred_title_from) ?party ;\n               a crm:E8_Acquisition ; rdfs:label ?label .\n} LIMIT 25",
+          "endpoint": "https://data.getty.edu/provenance/sparql",
+          "retrievedAt": "2026-10-29T23:32:41Z",
+          "results": 2
+        }
+      ],
+      "notCovered": [
+        "Justin Thannhauser",
+        "Alfred Flechtheim",
+        "Paul Cassirer",
+        "Fritz Nathan",
+        "Georges Petit",
+        "Hotel Drouot",
+        "Max Behrendt",
+        "Jules Strauss",
+        "Harry Sperling",
+        "August Pellerin"
+      ]
+    }
+  ]
+}

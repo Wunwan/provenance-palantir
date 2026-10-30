@@ -1,0 +1,589 @@
+{
+  "source": "cleveland",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/1948.137",
+  "retrieved_at": "2026-10-30T00:29:31Z",
+  "version": "2026-05-29 06:30:54.639000",
+  "payload": {
+    "id": 125895,
+    "accession_number": "1948.137",
+    "share_license_status": "CC0",
+    "tombstone": "Portrait of a Woman, probably Aeltje Dircksdr. Pater, 1638. Frans Hals (Dutch, c. 1581–1666). Oil on canvas; framed: 82 x 67 x 6.5 cm (32 5/16 x 26 3/8 x 2 9/16 in.); unframed: 66.5 x 52.3 cm (26 3/16 x 20 9/16 in.). The Cleveland Museum of Art, Purchase from the J. H. Wade Fund, 1948.137",
+    "current_location": null,
+    "title": "Portrait of a Woman, probably Aeltje Dircksdr. Pater",
+    "creation_date": "1638",
+    "creation_date_earliest": 1638,
+    "creation_date_latest": 1638,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "Netherlands"
+    ],
+    "technique": "oil on canvas",
+    "support_materials": [],
+    "department": "European Painting and Sculpture",
+    "collection": "P - Netherlandish-Dutch",
+    "type": "Painting",
+    "measurements": "Framed: 82 x 67 x 6.5 cm (32 5/16 x 26 3/8 x 2 9/16 in.); Unframed: 66.5 x 52.3 cm (26 3/16 x 20 9/16 in.)",
+    "dimensions": {
+      "framed": {
+        "height": 0.82,
+        "height_inch": 32,
+        "height_inch_fraction": 0.3125,
+        "width": 0.67,
+        "width_inch": 26,
+        "width_inch_fraction": 0.375,
+        "depth": 0.065,
+        "depth_inch": 2,
+        "depth_inch_fraction": 0.5625
+      },
+      "unframed": {
+        "height": 0.665,
+        "height_inch": 26,
+        "height_inch_fraction": 0.1875,
+        "width": 0.523,
+        "width_inch": 20,
+        "width_inch_fraction": 0.5625
+      }
+    },
+    "state_of_the_work": null,
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [
+      {
+        "inscription": "Inscribed upper left: \"AETAT SUAE 41 / ANNO 1638\"",
+        "inscription_translation": null,
+        "inscription_remark": null,
+        "sortorder": null
+      }
+    ],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 300448,
+          "title": "Dutch Painting, The Golden Age",
+          "description": "<i>Dutch Painting, The Golden Age</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (January 5-February 27, 1955).",
+          "opening_date": "1955-01-05T05:00:00"
+        },
+        {
+          "id": 304248,
+          "title": "Style, Truth and the Portrait",
+          "description": "<i>Style, Truth and the Portrait</i>. The Cleveland Museum of Art, Cleveland, OH (October 1-November 19, 1963).",
+          "opening_date": "1963-10-01T04:00:00"
+        },
+        {
+          "id": 301805,
+          "title": "Dutch Art and Life in the Seventeenth Century",
+          "description": "<i>Dutch Art and Life in the Seventeenth Century</i>. The Cleveland Museum of Art, Cleveland, OH (July 10-September 2, 1973).",
+          "opening_date": "1973-07-10T04:00:00"
+        },
+        {
+          "id": 309658,
+          "title": "Portraiture: The Image of the Individual",
+          "description": "<i>Portraiture: The Image of the Individual</i>. The Cleveland Museum of Art, Cleveland, OH (organizer) (November 22, 1983-January 22, 1984).",
+          "opening_date": "1983-11-22T05:00:00"
+        }
+      ],
+      "legacy": [
+        {
+          "description": "<em>Ausstellung alter Gemalde aus Wiener Privatbesitz</em>. Vienna, Oesterrreichisches museum für Kunst und industrie (August - September 1873), cat. no. 124.",
+          "opening_date": null
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "description": "Private collection, Amsterdam",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->The seller of the portrait in the 1851 auction is not identified in the catalogue, but is described as “a diligent art lover in Amsterdam</div>"
+        ],
+        "date": "Until 1851",
+        "sortorder": 1
+      },
+      {
+        "description": "(Jeronimo de Vries/Johannes Albertus Brondgeest, Amsterdam, sale, September 15, 1851, no. 198, fl. 40 [with pendant], to Brondgeest [bought in])",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->According to Marieke de Winkel (2012), the two Hals portraits in this sale (“Twee stuks deftige Mans- en Vrouwenportretten; meesterlijk en breed van behandeling”) are likely the two portraits, thought to have been lost, mentioned by Jacob Scheltema in his dictionary of national biography, <em>Staatkundig Nederland</em> (1806)&nbsp; De Winkel suggests that the female portrait in the sale (73 x 54 cm) is the CMA portrait, despite the discrepancies in dimensions and medium (which de Winkel notes occurred frequently in the nineteenth century).&nbsp; The painting was bought in, and “Brondgeest” is written in the catalogue as the buyer.&nbsp; Johannes Brondgeest died in 1849, so the notation likely refers to his firm.&nbsp; <br><br> In her article, de Winkel lays out a possible early provenance for this painting.&nbsp; It is based largely on circumstantial evidence and conjecture, and thus is not included in CMA’s provenance until further research can provide confirmation: Scheltema writes in <em>Staatkundig Nederland </em>(1806): “The original portraits of [Jan de Wael] and his spouse, Aeltje Pater, done by Frans Hals…were still in Kampen in 1802.”&nbsp; De Winkel maintains that Scheltema would have seen these portraits in the Kampen home of Kornelis Johannes de Vriese [1729-1803] and his son, Cornelis Wilhelmus de Vriese [1768-1813].&nbsp; Jan de Wael’s niece, Josina de Wael [1637-1677], was married to Abraham de Vriese, Kornelis’s father and Cornelis’s grandfather. &nbsp; De Winkel speculates that because Jan de Wael and Aeltje Pater did not have any children, their portraits would have been left to their nieces or their descendents – although it is unclear who, specifically, would have inherited the portraits.&nbsp; There is an inventory dated Jan. 10, 1679 (Noord-Hollands Archief, Haarlem) of the belongings left by Aeltje, but the paintings are not specified.&nbsp; &nbsp;</div>"
+        ],
+        "date": "1851",
+        "sortorder": 2
+      },
+      {
+        "description": "Baron Anselm Mayer von Rothschild (1803–1874), Vienna (inv. AR705), by descent to his son, Baron Albert von Rothschild",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->The catalogue of an exhibition of Old Master paintings from Viennese private collections held at the Österreichischen Museum in 1873 situates the painting in the collection of Anselm von Rothschild.</div>"
+        ],
+        "date": "by 1873-1874",
+        "sortorder": 3
+      },
+      {
+        "description": "Baron Albert von Rothschild (1844-1911), Vienna, by descent to his son, Alphonse von Rothschild",
+        "citations": [],
+        "footnotes": null,
+        "date": "Probably 1874-1911",
+        "sortorder": 4
+      },
+      {
+        "description": "Baron Alphonse von Rothschild (1878-1942), until confiscated by the Nazis in March 1938.",
+        "citations": [],
+        "footnotes": null,
+        "date": "Probably 1911-1938",
+        "sortorder": 5
+      },
+      {
+        "description": "In the possession of the Nazis. Apparently intended for the Kunsthistorisches Museum, Vienna, but kept at the Tiroler Landesmuseum Ferdinandeum, Innsbruck. By 1945 stored in the salt mines at Alt Aussee.",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->This painting was confiscated from the collection of Alphonse Rothschild in March of 1938 and was chosen by Hitler for the Kunsthistorisches Museum in Vienna (<em>Vorschlag zur Verteilung der in Wien beschlagnahmte Gemälde: Für das Kunstmuseum in Linz October 20, 1939</em>. Linz Museum: Consolidated Interrogation Report (CIR) No. 4 (Attachments 56-82). Restitution Research Records. Records of the U.S. Occupation Headquarters, World War II, Record Group 260. National Archives Identifier 3725274. M1946, Roll 139, page 74. Fold3.com, http://www.fold3.com/image/#283755713, retrieved July 15, 2013): here the painting is titled “Damenbildnis” and was listed under inventory no. AR 705 (“AR 705” is inscribed in chalk on the painting’s stretcher and is still visible).&nbsp; The painting also appears on the “Verzeichnis der von den Staatlichen Kunstsammlungen erbetenen Gemälde aus der Sammlung Alphons Rothschild ” (no. 7), an inventory found in Hitler’s library at Berchtesgaden.&nbsp; Listed above it is Hals's <em>Portrait of Tieleman Roosterman</em> (AR 866), also in the Cleveland Museum of Art (1999.173). &nbsp; According to Felicitas Kunth and Sophie Lillie, <em>Portrait of a Woman</em> was kept at the Tiroler Landesmuseum/Innsbruck Ferdinandeum during the war.&nbsp; It was then moved to the salt mine at Alt Aussee.</div>"
+        ],
+        "date": "1938-1945",
+        "sortorder": 6
+      },
+      {
+        "description": "In possession of the Allies. Restituted to Alphose von Rothschild's widow, Baroness Clarice de Rothschild.",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->The Allies recovered the painting in the salt mines at Alt Aussee, which Alphonse’s widow, Clarice, visited to identify works from her family’s collection.&nbsp; The painting did not go through the Munich Central Collecting Point, but was returned to Clarice in 1947.</div>"
+        ],
+        "date": "1945-1947",
+        "sortorder": 7
+      },
+      {
+        "description": "Baroness Clarice de Rothschild (1894-1967);  sold to Rosenberg & Stiebel, New York",
+        "citations": [],
+        "footnotes": null,
+        "date": "1947-1948",
+        "sortorder": 8
+      },
+      {
+        "description": "(Rosenberg & Stiebel, New York, NY, sold to the Cleveland Museum of Art)",
+        "citations": [],
+        "footnotes": null,
+        "date": "1948",
+        "sortorder": 9
+      },
+      {
+        "description": "The Cleveland Museum of Art, Cleveland, Ohio",
+        "citations": [],
+        "footnotes": null,
+        "date": "1948-",
+        "sortorder": 10
+      }
+    ],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [],
+    "did_you_know": "Jewelry, lace, and sumptuous fabrics show off this woman's wealth—and the artist's skill in painting them.",
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "Portraits by Hals often feature bold, jagged brushstrokes. This portrait shows him experimenting with the “wet-into-wet,” technique, in which layers of paint were added in succession without being allowed to dry in between. Note the blended strokes used at the woman’s hairline to suggest individual strands of hair. The sitter has been tentatively identified as Aeltje Dircksdr. Pater (1597–1678), wife of the Haarlem brewer and burgomaster (mayor) Jan de Wael (1594–1663). An inscription states she was 41 when Hals painted her.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q17907428"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-1948.137-portrait-of-a-woman"
+      ]
+    },
+    "citations": [
+      {
+        "citation": "Roos, Cornelis François, and Jeronimo de Vries. <em>Schilderijen, door voorname oude en hedendaagsche meesters</em>. 1851.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Hofstede de Groot, Cornelis.  <em>A Catalogue Raisonné of the Works of the Most Eminent Dutch Painters of the Seventeenth Century Based on the Work of John Smith. </em>Vol. 3. London: Macmillan, 1910.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Roos, Cornelis François, and Jeronimo de Vries. <em>Schilderijen, door voorname oude en hedendaagsche meesters</em>. 1851.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Marieke de Winkel, “Frans Hals’s Portraits of Michiel de Wael and Cunera van Baersdorp and of Jan de Wael and Aeltje Dircksdr. Pater Identified,” <em>Face book: studies on Dutch and Flemish portraiture of the 16th-18th centuries</em>, eds. Edwin Buijsen, Charles Dumas, and Volker Manuth, Leiden: Primavera Pers, 2012, pp. 141-150.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": null,
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Kunth, Felicitas. <em>Die Rothschild'schen Gemäldesammlungen in Wien</em>. Vienna: Böhlau, 2006.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Lillie, Sophie. <em>Was einmal war: Handbuch der enteigneten Kunstsammlungen Wiens</em>. Vienna: Czernin, 2003.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Slive, Seymour. <em>Frans Hals</em>. London: Phaidon, 1970.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "<em>Katalog der Gemälde alter Meister aus dem Wiener Privatbesitze, ausgestellt im k.k.Österreichischen Museum August-September 1873</em>. 1873.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Hofstede de Groot, Cornelis.  <em>A Catalogue Raisonné of the Works of the Most Eminent Dutch Painters of the Seventeenth Century Based on the Work of John Smith. </em>Vol. 3. London: Macmillan, 1910.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Slive, Seymour. <em>Frans Hals</em>. London: Phaidon, 1970.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Slive, Seymour. <em>Frans Hals</em>. London: Phaidon, 1970.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Kunth, Felicitas. <em>Die Rothschild'schen Gemäldesammlungen in Wien</em>. Vienna: Böhlau, 2006.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Lillie, Sophie. <em>Was einmal war: Handbuch der enteigneten Kunstsammlungen Wiens</em>. Vienna: Czernin, 2003",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Francis, Henry Sayles, “’Portrait of a Lady in a Ruff,’ by Frans Hals,” <em>The Bulletin of the Cleveland Museum of Art</em> 35:7, Pt. I (Sept. 1948): 163-165, 169-170.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "\"A Plan for Loot: Blue-Prints for a New 'House of German Art.' How Hitler Intended to Dispose of the 'Purchased' Rothschild Collections.\" <em>The Illustrated London News</em> 207, no. 5542 (July 7, 1945): 25",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Kunth, Felicitas. <em>Die Rothschild'schen Gemäldesammlungen in Wien</em>. Vienna: Böhlau, 2006",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Lillie, Sophie. <em>Was einmal war: Handbuch der enteigneten Kunstsammlungen Wiens</em>. Vienna: Czernin, 2003.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Slive, Seymour. <em>Frans Hals</em>. London: Phaidon, 1970.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": null,
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Francis, Henry Sayles, “’Portrait of a Lady in a Ruff,’ by Frans Hals,” <em>The Bulletin of the Cleveland Museum of Art</em> 35:7, Pt. I (Sept. 1948): 163-165, 169-170.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Kunth, Felicitas. <em>Die Rothschild'schen Gemäldesammlungen in Wien</em>. Vienna: Böhlau, 2006",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Slive, Seymour. <em>Frans Hals</em>. London: Phaidon, 1970.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Lillie, Sophie. <em>Was einmal war: Handbuch der enteigneten Kunstsammlungen Wiens</em>. Vienna: Czernin, 2003",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Francis, Henry Sayles, “’Portrait of a Lady in a Ruff,’ by Frans Hals,” <em>The Bulletin of the Cleveland Museum of Art</em> 35:7, Pt. I (Sept. 1948): 163-165, 169-170.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "\"A Plan for Loot: Blue-Prints for a New 'House of German Art.' How Hitler Intended to Dispose of the 'Purchased' Rothschild Collections.\" <em>The Illustrated London News</em> 207, no. 5542 (July 7, 1945): 25.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Slive, Seymour. <em>Frans Hals</em>. London: Phaidon, 1970.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "<em>Katalog der Gemälde alter Meister aus dem Wiener Privatbesitze: ausgestellt im K.K. Österreichischen Museum [für Kunst und Industrie]</em>. Vienna: K.K. Österreichischen Museums, 1873.",
+        "page_number": "Mentioned: p. 31, no. 124.",
+        "url": null
+      },
+      {
+        "citation": "Moes, E. W., and Jean de Boschère. <em>Frans Hals, sa vie et son œuvre</em>. Brussels: G. van Oest &amp; Cie, 1909.",
+        "page_number": "Mentioned: 108, no. 190",
+        "url": null
+      },
+      {
+        "citation": "Hofstede de Groot, C. P. <em>A Catalogue Raisonné of the Works of the Most Eminent Dutch Painters of the Seventeenth Century</em>. 8 vols Translated and edited by Edward G. Hawke. London: Macmillan and Co, 1907-1927.",
+        "page_number": "Mentioned: vol. 3 (1910), p. 114, no. 398",
+        "url": null
+      },
+      {
+        "citation": "\"A Plan for Loot: Blue-Prints for a New 'House of German Art.' How Hitler Intended to Dispose of the 'Purchased' Rothschild Collections.\" <em>The Illustrated London News</em> 207, no. 5542 (July 7, 1945), 24-25.",
+        "page_number": "Mentioned and reproduced: p. 25",
+        "url": null
+      },
+      {
+        "citation": "Francis, Henry S. \"\"Portrait of a Lady in a Ruff,\" by Frans Hals.\" <em>The Bulletin of the Cleveland Museum of Art</em> 35, no. 7 (1948): 163-70.",
+        "page_number": null,
+        "url": "http://www.jstor.org/stable/25141484."
+      },
+      {
+        "citation": "\"A French Rococo collection goes to Cleveland.\" <em>ArtNews </em>47, no. 5 (September 1948).<em><br></em>",
+        "page_number": "Mentioned: p. 29.",
+        "url": null
+      },
+      {
+        "citation": "\"Recent Acquisitions.\" <em>Pictures on Exhibit</em> 11, no. 1 (Oct. 1948).<em><br></em>",
+        "page_number": "Reproduced: p. 2; Mentioned: pp. 3, 48.",
+        "url": null
+      },
+      {
+        "citation": "\"Trinity of Masterpieces for Cleveland.\" <em>ArtNews </em>47, no. 7 (November 1948).<em><br></em>",
+        "page_number": "Mentioned and reproduced: cover, pp. 5, 28.",
+        "url": null
+      },
+      {
+        "citation": "“Part II. Annual Report Issue for the Year 1948.” <em>The Bulletin of the Cleveland Museum of Art</em>, vol. 36, no. 6, 1949, pp. 111–142.",
+        "page_number": "Mentioned: p. 112",
+        "url": "https://www.jstor.org/stable/25141566"
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>The Cleveland Museum of Art Handbook.</em> Cleveland, OH: The Cleveland Museum of Art, 1958.",
+        "page_number": "Mentioned and Reproduced: cat. no. 449",
+        "url": "https://archive.org/details/CMAHandbook1958/page/n82"
+      },
+      {
+        "citation": "Milliken, William Mathewson. <em>Great Museums of the World: The Cleveland Museum of Art. </em>New York: H.N. Abrams, 1958.",
+        "page_number": "Reproduced: p. 43",
+        "url": null
+      },
+      {
+        "citation": "Saisselin, Rémy G. <em>Style, Truth, and the Portrait</em>. Cleveland: Cleveland Museum of Art, 1963.",
+        "page_number": "Mentioned and Reproduced: no. 7",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1966</em>. Cleveland, OH: The Cleveland Museum of Art, 1966.",
+        "page_number": "Reproduced: p. 123",
+        "url": "https://archive.org/details/CMAHandbook1966/page/n147"
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1969</em>. Cleveland, OH: The Cleveland Museum of Art, 1969.",
+        "page_number": "Reproduced: p. 123",
+        "url": "https://archive.org/details/CMAHandbook1969/page/n147"
+      },
+      {
+        "citation": "Slive, Seymour.<em> Frans Hals</em>. 3 vols London: Phaidon, 1970-1973.",
+        "page_number": "Reproduced: vol. 2, pls. 191, 193; Mentioned: vol. 3, p. 64, no. 121.",
+        "url": null
+      },
+      {
+        "citation": "Grimm, Claus. <em>Frans Hals: Entwicklung, Werkanalyse, Gesamtkatalog</em>. Berlin: Mann, 1972.",
+        "page_number": "Mentioned: p. 98, no. 91",
+        "url": null
+      },
+      {
+        "citation": "Grimm, Claus, and E. C. Montagni. <em>L'Opera completa di Frans Hals</em>. Milan: Rizzoli, 1974.",
+        "page_number": "Mentioned and Reproduced: pp. 100-101, no. 129",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1978</em>. Cleveland, OH: The Cleveland Museum of Art, 1978.",
+        "page_number": "Reproduced: p. 157",
+        "url": "https://archive.org/details/CMAHandbook1978/page/n177"
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>The Cleveland Museum of Art Catalogue of Paintings, Part 3: European Paintings of the 16th, 17th, and 18th Centuries</em>. Cleveland, OH: The Cleveland Museum of Art, 1982.",
+        "page_number": "Mentioned: p. 238-240; Reproduced: p. 239",
+        "url": null
+      },
+      {
+        "citation": "Grimm, Claus. <em>Frans Hals: the complete work</em>. New York: H.N. Abrams, 1990.",
+        "page_number": "Mentioned and reproduced: p. 283, no. 91.",
+        "url": null
+      },
+      {
+        "citation": "Lillie, Sophie. <em>Was einmal war: Handbuch der enteigneten Kunstsammlungen Wiens</em>. Vienna: Czernin Verlag, 2003.",
+        "page_number": "Mentioned: p. 1027, no. 705",
+        "url": null
+      },
+      {
+        "citation": "Kunth, Felicitas. <em>Die Rothschild'schen Gemäldesammlungen in Wien</em>. Vienna: Böhlau, 2006.",
+        "page_number": "Mentioned: pp. 192-193",
+        "url": null
+      },
+      {
+        "citation": "Winkel, Marieke de. \"Frans Hals's Portraits of Michiel de Wael and Cunera van Baersdorp and of Jan de Wael and Aeltje Dircksdr. Pater Identified.\" pp. 141-150. In <em>Face book: studies on Dutch and Flemish portraiture of the 16th-18th centuries. </em>Ed. Edwin Buijsen, Charles Dumas, and Volker Manuth. Leiden: Primavera Pers, 2012.",
+        "page_number": "Reproduced: p. 144, fig. 5",
+        "url": null
+      },
+      {
+        "citation": "Dudok van Heel, Sebastien A. C., and Marten Jan Bok. <em>'Frans Halsen' aan de muur: omgang met familieportretten in Haarlem: Voocht--Olycan--Van der Meer</em>. The Hague: Koninklijk Nederlandsch GEnootschap voor Geslacht- en Wapenkunde, 2013.",
+        "page_number": "Mentioned: p. 14, 16; Reproduced: p. 17, fig. 7d",
+        "url": null
+      },
+      {
+        "citation": "<em>Paintings in the Cleveland Museum of Art: Picture Book No. 4 .</em> [Cleveland]: The Cleveland Museum of Art, 1952.",
+        "page_number": "Reproduced: p. 26",
+        "url": "Paintings in the Cleveland Museum of Art: Picture Book No. 4 . [Cleveland]: The Cleveland Museum of Art, 1952."
+      }
+    ],
+    "url": "https://clevelandart.org/art/1948.137",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_web.jpg",
+        "width": "690",
+        "height": "893",
+        "filesize": "114378",
+        "filename": "1948.137_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_print.jpg",
+        "width": "2628",
+        "height": "3400",
+        "filesize": "1811287",
+        "filename": "1948.137_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_full.tif",
+        "width": "10902",
+        "height": "14101",
+        "filesize": "461211092",
+        "filename": "1948.137_full.tif"
+      }
+    },
+    "alternate_images": [
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_alt0_web.jpg",
+          "width": "744",
+          "height": "893",
+          "filesize": "483965"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_alt0_print.jpg",
+          "width": "2831",
+          "height": "3400",
+          "filesize": "7464724"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_alt0_full.tif",
+          "width": "4347",
+          "height": "5220",
+          "filesize": "68102428"
+        },
+        "date_created": "2011-02-23T13:42:12",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_alt1_web.jpg",
+          "width": "724",
+          "height": "893",
+          "filesize": "325462"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_alt1_print.jpg",
+          "width": "2755",
+          "height": "3400",
+          "filesize": "4996386"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_alt1_full.tif",
+          "width": "4770",
+          "height": "5885",
+          "filesize": "84246348"
+        },
+        "date_created": "2011-02-23T13:20:04",
+        "annotation": ""
+      },
+      {
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_alt2_web.jpg",
+          "width": "705",
+          "height": "893",
+          "filesize": "432387"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_alt2_print.jpg",
+          "width": "2684",
+          "height": "3400",
+          "filesize": "5936375"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1948.137/1948.137_alt2_full.tif",
+          "width": "3613",
+          "height": "4576",
+          "filesize": "49631852"
+        },
+        "date_created": "2007-01-18T16:06:39",
+        "annotation": ""
+      }
+    ],
+    "creditline": "Purchase from the J. H. Wade Fund",
+    "image_credit": null,
+    "sketchfab_id": null,
+    "sketchfab_url": null,
+    "gallery_donor_text": null,
+    "athena_id": 125895,
+    "creators": [
+      {
+        "id": 2614,
+        "description": "Frans Hals (Dutch, c. 1581–1666)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": "c. 1581/85-1666",
+        "name_in_original_language": null,
+        "birth_year": "1581",
+        "death_year": "1666",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "1948-05-19T00:00:00",
+    "sortable_date": 1638,
+    "date_added_to_oa": null,
+    "date_text": "1638",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": false,
+    "impression": null,
+    "alternate_titles": [
+      "Portrait of a Woman",
+      "Portrait of a Lady in a Ruff"
+    ],
+    "is_highlight": false,
+    "updated_at": "2026-05-29 06:30:54.639000"
+  }
+}

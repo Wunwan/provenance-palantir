@@ -22,5 +22,29 @@
     "retrieved_at": "2026-10-29T23:32:41Z",
     "covers_start": "1946",
     "covers_end": "1946"
+  },
+  {
+    "id": "s-getty-e-1963.502-050-boussod-387240dc",
+    "event": "e-1963.502-050",
+    "origin": "external",
+    "provider": "Getty Provenance Index",
+    "query": "PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?party ?party_label ?acquisition ?label WHERE {\n  ?party a ?kind ; rdfs:label ?party_label .\n  FILTER(?kind IN (crm:E21_Person, crm:E74_Group))\n  FILTER(CONTAINS(LCASE(STR(?party_label)), \"boussod\"))\n  ?acquisition (crm:P22_transferred_title_to|crm:P23_transferred_title_from) ?party ;\n               a crm:E8_Acquisition ; rdfs:label ?label .\n} LIMIT 25",
+    "preview": "Getty Provenance Index records “Knoedler Sale of Stock Number 11928 (1910-03-03)” involving Boussod, Valadon et Cie.",
+    "url": "https://data.getty.edu/provenance/387240dc-29dc-3cf6-ab03-758b19bfa91f",
+    "retrieved_at": "2026-10-29T23:38:32Z",
+    "covers_start": "1910",
+    "covers_end": "1910"
+  },
+  {
+    "id": "s-getty-e-1963.502-050-boussod-df9bbf06",
+    "event": "e-1963.502-050",
+    "origin": "external",
+    "provider": "Getty Provenance Index",
+    "query": "PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT DISTINCT ?party ?party_label ?acquisition ?label WHERE {\n  ?party a ?kind ; rdfs:label ?party_label .\n  FILTER(?kind IN (crm:E21_Person, crm:E74_Group))\n  FILTER(CONTAINS(LCASE(STR(?party_label)), \"boussod\"))\n  ?acquisition (crm:P22_transferred_title_to|crm:P23_transferred_title_from) ?party ;\n               a crm:E8_Acquisition ; rdfs:label ?label .\n} LIMIT 25",
+    "preview": "Getty Provenance Index records “Knoedler Purchase of Stock Number 12155 (1910-06-23)” involving Boussod, Valadon et Cie.",
+    "url": "https://data.getty.edu/provenance/df9bbf06-3368-3d7d-bb57-a0e73fd11745",
+    "retrieved_at": "2026-10-29T23:38:32Z",
+    "covers_start": "1910",
+    "covers_end": "1910"
   }
 ]

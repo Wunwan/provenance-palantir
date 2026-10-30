@@ -1,0 +1,504 @@
+{
+  "source": "cleveland",
+  "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.23",
+  "retrieved_at": "2026-10-30T00:29:31Z",
+  "version": "2026-07-01 11:21:40.271000",
+  "payload": {
+    "id": 135214,
+    "accession_number": "1958.23",
+    "share_license_status": "CC0",
+    "tombstone": "The Troubadour, 1868–73. Honoré Daumier (French, 1808–1879). Oil on fabric; framed: 99.5 x 73 x 8 cm (39 3/16 x 28 3/4 x 3 1/8 in.); unframed: 83.6 x 56.8 cm (32 15/16 x 22 3/8 in.). The Cleveland Museum of Art, Bequest of Leonard C. Hanna Jr., 1958.23",
+    "current_location": "220 19th Century European",
+    "title": "The Troubadour",
+    "creation_date": "1868–73",
+    "creation_date_earliest": 1868,
+    "creation_date_latest": 1873,
+    "artists_tags": [
+      "male"
+    ],
+    "culture": [
+      "France, 19th century"
+    ],
+    "technique": "oil on fabric",
+    "support_materials": [],
+    "department": "Modern European Painting and Sculpture",
+    "collection": "Mod Euro - Painting 1800-1960",
+    "type": "Painting",
+    "measurements": "Framed: 99.5 x 73 x 8 cm (39 3/16 x 28 3/4 x 3 1/8 in.); Unframed: 83.6 x 56.8 cm (32 15/16 x 22 3/8 in.)",
+    "dimensions": {
+      "framed": {
+        "height": 0.995,
+        "height_inch": 39,
+        "height_inch_fraction": 0.1875,
+        "width": 0.73,
+        "width_inch": 28,
+        "width_inch_fraction": 0.75,
+        "depth": 0.08,
+        "depth_inch": 3,
+        "depth_inch_fraction": 0.125
+      },
+      "unframed": {
+        "height": 0.836,
+        "height_inch": 32,
+        "height_inch_fraction": 0.9375,
+        "width": 0.568,
+        "width_inch": 22,
+        "width_inch_fraction": 0.375
+      }
+    },
+    "state_of_the_work": null,
+    "edition_of_the_work": null,
+    "copyright": null,
+    "inscriptions": [
+      {
+        "inscription": "Signed in lower right: h.D. [reinforced]\r\n",
+        "inscription_translation": null,
+        "inscription_remark": null,
+        "sortorder": null
+      }
+    ],
+    "exhibitions": {
+      "current": [
+        {
+          "id": 518665,
+          "title": "Paintings and Drawings of Daumier",
+          "description": "<i>Paintings and Drawings of Daumier</i>. Tate Britain, London (June 14-July 30, 1961).",
+          "opening_date": "1961-06-14T04:00:00"
+        },
+        {
+          "id": 361184,
+          "title": "Honoré Daumier, 1808-1879",
+          "description": "<i>Honoré Daumier, 1808-1879</i>. National Gallery of Art, Landover, MD (organizer) (September 23-November 25, 1979).",
+          "opening_date": "1979-09-23T04:00:00"
+        },
+        {
+          "id": 211412,
+          "title": "Honoré Daumier",
+          "description": "<i>Honoré Daumier</i>. National Gallery of Canada (organizer) (June 3-September 6, 1999); Galeries Nationales du Grand Palais, Paris, France (October 5, 1999-January 3, 2000); The Phillips Collection (February 19-May 14, 2000).",
+          "opening_date": "1999-06-03T00:00:00"
+        }
+      ],
+      "legacy": [
+        {
+          "description": "<em>Exposition Daumier</em>. Palais de l'École des Beaux-Arts, Paris, France (1901).",
+          "opening_date": "1901-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Honoré Daumier Ausstellung, Gemälde, Aquarelle Zeichnungen</em>, Galerie Matthiesen. Berlin, Germany (1926).",
+          "opening_date": "1926-01-01T00:00:00"
+        },
+        {
+          "description": "<em>Corot-Daumier. </em>Museum of Modern Art., New York, NY (1930).",
+          "opening_date": "1930-01-01T00:00:00"
+        }
+      ]
+    },
+    "provenance": [
+      {
+        "description": "Count Armand Doria [1824-1896] Orrouy, France",
+        "citations": [],
+        "footnotes": [],
+        "date": "Until 1896",
+        "sortorder": 1
+      },
+      {
+        "description": "(Armand Doria sale, Galerie Georges Petit, Paris, May 4-5, 1899 (no. 132), sold to Ambroise Vollard)",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block--><em>The Troubadour, </em>here titled “Page jouant de la mandoline,” was sold to dealer Ambroise Vollard together with no. 133, “Femme portant un enfant,” for ff 3,350. &nbsp;</div>"
+        ],
+        "date": "1899",
+        "sortorder": 2
+      },
+      {
+        "description": "(Ambroise Vollard, Paris, sold to Paul Cassirer)",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->Vollard’s stock book lists “Le Chanteur,” with a provenance of “Doria,” under stock no. 3,465; a label on the painting’s stretcher with this number confirms that “Le Chanteur” and the CMA picture are one and the same. &nbsp; The Vollard register from May 1899 lists “2 Daumier pendants guitariste et mère et enfant” – lots 132 and 133 in the Doria sale from that month.&nbsp; In 1908 Vollard seems to have consigned the Daumier to H.O. Miethke, a Vienna dealer who often acted as an intermediary in Vollard’s foreign trade activities.&nbsp; The Daumier is No. 42 in <em>Honoré Daumier, 1808-1879,</em> an exhibition held at Galerie Miethke in November-December 1980.&nbsp; The painting apparently failed to sell and was returned to Vollard: the Cassirer Archive, held by the Walter Feilchenfeldt Gallery, records the sale of \"Le Guitarist\"by Vollard to Cassirer on October 28, 1912. &nbsp;</div>"
+        ],
+        "date": "1899-by 1912",
+        "sortorder": 3
+      },
+      {
+        "description": "(Paul Cassirer, Berlin)",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->It is not known to whom and when Cassirer sold the painting; however, it was likely by 1915, as the 1910-1915 Cassirer sales book was destroyed during the war, and later sales books make no mention of the Daumier. &nbsp;</div>"
+        ],
+        "date": "1912 - probably by 1915",
+        "sortorder": 4
+      },
+      {
+        "description": "Eduard Fuchs [1870-1940], Berlin-Zehlendorf, by descent to his wife, Margaret Fuchs",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->A photograph, dated 1928, shows <em>The Troubadour</em> prominently displayed on a wall in the “Daumier-Zimmers” in Fuchs’ Berlin villa.&nbsp; In 1930, Fuchs, a collector, writer, and historian with a passion for Daumier, published <em>Der Maler Daumier,</em> a catalogue of the artist’s work.&nbsp; In it he notes that <em>The Troubadour</em> (there titled <em>Der Page</em>) was currently in his collection; he also lent the painting to an exhibition at the Museum of Modern Art that year.&nbsp; In February of 1933, Fuchs and his wife Margaret fled to Paris; on October 25 of that same year his collection was confiscated by the Gestapo.&nbsp; <em>The Troubadour, </em>however, along with several other Daumier paintings, appears to have avoided confiscation: it may have been among nine unspecified Daumier paintings for which Fuchs transferred ownership to his friend Felix Weil as security for a loan.&nbsp; These paintings were sent to Rotterdam, thus securing their safety.&nbsp; Furthermore, no references to <em>The Troubadour </em>in databases or lists of Nazi-looted art have been located, nor is the painting listed in any of the five Nazi-era sales of the Fuchs collection (Lepke, June 16-17. 1937; Lepke, Oct. 15-16, 1937; Lepke, Nov. 4-5, 1937; Lepke, June 22-24, 1938; Boerner, May 23-24, 1938).&nbsp; These auctions took place after the director of the Berlin Nationalgalerie, Eberhard Hanfstaengl, was able to convince the Gestapo that the confiscation of the Fuchs collection, just before the 1936 Olympics, would harm the cultural reputation of Germany.&nbsp; Thus, the collection was granted provisional release in 1935.&nbsp; Fuchs’ daughter was nevertheless forced to sell off her father’s collection in order to settle the tax liabilities he faced after the return of the collection.</div>"
+        ],
+        "date": "By 1928-1940",
+        "sortorder": 5
+      },
+      {
+        "description": "Margaret Fuchs, Paris and New York, consigned to Justin K. Thannhauser",
+        "citations": [],
+        "footnotes": [],
+        "date": "1940-1953",
+        "sortorder": 6
+      },
+      {
+        "description": "(Justin K. Thannhauser, New York, sold to Leonard C. Hanna, Jr.)",
+        "citations": [],
+        "footnotes": [
+          "<div><!--block-->The Thannhauser Archives in Cologne show that Thannhauser had the painting on consignment from Margaret Fuchs in the 1950s.&nbsp;</div>"
+        ],
+        "date": "1953",
+        "sortorder": 7
+      },
+      {
+        "description": "Leonard C. Hanna Jr., [1889-1957], Cleveland, OH, bequeathed to the Cleveland Museum of Art",
+        "citations": [],
+        "footnotes": [],
+        "date": "1953-1958",
+        "sortorder": 8
+      },
+      {
+        "description": "The Cleveland Museum of Art, Cleveland, OH",
+        "citations": [],
+        "footnotes": [],
+        "date": "1958-",
+        "sortorder": 9
+      }
+    ],
+    "find_spot": null,
+    "related_works": [],
+    "former_accession_numbers": [],
+    "did_you_know": "Daumier was called the “Michelangelo of caricature” and especially renowned for his cartoons and drawings satirizing 19th-century French politics and society.",
+    "early_education_description": null,
+    "artlens_description": null,
+    "description": "The troubadour, a medieval traveling poet and entertainer, was a popular subject in 19th-century French art. Associated with chivalry and courtly love, the theme reflects a broader, romantic fascination with France's medieval past. Although Daumier was particularly inspired by the troubadour paintings of French Rococo artist Jean-Antoine Watteau of the 1700s, he rendered the subject here in a powerful style of simplified, muscular form that appealed to modern artists of his own time.",
+    "external_resources": {
+      "wikidata": [
+        "https://www.wikidata.org/wiki/Q60483497"
+      ],
+      "internet_archive": [
+        "https://archive.org/details/clevelandart-1958.23-the-troubadour"
+      ]
+    },
+    "citations": [
+      {
+        "citation": "Galerie Georges Petit. <em>Tableaux modernes</em>. May 4-5, 1899.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "“The Daumier Register,” DR number 7186 “Le Troubadour,” <a href=\"http://www.daumier-register.org/werkview.php?key=7186\">http://www.daumier-register.org/werkview.php?key=7186</a>, accessed 12/10/15.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Maison, K. E. <em>Honoré Daumier; Catalogue Raisonné of the Paintings, Watercolours, and Drawings</em>. [Greenwich, Conn.]: New York Graphic Society, 1968.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Daumier, Honoré. <em>Daumier, Paintings and Drawings: An Exhibition Organized by the Arts Council of Great Britain at the Tate Gallery, June 14th to July 30th, 1961</em>. London: Arts Council of Great Britain, 1961. <ul><li><br></li></ul>",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Galerie Georges Petit. <em>Tableaux modernes</em>. May 4-5, 1899.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "The Daumier Register,” DR number 7186 “Le Troubadour,” <a href=\"http://www.daumier-register.org/werkview.php?key=7186\">http://www.daumier-register.org/werkview.php?key=7186</a>, accessed 12/10/15.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Maison, K. E. <em>Honoré Daumier; Catalogue Raisonné of the Paintings, Watercolours, and Drawings</em>. [Greenwich, Conn.]: New York Graphic Society, 1968.<br><br><ul><li><br></li></ul>",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "“Ambroise Vollard Research Files,” Record Group 43, Series 43A5.8, Box 54, John Rewald Papers, Cézanne Materials, Gallery Archives, National Gallery of Art, Washington, DC.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Petra Cordioli, email to Victoria Sears Goldman, Jan. 12, 2016, in CMA curatorial file.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Miethke, H.O. Galerie. <em>Honoré Daumier, 1808-1879, Galerie Miethke, Wien, November - Dezember 1908</em>. 1908.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "“The Daumier Register,” DR number 7186 “Le Troubadour,” <a href=\"http://www.daumier-register.org/werkview.php?key=7186\">http://www.daumier-register.org/werkview.php?key=7186</a>, accessed 12/10/15.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Petra Cordioli, email to Victoria Sears Goldman, Jan. 12, 2016, in CMA curatorial file.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Maison, K. E. <em>Honoré Daumier; Catalogue Raisonné of the Paintings, Watercolours, and Drawings</em>. [Greenwich, Conn.]: New York Graphic Society, 1968.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Museum of Modern Art (New York, N.Y.), and Alfred H. Barr. <em>Eighth Loan Exhibition: Corot, Daumier ; October 16-November 23, 1930</em>. New York: [Plandome Press], 1930.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Fuchs, Eduard. <em>Der maler Daumier</em>. München: A. Langen, 1930. &lt;http://purl.access.gpo.gov/GPO/LPS15367&gt;.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "“The Daumier Register,” DR number 7186 “Le Troubadour,” <a href=\"http://www.daumier-register.org/werkview.php?key=7186\">http://www.daumier-register.org/werkview.php?key=7186</a>, accessed 12/10/15.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Weitz, Ulrich.  “Der Sammler Eduard Fuchs: ‘Das Wesen der Revolution ist das Wesen der Daumierschen Kunst.’” <em>“Daumier ist ungeheuer!” Gemälde, Handzeichnungen, Grafiken, Bronzen.  </em>Berlin: Nicolai, 2013.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Dr. Bernhard Kosel, email to Victoria Sears Goldman, Dec. 26, 2015, in CMA curatorial file.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Dr. Bernhard Kosel, email to Victoria Sears Goldman, Jan. 12, 2016, in CMA curatorial file.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "William Robinson, email to Christine Edmonson and June de Phillips, March 3, 2009, in CMA curatorial file.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "“The Daumier Register,” DR number 7186 “Le Troubadour,” <a href=\"http://www.daumier-register.org/werkview.php?key=7186\">http://www.daumier-register.org/werkview.php?key=7186</a>, accessed 12/10/15.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Maison, K. E. <em>Honoré Daumier; Catalogue Raisonné of the Paintings, Watercolours, and Drawings</em>. [Greenwich, Conn.]: New York Graphic Society, 1968.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "“The Daumier Register,” DR number 7186 “Le Troubadour,” <a href=\"http://www.daumier-register.org/werkview.php?key=7186\">http://www.daumier-register.org/werkview.php?key=7186</a>, accessed 12/10/15.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "William Robinson, email to Christine Edmonson and June de Phillips, March 3, 2009, in CMA curatorial file.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "“The Daumier Register,” DR number 7186 “Le Troubadour,” <a href=\"http://www.daumier-register.org/werkview.php?key=7186\">http://www.daumier-register.org/werkview.php?key=7186</a>, accessed 12/10/15.",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "",
+        "page_number": "",
+        "url": ""
+      },
+      {
+        "citation": "Klossowski, Erich. <em>Honoré Daumier</em>. München, Germany: R. Piper, 1923.",
+        "page_number": "Reproduced: no. 75, fig. 52",
+        "url": null
+      },
+      {
+        "citation": "Fuchs, Eduard. \"Honore Daumier.\" <em>Cahiers d'Art </em>3 (1928): 185-197.",
+        "page_number": "Reproduced: P. 196",
+        "url": null
+      },
+      {
+        "citation": "Fuchs, Eduard. <em>Der maler Daumier</em>. München, Germany: A. Langen, 1930.",
+        "page_number": "Reproduced: no. 117",
+        "url": null
+      },
+      {
+        "citation": "Coe, Nancy. <em>The History of the Collecting of European Paintings and Drawings in the City of Cleveland</em>. 1955.",
+        "page_number": "Reproduced: p. 72, vol. 2",
+        "url": null
+      },
+      {
+        "citation": "Maison, K. E. \"Further Daumier Studies-II: Preparatory Drawings for Paintings.\" <em>The Burlington Magazine</em> 98, no. 639 (June 1956): 199-205.",
+        "page_number": "Reproduced: P. 200",
+        "url": "http://www.jstor.org/stable/871814."
+      },
+      {
+        "citation": "Cleveland Museum of Art. <em>In Memoriam: Leonard C. Hanna, Jr.</em> Cleveland, OH: The Cleveland Museum of Art, 1958.",
+        "page_number": "Reproduced: no. 7",
+        "url": null
+      },
+      {
+        "citation": "\"Accessions of American and Canadian Museums.\" <em>The Art Quarterly</em> 21 (Spring 1958): 82-109.",
+        "page_number": "Reproduced: P. 104",
+        "url": null
+      },
+      {
+        "citation": "Francis, Henry S. \"Report for the Year 1958: Painting Department.\" <em>The Bulletin of The Cleveland Museum of Art XLVI</em>, no. 6 (June, 1959): 121-122.",
+        "page_number": "Mentioned: p. 122",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1966</em>. Cleveland, OH: The Cleveland Museum of Art, 1966.",
+        "page_number": "Reproduced: p. 170",
+        "url": "https://archive.org/details/CMAHandbook1966/page/n194"
+      },
+      {
+        "citation": "Rey, Robert. <em>Honoré Daumier</em>. New York, NY: H.N. Abrams, 1966.",
+        "page_number": "Reproduced: p. 140",
+        "url": null
+      },
+      {
+        "citation": "Maison, K. E. <em>Honoré Daumier: Catalogue Raisonné of the Paintings, Watercolours, and Drawings, </em>Greenwich, CT:New York Graphic Society, 1968.",
+        "page_number": "Reproduced: no. 186, pl. 137, vol. 1",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1969</em>. Cleveland, OH: The Cleveland Museum of Art, 1969.",
+        "page_number": "Reproduced: p. 170",
+        "url": "https://archive.org/details/CMAHandbook1969/page/n194"
+      },
+      {
+        "citation": "Mandel, Gabriele. <em>L'opera pittorica completa di Daumier</em>. Milano, Italy: Rizzoli, 1971.",
+        "page_number": "Reproduced: no. 269, plate 56",
+        "url": null
+      },
+      {
+        "citation": "The Cleveland Museum of Art. <em>Handbook of the Cleveland Museum of Art/1978</em>. Cleveland, OH: The Cleveland Museum of Art, 1978.",
+        "page_number": "Reproduced: p. 210",
+        "url": "https://archive.org/details/CMAHandbook1978/page/n230"
+      },
+      {
+        "citation": "Morse, John D. <em>Old Master Paintings in North America: Over 3000 Masterpieces by 50 Great Artists</em>. New York, NY: Abbeville Press, 1979.",
+        "page_number": "Reproduced: p. 88",
+        "url": null
+      },
+      {
+        "citation": "Henning, Edward B. “New Paintings by Four Artists from Britain.” <em>The Bulletin of the Cleveland Museum of Art</em> 69, no. 10 (December 1982): 311–323.",
+        "page_number": "Mentioned and reproduced: p. 117-119, fig. 10",
+        "url": "http://www.jstor.org/stable/25159795"
+      },
+      {
+        "citation": "Borowitz, Helen O. \"Three Guitars: Reflections of Italian Comedy in Watteau, Daumier, and Picasso.\" <em>The Bulletin of The Cleveland Museum of</em> <em>Art LXXI</em>, no.4 (April, 1984):116-129.",
+        "page_number": "Reproduced: p. 120, fig. 7",
+        "url": null
+      },
+      {
+        "citation": "Chong, Alan. <em>European &amp; American Painting in the Cleveland Museum of Art: A Summary Catalogue.</em> Cleveland, Ohio: Cleveland Museum of Art, 1993.",
+        "page_number": "Reproduced: P. 53",
+        "url": null
+      },
+      {
+        "citation": "Laughton, Bruce. <em>Honoré Daumier</em>. New Haven, CT: Yale University Press, 1996",
+        "page_number": null,
+        "url": null
+      },
+      {
+        "citation": "Laughton, Bruce. <em>Honoré Daumier</em>. New Haven, CT:Yale University Press, 1996.",
+        "page_number": "Mentioned: p. 146-147",
+        "url": null
+      },
+      {
+        "citation": "Loyette, Henri. <em>Daumier, 1808-1879: Musée des Beaux-Arts du Canada, Ottawa, 11 juin-6 septembre 1999 ; Galeries nationales du Grand Palais, Paris, 5 octobre 1999-3 janvier 2000 ; The Phillips Collection, Washington, 19 février-14 mai 2000</em>. Paris, Fŕance: Reunion des musees nationaux, 1999.",
+        "page_number": "Reproduced: p. 74-75; cat. no. 37",
+        "url": null
+      },
+      {
+        "citation": "Fohr, Robert. <em>Daumier: sculpteur et peintre</em>. Paris, France: Adam Biro, 1999.",
+        "page_number": "Reproduced: p. 128-129",
+        "url": null
+      },
+      {
+        "citation": "D'Argencourt, Louise and Roger Diederen. <em>The Cleveland Museum of Art: Catalogue of Paintings, Part Four; European Paintings of the 19th Century. </em>Cleveland, OH: The Cleveland Museum of Art, 1999.",
+        "page_number": "Reproduced: p. 70",
+        "url": null
+      },
+      {
+        "citation": "Seligman, Isabel. <em>Lines of Thought: Drawing from Michelangelo to Now.</em> [London]: Thames &amp; Hudson Ltd.: In collaboration with the British Museum, 2016.",
+        "page_number": "Reproduced: p. 109, fig. 39",
+        "url": null
+      }
+    ],
+    "url": "https://clevelandart.org/art/1958.23",
+    "images": {
+      "annotation": null,
+      "web": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.23/1958.23_web.jpg",
+        "width": "595",
+        "height": "893",
+        "filesize": "412396",
+        "filename": "1958.23_web.jpg"
+      },
+      "print": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.23/1958.23_print.jpg",
+        "width": "2264",
+        "height": "3400",
+        "filesize": "5874925",
+        "filename": "1958.23_print.jpg"
+      },
+      "full": {
+        "url": "https://openaccess-cdn.clevelandart.org/1958.23/1958.23_full.tif",
+        "width": "3996",
+        "height": "6000",
+        "filesize": "71961232",
+        "filename": "1958.23_full.tif"
+      }
+    },
+    "alternate_images": [],
+    "creditline": "Bequest of Leonard C. Hanna Jr.",
+    "image_credit": null,
+    "sketchfab_id": null,
+    "sketchfab_url": null,
+    "gallery_donor_text": "Victoire and Alfred Rankin Jr. Gallery",
+    "athena_id": 135214,
+    "creators": [
+      {
+        "id": 1638,
+        "description": "Honoré Daumier (French, 1808–1879)",
+        "extent": null,
+        "qualifier": null,
+        "role": "artist",
+        "biography": "Honoré Daumier was eight years old when his father, a glazier and frame maker who had decided to pursue his poetic talents in Paris, sent for the wife and three sons he lad left behind in Marseilles. In Paris Daumier studied drawing with Alexandre Lenoir (1761-1839) and at the Académie Suisse. Around 1825 he began a five-year apprenticeship with the publisher and lithographer Zépherin Belliard (1798-?). The July revolution of 1830, which established Louis-Philippe as the constitutional monarch in France, coincided with Daumier's creation of satirical lithographs aimed at this new government. That same year he joined La Caricature, a political journal founded by the republican artist-publisher, Charles Philipon (1802-1862). Daumier's antimonarchist and liberal subjects that were printed in this paper eventually cost the journal censorship and the artist six months in jail (31 August 1832 to 14 February 1833) plus a 300-franc fine. His prison sentence did not deter him from producing political statements and, in fact, only fueled his rage. The subjects of his lithographs became much more aggressive. In 1835 he worked for Philipon's second publication, Le Charivari, a humorous political newspaper that published Daumier's satirical caricature until it, too, suffered censorship under the new government. Although Daumier may be best known for his graphic art, he was also a sculptor and a prolific painter. Sculpture became another medium to produce his infamous caricatures. His friend, Honoré de Balzac, French novelist and editor of La Caricature, saw in these works the force of Michelangelo. In 1834 Daumier began experimenting with painting, both in oil and watercolor. Apart from his Salon entries of 1849 and 1850, his paintings, which totaled over three hundred, were painted primarily for his own pleasure and virtually unknown to the public until after his death in 1879.",
+        "name_in_original_language": null,
+        "birth_year": "1808",
+        "death_year": "1879",
+        "use_in_caption": true,
+        "include_extent": false,
+        "weight": 1
+      }
+    ],
+    "legal_status": "accessioned",
+    "accession_date": "1958-11-29T00:00:00",
+    "sortable_date": 1868,
+    "date_added_to_oa": null,
+    "date_text": "1868–73",
+    "collapse_artists": false,
+    "on_loan": false,
+    "recently_acquired": false,
+    "record_type": "object",
+    "conservation_statement": null,
+    "has_conservation_images": false,
+    "cover_accession_number": null,
+    "is_nazi_era_provenance": true,
+    "impression": null,
+    "alternate_titles": [],
+    "is_highlight": false,
+    "updated_at": "2026-07-01 11:21:40.271000"
+  }
+}

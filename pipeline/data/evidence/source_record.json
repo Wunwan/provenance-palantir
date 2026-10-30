@@ -46,5 +46,85 @@
     "retrieved_at": "2026-10-29T23:21:28Z",
     "version": "2026-08-22 11:53:15.110000",
     "raw_path": "data/raw/cleveland/1963.502.json"
+  },
+  {
+    "id": "sr-1959.190",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/1959.190",
+    "retrieved_at": "2026-10-30T00:29:29Z",
+    "version": "2026-06-10 18:00:18.302000",
+    "raw_path": "data/raw/cleveland/1959.190.json"
+  },
+  {
+    "id": "sr-1964.292",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/1964.292",
+    "retrieved_at": "2026-10-30T00:29:30Z",
+    "version": "2026-05-29 07:12:28.963000",
+    "raw_path": "data/raw/cleveland/1964.292.json"
+  },
+  {
+    "id": "sr-1958.21",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.21",
+    "retrieved_at": "2026-10-30T00:29:30Z",
+    "version": "2026-10-29 22:04:50.522000",
+    "raw_path": "data/raw/cleveland/1958.21.json"
+  },
+  {
+    "id": "sr-1958.20",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.20",
+    "retrieved_at": "2026-10-30T00:29:31Z",
+    "version": "2026-07-29 11:09:49.665000",
+    "raw_path": "data/raw/cleveland/1958.20.json"
+  },
+  {
+    "id": "sr-1958.23",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/1958.23",
+    "retrieved_at": "2026-10-30T00:29:31Z",
+    "version": "2026-07-01 11:21:40.271000",
+    "raw_path": "data/raw/cleveland/1958.23.json"
+  },
+  {
+    "id": "sr-1948.137",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/1948.137",
+    "retrieved_at": "2026-10-30T00:29:31Z",
+    "version": "2026-05-29 06:30:54.639000",
+    "raw_path": "data/raw/cleveland/1948.137.json"
+  },
+  {
+    "id": "sr-1962.256",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/1962.256",
+    "retrieved_at": "2026-10-30T00:29:32Z",
+    "version": "2026-05-29 07:00:47.675000",
+    "raw_path": "data/raw/cleveland/1962.256.json"
+  },
+  {
+    "id": "sr-2003.225",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/2003.225",
+    "retrieved_at": "2026-10-30T00:29:32Z",
+    "version": "2026-05-29 08:26:36.119000",
+    "raw_path": "data/raw/cleveland/2003.225.json"
+  },
+  {
+    "id": "sr-1988.57",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/1988.57",
+    "retrieved_at": "2026-10-30T00:29:32Z",
+    "version": "2026-06-20 11:04:23.081000",
+    "raw_path": "data/raw/cleveland/1988.57.json"
+  },
+  {
+    "id": "sr-1977.117",
+    "collection": "cleveland-demo",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/1977.117",
+    "retrieved_at": "2026-10-30T00:29:33Z",
+    "version": "2026-09-17 11:22:17.566000",
+    "raw_path": "data/raw/cleveland/1977.117.json"
   }
 ]
