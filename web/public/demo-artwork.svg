@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Abstract landscape, invented for the demo">
+  <rect width="800" height="600" fill="#e9dcc3"/>
+  <rect width="800" height="300" fill="#f1e6cf"/>
+  <circle cx="570" cy="170" r="70" fill="#d98c3a"/>
+  <path d="M0 330 L170 200 L320 320 L470 230 L620 340 L800 250 L800 600 L0 600 Z" fill="#6f8aa3"/>
+  <path d="M0 400 Q200 330 400 410 T800 380 L800 600 L0 600 Z" fill="#4f6b52"/>
+  <path d="M0 480 Q220 430 430 490 T800 470 L800 600 L0 600 Z" fill="#33463a"/>
+  <rect x="120" y="440" width="10" height="60" fill="#2a2a28"/>
+  <ellipse cx="125" cy="425" rx="34" ry="42" fill="#2f4a38"/>
+  <rect x="640" y="455" width="8" height="48" fill="#2a2a28"/>
+  <ellipse cx="644" cy="442" rx="26" ry="32" fill="#2f4a38"/>
+</svg>
