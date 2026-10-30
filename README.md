@@ -1,1 +1,1 @@
-# provenance-palantir
+# Provenance project
