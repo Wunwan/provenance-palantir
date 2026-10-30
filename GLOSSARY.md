@@ -58,9 +58,9 @@ _Avoid_: Confidence, status
 A derived span of time in which no event says who held the artwork: a missing span between events, a "?" or undated step, or a hidden holder such as "private collection". Recalculated, never edited. A question, not a verdict.
 _Avoid_: Hole, missing period, unknown owner
 
-**Risk window**:
-The years 1933 to 1945. A gap that overlaps it is in the risk window.
-_Avoid_: Nazi years, danger zone
+**Focus period**:
+An optional range of years the user picks to measure and highlight gaps; none by default, so gaps at any date count equally. 1933 to 1945 is a preset for Nazi-era provenance research.
+_Avoid_: Risk window, Nazi years, danger zone
 
 ### Matching and next leads
 

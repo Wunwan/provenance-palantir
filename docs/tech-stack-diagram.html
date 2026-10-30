@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Provenance project: stack by feature</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --page:#444; --frame:#dcdcd0; --ink:#1c1c1a; --muted:#6d6d64; --line:#77776f; --blue:#3b5fc0; --red:#b03a3a;
+          --sans: Inter, "Helvetica Neue", Arial, system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font-family: var(--sans); }
+  main { max-width: 1640px; margin: 0 auto; padding: 24px; }
+  .frame { display: block; width: 100%; height: auto; }
+  .frame text { font-family: var(--sans); fill: var(--ink); }
+  .corner { font-family: var(--mono) !important; font-size: 17px; letter-spacing: .12em; }
+  .legend-t { font-size: 28px; font-weight: 300; }
+  .col-t { font-size: 28px; font-weight: 300; text-anchor: middle; }
+  .count { font-family: var(--mono) !important; font-size: 13px; letter-spacing: .06em; fill: var(--muted) !important; }
+  .tier { font-family: var(--mono) !important; font-size: 10.5px; letter-spacing: .14em; fill: var(--muted) !important; }
+  .item { font-size: 14.5px; font-weight: 400; }
+  .dia { fill: #fff; stroke: var(--line); stroke-width: 1.3; stroke-linejoin: round; }
+  .notes { background: var(--frame); margin-top: 24px; padding: 28px 32px 34px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; }
+  @media (max-width: 1000px) { .notes { grid-template-columns: 1fr; } }
+  .notes h3 { margin: 0 0 12px; padding-top: 12px; border-top: 1px solid var(--line); font-weight: 300; font-size: 24px; letter-spacing: -.01em; }
+  .notes ul { list-style: none; margin: 0; padding: 0; }
+  .notes li { display: grid; grid-template-columns: 14px 1fr; gap: 10px; padding: 8px 0; font-size: 15px; line-height: 1.4; }
+  .notes li b { font-weight: 500; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 6px; background: var(--blue); }
+  .dot.p { background: var(--red); }
+  .scan { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 14px; }
+  .scan h4 { margin: 0 0 10px; font: 500 11px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .flow { display: flex; flex-wrap: wrap; gap: 8px 6px; align-items: stretch; }
+  .stage { background: #fff; border: 1px solid var(--red); border-left-width: 4px; padding: 7px 12px; font-size: 14px; }
+  .arrow { align-self: center; color: var(--muted); }
+  .scan p { margin: 10px 0 0; font-size: 13px; color: var(--muted); max-width: 90ch; line-height: 1.5; }
+</style>
+</head>
+<body>
+<main>
+
+<svg class="frame" id="frame" viewBox="48 54 1507 847" role="img" aria-labelledby="t d" xmlns="http://www.w3.org/2000/svg">
+  <title id="t">Stack by feature</title>
+  <desc id="d">Three features, each shown as three stacked layers. Blue is implemented and red is proposed.</desc>
+  <rect x="48" y="54" width="1507" height="847" fill="#dcdcd0"/>
+  <text class="corner" x="80" y="96">PROVENANCE PROJECT</text>
+  <circle cx="100" cy="182" r="19" fill="#3b5fc0"/><text class="legend-t" x="135" y="192">Implemented</text>
+  <circle cx="100" cy="242" r="19" fill="#b03a3a"/><text class="legend-t" x="135" y="252">Proposed</text>
+  <g id="stack"></g>
+  <text class="corner" x="80" y="878">WUNWAN</text>
+  <text class="corner" x="1524" y="878" text-anchor="end">OCT 30, 2026</text>
+</svg>
+
+<section class="notes" aria-label="What is included">
+  <div><h3>Data extraction</h3><ul>
+    <li><i class="dot"></i><span><b>Structured sources (built).</b> Cleveland's API, Getty's dealer records and Wikidata for place coordinates.</span></li>
+    <li><i class="dot p"></i><span><b>Text and scans (planned).</b> Free-text paragraphs, scanned auction catalogues and handwritten ledgers.</span></li>
+    <li><i class="dot"></i><span><b>Rules first.</b> Every value points to its exact source words; AI only where rules fail.</span></li>
+  </ul></div>
+  <div><h3>Map and chart visualizer</h3><ul>
+    <li><i class="dot"></i><span><b>How.</b> React draws the SVG; D3 supplies the scales and the map projection.</span></li>
+    <li><i class="dot"></i><span><b>Tools.</b> Vite to build, Vitest to test, headless Chrome to check the screens.</span></li>
+    <li><i class="dot"></i><span><b>Libraries.</b> React 19, TypeScript 7, D3 7, topojson.</span></li>
+  </ul></div>
+  <div><h3>Decision making (name matching)</h3><ul>
+    <li><i class="dot"></i><span><b>Algorithm.</b> RapidFuzz name score, checked against life dates and shared artworks.</span></li>
+    <li><i class="dot"></i><span><b>Ranking.</b> Three bands (strong, possible, weak), each with plain reasons. No learned model, no fake precision.</span></li>
+    <li><i class="dot"></i><span><b>A person decides.</b> Accept or reject; the Claude API is planned for hard names only.</span></li>
+  </ul></div>
+
+  <div class="scan">
+    <h4>Planned pipeline for scanned documents</h4>
+    <div class="flow" id="scan"></div>
+    <p>From the PRD and proposal: auction catalogue PDFs with OCR, one or two real pages, checked against Getty's transcription. No OCR tool has been chosen yet.</p>
+  </div>
+</section>
+</main>
+
+<script>
+// Three short lines per diamond. status: i = implemented, p = proposed.
+const FEATURES = [
+  { name: ['Data extraction'], cx: 451, tiers: [
+    { short: 'STRUCTURED (API)', items: [['i','Cleveland API (JSON)'],['i','Getty SPARQL, cached'],['i','Wikidata (places)']] },
+    { short: 'TEXT AND SCANS',   items: [['p','AIC free-text paragraphs'],['p','Scanned catalogues + OCR'],['p','Handwritten ledgers']] },
+    { short: 'BUILT ON',         items: [['i','Rules first, then claims'],['i','pydantic + static JSON'],['p','AI only where rules fail']] },
+  ]},
+  { name: ['Map and chart visualizer'], cx: 856, tiers: [
+    { short: 'HOW IT WORKS',     items: [['i','Timeline: D3 scales, SVG'],['i','Map: d3-geo, zoom'],['p','Barcode + dealer network']] },
+    { short: 'TOOLS',            items: [['i','Vite, Vitest, oxlint'],['i','Headless Chrome checks'],['p','Hosting: Vercel/Netlify']] },
+    { short: 'LIBRARIES',        items: [['i','React 19, TypeScript 7'],['i','D3 7, topojson'],['p','d3 brush + transitions']] },
+  ]},
+  { name: ['Decision making','(name matching)'], cx: 1261, tiers: [
+    { short: 'MATCHING',         items: [['i','RapidFuzz name score'],['i','Dates + shared artwork'],['i','Strong / possible / weak']] },
+    { short: 'RANKING',          items: [['i','Rules + bands, no ML'],['i','Collection: open years'],['p','Place + title rules']] },
+    { short: 'REVIEW',           items: [['i','Accept / reject, saved'],['p','Evidence closes the gap'],['p','Claude API for names']] },
+  ]},
+];
+const SCAN = ['Scanned page','OCR','Rules; AI only where rules fail','Claims that point to the page region','Lead on the timeline'];
+
+const W = 330, H = 204, CY = [393, 530, 667], FIRST = [380, 524, 661], LABEL = [352, 508, 645];
+const NS = 'http://www.w3.org/2000/svg';
+const el = (t, a = {}, x) => { const n = document.createElementNS(NS, t); for (const k in a) n.setAttribute(k, a[k]); if (x != null) n.textContent = x; return n; };
+const stack = document.getElementById('stack');
+
+FEATURES.forEach((f) => {
+  const c = { i: 0, p: 0 }; f.tiers.forEach((t) => t.items.forEach((it) => c[it[0]]++));
+  const y0 = f.name.length === 2 ? 215 : 250;
+  f.name.forEach((l, k) => stack.append(el('text', { class: 'col-t', x: f.cx, y: y0 + k * 34 }, l)));
+  [2, 1, 0].forEach((li) => {                       // bottom first so the upper diamond overlaps it
+    const t = f.tiers[li], cx = f.cx, cy = CY[li];
+    const g = el('g', { role: 'group', 'aria-label': `${f.name.join(' ')}, ${t.short.toLowerCase()}` });
+    g.append(el('polygon', { class: 'dia', points: `${cx},${cy - H/2} ${cx + W/2},${cy} ${cx},${cy + H/2} ${cx - W/2},${cy}` }));
+    g.append(el('text', { class: 'tier', x: cx, y: LABEL[li], 'text-anchor': 'middle' }, t.short));
+    t.items.forEach((it, k) => {
+      const y = FIRST[li] + k * 20;
+      g.append(el('circle', { cx: cx - 88, cy: y - 5, r: 4.8, fill: it[0] === 'i' ? '#3b5fc0' : '#b03a3a' }));
+      g.append(el('text', { class: 'item', x: cx - 77, y }, it[1]));
+    });
+    stack.append(g);
+  });
+  const cg = el('g');
+  cg.append(el('circle', { cx: f.cx - 124, cy: 806, r: 5, fill: '#3b5fc0' }));
+  cg.append(el('text', { class: 'count', x: f.cx - 112, y: 811 }, `${c.i} implemented`));
+  cg.append(el('circle', { cx: f.cx + 30, cy: 806, r: 5, fill: '#b03a3a' }));
+  cg.append(el('text', { class: 'count', x: f.cx + 42, y: 811 }, `${c.p} proposed`));
+  stack.append(cg);
+});
+
+const flow = document.getElementById('scan');
+SCAN.forEach((s, k) => {
+  if (k) { const a = document.createElement('span'); a.className = 'arrow'; a.textContent = '→'; flow.append(a); }
+  const d = document.createElement('div'); d.className = 'stage'; d.textContent = s; flow.append(d);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Provenance project: moodboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400&family=Source+Serif+4:ital,wght@0,400;1,400&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root { --paper:#111; --panel:#1a1a1a; --rule:rgba(255,255,255,.35); --ink:#ece9e2; --muted:#8d8d90; --red:#e0443a; --cream:#ede6d8;
+          --gutter: clamp(16px, 3vw, 42px); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 300 15px/1.55 "Hanken Grotesk", system-ui, sans-serif; }
+  a { color: inherit; }
+  header { display: grid; grid-template-columns: 30% 1fr; gap: 16px; border-top: 1px solid var(--rule); margin: 28px var(--gutter) 40px; padding-top: 18px; }
+  @media (max-width: 760px) { header { grid-template-columns: 1fr; } }
+  .eyebrow { font: 400 11px "Hanken Grotesk"; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  h1 { font: 300 clamp(44px, 7vw, 92px)/1 "Hanken Grotesk"; letter-spacing: -.035em; margin: 0 0 14px; }
+  header p { margin: 0; max-width: 62ch; color: var(--muted); font-size: 17px; }
+  h2 { font: 400 11px "IBM Plex Mono", monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 var(--gutter) 18px; padding-top: 14px; border-top: 1px solid var(--rule); }
+  .board { column-count: 4; column-gap: 24px; margin: 0 var(--gutter) 56px; }
+  @media (max-width: 1300px) { .board { column-count: 3; } }
+  @media (max-width: 900px)  { .board { column-count: 2; } }
+  @media (max-width: 560px)  { .board { column-count: 1; } }
+  figure { break-inside: avoid; margin: 0 0 28px; }
+  figure a { display: block; border: 1px solid #2a2a2a; background: var(--panel); }
+  figure a:hover, figure a:focus-visible { border-color: var(--ink); outline: none; }
+  figure img { display: block; width: 100%; height: auto; }
+  figcaption { margin-top: 9px; font-size: 13.5px; color: var(--muted); line-height: 1.45; }
+  figcaption b { display: block; font: 400 11px "IBM Plex Mono", monospace; letter-spacing: .06em; color: var(--ink); margin-bottom: 2px; }
+  figcaption i { font-style: normal; color: #b8b6b0; }
+  .landed { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 0 var(--gutter) 56px; align-items: start; }
+  @media (max-width: 900px) { .landed { grid-template-columns: 1fr; } }
+  .landed figure { margin: 0; }
+  .palette { display: grid; grid-template-columns: repeat(8, 1fr); margin: 0 var(--gutter) 28px; border: 1px solid var(--rule); }
+  @media (max-width: 760px) { .palette { grid-template-columns: repeat(4, 1fr); } }
+  .sw { height: 110px; padding: 10px 12px; font: 400 11px "IBM Plex Mono", monospace; display: flex; flex-direction: column; justify-content: flex-end; gap: 2px; }
+  .type { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin: 0 var(--gutter) 56px; }
+  @media (max-width: 900px) { .type { grid-template-columns: 1fr; } }
+  .type div { display: flex; flex-direction: column; gap: 8px; }
+  .type small { font: 400 11px "IBM Plex Mono", monospace; color: var(--muted); }
+  footer { margin: 0 var(--gutter); padding: 18px 0 40px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 12.5px; max-width: 110ch; }
+  footer a { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Provenance project</div>
+  <div>
+    <h1>Moodboard</h1>
+    <p>A dark gallery at night. The works are the light source: real images on near-black, museum-label captions, thin rules, one red accent and light type. Click any image to open it full size.</p>
+  </div>
+</header>
+
+<h2>References</h2>
+<section class="board" aria-label="Reference images">
+  <figure><a href="moodboard/01-louvre-museum-app.png" target="_blank" rel="noreferrer"><img src="moodboard/01-louvre-museum-app.png" alt="A dark mobile museum app page with serif titles, a boxed row of facts and numbered annotations ending in small red dots" loading="lazy"></a>
+    <figcaption><b>01 Dark museum app</b>Charcoal ground, serif names, red accent dots, numbered sections. <i>Used.</i></figcaption></figure>
+
+  <figure><a href="moodboard/02-british-museum-objects.png" target="_blank" rel="noreferrer"><img src="moodboard/02-british-museum-objects.png" alt="Objects cut out on a black ground, each with a two-line museum caption" loading="lazy"></a>
+    <figcaption><b>02 Objects on black</b>Images sit straight on the ground; two-line museum captions. <i>Used.</i></figcaption></figure>
+
+  <figure><a href="moodboard/03-archive-grid.png" target="_blank" rel="noreferrer"><img src="moodboard/03-archive-grid.png" alt="A row of archive objects on dark with monospace uppercase headings and thin rules" loading="lazy"></a>
+    <figcaption><b>03 Archive grid</b>Image grid with a rule and a caption beneath, mono caps labels. <i>Used.</i></figcaption></figure>
+
+  <figure><a href="moodboard/07-harvard-camlab-about.png" target="_blank" rel="noreferrer"><img src="moodboard/07-harvard-camlab-about.png" alt="Harvard CAMLab About page: a full-bleed hero, then editorial rows with a label in a narrow left column and light text on the right" loading="lazy"></a>
+    <figcaption><b>07 Harvard CAMLab</b>Label-left rows, hairlines, light type, full-bleed image, no cards. <i>Used.</i> camlab.fas.harvard.edu, captured 2026-10-30.</figcaption></figure>
+
+  <figure><a href="moodboard/08-journey-chart-reference.png" target="_blank" rel="noreferrer"><img src="moodboard/08-journey-chart-reference.png" alt="Ownership journey chart on placeholder data: rows per place, bars, markers and a shaded 1933 to 1945 band" loading="lazy"></a>
+    <figcaption><b>08 Journey chart reference</b>Rows per place, solid and faded bars, markers by type, the 1933–1945 band. <i>Used, then changed.</i></figcaption></figure>
+
+  <figure><a href="moodboard/04-irving-penn-works.png" target="_blank" rel="noreferrer"><img src="moodboard/04-irving-penn-works.png" alt="A black gallery page with a serif all-caps statement and a row of overlapping photographs" loading="lazy"></a>
+    <figcaption><b>04 Black gallery page</b>Overlapping photographs, centred serif caps. <i>Noted, not used yet.</i></figcaption></figure>
+
+  <figure><a href="moodboard/05-overlapping-collective.png" target="_blank" rel="noreferrer"><img src="moodboard/05-overlapping-collective.png" alt="A grey page with overlapping translucent images along a thin vertical axis and a small Random or Linear toggle" loading="lazy"></a>
+    <figcaption><b>05 Overlapping translucent images</b>Layering along a thin axis; a quiet two-way toggle. <i>Noted, not used yet.</i></figcaption></figure>
+
+  <figure><a href="moodboard/06-rosetta-annotated-insets.png" target="_blank" rel="noreferrer"><img src="moodboard/06-rosetta-annotated-insets.png" alt="A comet image with boxed close-ups joined to their place on the whole by thin leader lines" loading="lazy"></a>
+    <figcaption><b>06 Boxed insets with leader lines</b>Callouts that point from a detail to its place. <i>Noted.</i> ESA/Rosetta/NavCam, CC BY-SA IGO 3.0.</figcaption></figure>
+</section>
+
+<h2>Where it landed</h2>
+<section class="landed" aria-label="The interface">
+  <figure><a href="moodboard/09-app-collection.png" target="_blank" rel="noreferrer"><img src="moodboard/09-app-collection.png" alt="The collection page: a grid of paintings on black with museum-label captions" loading="lazy"></a>
+    <figcaption><b>09 Collection</b>Images on the ground, mono labels, hairlines.</figcaption></figure>
+  <figure><a href="moodboard/10-app-artwork-journey.png" target="_blank" rel="noreferrer"><img src="moodboard/10-app-artwork-journey.png" alt="An artwork page with a large image, label-left fact rows, the journey timeline and ownership cards" loading="lazy"></a>
+    <figcaption><b>10 Artwork and journey</b>Label-left rows, the journey chart, one card per ownership step.</figcaption></figure>
+  <figure><a href="moodboard/11-app-artwork-map.png" target="_blank" rel="noreferrer"><img src="moodboard/11-app-artwork-map.png" alt="The journey as a map with colour-coded numbered arcs" loading="lazy"></a>
+    <figcaption><b>11 Journey as a map</b>Colour-coded, numbered arcs; zoom and pan.</figcaption></figure>
+</section>
+
+<h2>Palette</h2>
+<div class="palette" role="list">
+  <div class="sw" role="listitem" style="background:#111">--paper<br>#111111</div>
+  <div class="sw" role="listitem" style="background:#1a1a1a">--panel<br>#1A1A1A</div>
+  <div class="sw" role="listitem" style="background:#242424">--panel-2<br>#242424</div>
+  <div class="sw" role="listitem" style="background:#4a4a4a">--rule<br>35% white</div>
+  <div class="sw" role="listitem" style="background:#8d8d90;color:#111">--muted<br>#8D8D90</div>
+  <div class="sw" role="listitem" style="background:#ece9e2;color:#111">--ink<br>#ECE9E2</div>
+  <div class="sw" role="listitem" style="background:#e0443a;color:#111">--red<br>#E0443A</div>
+  <div class="sw" role="listitem" style="background:#ede6d8;color:#111">--cream<br>#EDE6D8</div>
+</div>
+
+<h2>Type</h2>
+<div class="type">
+  <div><small>Hanken Grotesk 300 · titles, body</small><span style="font:300 52px/1.05 'Hanken Grotesk';letter-spacing:-.03em">Gaps are questions</span></div>
+  <div><small>Source Serif 4 · artwork names</small><span style="font:400 44px/1.1 'Source Serif 4'">Two Poplars in the Alpilles</span></div>
+  <div><small>IBM Plex Mono · labels, numbers</small><span style="font:400 24px 'IBM Plex Mono';letter-spacing:.14em;text-transform:uppercase">Chain of possession 01</span></div>
+</div>
+
+<footer>
+  References 01 to 07 are other people's work, kept as private design references; their original credits were not all recorded. Remove or replace them before making the repository public. Notes on what was taken from each are in <a href="moodboard.md">moodboard.md</a>; the tokens are in <a href="design-direction.md">design-direction.md</a>.
+</footer>
+</body>
+</html>

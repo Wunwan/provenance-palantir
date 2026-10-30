@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Provenance project: stack and tools by feature</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --page: #444444;
+    --frame: #dcdcd0;
+    --ink: #1c1c1a;
+    --muted: #6d6d64;
+    --line: #77776f;
+    --blue: #3b5fc0;
+    --red: #b03a3a;
+    --gray: #9a9a92;
+    --sans: Inter, "Helvetica Neue", Arial, system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font-family: var(--sans); }
+  main { max-width: 1640px; margin: 0 auto; padding: 24px; }
+  .frame { display: block; width: 100%; height: auto; }
+  .frame text { font-family: var(--sans); fill: var(--ink); }
+  .corner { font-family: var(--mono) !important; font-size: 17px; letter-spacing: 0.12em; }
+  .legend-t { font-size: 28px; font-weight: 300; }
+  .col-t { font-size: 28px; font-weight: 300; text-anchor: middle; }
+  .count { font-family: var(--mono) !important; font-size: 13px; letter-spacing: 0.06em; fill: var(--muted) !important; }
+  .tier { font-family: var(--mono) !important; font-size: 10px; letter-spacing: 0.14em; fill: var(--muted) !important; }
+  .item { font-size: 12.5px; font-weight: 400; }
+  .dia { fill: #fff; stroke: var(--line); stroke-width: 1.3; stroke-linejoin: round; transition: stroke .12s, stroke-width .12s; }
+  .stack g.layer { cursor: pointer; outline: none; }
+  .stack g.layer:hover .dia, .stack g.layer:focus-visible .dia, .stack g.layer.on .dia { stroke: var(--ink); stroke-width: 2.2; }
+
+  /* inventory below the frame */
+  .inv { background: var(--frame); margin-top: 24px; padding: 32px 32px 40px; }
+  .inv h2 { margin: 0 0 6px; font: 400 11px var(--mono); letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  .inv h3 { margin: 0 0 4px; font-weight: 300; font-size: 28px; letter-spacing: -0.02em; }
+  .inv .lede { margin: 0 0 20px; max-width: 70ch; color: var(--muted); font-size: 14px; line-height: 1.5; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; align-items: center; }
+  .filters button { font: 400 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; padding: 7px 14px; background: transparent; color: var(--ink); border: 1px solid var(--line); cursor: pointer; display: inline-flex; gap: 8px; align-items: center; }
+  .filters button[aria-pressed="true"] { background: var(--ink); color: var(--frame); border-color: var(--ink); }
+  .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; display: inline-block; background: var(--gray); }
+  .dot.i { background: var(--blue); } .dot.p { background: var(--red); } .dot.n { background: var(--gray); }
+  .cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; }
+  @media (max-width: 1100px) { .cols { grid-template-columns: 1fr; } }
+  .col > h3 { padding-top: 14px; border-top: 1px solid var(--line); margin-bottom: 18px; }
+  .tierbox { margin-bottom: 26px; scroll-margin-top: 16px; padding: 10px 12px 12px; margin-left: -12px; margin-right: -12px; transition: background .12s; }
+  .tierbox.on { background: rgba(255,255,255,.55); }
+  .tierbox h4 { margin: 0 0 8px; font: 500 11px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .tierbox ul { list-style: none; margin: 0; padding: 0; }
+  .tierbox li { display: grid; grid-template-columns: 14px 1fr; gap: 10px; padding: 7px 0; border-top: 1px solid rgba(0,0,0,.12); font-size: 14px; line-height: 1.4; }
+  .tierbox li .dot { margin-top: 5px; }
+  .tierbox li small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .tags { font: 400 10px var(--mono); letter-spacing: .08em; color: var(--muted); margin-left: 6px; text-transform: uppercase; }
+  li.hide { display: none; }
+  .proc { margin-top: 36px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .proc ul { columns: 2; column-gap: 40px; }
+  @media (max-width: 800px) { .proc ul { columns: 1; } }
+  .note { margin-top: 28px; font-size: 12px; color: var(--muted); max-width: 90ch; line-height: 1.5; }
+  .key { display: flex; flex-wrap: wrap; gap: 22px; margin: 0 0 22px; font: 400 12px var(--mono); letter-spacing: .06em; }
+  .key span { display: inline-flex; gap: 8px; align-items: center; }
+  .dot.s { background: transparent; border: 1.5px dashed var(--muted); }
+  .pipe { border-top: 1px solid var(--line); padding: 16px 0 18px; display: grid; grid-template-columns: minmax(220px, 24%) 1fr; gap: 12px 32px; }
+  @media (max-width: 900px) { .pipe { grid-template-columns: 1fr; } }
+  .pipe h4 { margin: 0 0 4px; font-weight: 400; font-size: 17px; display: flex; gap: 10px; align-items: baseline; }
+  .pipe h4 .dot { position: relative; top: 1px; }
+  .pipe .src { font-size: 12.5px; color: var(--muted); line-height: 1.45; }
+  .flow { display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px 6px; }
+  .stage { background: #fff; border: 1px solid var(--blue); padding: 7px 11px; font-size: 13px; line-height: 1.35; max-width: 230px; position: relative; }
+  .stage.p { border-color: var(--red); }
+  .stage.s { border: 1.5px dashed var(--gray); background: transparent; color: #3d3d38; }
+  .stage::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--blue); }
+  .stage.p::before { background: var(--red); } .stage.s::before { background: transparent; }
+  .stage { padding-left: 15px; }
+  .arrow { align-self: center; color: var(--muted); font-size: 14px; }
+  .pnote { grid-column: 2; font-size: 12.5px; color: var(--muted); line-height: 1.5; max-width: 90ch; }
+  @media (max-width: 900px) { .pnote { grid-column: 1; } }
+  table.rank { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.rank th { text-align: left; font: 500 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); padding: 0 16px 8px 0; }
+  table.rank td { vertical-align: top; padding: 10px 16px 10px 0; border-top: 1px solid rgba(0,0,0,.15); line-height: 1.45; }
+  table.rank td:first-child { white-space: nowrap; width: 1%; }
+  table.rank td:first-child span { display: inline-flex; gap: 10px; align-items: center; }
+  @media print { body { background: #fff; } main { padding: 0; } .filters { display: none; } }
+</style>
+</head>
+<body>
+<main>
+
+<!-- The frame follows the template: legend, three features each as three stacked layers, corner labels. -->
+<svg class="frame" id="frame" viewBox="48 54 1507 847" role="img" aria-labelledby="frame-title frame-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="frame-title">Stack and tools by feature</title>
+  <desc id="frame-desc">Three features, each shown as three stacked layers: data extraction, the map and chart visualizer, and decision making by name matching. Blue marks what is implemented and red marks what is proposed in the PRD and proposal.</desc>
+  <rect x="48" y="54" width="1507" height="847" fill="#dcdcd0"/>
+  <text class="corner" x="80" y="96">PROVENANCE PROJECT</text>
+
+  <!-- legend -->
+  <circle cx="100" cy="182" r="19" fill="#3b5fc0"/>
+  <text class="legend-t" x="135" y="192">Implemented</text>
+  <circle cx="100" cy="242" r="19" fill="#b03a3a"/>
+  <text class="legend-t" x="135" y="252">Proposed</text>
+
+  <g id="stack" class="stack"></g>
+
+  <text class="corner" x="80" y="878">WUNWAN</text>
+  <text class="corner" x="1524" y="878" text-anchor="end">OCT 30, 2026</text>
+</svg>
+
+<section class="inv" aria-labelledby="pipe-h">
+  <h2>Data extraction</h2>
+  <h3 id="pipe-h">Pipeline for each type of source</h3>
+  <p class="lede">What each kind of source goes through, stage by stage. Blue stages are built. Red stages are named in the PRD or proposal. Dashed grey stages are my suggestion where the documents name no method; they are not part of your plan yet.</p>
+  <div class="key"><span><i class="dot i"></i>Built</span><span><i class="dot p"></i>In the PRD or proposal</span><span><i class="dot s"></i>Suggested here, not in the documents</span></div>
+  <div id="pipes"></div>
+</section>
+
+<section class="inv" aria-labelledby="rank-h">
+  <h2>Decision making</h2>
+  <h3 id="rank-h">How matches are ranked</h3>
+  <p class="lede">The plan is rules plus RapidFuzz, combined into strength bands with visible reasons. It uses no learned ranking model and shows no precise score. This table sets each step of the plan beside what is built today.</p>
+  <table class="rank"><thead><tr><th>Step</th><th>In the plan</th><th>Built today</th></tr></thead><tbody id="ranking"></tbody></table>
+</section>
+
+<section class="inv" aria-labelledby="inv-h">
+  <h2>Everything on the diagram</h2>
+  <h3 id="inv-h">Full inventory</h3>
+  <p class="lede">The diamonds show the main items. This list holds every part of the project, drawn from the PRD, the proposal and what was built. Blue is built and used; red is in the plan but not built. Click a layer in the diagram to jump to its list.</p>
+  <div class="filters" role="group" aria-label="Filter by status">
+    <button type="button" data-f="all" aria-pressed="true">All</button>
+    <button type="button" data-f="i" aria-pressed="false"><span class="dot i"></span>Implemented</button>
+    <button type="button" data-f="p" aria-pressed="false"><span class="dot p"></span>Proposed</button>
+  </div>
+  <div class="cols" id="cols"></div>
+  <div class="proc" id="proc"></div>
+  <p class="note">Tags show where an item comes from: <a href="origin/initial-prd.md">PRD</a> and <a href="origin/project-proposal.md">Proposal</a> are the two founding documents; Built means it exists in the repository today. Some items are partly built and say so. "Proposed" means planned but not built, including things the PRD marked "later".</p>
+</section>
+</main>
+
+<script>
+// ---- Data: one source of truth for the diamonds and the inventory ----
+// [status, full label, short label for the diamond (or null), origins, note]
+// status: i = implemented, p = proposed
+const FEATURES = [
+  { name: ['Data extraction'], cx: 451, tiers: [
+    { t: 'Structured sources: APIs, CSV, linked data', short: 'STRUCTURED', items: [
+      ['i','Cleveland Museum of Art Open Access API (JSON)','Cleveland API (JSON)',['PRD','Proposal','Built'],'16 records stored raw, plus a live preview for any new accession number'],
+      ['i','Getty Provenance Index, SPARQL queries cached ahead of time','Getty SPARQL (cached)',['PRD','Proposal','Built'],'Two dealers searched, four leads. The plan was local CSVs; it was built as cached SPARQL'],
+      ['i','Wikidata API for place coordinates','Wikidata (places)',['Proposal','Built'],'Geocodes 29 place labels; not used as provenance evidence'],
+      ['i','Rule-based cleanup of Cleveland steps: vague dates, life dates, name variants','Rule cleanup → claims',['PRD','Proposal','Built'],'PRD module M2'],
+      ['i','Claims that point to the exact source words (character spans)',null,['PRD','Built'],''],
+      ['i','Place reading by rules, then geocoding',null,['Built'],''],
+      ['i','Detection of records that list their steps latest-first',null,['Built'],'Found while growing the collection from 6 to 16 artworks'],
+      ['i','Add-source live preview for a Cleveland accession number',null,['PRD','Built'],'Runs the real pipeline in a temporary folder'],
+      ['p','Getty Provenance Index CSVs, downloaded and searched locally','Getty CSVs, stock books',['Proposal'],''],
+      ['p','Dealer stock-book CSV adapter',null,['PRD'],'Each row is already a seller and a buyer'],
+      ['p','Europeana and Internet Archive search APIs (Europeana needs a free key)',null,['PRD'],''],
+      ['p','Seizure and custody events derived from wording',null,['Planned'],'The chart can draw them; the pipeline does not derive them yet'],
+    ]},
+    { t: 'Text, scans and web databases', short: 'TEXT, SCANS, WEB DBS', items: [
+      ['p','Art Institute of Chicago API: one free-text provenance paragraph','AIC free-text paragraphs',['PRD','Proposal'],'An optional messy paragraph as an extraction showcase'],
+      ['p','Free-text extraction engine (punctuation rules, AI for names)',null,['PRD'],'PRD feature P6'],
+      ['p','German Sales auction catalogues: digitized PDFs','Scanned PDF catalogues',['Proposal'],'One or two real pages'],
+      ['p','Auction-catalogue PDF engine with OCR',null,['PRD','Proposal'],'The documents do not name an OCR tool'],
+      ['p','Handwritten ledger scans','Handwritten ledgers',['PRD'],'The documents do not name a method'],
+      ['p','Lost Art, Proveana and property cards as pre-filled research links','Lost Art, Proveana (links)',['PRD','Proposal'],'No public API; shown as leads, never as fetched results'],
+      ['p','Add-source for CSV, PDF, pasted text and scans',null,['PRD','Built (preview only)'],'Shown as labeled illustrations today; the engines are not built'],
+    ]},
+    { t: 'Shared contract and storage', short: 'CONTRACT + STORAGE', items: [
+      ['i','Python 3.12 with uv','Python 3.12, uv',['PRD','Built'],''],
+      ['i','pydantic contract that exports a JSON Schema','pydantic contract',['PRD','Built'],''],
+      ['i','Raw snapshots stored with retrieved date and version','Raw snapshots + versions',['PRD','Built'],''],
+      ['i','One static JSON file per table; JSON Schema generates the TypeScript types','Static JSON + TS types',['PRD','Built','ADR 0001'],''],
+      ['i','pytest, including a check that every claim’s text is in its source record',null,['PRD','Built'],''],
+      ['p','Source-change flagging when a record is re-imported','Source-change flagging',['PRD','Proposal'],'Snapshots and versions exist; the flagging does not'],
+      ['p','Evaluation harness against hand-labeled records (Getty transcriptions as an answer key)','Evaluation harness',['Proposal'],''],
+    ]},
+  ]},
+  { name: ['Map and chart visualizer'], cx: 856, tiers: [
+    { t: 'How it is implemented', short: 'HOW IT WORKS', items: [
+      ['i','Timeline: React-rendered SVG, positions from D3 scales','Timeline: SVG + D3 scales',['PRD','Proposal','Built'],'PRD V1. D3 does the maths; React draws the marks'],
+      ['i','Map: d3-geo projection fitted to the visited places, semantic zoom, colour-coded arcs, year slider','Map: d3-geo, semantic zoom',['Proposal','Built'],'The proposal called this the locator map'],
+      ['i','One shared selection across the timeline, map and inspector','Shared selection, both views',['PRD','Proposal','Built'],'The PRD’s linking rule'],
+      ['i','Same encodings in every view: crisp, faded, hatched; one colour per source','Same encodings everywhere',['PRD','Proposal','Built'],''],
+      ['i','Everything derived in the browser from static JSON',null,['PRD','Built','ADR 0002'],''],
+      ['i','Collection grid, ownership cards with linked source words, Sources pages, Demo scenario',null,['PRD','Built'],'PRD V2 and V7 in part; the demo is a fictional multi-source example'],
+      ['i','Getty leads drawn as dashed marks in their source colour',null,['PRD','Built'],'A first version of the suggestion ghosts (PRD V3)'],
+      ['p','Gap-closing motion when evidence is added',null,['PRD','Proposal'],'PRD V4'],
+      ['p','Conflict markers where two sources disagree',null,['PRD','Proposal'],'PRD V5'],
+      ['p','History barcode of every piece on one timeline, ranked','Barcode, network, Sankey',['PRD','Proposal'],'PRD V6'],
+      ['p','Gap histogram across the collection',null,['PRD','Proposal'],'PRD V9'],
+      ['p','Brush and zoom on the time axis',null,['PRD','Proposal'],'PRD V8'],
+      ['p','Completeness before and after strip',null,['PRD'],'PRD V10'],
+      ['p','Collection map with a time brush',null,['Proposal'],'Later'],
+      ['p','Dealer network (hierarchical edge bundling)',null,['PRD','Proposal'],'PRD V12'],
+      ['p','Flows between owners (Sankey)',null,['Proposal'],'Later'],
+      ['p','Story mode for visitors',null,['Proposal'],'Later'],
+    ]},
+    { t: 'Tools', short: 'TOOLS', items: [
+      ['i','Vite for the dev server and the production build','Vite dev server + build',['PRD','Built'],''],
+      ['i','Vitest and oxlint','Vitest, oxlint',['Built'],''],
+      ['i','Headless Chrome screenshot and layout checks','Headless Chrome checks',['Built'],''],
+      ['i','Dev-only Vite plugin for the live source preview',null,['Built'],'Absent from a production build'],
+      ['i','Agentation, an on-page annotation toolbar for agents',null,['Built'],''],
+      ['p','Static hosting such as Vercel or Netlify','Hosting: Vercel or Netlify',['PRD'],'One link that always works for reviewers'],
+      ['p','Open-source release of the pipeline and data model',null,['PRD','Proposal'],''],
+    ]},
+    { t: 'Libraries', short: 'LIBRARIES', items: [
+      ['i','React 19 and TypeScript 7','React 19, TypeScript 7',['PRD','Built'],''],
+      ['i','D3 7: linear scales and ticks, d3-geo projections and paths, colour interpolation','D3 7: scales, geo, colour',['PRD','Proposal','Built'],''],
+      ['i','topojson-client and world-atlas (Natural Earth outline)','topojson + world-atlas',['Built'],'Free basemap, no map API or keys'],
+      ['i','Blueprint 6 components, themed with CSS design tokens',null,['Built'],''],
+      ['i','Hanken Grotesk, Source Serif 4 and IBM Plex Mono',null,['Built'],''],
+      ['p','D3 axis, transition, brush, stack and bin','d3 brush, transitions, stack',['PRD','Proposal'],'Planned D3 pieces that the build did not use'],
+      ['p','Edge bundling and a Sankey plugin for the network and flows',null,['Proposal'],'Later'],
+    ]},
+  ]},
+  { name: ['Decision making','(name matching)'], cx: 1261, tiers: [
+    { t: 'Matching algorithm, as built', short: 'MATCHING', items: [
+      ['i','1. Normalize names: fold accents; drop titles and particles such as Baron, von, Galerie, Jr','Normalize names',['PRD','Built'],''],
+      ['i','2. Score similarity with RapidFuzz token-sort ratio, 0 to 100 (a name contained in another is capped at 85)','RapidFuzz token-sort score',['PRD','Proposal','Built'],''],
+      ['i','3. Corroborate with life dates, a shared artwork, or a shared neighbour in the chain','Corroborate: dates, artwork',['PRD','Built'],''],
+      ['i','4. Assign a band: strong 90 and up, possible 75, weak 60','Bands: 90 / 75 / 60',['PRD','Proposal','Built'],'A strong name with no other evidence drops to possible; conflicting life dates force weak'],
+      ['i','5. Rank candidates by band, then by id; no numeric score is shown','Rank: band, then id',['PRD','Built'],'Order inside a band is not meaningful yet'],
+      ['i','457 candidate pairs across the 16 artworks',null,['Built'],''],
+    ]},
+    { t: 'Planned matching and ranking', short: 'PLANNED RANKING', items: [
+      ['p','Place and title rules as extra evidence for a match','Place + title rules',['PRD','Proposal'],'Only life dates, shared artwork and shared neighbour are built'],
+      ['p','Wikidata and Getty ULAN for name variants and identifiers','Wikidata, ULAN variants',['PRD','Proposal'],''],
+      ['p','Artwork matching across collections',null,['PRD','Proposal'],'PRD P7'],
+      ['p','Merge several sources into one chain, one lane per source','One chain from many sources',['PRD','Proposal','Built (demo)'],'Shown only in the fictional Demo scenario'],
+      ['p','Leads from loaded data (needs holders merged across artworks)','Loaded-data leads',['PRD','Built (returns none)'],'Produces none today because holders are not yet merged'],
+      ['p','Live search of external sources',null,['PRD','Proposal'],'Later'],
+      ['p','Claude API for ambiguous names and roles, suggestions only','Claude API: suggestions',['PRD','Proposal'],'Every output would link to its source span and stay unconfirmed'],
+    ]},
+    { t: 'Review, decisions and collection ranking', short: 'REVIEW + DECISIONS', items: [
+      ['i','Match cards with reasons and bands; accept or reject','Accept / reject cards',['PRD','Proposal','Built'],'PRD P3'],
+      ['i','A hidden-holder gap is resolved when a match is accepted',null,['Built'],'It changes the gap’s label only, not its years'],
+      ['i','Decisions kept in the browser (localStorage)','Decisions in localStorage',['PRD','Built','ADR 0002'],''],
+      ['i','Collection ranking by open years, then fewer parties named, a longer single silence, more unknown history, then id','Collection ranking',['PRD','Built'],'PRD P4. The collection page now sorts by holders or date, so this ranking is not shown there'],
+      ['i','Gaps, focus period and certainty recalculated in the browser',null,['PRD','Built','ADR 0002'],''],
+      ['i','Rules before AI',null,['PRD','Built','ADR 0003'],'No language model interprets provenance in this version'],
+      ['i','Getty leads cached with a preview, link and retrieved date',null,['PRD','Built'],'PRD P5'],
+      ['i','AI in the build: Claude Code agents with a cost-split loop',null,['Proposal','Built'],''],
+      ['p','Add evidence from a lead so the gap shrinks','Add evidence: gap shrinks',['PRD','Proposal'],'The logic exists; no screen uses it yet'],
+      ['p','Gap Actions menu',null,['Built (placeholders)'],'Seven placeholder actions today'],
+      ['p','Conflict resolution as an action, not only a marker','Conflict resolution',['PRD','Proposal'],''],
+      ['p','Decision history that records who decided and why',null,['Proposal'],''],
+      ['p','Family search',null,['Proposal'],'Later'],
+      ['p','Constrained chart generation',null,['Proposal'],'Later'],
+    ]},
+  ]},
+];
+
+// Pipelines by source type. Stage status: i built, p named in the PRD or proposal, s suggested here (not in the documents).
+const PIPELINES = [
+  { type: 'Structured API: Cleveland (JSON)', status: 'i', sources: 'Cleveland Museum of Art Open Access API', stages: [
+    ['i','Fetch JSON by accession number'],['i','Raw snapshot with retrieved date and version'],['i','Rule cleanup: dates, life dates, names, places'],['i','Events and claims with source spans'],['i','Contract JSON and TypeScript types'],['i','Browser derives gaps and draws the chart and map']],
+    note: 'Also reads records that list their steps latest-first.' },
+  { type: 'Structured: Getty Provenance Index', status: 'i', sources: 'Getty SPARQL endpoint, dealer stock books and sales catalogs', stages: [
+    ['i','Query by dealer name (SPARQL)'],['i','Cache the raw result with its retrieved date'],['i','Suggestion with preview, link and years'],['i','Dashed lead on the timeline']],
+    note: 'Two dealers searched so far. Planned instead: Getty CSVs searched locally.' },
+  { type: 'Structured: Getty CSVs and dealer stock books', status: 'p', sources: 'Getty Knoedler and Goupil stock books, any dealer ledger exported as rows', stages: [
+    ['p','Load CSV rows'],['p','Map columns: seller, buyer, date, title'],['p','Each row becomes an event or an edge'],['p','Match names, then leads and a dealer network']],
+    note: 'The proposal notes that every stock-book row is already a seller and a buyer.' },
+  { type: 'Linked data: Wikidata and Getty ULAN', status: 'i', sources: 'Wikidata API; Getty ULAN planned', stages: [
+    ['i','Search a label with a country context'],['i','Take the coordinates; hand-checked overrides win'],['i','Static places file'],['p','Name variants, life dates and identifiers for matching']],
+    note: 'Built for places only. Name variants are planned.' },
+  { type: 'Free text: Art Institute of Chicago paragraphs', status: 'p', sources: 'AIC API, one messy paragraph', stages: [
+    ['p','Fetch the AIC JSON'],['p','Split on punctuation: a semicolon is a direct transfer, a period an unknown link'],['p','AI only where rules fall short: names and roles'],['p','Claims with source spans; uncertainty kept'],['p','Score against hand-labeled records']],
+    note: 'From the proposal’s extraction notes. Any AI output stays a suggestion until reviewed.' },
+  { type: 'Scanned documents: auction catalogue PDFs', status: 'p', sources: 'German Sales digitized catalogues (PDF, OCR)', stages: [
+    ['p','Digitized catalogue page (PDF or image)'],['p','OCR (the documents name no tool)'],['s','Split into entries: lot, title, artist, buyer'],['p','Rules first; AI only where rules fall short'],['p','Demo: align one page by hand'],['p','Check against the Getty transcription as an answer key'],['p','Claims that point to a region of the page'],['s','Match to artworks by title, artist and date, then lead']],
+    note: 'The PRD lists "auction catalog PDFs with OCR" as a next engine and the proposal plans one or two real pages. It names no OCR product. Dashed stages are my suggestions, not in your documents.' },
+  { type: 'Scanned documents: handwritten ledgers', status: 'p', sources: 'Handwritten dealer ledgers', stages: [
+    ['p','Scan of a ledger page'],['s','Handwriting recognition, or a human transcription'],['s','Row parser: seller, buyer, date, price'],['p','Claims that point to a region of the scan'],['s','Human check before the result is used']],
+    note: 'Listed in the PRD as a later engine. No method is named. Dashed stages are my suggestions.' },
+  { type: 'Research databases with no API', status: 'p', sources: 'Lost Art, Proveana, property cards', stages: [
+    ['p','No public API'],['p','Build a pre-filled search link from the gap’s names and years'],['p','Show as a lead, never as a fetched result']],
+    note: 'Europeana and the Internet Archive would instead use their search APIs (Europeana needs a free key).' },
+];
+
+// How matches are ranked: the plan, what is built, and what is missing.
+const RANKING = [
+  ['Normalize names','Handle variants, married names, business renamings (proposal)','Fold accents; drop titles and particles (Baron, von, Galerie, Jr)','i'],
+  ['Score similarity','RapidFuzz name similarity (PRD, proposal)','RapidFuzz token-sort ratio, 0 to 100; a name contained in another is capped at 85','i'],
+  ['Corroborate','Reasons from names, dates, places and a shared dealer (proposal)','Life dates, a shared artwork, a shared neighbour. Place and title rules are not built','i'],
+  ['Assign a band','Rough bands rather than precise scores (proposal)','Strong 90 and up, possible 75, weak 60. A strong name with no other evidence drops to possible; conflicting life dates force weak','i'],
+  ['Rank candidates','Ranked candidates with reasons and bands (PRD P3). No formula is given','Sort by band, then by id. No numeric score is shown. Order inside a band is arbitrary','i'],
+  ['Order within a band','Not specified in the documents','Suggested: order by name score, then by the number of corroborating reasons','s'],
+  ['Decide','Confirm or reject, recording who decided and why (proposal)','Accept or reject, saved in the browser. Who and why are not recorded','i'],
+  ['Collection ranking','Pieces sorted by missing years in 1933 to 1945 (PRD P4)','Sort by open years (any period; focus period optional), then fewer parties named, a longer single silence, more unknown history, then id','i'],
+  ['Learned model','None. Rules first, Claude API only where rules fall short (PRD, ADR 0003)','None. Scoring is rules plus RapidFuzz by design','i'],
+];
+
+const PROCESS = [
+  ['i','GitHub issues, spec and tickets',['Built']],
+  ['i','Planning with Matt Pocock\u2019s skills: glossary, spec, tickets, code review',['Proposal','Built']],
+  ['i','Glossary and three decision records (ADRs)',['Built']],
+  ['i','Judgment log of what AI produced and what was changed',['Proposal','Built']],
+  ['i','Design direction and moodboard',['Built']],
+  ['i','README with process and stack',['Built']],
+  ['i','Project proposal and PRD kept in the repository',['Built']],
+  ['p','Pitch video and presentation',['Proposal']],
+  ['n','Expert outreach and a user test: decided not to pursue for this version',['Proposal']],
+];
+
+// ---- Frame geometry (from the template) ----
+const W = 330, H = 204;                 // diamond size
+const CY = [393, 530, 667];             // layer centres, top layer first
+const TIER_Y = [360, 523, 660];         // first text line per layer
+const LABEL_Y = [340, 508, 645];        // centred tier label per layer
+const MAXLINES = [5, 4, 4];             // the lower layers are partly covered, so they hold fewer lines
+const $ = (id) => document.getElementById(id);
+const NS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs = {}, text) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (text != null) n.textContent = text; return n; };
+const slug = (s) => s.toLowerCase().replace(/[^a-z]+/g, '-');
+
+const stack = $('stack');
+const cols = $('cols');
+
+FEATURES.forEach((f, fi) => {
+  const counts = { i: 0, p: 0 };
+  f.tiers.forEach((tier) => tier.items.forEach((it) => counts[it[0]]++));
+
+  // title (one or two lines, like the template)
+  const baseY = f.name.length === 2 ? 215 : 250;
+  f.name.forEach((line, k) => stack.append(el('text', { class: 'col-t', x: f.cx, y: baseY + k * 34 }, line)));
+
+  // layers: draw bottom first so the upper diamond overlaps the one beneath
+  [2, 1, 0].forEach((li) => {
+    const tier = f.tiers[li];
+    const cy = CY[li], cx = f.cx;
+    const id = `tier-${fi}-${li}`;
+    const g = el('g', { class: 'layer', tabindex: 0, role: 'button', 'data-target': id,
+      'aria-label': `${f.name.join(' ')}, ${tier.t}: ${tier.items.filter(i => i[0]==='i').length} implemented, ${tier.items.filter(i => i[0]==='p').length} proposed. Press Enter to see the full list.` });
+    g.append(el('polygon', { class: 'dia', points: `${cx},${cy - H/2} ${cx + W/2},${cy} ${cx},${cy + H/2} ${cx - W/2},${cy}` }));
+    g.append(el('text', { class: 'tier', x: cx, y: LABEL_Y[li], 'text-anchor': 'middle' }, tier.short));
+    // choose the lines: the first short items, making sure a proposed item is visible when one exists
+    const withShort = tier.items.filter((it) => it[2]);
+    let shown = withShort.slice(0, MAXLINES[li]);
+    const firstProposed = withShort.find((it) => it[0] === 'p');
+    if (firstProposed && !shown.includes(firstProposed)) shown = [...shown.slice(0, MAXLINES[li] - 1), firstProposed];
+    shown.forEach((it, k) => {
+      const y = TIER_Y[li] + k * 15.5;
+      g.append(el('circle', { cx: cx - 88, cy: y - 4, r: 4.5, fill: it[0] === 'i' ? '#3b5fc0' : '#b03a3a' }));
+      g.append(el('text', { class: 'item', x: cx - 78, y }, it[2]));
+    });
+    const more = tier.items.length - shown.length;
+    if (more > 0) g.append(el('text', { class: 'tier', x: cx, y: TIER_Y[li] + shown.length * 15.5 + 5, 'text-anchor': 'middle' }, `+ ${more} MORE BELOW`));
+    const open = () => { const t = document.getElementById(id); if (t) { t.scrollIntoView({ behavior: 'smooth', block: 'start' }); t.classList.add('on'); setTimeout(() => t.classList.remove('on'), 1800); } };
+    g.addEventListener('click', open);
+    g.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+    g.addEventListener('mouseenter', () => document.getElementById(id)?.classList.add('on'));
+    g.addEventListener('mouseleave', () => document.getElementById(id)?.classList.remove('on'));
+    stack.append(g);
+  });
+
+  // counts under each stack: dot + number, centred as one line
+  const cg = el('g');
+  cg.append(el('circle', { cx: f.cx - 124, cy: 806, r: 5, fill: '#3b5fc0' }));
+  cg.append(el('text', { class: 'count', x: f.cx - 112, y: 811, 'text-anchor': 'start' }, `${counts.i} implemented`));
+  cg.append(el('circle', { cx: f.cx + 30, cy: 806, r: 5, fill: '#b03a3a' }));
+  cg.append(el('text', { class: 'count', x: f.cx + 42, y: 811, 'text-anchor': 'start' }, `${counts.p} proposed`));
+  stack.append(cg);
+
+  // inventory column
+  const col = document.createElement('div'); col.className = 'col';
+  const h = document.createElement('h3'); h.textContent = f.name.join(' '); col.append(h);
+  f.tiers.forEach((tier, li) => {
+    const box = document.createElement('div'); box.className = 'tierbox'; box.id = `tier-${fi}-${li}`;
+    const h4 = document.createElement('h4'); h4.textContent = tier.t; box.append(h4);
+    const ul = document.createElement('ul');
+    tier.items.forEach((it) => {
+      const li_ = document.createElement('li'); li_.dataset.s = it[0];
+      const d = document.createElement('span'); d.className = 'dot ' + it[0]; li_.append(d);
+      const body = document.createElement('div');
+      body.append(document.createTextNode(it[1]));
+      const tg = document.createElement('span'); tg.className = 'tags'; tg.textContent = it[3].join(' · '); body.append(tg);
+      if (it[4]) { const s = document.createElement('small'); s.textContent = it[4]; body.append(s); }
+      li_.append(body); ul.append(li_);
+    });
+    box.append(ul); col.append(box);
+  });
+  cols.append(col);
+});
+
+// pipelines
+const pipes = $('pipes');
+PIPELINES.forEach((p) => {
+  const row = document.createElement('div'); row.className = 'pipe';
+  const left = document.createElement('div');
+  left.innerHTML = `<h4><span class="dot ${p.status}"></span>${p.type}</h4><div class="src">${p.sources}</div>`;
+  const flow = document.createElement('div'); flow.className = 'flow';
+  p.stages.forEach((st, k) => {
+    if (k) { const a = document.createElement('span'); a.className = 'arrow'; a.setAttribute('aria-hidden', 'true'); a.textContent = '\u2192'; flow.append(a); }
+    const c = document.createElement('div'); c.className = 'stage ' + st[0]; c.textContent = st[1];
+    c.setAttribute('aria-label', ({ i: 'Built: ', p: 'Planned in the documents: ', s: 'Suggested, not in the documents: ' })[st[0]] + st[1]);
+    flow.append(c);
+  });
+  const note = document.createElement('div'); note.className = 'pnote'; note.textContent = p.note;
+  row.append(left, flow, note); pipes.append(row);
+});
+
+// ranking table
+const rk = $('ranking');
+RANKING.forEach(([step, plan, built, st]) => {
+  const tr = document.createElement('tr');
+  tr.innerHTML = `<td><span><i class="dot ${st}"></i>${step}</span></td><td>${plan}</td><td>${built}</td>`;
+  rk.append(tr);
+});
+
+// process and deliverables
+const proc = $('proc');
+proc.innerHTML = '<h4 style="margin:0 0 8px;font:500 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)">Process and deliverables (outside the three features)</h4>';
+const pul = document.createElement('ul'); pul.style.cssText = 'list-style:none;margin:0;padding:0';
+PROCESS.forEach(([s, label, o]) => {
+  const li = document.createElement('li'); li.dataset.s = s === 'n' ? 'p' : s; li.style.cssText = 'display:grid;grid-template-columns:14px 1fr;gap:10px;padding:7px 0;border-top:1px solid rgba(0,0,0,.12);font-size:14px;break-inside:avoid';
+  li.innerHTML = `<span class="dot ${s}" style="margin-top:5px"></span><div>${label}<span class="tags">${o.join(' · ')}</span></div>`;
+  pul.append(li);
+});
+proc.append(pul);
+
+// filters
+document.querySelectorAll('.filters button').forEach((b) => b.addEventListener('click', () => {
+  document.querySelectorAll('.filters button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+  const f = b.dataset.f;
+  document.querySelectorAll('.tierbox li, .proc li').forEach((li) => li.classList.toggle('hide', f !== 'all' && li.dataset.s !== f));
+}));
+</script>
+</body>
+</html>
